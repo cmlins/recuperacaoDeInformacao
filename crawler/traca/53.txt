@@ -1,0 +1,506 @@
+ <!DOCTYPE html>
+<html dir="ltr" lang="pt-BR">
+<head>
+<title>A Academia Vai Ã Escola - Ivani Fazenda (org.) - TraÃ§a Livraria e Sebo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="pt-br">
+<meta property="og:image" content="https://www.traca.com.br/capas/1131/1131371.jpg" />
+<meta name="viewport" content="width=980" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<link rel="stylesheet" href="https://www.traca.com.br/site/css/css.min.css?version=7" />
+<link rel="stylesheet" href="https://www.traca.com.br/site/css/reset.min.css" />
+<link rel="stylesheet" href="https://www.traca.com.br/site/css/main.min.css?version=6" />
+<link rel="stylesheet" href="https://www.traca.com.br/site/css/produtos.min.css" />
+<link rel="stylesheet" href="https://www.traca.com.br/site/css/footer.min.css" />
+<link href="/opensearch.xml" rel="search" title="TraÃ§a Livraria e sebo - Busca de livros" type="application/opensearchdescription+xml">
+<script type="application/javascript" src="/includes/js/jquery.js"></script>
+<link rel="stylesheet" href="/includes/css/jquery-ui.min.css" />
+<script type="text/javascript" src="/includes/js/jquery-ui.js"></script>
+<script type="application/ld+json">
+                    {"@context":"http://schema.org/","@type":"ItemPage","mainEntity":{"@context":"http://schema.org","@type":"Book","additionalType":"Product","author":[{"@type":"Person","name":"Ivani Fazenda (Org.)"}],"@id":"https://www.traca.com.br/livro/1131371","name":"A Academia Vai \u00c0 Escola","bookFormat":"http://schema.org/Paperback","numberOfPages":240,"isbn":"9788530803728","publisher":{"@type":"Organization","name":"PAPIRUS"},"image":"https://www.traca.com.br/capas/1131/1131371.jpg","offers":{"@type":"Offer","availability":"http://schema.org/InStock","price":"6.45","priceCurrency":"BRL","url":"https://www.traca.com.br/livro/1131371","sku":"1131371","itemCondition":"http://schema.org/UsedCondition"}}}                </script>
+
+<script>
+                !function(f,b,e,v,n,t,s)
+                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '469764403856215');
+                fbq('track', 'PageView');
+            </script>
+<noscript><img height="1" width="1" style="display:none"
+                           src="https://www.facebook.com/tr?id=469764403856215&ev=PageView&noscript=1"
+                /></noscript>
+
+<script>
+                var $buoop = {c: 2};
+                function $buo_f() {
+                    var e = document.createElement("script");
+                    e.src = "//browser-update.org/update.js";
+                    document.body.appendChild(e);
+                }
+                try {
+                    document.addEventListener("DOMContentLoaded", $buo_f, false)
+                }
+                catch (e) {
+                    window.attachEvent("onload", $buo_f)
+                }
+            </script>
+<meta name="description" content="TraÃ§a Livraria: Venda de Livros Novos e Usados. Compre livros raros, esgotados e lanÃ§amentos em nossa loja virtual ou fÃ­sica.">
+<meta name="keywords" content="livraria, sebo, livros, livros usados, livros novos, livros raros, livros esgotados, venda de livros, compra de livros">
+</head>
+<body>
+<div class="line">
+<nav>
+<ul class="nav">
+<li>
+<a href="https://www.traca.com.br/" target="_blank">Home</a>
+</li>
+<li>
+<a href="https://www.traca.com.br/paginas/sobre-traca/12/" target="_blank">Sobre a Tra&ccedil;a</a>
+</li>
+<li>
+<a href="https://www.traca.com.br/paginas/boletim-novidades-traca/11/" target="_blank">Solicite seu Boletim</a>
+</li>
+<li>
+<a href="https://www.traca.com.br/paginas/programa-fidelidade/10/" target="_blank">Programa Fidelidade</a>
+</li>
+<li>
+<a href="https://www.traca.com.br/paginas/compramos-livros/9/" target="_blank">Compramos Livros</a>
+</li>
+<li>
+<a href="https://www.traca.com.br/paginas/mapa-site/15/" target="_blank">Mapa do Site</a>
+</li>
+<li>
+<a href="https://www.traca.com.br/site/cliente/pg.index.php" target="_blank">&Aacute;rea do Cliente</a>
+</li>
+<li>
+<a href="https://www.traca.com.br/paginas/fale-com-traca/8/" target="_blank">Contato</a>
+</li>
+</ul>
+</nav>
+</div>
+<div id="wrapper">
+<div id="header">
+<div style="">
+<a id="link-capa" href="https://www.traca.com.br/" title="TraÃ§a Livraria e Sebo Logo">
+<img width="160" style="margin-left:30px;margin-top:4px;" alt="TraÃ§a Livraria e Sebo Logo" src="https://www.traca.com.br/site/img/logo5_mini.png">
+</a>
+<h1 class="h1-main-traca" style="margin-top:4px;color:black;font-size:11px;">
+<span style="margin-left:-25px;">
+Tra&ccedil;a Livraria e Sebo. &nbsp;
+Livreiros desde 1986. &nbsp;
+Na web desde 1999. O maior acervo independente de livros usados no Brasil.
+</span>
+<span style="float:right;margin-top:-3px;margin-left:8px;">
+<a href="https://www.facebook.com/TracaLivrariaESebo?fref=nf"><img src="https://www.traca.com.br/site/img/facebook-02.png" width="30" /></a>
+</span>
+<span style="float:right;margin-top:-3px;margin-left:5px;">
+<a href="https://www.instagram.com/tracalivraria/"><img src="https://www.traca.com.br/site/img/instagram-02.png" width="30" /></a>
+</span>
+</h1>
+<form class="abg-busca" action="https://www.traca.com.br/site/pg.busca.php" method="GET">
+<input type="hidden" name="search" value="1" />
+<a class="btn-buscar" onClick="this.parentNode.submit()">BUSCAR</a>
+<select class="slct-buscar">
+<option selected="selected">Livros</option>
+</select>
+<input placeholder="Fa&ccedil;a uma busca" class="esmaece" id="busca" name="search_txt" value="" type="txt">
+<div class="opcoes">
+<span><input checked="checked" name="search_in" id="criterio-titulo-autor" type="radio" value="titulo,autor"><label for="criterio-titulo-autor">T&iacute;tulo
+e Autor</label></span>
+<span><input name="search_in" id="criterio-titulo" type="radio" value="titulo"><label for="criterio-titulo">T&iacute;tulo</label></span>
+<span><input name="search_in" id="criterio-autor" type="radio" value="autor"><label for="criterio-autor">Autor</label></span>
+<span><input name="search_in" id="criterio-assunto" type="radio" value="assunto"><label for="criterio-assunto">Assunto</label></span>
+<span style="float:right;">
+<span style="">
+<a href="https://www.traca.com.br/paginas/historico-navegacao/28/" title="HistÃ³rico de livros visitados hoje.">
+<img src="https://www.traca.com.br/site/img/history.png" />
+Hist&oacute;rico
+</a>
+</span>
+&nbsp;&nbsp;
+<a href="//www.traca.com.br/site/pg.busca_avancada.php">
+<img alt="pesquisar livros" src="https://www.traca.com.br/site/img/lupa.png">
+Busca
+Detalhada
+</a>
+</span>
+</div>
+</form>
+<div class="container-cesta">
+<div class="cesta-main ">
+<a href="https://www.traca.com.br/site/ecommerce/pg.cesta.php" class="otrr-itens link-cesta" title="Clique para visualizar sua cesta de compras">
+<img class="bskt" src="https://www.traca.com.br/site/img/basket_main.png" alt="Cesta de Compras">
+<span>Sua Cesta</span>
+<br />
+&nbsp; (Vazia)
+</a>
+<a class="link-area-cliente" href="https://www.traca.com.br/site/pg.login.php">
+<img class="lock" src="https://www.traca.com.br/site/img/lock.png" alt="Area do Cliente">
+<span>&Aacute;rea do Cliente</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="line-navbar">
+<nav>
+<ul class="nav navbar">
+<li><a href="https://www.traca.com.br/site/pg.diario.php" target="_blank">DiÃ¡rio da TraÃ§a</a></li>
+<li><a href="https://www.traca.com.br/listas/novidades/4/" target="_blank">Novidades</a></li>
+<li><a href="https://www.traca.com.br/listas/livros-destaque/27/" target="_blank">SeleÃ§Ã£o da TraÃ§a</a></li>
+<li><a href="https://www.traca.com.br/listas/livros-490/34/" target="_blank">BaratÃ©simos 4,90</a></li>
+<li><a href="https://www.traca.com.br/livros/rand/" target="_blank">Ao Acaso</a></li>
+<li><a href="https://www.traca.com.br/paginas/promocoes-andamento/30/" target="_blank">PromoÃ§Ãµes!</a></li>
+<li><a href="https://www.traca.com.br/paginas/secoes/23/" target="_blank">SeÃ§Ãµes</a></li>
+<li><a href="https://www.traca.com.br/paginas/lista-listas/27/" target="_blank">Listas</a></li>
+<li><a href="https://www.traca.com.br/paginas/estoque-loja/29/" target="_blank">Loja</a></li>
+</ul>
+</nav>
+</div>
+<div id="container">
+<link rel="stylesheet" href="https://www.traca.com.br/site/css/detalhe.min.css">
+<link rel="stylesheet" href="https://www.traca.com.br/site/css/conteudo.min.css">
+
+<div class="coluna-detalhe" style="margin-top:-1px;">
+<div class="ttl-sbb">Produtos Relacionados</div>
+<div class="bx-rel-pr">
+<a class="ms-lkk" href="https://www.traca.com.br/autores/Ivani Fazenda (org.)/"><img src="https://www.traca.com.br/site/img/pena.png">Ver mais Livros do Autor</a>
+
+<div class="it-livro-sug">
+<div class="min-it">
+<a href="https://www.traca.com.br/livro/1165135/praticas-interdisciplinares-escola/">
+<img src="https://www.traca.com.br/capas/1165/1165135_mini.jpg" alt="PrÃ¡ticas Interdisciplinares Na Escola">
+<div class="it-livro-ddls">
+<span class="ttl-ib">PrÃ¡ticas Interdisciplinares</span>
+<span class="aut-ib">Ivani Fazenda (org.)</span>
+<span class="enc-ib">Brochura</span>
+<span class="con-ib">Bom</span>
+</div>
+</a>
+</div>
+<div class="rod-it">
+<div style="display:inline-block;vertical-align:bottom;">
+<small class="mark-usado">LIVRO USADO</small>
+ </div>
+<div style="display:inline-block;vertical-align:text-bottom;float:right;">
+<span class="pre-ib">RS 14,90</span>
+<br />
+</div>
+</div>
+</div>
+<div class="it-livro-sug">
+<div class="min-it">
+<a href="https://www.traca.com.br/livro/1237259/repensar-educacao-40-anos-apos-vigiar-punir/">
+<img src="https://www.traca.com.br/capas/1237/1237259_mini.jpg" alt="Repensar A EducaÃ§Ã£o: 40 Anos ApÃ³s Vigiar E Punir">
+<div class="it-livro-ddls">
+<span class="ttl-ib">Repensar A EducaÃ§Ã£o: 40</span>
+<span class="aut-ib">Alexandre Filordi De</span>
+<span class="enc-ib">Brochura</span>
+<span class="con-ib">Bom</span>
+</div>
+</a>
+</div>
+<div class="rod-it">
+<div style="display:inline-block;vertical-align:bottom;">
+<small class="mark-usado">LIVRO USADO</small>
+</div>
+<div style="display:inline-block;vertical-align:text-bottom;float:right;">
+<span class="pre-ib">RS 56,90</span>
+<br />
+</div>
+</div>
+</div>
+<div class="it-livro-sug">
+<div class="min-it">
+<a href="https://www.traca.com.br/livro/1242330/saberes-docentes-autonomia-dos-professores/">
+<img src="https://www.traca.com.br/capas/1242/1242330_mini.jpg" alt="Saberes Docentes E Autonomia Dos Professores">
+<div class="it-livro-ddls">
+<span class="ttl-ib">Saberes Docentes E Autonomia</span>
+<span class="aut-ib">Casemiro De Medeiros</span>
+<span class="enc-ib">Brochura</span>
+<span class="con-ib">Bom</span>
+</div>
+</a>
+</div>
+<div class="rod-it">
+<div style="display:inline-block;vertical-align:bottom;">
+<small class="mark-usado">LIVRO USADO</small>
+</div>
+<div style="display:inline-block;vertical-align:text-bottom;float:right;">
+<span class="pre-ib">RS 18,90</span>
+<br />
+</div>
+</div>
+</div>
+<div class="it-livro-sug">
+<div class="min-it">
+<a href="https://www.traca.com.br/livro/1192196/territorios-contestados-1995/">
+<img src="https://www.traca.com.br/capas/1192/1192196_mini.jpg" alt="TerritÃ³rios Contestados (1995)">
+<div class="it-livro-ddls">
+<span class="ttl-ib">TerritÃ³rios Contestados (1995)</span>
+<span class="aut-ib">Tomaz Tadeu Da Silva</span>
+ <span class="enc-ib">Brochura</span>
+<span class="con-ib">Bom</span>
+</div>
+</a>
+</div>
+<div class="rod-it">
+<div style="display:inline-block;vertical-align:bottom;">
+<small class="mark-usado">LIVRO USADO</small>
+</div>
+<div style="display:inline-block;vertical-align:text-bottom;float:right;">
+<span class="pre-ib">RS 59,90</span>
+<br />
+</div>
+</div>
+</div>
+<div class="it-livro-sug">
+<div class="min-it">
+<a href="https://www.traca.com.br/livro/913282/identidade-espaco-profissional/">
+<img src="https://www.traca.com.br/capas/913/913282_mini.jpg" alt="Identidade E EspaÃ§o Profissional">
+<div class="it-livro-ddls">
+<span class="ttl-ib">Identidade E EspaÃ§o Profissional</span>
+<span class="aut-ib">Armando Luiz Bortolini</span>
+<span class="enc-ib">Brochura</span>
+<span class="con-ib">Bom</span>
+</div>
+</a>
+</div>
+<div class="rod-it">
+<div style="display:inline-block;vertical-align:bottom;">
+<small class="mark-usado">LIVRO USADO</small>
+</div>
+<div style="display:inline-block;vertical-align:text-bottom;float:right;">
+<span class="pre-ib">RS 6,45</span>
+<br />
+</div>
+</div>
+</div>
+</div>
+<div class="fechamt"></div>
+</div>
+<div id="main">
+
+<div class="ttl-listg-df">
+Livros Usados <span style="float:right;">
+</span>
+</div>
+<div class="ttl-dscrt">
+<a href="https://www.traca.com.br/">Home</a>
+â Detalhe do Livro
+</div>
+
+<div class="box-detalhe">
+<div class="box-principal">
+<div class="box-principal-left">
+<div class="box-principal-capa">
+<a class="it-capa-lnk" href="#" title="A Academia Vai Ã Escola">
+<img onClick="ampliarCapa()" id="capa" src="https://www.traca.com.br/capas/1131/1131371.jpg" alt="A Academia Vai Ã Escola">
+<div class="adv-usado">USADO</div>
+</a>
+<span>Clique sobre a imagem para ampliÃ¡-la</span>
+</div>
+<div class="box-principal-dados">
+<div class="novo-usado"><span class="livro-usado">LIVRO USADO</span></div>
+<h1>A Academia Vai Ã Escola</h1>
+<h2 class="h-sub"></h2>
+ <h2><a href="https://www.traca.com.br/autores/Ivani Fazenda (org.)/" title="Mais livros deste autor">Ivani Fazenda (org.)</a></h2>
+<div style="font-size:18px;line-height:20px;" class="">
+Livro em PortuguÃªs (Brasil) </div>
+<br />
+<h3 class="h-qq-coisa"><span>ColeÃ§Ã£o: </span>PrÃ¡xis</h3>
+<h3 class="h-qq-coisa"><span>Editora: </span>PAPIRUS</h3>
+<h3 class="h-qq-coisa"><span>Ano: </span>1995</h3>
+</div>
+</div>
+<div class="box-principal-right">
+<ul>
+<li>
+<div class="box-info">
+<div class="the-info t-conserva">
+<strong>ConservaÃ§Ã£o</strong>
+Bom </div>
+</div>
+</li>
+</ul>
+</div>
+<div class="precos">
+<div class="dv-preco">
+<div class="dv-vl">
+<div class="dv-rs">R$</div>
+6,
+<div class="dv-ct">45</div>
+</div>
+<div style="margin-top: 5px; ">
+<a style="color: red; font-size: 12px; cursor: pointer" href="https://www.traca.com.br/paginas/programa-fidelidade/10/" target="_blank">Por AtÃ©
+R$<span style="font-size: 14px"> 3,23 </span> <br>com o BÃ´nus</a>
+</div>
+</div>
+<a href="https://www.traca.com.br/site/ecommerce/pg.cesta.php?add=1131371" class="botao-comprar">Comprar</a>
+<br /><br />
+<div class="ui-state-highlight" style="padding:2px;text-align:center;margin-top:5px;">
+<img src="https://www.traca.com.br/site/img/clock.png" align="left">
+<span><span style="font-weight:bold;font-size:11px;">ENVIO EM 24 HORAS ÃTEIS</span>
+<div style="font-size:11px;margin-top:4px;">ApÃ³s a confirmaÃ§Ã£o do pagamento</div>
+</span>
+</div>
+</div>
+</div>
+<div class="box-resto">
+<div class="info-dl-m">
+<div class="info-dl-left">
+<ul class="ul-detalhes">
+<li class="uma-linha-so">
+<span>EncadernaÃ§Ã£o:</span>Brochura </li>
+<li><span>PÃ¡ginas:</span>240</li>
+<li><span>Medidas:</span>14x20</li>
+<li><span>Peso:</span>285,00&nbsp;g
+</li>
+ <li><span>ISBN:</span>9788530803728</li>
+</ul>
+<ul class="ul-detalhes">
+<li class="uma-linha-so">
+<span>Catalogado por:</span>Francisco</li>
+<li><span>ID:</span>1131371 </li>
+</ul>
+</div>
+<div class="info-dl-right" style="overflow:auto;">
+<div class="it-txt">
+<div class="it-txt-ttl">ConservaÃ§Ã£o:</div>
+<strong>Bom.</strong>
+Livro jÃ¡ lido. EncadernaÃ§Ã£o comum. EditoraÃ§Ã£o normal. Papel comum. Livro adquirido de particular. Livro com assinatura. Poucas marcas do tempo na capa. Corte um pouco escurecido. Livro em bom estado de conservaÃ§Ã£o. Poucas marcas de tempo nas pÃ¡ginas
+Livro refilado.
+<br /> Etiqueta de IdentificaÃ§Ã£o na Contracapa.
+</div>
+<div class="it-txt">
+<div class="it-txt-ttl">Assuntos:</div>
+Escola. EducaÃ§Ã£o. Interdisciplinaridade na educaÃ§Ã£o. Pesquisa educacional. Planejamento educacional. FormaÃ§Ã£o profissional. Vida em Sociedade. Pedagogia. </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+        $(function () {
+            $('.info-dl-right').css('min-height', $('.info-dl-left').height() - 33);
+
+            var $capaAmpliada = $('<div><img src="https://www.traca.com.br/capas/1131/1131371.jpg" /></div>')
+                .dialog({
+                    title: "A Academia Vai Ã Escola",
+                    modal: true,
+                    width: 'auto',
+                    autoOpen: false,
+                    position: 'top',
+                    create: function () {
+                        $(this).parents('.ui-dialog').css('z-index', '99999999999999999');
+                    }
+                });
+            window.ampliarCapa = function () {
+                $capaAmpliada.dialog('open');
+            };
+
+            var $resenha = $('<div>Aguarde...</div>')
+                .dialog({
+                    title: "Resenha",
+                    modal: true,
+                    width: 600,
+                    height: 400,
+                    autoOpen: false,
+                    position: 'top',
+                    create: function () {
+                        $(this).parents('.ui-dialog').css('z-index', '99999999999999999');
+                    }
+                });
+
+            $resenha.loaded = false;
+
+            window.verResenha = function () {
+                if (!$resenha.loaded) {
+                    $.get('?id_livro=1131371&get_resenha=1').done(function (resenha) {
+                        $resenha.html(resenha);
+                    });
+                }
+                $resenha.dialog('open');
+            };
+
+            var $acoes = $('.ferramenta_livros_acoes');
+            if ($acoes.length > 0) {
+                $acoes.find('.btn').filter(function (i) {
+                    if (i > 2) return true;
+                }).hide();
+                $acoes.mouseenter(function () {
+                    $acoes.find('.btn').show();
+                });
+                $acoes.mouseleave(function () {
+                    $acoes.find('.btn').filter(function (i) {
+                        if (i > 2) return true;
+                    }).hide();
+                })
+            }
+
+
+        })
+
+    </script>
+<script>
+        fbq('track', 'ViewContent', {
+            value: 6.45,
+            currency: 'BRL',
+            content_ids: '1131371'
+        });
+    </script>
+</div>
+<div style="clear:both;"></div>
+<div id="wrapperfooter">
+<div class="left">
+<span class="vertcenter" style="display: block; width: 300px; text-align: left">
+<b>Loja da Osvaldo Aranha</b><br>
+HorÃ¡rio de Atendimento:<br>
+Segunda a sexta: das 9h30min Ã s 19h<br>
+SÃ¡bado: das 10h Ã s 18h<br>
+NÃ£o fechamos ao meio dia<br>
+Telefone Loja: (51) 3311-0044<br>
+Av. Osvaldo Aranha, 966 - Porto Alegre - RS - Brasil - CEP 90035-191
+<br><br>
+<b>ATENÃÃO!</b><br>
+Nossa loja mantÃ©m menos de 10% do acervo total da TraÃ§a.
+</span>
+</div>
+<div class="left" style="text-align: left">
+<b style="margin-left:37px;">Aceitamos para vendas online:</b>
+<div class="paylogo" style="margin-top: 3px;margin-left:40px;">
+<img title="Pague com seu cartÃ£o de crÃ©dito" src="/site/img/band_unico.png?v=1">
+</div>
+</div>
+<div style="float: left;width: 34%; margin-top: 10px; text-align: left">
+<span class="vertcenter" style="display: block; width: 250px;">
+<b>Central de Atendimento</b><br>
+(51) 3232-8404<br>
+CNPJ: 94.529.542/0001-08
+</span>
+</div>
+<br style="clear: left;" />
+</div>
+</div>
+</body>
+</html>

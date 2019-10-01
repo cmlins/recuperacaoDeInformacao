@@ -1,0 +1,1232 @@
+
+
+
+
+<html class="no-js" lang="pt-BR">
+<head>
+
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>American English File 1b Multipack With Online Practice And Ichecker - 2nd Ed  - 9780194776233</title>
+<!--By Gustavo Medeiros - gustavo@disal.com.br -->
+        <meta name="keywords" content="American English File 1b Multipack With Online Practice And Ichecker - 2nd Ed  9780194776233 Latham-koenig, Christina  Oxford University " />
+        <meta name="description" content="American English File Second Edition retains the popular methodology developed by world-renowned authors Christina Latham-Koenig and Clive Oxenden: language + motivation = opportunity. With grammar, vocabulary, and pronunciation practice in every lesson, students are equipped with a solid foundation for successful speaking.">
+        <meta property='og:title' content='American English File 1b Multipack With Online Practice And Ichecker - 2nd Ed ' />
+        <meta property='og:description' content='American English File Second Edition retains the popular methodology developed by world-renowned authors Christina Latham-Koenig and Clive Oxenden: language + motivation = opportunity. With grammar, vocabulary, and pronunciation practice in every lesson, students are equipped with a solid foundation for successful speaking.' />
+        <meta property='og:url' content='https://www.disal.com.br/produto/2364778-american-english-file-1b-multipack-wi' />
+        <meta property='og:image' content='https://imagens.disal.com.br/produtos/ampliada/2364778.jpg' />
+        <meta property='og:type' content='website' />
+        <meta property='og:site_name' content='Disal.com.br' />
+<meta name="author" content="Gustavo Medeiros - https://www.linkedin.com/in/gustavo-medeiros-9905a720/" />
+<meta name="robots" content="INDEX, FOLLOW" />
+<link rel="canonical" href="https://www.disal.com.br/produto/2364778-american-english-file-1b-multipack-wi" />
+<link rel="shortcut icon" href="/disal_ic.ico" type="image/x-icon" />
+<script defer src="/Scripts/fontawesome/js/all.js"></script>
+<link rel="stylesheet" href="/Scripts/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/stylesv2/main.css">
+<link rel="stylesheet" href="/stylesv2/hanna.css">
+<link rel="stylesheet" href="/stylesv2/helper.css">
+<link rel="stylesheet" href="/stylesv2/main.mobile.css">
+<script src="/Scripts/jquery.js"></script>
+<script src="/Scripts/jquery.mask.js"></script>
+<script src="/Scripts/bootstrap/js/bootstrap.js"></script>
+<script src="../../Scripts/EasyAutocomplete/jquery.easy-autocomplete.min.js"></script>
+<link rel="stylesheet" href="../../Scripts/EasyAutocomplete/easy-autocomplete.min.css">
+<link rel="stylesheet" href="../../Scripts/EasyAutocomplete/easy-autocomplete.themes.min.css">
+<link rel="manifest" href="/manifest">
+<script src="/styles/custom.js"></script>
+<meta name="theme-color" content="#c4161c" />
+    <script src="/Scripts/hanna2.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-589c4961caa84858"></script>
+<!--ShopBack-->
+<script type="text/javascript">
+    window._st_account = 4450;
+    (function () {
+        var ss = document.createElement('script');
+        ss.type = 'text/javascript';
+        ss.async = true;
+        ss.src = '//app.shoptarget.com.br/js/tracking.js';
+        var sc = document.getElementsByTagName('script')[0];
+        sc.parentNode.insertBefore(ss, sc);
+    })();
+</script>
+
+    <script src="/Scriptsv2/lightslider.js"></script>
+    <link rel="stylesheet" href="/Scriptsv2/lightslider.css" />
+    <script src="/Scripts/vct.js"></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVT7M78"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=1134295179940586";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-9914448-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WVT7M78');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1475668742723952');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1475668742723952&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <script>
+        $(document).ready(function () {
+            $('.avaliar-agora').click(function () {
+                if ($('.avaliacaoproduto').is(':visible')) {
+                    $('html, body').animate({
+                        scrollTop: ($('#page-book-detail-veja').offset().top)
+                    }, 500);
+                    return false;
+
+
+                } else {
+
+                    $('.avaliacaoproduto').show();
+                    $('html, body').animate({
+                        scrollTop: ($('#page-book-detail-veja').offset().top)
+                    }, 500);
+                    return false;
+                }
+            });
+        });
+    </script>
+  
+    
+<section id="header">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div><div class="col-md-7">
+                    <div class="links hide-mobile">
+                        <a href="../nossaslojas" class="link">
+                            <span class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>ConheÃ§a nossas lojas
+                        </a>
+
+                        <a href="../searchadv" class="link" style="float:right;margin-right:0px;">
+                            <span class="icon">
+                                <i class="fas fa-search"></i>
+                            </span>Busca avanÃ§ada
+                        </a>
+
+                        <!--<a href="../atendimento" class="link">
+                            <span class="icon">
+                                <i class="far fa-comments"></i>
+                            </span>Central de atendimento (11) 3226-3118
+                        </a><a href="tel:+551132263118" class="link">
+                            <span class="icon">
+                                <i class="fas fa-phone"></i>
+                            </span>Televendas (11) 3226-3111
+                        </a><a href="https://wa.me/5511976171773" class="link">
+                            <span class="icon">
+                                <i class="fas ion-social-whatsapp"></i>
+                            </span>Whatsapp (11) 97617-1773
+                        </a>-->
+                    </div>
+                </div>
+            </div><div class="row">
+                <div class="col-md-2 col-sm-6 col-xs-6">
+                    <div class="nav-button-menu fullheight hide-desktop"><i class="fas fa-bars"></i></div><div class="logo">
+                        <a href="../../">
+                            <img src="../../images/logo.png" alt="Disal">
+                        </a>
+                    </div>
+                </div><div class="col-sm-6 col-xs-6 hide-desktop">
+                    <div class="user-account">
+                        <div class="login-box fechalogin">
+                            <div class="icon"><img src="https://www.disal.com.br/images/login.png"></div>
+                                <span>OlÃ¡, faÃ§a seu login <br> ou cadastre-se</span>
+
+
+                        </div>
+                        <div id="loget" class="register-box ">
+<form action="/Home/Login" method="post" onsubmit="processando(event)">                                <div class="register-box--content">
+                                        <p>Email ou CNPJ/CPF ou CÃ³digo Disal</p>
+                                        <input type="text" name="usuario" autocomplete="off">
+                                        <p>Senha</p>
+                                        <input type="password" name="senha" AUTOCOMPLETE="off">
+                                        <button class="btn-theme">Entrar</button>
+                                        <button class="btn-theme botaoface" id="facebook" name="facebook" style="background-color:blue" onclick="window.location.href = 'https://www.facebook.com/v2.4/dialog/oauth/?client_id=1134295179940586&amp;redirect_uri=https://www.disal.com.br/Loginface&amp;response_type=code&amp;state=1'; return false;"><!--FaceBook--></button>
+                                        <div class="mb-5">
+                                            <a class="forgot-password" href="../../esqueci">Esqueci a senha</a>
+                                        </div>
+                                    
+                                        <div>
+                                            NÃ£o tem cadastro? <a class="new-register" href="../../cadastro">Cadastre-se</a>
+                                        </div>
+                                </div>
+</form>                        </div>
+
+
+
+
+                        <div class="cart-box">
+                            <a href="../../cesta">
+                                <div class="icon">
+                                    <img src="https://www.disal.com.br/images/carrinho.png">
+                                </div>
+                                <div class="badge">0</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-md-7 col-sm-12 col-xs-12">
+<form action="/busca" id="bsearch" method="get" onsubmit="return check_small_search_form()">                        <div class="search">
+                            <div class="search-content">
+
+                                <div class="easy-autocomplete">
+                                    <input type="text" id="busca" value="Digite aqui o livro que vocÃª procura..." name="q" onfocus="if (this.value == 'Digite aqui o livro que vocÃª procura...') this.value = ''" onblur="if (this.value=='' ) { this.value='Digite aqui o livro que vocÃª procura...' ; }" />
+                                    <div class="easy-autocomplete-container" id="eac-container-busca"><ul></ul></div>
+                                    <button type="submit">
+                                        <i class="fas fa-search fa-2x"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+</form>                </div>
+
+
+
+
+
+                <div class="col-md-3 hide-mobile">
+                    <div class="user-account">
+                        <div class="login-box register-icon fechalogin">
+                            <div class="icon">
+                                <img src="https://www.disal.com.br/images/login.png">
+                            </div>
+                                <span>OlÃ¡, faÃ§a seu login <br> ou cadastre-se</span>
+                        </div>
+                        <div id="loget" class="register-box ">
+<form action="/Home/Login" method="post">                                <div class="register-box--content">
+                                        <p>Email ou CNPJ/CPF ou CÃ³digo Disal</p>
+                                        <input type="text" name="usuario">
+                                        <p>Senha</p>
+                                        <input type="password" name="senha" AUTOCOMPLETE="off">
+                                        <button class="btn-theme">Entrar</button>
+                                        <button class="btn-theme botaoface" id="facebook" name="facebook" style="background-color:blue" onclick="window.location.href = 'https://www.facebook.com/v2.4/dialog/oauth/?client_id=1134295179940586&amp;redirect_uri=https://www.disal.com.br/Loginface&amp;response_type=code&amp;state=1'; return false;"><!--FaceBook--></button>
+                                        <div class="mb-5">
+                                            <a class="forgot-password" href="../../esqueci">Esqueci a senha</a>
+                                        </div>
+                                    
+                                        <div>
+                                            NÃ£o tem cadastro? <a class="new-register" href="../../cadastro">Cadastre-se</a>
+                                        </div>
+                                </div>
+</form>                        </div>
+
+
+
+
+
+                        <div class="cart-box" id="baskimage">
+                            <a href="../../cesta">
+                                <div class="icon">
+                                    <img src="https://www.disal.com.br/images/carrinho.png">
+                                </div>
+                                <div class="badge">0</div>
+                            </a>
+                        </div>
+                            <div id="float-basket">
+                                <div class="float-basket-container">
+                                    <div class="basket-title">
+                                        Seu Carrinho
+                                    </div>
+                                    <div class="basket-items-container">
+                                            <div class="basket-items">
+                                                <center><strong>Nenhum produto em sua cesta</strong></center>
+                                            </div>
+
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>
+
+<!-- Fim CabeÃÂ§alho -->
+
+    
+
+<section id="navbar"><nav><div class="container hide-mobile"><div class="row no-gutters"><div class="col-md-2 no-padding"><div class="navbar-main-item">
+<i class="fas fa-bars"></i><span>Livros de idioma</span></div><div class="navbar-main-item-sub"><ul>
+    <li class="submenu">
+        <a href="../../idiomas/418-ingles">InglÃªs</a><div class="submenu-item-right column-1">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/418-ingles/4342-Cursos">Cursos</a>
+                    <a href="../../idiomas/418-ingles/202-Exames">Exames</a><a href="../../idiomas/418-ingles/4454-Instrumental">Instrumental</a><a href="../../idiomas/418-ingles/4622-Gramaticas">GramÃ¡ticas</a><a href="../../idiomas/418-ingles/99999-Leitura">Leitura</a><a href="../../idiomas/418-ingles/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/259-espanhol">Espanhol</a><div class="submenu-item-right column-1" style="margin-top: -54px">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/259-espanhol/4342-Cursos">Cursos</a><a href="../../idiomas/259-espanhol/202-Exames">Exames</a>
+                    <a href="../../idiomas/259-espanhol/4454-Instrumental">Instrumental</a><a href="../../idiomas/259-espanhol/4622-Gramaticas">GramÃ¡ticas</a><a href="../../idiomas/259-espanhol/99999-Leitura">Leitura</a>
+                    <a href="../../idiomas/259-espanhol/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/264-alemao">AlemÃ£o</a><div class="submenu-item-right column-1" style="margin-top: -99px">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/264-alemao/4342-Cursos">Cursos</a><a href="../../idiomas/264-alemao/202-Exames">Exames</a><a href="../../idiomas/264-alemao/4454-Instrumental">Instrumental</a><a href="../../idiomas/264-alemao/4622-Gramaticas">GramÃ¡ticas</a>
+                    <a href="../../idiomas/264-alemao/99999-Leitura">Leitura</a><a href="../../idiomas/264-alemao/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/260-frances">FrancÃªs</a><div class="submenu-item-right column-1" style="margin-top: -144px">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/260-frances/4342-Cursos">Cursos</a><a href="../../idiomas/260-frances/202-Exames">Exames</a><a href="../../idiomas/260-frances/4454-Instrumental">Instrumental</a><a href="../../idiomas/260-frances/4622-Gramaticas">GramÃ¡ticas</a>
+                    <a href="../../idiomas/260-frances/99999-Leitura">Leitura</a><a href="../../idiomas/260-frances/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/265-italiano">Italiano</a><div class="submenu-item-right column-1" style="margin-top: -190px">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/265-italiano/4342-Cursos">Cursos</a><a href="../../idiomas/265-italiano/202-Exames">Exames</a><a href="../../idiomas/265-italiano/4454-Instrumental">Instrumental</a><a href="../../idiomas/265-italiano/4622-Gramaticas">GramÃ¡ticas</a>
+                    <a href="../../idiomas/265-italiano/99999-Leitura">Leitura</a><a href="../../idiomas/265-italiano/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/261-outros">Outros</a><div class="submenu-item-right column-1" style="margin-top: -234px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/261-outros/4342-Cursos">Cursos</a><a href="../../idiomas/261-outros/202-Exames">Exames</a><a href="../../idiomas/261-outros/4454-Instrumental">Instrumental</a><a href="../../idiomas/261-outros/4622-Gramaticas">GramÃ¡ticas</a>
+                    <a href="../../idiomas/261-outros/99999-Leitura">Leitura</a><a href="../../idiomas/261-outros/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul></div></div><div class="col-md-10 no-padding">
+<ul class="navbar"><ul>
+    <li class="submenu">
+        <a href="../../convenios">ConvÃªnios</a>
+    </li>
+    <li class="submenu"><a href="../../destaques">Livros em destaque</a></li>
+    <li class="submenu">
+        <a href="../../maisvendidos">Mais vendidos</a>
+    </li>
+    <li class="submenu"><a href="../../tecnicos">Livros tÃ©cnicos</a></li>
+            <li class="submenu">
+            <a href="/eventos">EVENTOS</a>
+        </li>
+
+</ul></ul></div></div></div></nav></section>
+<!-- Fim Menu Principal -->
+
+    
+
+
+    <script>
+    function abreloja($param) {
+        //   $("#quadro").html("Selecione a loja para retirar.");
+        $('html, body').animate({
+            scrollTop: ($('#quadro').first().offset().top+200)
+        }, 500);
+
+            $("div.failure").fadeIn(500).delay(350000).fadeOut(400);
+
+    };
+
+
+
+    function solicita($param, $sku) {
+        $('html, body').animate({
+            scrollTop: ($('#quadro1').first().offset().top + 200)
+        }, 500);
+        $("div.failure1").fadeIn(500).delay(350000).fadeOut(400);
+        $("#quadro1").html("<form action=\"/Cadastro/ligacao\" method=\"post\"><div class=\"col-md-12\"><div class=\"input-group\"><label for=\"nome\">Nome</label><input type=\"text\" class=\"form-control\" name=\"nome\" id=\"nome\" required></div></div><div class=\"col-md-12\"><div class=\"input-group\"><label for=\"text\">Cpf/Cnpj</label><input type=\"text\" class=\"form-control\" name=\"cpf\" id=\"cpf\" required></div></div><div class=\"col-md-12\"><div class=\"input-group\"><label for=\"email\">Email</label><input type=\"text\" class=\"form-control\" name=\"email\" id=\"email\" required></div></div><div class=\"col-md-12\"><div class=\"input-group\"><label for=\"email\">Telefone</label><input type=\"text\" class=\"form-control\" name=\"telefone\" id=\"telefone\" required></div></div><input type=hidden name=filial value=\"" + $param + "\"> <input type=hidden name=sku value=\"" + $sku + "\"><button class=\"theme button-colored\" class=\"enviar\" id=\"enviar\">Enviar</button></form>");
+
+    };
+
+
+        $(document).ready(function () {
+
+           
+        $('#pais').hide(); //Sempre carrega oculto
+        $('label[for="pais"]').hide();
+
+        $('#Cadastro_Internacional').on('click', function () {
+            if ($('#Cadastro_Internacional').is(':checked')) {
+
+                $('#cep').hide();
+                $('#pais').show();
+                $('label[for="pais"]').show();
+
+            } else {
+                $('#pais').hide();
+                $('label[for="pais"]').hide();
+                $('#cep').show();
+            }
+        });
+
+
+
+            $("#cep").mask("99999-999");
+            $("#cpf").mask("99999999999999");
+            $("#telefone").mask("(99)99999-9999");
+            $('#cep').keypress(function (e) {
+                if (e.which == 13) {
+                    $('#calcular').click();
+                }
+            });
+
+        $('#calcular').click(function () {
+
+
+            if ($('#Cadastro_Internacional').is(':checked')) {
+
+                var cep = $('#pais');
+
+                $.ajax({
+                    url: '../../calculafreteint/2364778?pais=' + cep.val(),
+                    type: "GET",
+                    dataType: 'json',
+                    data: 'pais=' + cep.val(),
+                    success: function (data) {
+                        $('#freightResult tr').remove();
+                        $('#freightResult').append('<tr bgcolor="#A9A9A9" style="border-radius:5px;"><td>Tipo de entrega</td><td>Prazo de entrega</td><td>Valor</td></tr>');
+
+                        $.each(data, function (index, element) {
+
+                            //freightResult
+                            $('#freightResult').append('<tr><td>' + data[index].NomeFrete + '</td><td>' + data[index].Prazo + '</td><td> R$' + data[index].ValorFrete.toFixed(2).replace(".", ",") + '</td></tr>');
+                            $('#freightResult').show();
+                        });
+
+                    }
+                });
+
+            } else {
+
+                $("#calcular").attr("disabled", "disabled");
+                var cep = $('#cep');
+                $("div.failure").stop();
+                $("div.failure1").stop();
+
+                $(".modalpag").show();
+                $.ajax({
+                    url: '../../calculafrete/2364778?cep=' + cep.val(),
+                    type: "GET",
+                    dataType: 'json',
+                    data: 'cep=' + cep.val(),
+                    success: function (data) {
+                        $('#freightResult tr').remove();
+                        $('#freightResult span').remove();
+
+                        $('#freightResult').append('<tr bgcolor="#262626" style="border-radius:5px;color:#fff;line-height: 31px;"><td class=\"mobile-frete-tr\">Tipo de entrega</td><td>Prazo de entrega</td><td>Valor</td></tr>');
+
+                        $.each(data, function (index, element) {
+
+                            if (data[index].ErisCodfrete != "999999") {
+                                //freightResult
+                                $('#freightResult').append('<tr><td>' + data[index].NomeFrete + '</td><td>em atÃ© ' + data[index].Prazo + ' dias Ãºteis.</td><td>R$ ' + data[index].ValorFrete.toFixed(2).replace(".", ",") + '</td></tr>');
+                                if (data[index].NomeFrete == "Retirar na loja") {
+                                  $('#freightResult').append('<tr><td><span style=\'font-size:small;color:red;\'> *Consulte as lojas participantes na finalizaÃ§Ã£o do seu pedido.  </span></td></tr>');
+                                } else {
+
+                                }
+                            } else {
+                                $('#freightResult').append('<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>' + data[index].NomeFrete + '</td><td></td><td><button class="theme button-colored" style="float:right;margin-right:auto;" id="verloja1" onclick="abreloja(' + data[index].idfilial + ');">Ver loja</button></td></tr>');
+                                $("#quadro").html(data[index].HtmlDadosFilial);
+                            }
+
+                            $('#freightResult').show();
+                        });
+                        $(".modalpag").hide();
+                    }
+                });
+
+            }
+            $("#calcular").removeAttr("disabled");
+
+
+        });
+
+        $(".imgExpande").mouseover(function () {
+            $('.share-icons').hide();
+        });
+        $(".imgExpande").mouseout(function () {
+            $('.share-icons').show();
+        });
+
+
+    });
+
+    </script>
+<script>
+    fbq('track', 'ViewContent', {
+        content_type: 'product',
+        content_ids: '2364778'
+    });
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1475668742723952&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "mainEntity":{
+    "@type": "Book",
+    "author": "Latham-koenig, Christina ",
+    "datePublished": "",
+    "image": "https://imagens.disal.com.br/produtos/ampliada/2364778.jpg",
+    "isbn": "9780194776233",
+    "name": "American English File 1b Multipack With Online Practice And Ichecker - 2nd Ed ",
+    "numberOfPages": "257",
+    "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "187,00",
+    "priceCurrency": "BRL"
+    },
+    "publisher": "Oxford University "
+    }
+    }
+</script>
+
+
+
+    <section id="page-book-detail">
+        <div class="divseparacao"></div>     
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col">
+                                <div class="section-title t-left">
+                                                <h4 style="font-size: 16px;">Categorias: Idiomas | Ingl&#234;s Americano</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="margin-bottom:5px !important; margin-top:5px !important; ">
+                        <div class="row">
+                            <div class="col">
+                                <div class="book-detail">
+                                    <div class="book-image">
+                                        <a href="#">
+                                            <img src="https://imagens.disal.com.br/produtos/ampliada/2364778.jpg">
+                                        </a>
+                                        <div class="share-icons">
+                                            <div class="addthis_inline_share_toolbox"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="book-info-container">
+                                        <div class="book-title">
+                                            American English File 1b Multipack With Online Practice And Ichecker - 2nd Ed 
+                                            <small style="text-decoration:underline;"><a style="color:#333;" href="../../buscam?tipo=a&autor=78585">Latham-koenig, Christina </a></small>
+                                            <small style="text-decoration:underline;"><a style="color:#333;" href="../../buscam?tipo=e&editora=18">Oxford University </a></a></small>
+                                        </div>
+
+                                        <div class="book-ratings">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                                <span>AvaliaÃ§Ãµes</span>
+                                        </div>
+
+                                        <div class="book-favorite">
+                                            <i class="far fa-heart"></i>
+                                            <a href="/../favoritos/adicionar/2364778'">
+                                                <span>Adicionar a minha lista</span>
+                                            </a>
+                                        </div>
+
+                                        <hr>
+
+                                        <div class="book-price">
+                                                <div class="book-price-info">
+                                                    <h2 class="new-price"> Por: R$ 187,00</h2>
+<small>em atÃ© 3x sem juros no cartÃ£o</small>                                                </div>
+                                                                                    </div>
+
+                                        <hr>
+
+                                        <div class="shipping-info">
+                                                <div class="book-status">
+                                                    <img src=../../images/unavailable-icon.png alt="Status Produto"> Produto indisponÃ­vel
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                    </div>
+
+
+                                                    <div class="col-md-6">
+
+                                                        <div class="retirado-loja1">
+
+                                                            <img src="../../images2/envelope-icon.PNG">
+                                                            <span class="bold">Este produto estÃ¡ temporariamente indisponÃ­vel. <br> NÃ³s avisaremos quando ele chegar.</span>
+                                                        </div>
+
+
+                                                        <div class="row">
+                                                            <div class="avisados">
+                                                                <div class="avisados2">
+                                                                    <div class="col-md-12">
+                                                                        <label class="bold opacity-05" for="">Nome</label>
+                                                                        <div class="input-group">
+                                                                            <input type="text" class="form-control" id="nome" name="nome" autocomplete="off" required>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-12">
+                                                                        <label class="bold opacity-05" for="">E-mail</label>
+                                                                        <div class="input-group">
+                                                                            <input type="text" class="form-control" id="email" name="email" autocomplete="off" required>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-12 t-center">
+                                                                        <input type="hidden" id="sku" name="sku" value="2364778" autocomplete="off">
+                                                                        <button id="aviseme" class="theme button-colored uppercase">Avise-me</button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="alert-box failure" id="quadro"></div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            <table class="freightResult mobile-frete-font" id="freightResult" style="display: none; width:80%; margin-top: 10px;float:right;margin-right:32px; margin-left: 5px;"></table>
+                                            <div class="alert-box failure" id="quadro" style="margin-left:0%;margin-right:0%;margin-top:166px;"></div>
+                                            <div class="alert-box failure1" id="quadro1" style="margin-left:0%;margin-right:0%;"></div>
+                                        </div>
+
+
+                                        <!--Fim Sellers-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr style="margin-bottom:5px !important; margin-top:5px !important; ">
+
+                        <div class="row no-margin">
+                            <div class="col">
+                                <h3>Sinopse</h3>
+                                <p>
+                                    American English File Second Edition retains the popular methodology developed by world-renowned authors Christina Latham-Koenig and Clive Oxenden: language + motivation = opportunity. With grammar, vocabulary, and pronunciation practice in every lesson, students are equipped with a solid foundation for successful speaking.
+                                </p>
+                            </div>
+                        </div>
+                        <hr style="margin-bottom:5px !important; margin-top:5px !important; ">
+                        <div class="row no-margin">
+                            <div class="col">
+                                <h3>Detalhes do produto</h3>
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Peso:</strong></td>
+                                            <td>0,39 kg</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><strong>NÃºmero de pÃ¡ginas:</strong></td>
+                                            <td>257</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><strong>Ano de ediÃ§Ã£o:</strong></td>
+                                            <td>2013</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><strong>ISBN 10:</strong></td>
+                                            <td>0194776239</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><strong>ISBN 13:</strong></td>
+                                            <td>9780194776233</td>
+                                        </tr>
+
+                                            <tr>
+                                                <td><strong>Altura:</strong></td>
+                                                <td>28</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><strong>Largura:</strong></td>
+                                                <td>22</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td><strong>Comprimento:</strong></td>
+                                                <td>1</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td><strong>EdiÃ§Ã£o:</strong></td>
+                                                <td>2</td>
+                                            </tr>
+                                                                                        <tr>
+                                                    <td><strong>Faixa et&#225;ria final :</strong></td>
+                                                    <td>Jovens Adultos 15-21 anos</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Faixa et&#225;ria inicial :</strong></td>
+                                                    <td>Jovens Adultos 15-21 anos</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Idioma :</strong></td>
+                                                    <td>Ingl&#234;s Americano</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>M&#233;todo de ensino :</strong></td>
+                                                    <td>Ensino orientado pelo professor</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Tipo de ensino :</strong></td>
+                                                    <td>ELT - Ingl&#234;s como 2a L&#237;ngua</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Assuntos :</strong></td>
+                                                    <td>Ensino M&#233;dio</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Assuntos :</strong></td>
+                                                    <td>Cursos de Idiomas</td>
+                                                </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <hr>
+
+
+                    </div>
+                </div>
+            </div>
+       
+    </section>
+
+<div class="modalpag"><!-- Display background --></div>
+
+     <section id="page-book-detail-veja">
+    <br />
+    <h4 class="bold mb-20"><center>Quem viu este produto, comprou tambÃ©m!</center></h4>
+    <div class="row">
+        <div class="col">
+
+            <div class="books-slider">
+
+                <div class="books-slider-container">
+                    <ul id="testep9" class="cS-hidden">
+                                    <li>
+                                        
+<div class='item active'>
+<div class="book-item"><div class="book-image"><a href="../../../../produto/2362546-american-english-file-starter-wb-with"><img src="https://imagens.disal.com.br/produtos/normal/2362546.jpg" title="AMERICAN ENGLISH FILE STARTER WB WITH ICHECKER - 2ND ED" alt="AMERICAN ENGLISH FILE STARTER WB WITH ICHECKER - 2ND ED" height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="../../produto/2362546-american-english-file-starter-wb-with">AMERICAN ENGLISH FILE STARTER WB WITH ICHECKER - 2ND ED</a></span><small style="color:#000;font-size:1.5rem;"> oxford university</small></h2><div class="book-price">
+        <div class="old">R$ 145,00</div>
+    <div class="new">R$ 139,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2362546'); return false;"></button></div></div></div>
+
+
+
+                                    </li>  
+                                    <li>
+                                        
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../../../produto/2358425-cambridge-learners-dictionary-with-cd"><img src="https://imagens.disal.com.br/produtos/normal/2358425.jpg" title="CAMBRIDGE LEARNERS DICTIONARY WITH CD-ROM - 4TH ED" alt="CAMBRIDGE LEARNERS DICTIONARY WITH CD-ROM - 4TH ED" height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="../../produto/2358425-cambridge-learners-dictionary-with-cd">CAMBRIDGE LEARNERS DICTIONARY WITH CD-ROM - 4TH ED</a></span><small style="color:#000;font-size:1.5rem;"> cambridge university</small></h2><div class="book-price">
+        <div class="old">R$ 213,00</div>
+    <div class="new">R$ 149,10</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2358425'); return false;"></button></div></div></div>
+
+
+
+                                    </li>  
+                                    <li>
+                                        
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../../../produto/1874896-lets-go-1-student-book-with-cd-pack--"><img src="https://imagens.disal.com.br/produtos/normal/1874896.jpg" title="LETS GO 1 STUDENT BOOK WITH CD PACK - FOURTH EDITION" alt="LETS GO 1 STUDENT BOOK WITH CD PACK - FOURTH EDITION" height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="../../produto/1874896-lets-go-1-student-book-with-cd-pack--">LETS GO 1 STUDENT BOOK WITH CD PACK - FOURTH EDITION</a></span><small style="color:#000;font-size:1.5rem;"> oxford university</small></h2><div class="book-price">
+        <div class="old">R$ 163,00</div>
+    <div class="new">R$ 156,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('1874896'); return false;"></button></div></div></div>
+
+
+
+                                    </li>  
+                                    <li>
+                                        
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../../../produto/3055876-american-english-file-2b-multipack-wi"><img src="https://imagens.disal.com.br/produtos/normal/3055876.jpg" title="AMERICAN ENGLISH FILE 2B MULTIPACK WITH ONLINE PRACTICE AND ICHECKER - 2ND ED" alt="AMERICAN ENGLISH FILE 2B MULTIPACK WITH ONLINE PRACTICE AND ICHECKER - 2ND ED" height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="../../produto/3055876-american-english-file-2b-multipack-wi">AMERICAN ENGLISH FILE 2B MULTIPACK WITH ONLINE PRACTICE AND ICHECKER - 2ND ED</a></span><small style="color:#000;font-size:1.5rem;"> oxford university</small></h2><div class="book-price">
+        <div class="old">R$ 187,00</div>
+    <div class="new">R$ 179,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('3055876'); return false;"></button></div></div></div>
+
+
+
+                                    </li>  
+                                    <li>
+                                        
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../../../produto/2362538-american-english-file-starter-sb-with"><img src="https://imagens.disal.com.br/produtos/normal/2362538.jpg" title="AMERICAN ENGLISH FILE STARTER SB WITH ONLINE PRACTICE - 2ND ED" alt="AMERICAN ENGLISH FILE STARTER SB WITH ONLINE PRACTICE - 2ND ED" height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="../../produto/2362538-american-english-file-starter-sb-with">AMERICAN ENGLISH FILE STARTER SB WITH ONLINE PRACTICE - 2ND ED</a></span><small style="color:#000;font-size:1.5rem;"> oxford university</small></h2><div class="book-price">
+        <div class="old">R$ 207,00</div>
+    <div class="new">R$ 198,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2362538'); return false;"></button></div></div></div>
+
+
+
+                                    </li>  
+                                    <li>
+                                        
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../../../produto/2311097-new-headway-intermediate-students-boo"><img src="https://imagens.disal.com.br/produtos/normal/2311097.jpg" title="NEW HEADWAY INTERMEDIATE STUDENTS BOOK WITH ITUTOR DVD-ROM - FOURTH EDITION" alt="NEW HEADWAY INTERMEDIATE STUDENTS BOOK WITH ITUTOR DVD-ROM - FOURTH EDITION" height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="../../produto/2311097-new-headway-intermediate-students-boo">NEW HEADWAY INTERMEDIATE STUDENTS BOOK WITH ITUTOR DVD-ROM - FOURTH EDITION</a></span><small style="color:#000;font-size:1.5rem;"> oxford university</small></h2><div class="book-price">
+        <div class="old">R$ 242,00</div>
+    <div class="new">R$ 232,00</div>
+<small class='forcawrap'>em atÃ© 2x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2311097'); return false;"></button></div></div></div>
+
+
+
+                                    </li>  
+                                    <li>
+                                        
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../../../produto/2364778-american-english-file-1b-multipack-wi"><img src="https://imagens.disal.com.br/produtos/normal/2364778.jpg" title="AMERICAN ENGLISH FILE 1B MULTIPACK WITH ONLINE PRACTICE AND ICHECKER - 2ND ED" alt="AMERICAN ENGLISH FILE 1B MULTIPACK WITH ONLINE PRACTICE AND ICHECKER - 2ND ED" height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="../../produto/2364778-american-english-file-1b-multipack-wi">AMERICAN ENGLISH FILE 1B MULTIPACK WITH ONLINE PRACTICE AND ICHECKER - 2ND ED</a></span><small style="color:#000;font-size:1.5rem;"> oxford university</small></h2><div class="book-price">
+        <div class="old">R$ 187,00</div>
+    <div class="new">R$ 179,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2364778'); return false;"></button></div></div></div>
+
+
+
+                                    </li>  
+                        </ul>
+                    <div class="book-slider-controller">
+                        <div class="prev-button goToPrevSlide9">
+                            <img src="../images2/carousel-book-left.png" style="width:17px;" alt="">
+                        </div>
+                        <div class="next-button goToNextSlide9">
+                            <img src="../images2/carousel-book-right.png" style="width:17px;" alt="">
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $(".selecionestardiv").on("click", function () {
+            alert('ok');
+            $("#selecionestar").removeClass();
+            $(".selecionestardiv.selected").removeClass("selected");
+            $(this).addClass("selected");
+            var test = $(".fa.fa-star.selecionestardiv.selected").data("star");
+            $("#selecionestar").addClass("ratings-box star-" + test);
+        });
+
+        $('.star.rating').click(function () {
+            console.log($(this).parent().data('stars') + ", " + $(this).data('rating'));
+            $(".stars").removeData("stars");
+            $(this).parent().attr('data-stars', $(this).data('rating'));
+           
+        });
+
+        $("#salvarcomentario").on("click", function () {
+            alert('ok');
+            var test = $(".stars").data("stars");
+            alert(test);
+            var msg = $("#mensagem").val();
+            if (typeof test != "undefined") {
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/salvaavaliacao',
+                    data: {
+                        'tipo': 'salvar',
+                        'msg': msg,
+                        'score': test,
+                        'sku' : 2364778
+                    },
+                    success: function (msg) {
+
+
+                    },
+                    error: function (msg) {
+
+                        alert('Erro na chamada da Api, aguarde alguns minutos e tente novamente');
+                    }
+                });
+
+                $('.avaliacaoproduto').hide();
+            }
+        });
+
+    });
+
+</script>
+
+<div class="comments-box mb-30">
+    <div class="container mt-30 avaliacaoproduto">
+        <h4 class="bold mb-20">
+            AvaliaÃ§Ãµes
+            <div class="stars" data-stars="1">
+                <svg height="25" width="23" class="star rating" data-rating="1">
+                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                </svg>
+                <svg height="25" width="23" class="star rating" data-rating="2">
+                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                </svg>
+                <svg height="25" width="23" class="star rating" data-rating="3">
+                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                </svg>
+                <svg height="25" width="23" class="star rating" data-rating="4">
+                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                </svg>
+                <svg height="25" width="23" class="star rating" data-rating="5">
+                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                </svg>
+            </div>
+
+
+        </h4><br />
+        <div class="row">
+            <textarea name="mensagem" id="mensagem" rows="3" style="width:40%" placeholder="Compartilhe seu comentÃ¡rio da obra selecionada"></textarea>
+        </div><br />
+        <div id="avalprod"></div>
+        <div class="create-comment-button">
+            <button class="btn-theme" id="salvarcomentario">FaÃ§a sua avaliaÃ§Ã£o</button>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="comments-container">
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- Footer -->
+
+
+<section id="footer-novo2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="icon">
+                    <!--<img src="../../images2/footer-icon-1.png" alt="">-->
+                </div>
+                <h4 style="text-align:left;">Central de atendimento</h4>
+
+                <div class="info">
+                    <div class="central-atendimento">
+                        <div class="small-label">Atendimento site</div>
+                        <a href="tel:+551132263111">(11) 3226-3118</a>
+                        <div class="small-label">Televendas</div>
+                        <a href="tel:+551132263111">(11) 3226-3111</a>
+                        <div class="small-label">WhatsApp inteligente</div>
+                        <a href="#"><img src="/images/whats-icone-preto.png" alt="whatsapp" title="whatsapp" style="margin-bottom:1px;"> (11) 97617-1773</a>
+                        <div class="small-label">E-mail</div>
+                        <a href="mailto:sac@disal.com.br">sac@disal.com.br</a>
+
+                        <div class="small-label">
+                            HorÃ¡rio de atendimento de segunda Ã Â sexta-feira das 08h30 Ã s 18:00 exceto feriados
+                        </div>
+                        <div class="small-label"></div>
+                        <a href="../atendimento">DÃºvidas frequentes</a>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-md-3">
+                <div class="icon">
+                    <!--<img src="../../images2/footer-icon-4.png" alt="">-->
+                </div>
+                <h4 style="text-align:left;">ConheÃ§a a Disal</h4>
+
+                <div class="info">
+                    <div class="conheca-disal">
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../institucional">Institucional</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../sempremais">Sempre mais Disal</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="https://www.newroutes.com.br/" target="_blank">Revista New Routes</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="http://blogdisal.com.br/" target="_blank">Blog Disal</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../eventos">Eventos Disal</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../convenios">ConvÃªnios</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="https://mkt.disal.com.br/produtos/servidor/trabalheconosco">Trabalhe conosco</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="col-md-3">
+                <div class="icon">
+                    <!--<img src="../../images2/footer-icon-3.png" alt="">-->
+                </div>
+                <h4 style="text-align:left;">Nossas lojas</h4>
+
+                <div class="info">
+                    <div class="nossas-lojas">
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                SÃ£o Paulo
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Minas Gerais
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Distrito Federal
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                ParanÃ¡
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Rio Grande do Sul
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Pernambuco
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Rio de Janeiro
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Bahia
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h4 style="text-align:left;">Formas de pagamento</h4>
+
+                <div class="info payment" style="text-align: left;">
+                    <img src="/images2/v2/american.png" alt="American Express">
+                    <img src="/images2/v2/diners.png" alt="Diners">
+                    <img src="/images2/v2/elo.png" alt="Elo">
+                    <img src="/images2/v2/hipercard.png" alt="Hipercard">
+                    <img src="/images2/v2/master.png" alt="MasterCard">
+                    <br><img src="/images2/v2/visa.png" style="margin-top: 8px; margin-left: 44px;" alt="Visa">
+                    <img src="/images2/v2/boleto.png" style="margin-top: 8px;" alt="Boleto">
+                    <img src="/images2/v2/itau.png" style="margin-top: 8px;" alt="TransferÃªncia">
+                </div>
+
+                <br><h4>Redes sociais</h4>
+                <div class="info social">
+
+                    <a href="https://www.facebook.com/disaldistribuidora/">
+                        <img src="/images2/v2/facebook-icon.png" alt="Facebook">
+                    </a>
+
+                    <a href="https://www.youtube.com/user/disalchannel">
+                        <img src="/images2/v2/youtube-icon.png" alt="Youtube">
+                    </a>
+
+                    <a href="https://twitter.com/disallivraria">
+                        <img src="/images2/v2/twitter-icon.png" alt="Twitter">
+                    </a>
+
+                    <a href="https://www.instagram.com/disal_distribuidora/">
+                        <img src="/images2/v2/instagram-icon.png" alt="Instagram">
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/220464/">
+                        <img src="/images2/v2/linkedin-icon.png" alt="Linkedin">
+                    </a>
+
+                    <a href="https://wa.me/5511976171773">
+                        <img src="/images2/v2/whatsapp-icon.png" alt="WhatsApp">
+                    </a>
+                </div>
+
+                <br><h4>
+                    Site seguro
+                </h4>
+                <div class="info securities" style="height:120px;text-align:left;">
+
+                    <div class="col-md-6 siteseguro">
+                        <span id="ss_img_wrapper_115-55_image_en"><a href="http://www.alphassl.com/ssl-certificates/wildcard-ssl.html" style="width:50%;float:left;" target="_blank" title="SSL Certificates"><img alt="Wildcard SSL Certificates" border=0 id="ss_img" src="//seal.alphassl.com/SiteSeal/images/alpha_noscript_115-55_en.gif" title="SSL Certificate"></a></span>
+                        <script type="text/javascript" src="//seal.alphassl.com/SiteSeal/alpha_image_115-55_en.js" async></script>
+                    </div>
+                    <div class="col-md-6 siteseguro">
+                        <a id="seloEbit" style="width:90px!important;float:right;" href="http://www.ebit.com.br/#disal" target="_blank" onclick="redir(this.href);"></a>
+                        <script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?9787 " async></script>
+                    </div>
+                </div>
+                <div class="info securities" style="text-align:left;">
+                    <div class="col-md-6 siteseguro">
+                        <div id="armored_website">
+                            <param id="aw_preload" value="true" />
+                            <param id="aw_use_cdn" value="true" />
+                        </div>
+                        <script type="text/javascript" src="//cdn.siteblindado.com/aw.js"></script>
+                    </div>
+                </div>
+
+
+                </div>
+
+
+
+
+            </div>
+     
+    </div>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Todas as regras e promoÃ§Ãµes sÃ£o vÃ¡lidas apenas para produtos vendidos e entregues pela Disal Distribuidora.
+                    </p>
+                    <p>
+                        <span class="uppercase">
+                            Disal Distribuidores Associados de Livros S.A. | CNPJ: 622770410001/87 | Av. Marginal Direita do Tiete, 800 - CEP: 05118-100 - SÃ£o Paulo - SP
+                        </span>
+                        <br>
+                        TEL: (11) 3226-3100 Atendimento ao cliente pelo e-mail <a href="#" style="color:white;">sac@disal.com.br</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+		</div>
+
+
+<div class="modal"><!-- Display background --></div>
+<div class="modalapres"><!-- Display background --></div>
+<div class="modalpag"><!-- Display background --></div>
+<script src="/stylesv2/main.js"></script>
+</body>
+</html>
+<!--By Gustavo Medeiros | gustavo@disal.com.br-->
+

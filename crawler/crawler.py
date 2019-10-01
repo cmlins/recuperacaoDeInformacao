@@ -9,13 +9,14 @@ class PyCrawler(object):
         self.starting_url = starting_url
         self.urls_completeName = urls_completeName
         self.visited = set()
+        self.saved = 0
         self.save_path = save_path
 
     #gets the html of the current link
     def get_html(self, url):
         try:
-            time.sleep(10)
-            html = requests.get(url)            
+            time.sleep(30)
+            html = requests.get(url, headers={"content-type":"text"})            
         except Exception as e:
             print(e)
             return ""
@@ -31,12 +32,13 @@ class PyCrawler(object):
         #travessa '''<a\s+(?:[^>]*?\s+)?href="([^"]*/artigo/+[^"]*)'''
         #traca '''<a\s+(?:[^>]*?\s+)?href="([^"]*/livro/+[^"]*)'''
         #ciadoslivros '''<a\s+(?:[^>]*?\s+)?href="([^"]*/produto/+[\w-]*[\d]+[^/"]*)'''
+        #disal '''<a\s+(?:[^>]*?\s+)?href="([^"]*produto/+[\d]+[\w]*[^/"]*)'''
         #livrariacultura '''<a\s+(?:[^>]*?\s+)?href="([^"]*p/livros/+[\w/]+[\w-]+[\d]+[^/;"]*)'''
         #americanas e submarino '''<a\s+(?:[^>]*?\s+)?href="([^"]*produto/+[\d/]+livro+[^"]*)'''
-        links = re.findall('''<a\s+(?:[^>]*?\s+)?href="([^"]*dp+[^;<>&]*)''', html)
+        links = re.findall('''<a\s+(?:[^>]*?\s+)?href="([^"]*produto/+[\d]+[\w]*[^/"]*)''', html)
         for i, link in enumerate(links):
             if not urlparse(link).netloc:
-                link_with_base = base + link
+                link_with_base = base + "/" + link
                 links[i] = link_with_base
         return set(filter(lambda x: 'mailto' not in x, links))
 
@@ -48,11 +50,13 @@ class PyCrawler(object):
         with open(completeName1, "w+", encoding="utf-8") as file1:
             file1.write(html_code)
         file1.close()
+        self.saved = self.saved + 1
         return None
 
     def crawl(self, url):
         for link in self.get_links(url):
-            if len(self.visited) < 10:
+            if self.saved < 1001:
+                print(self.saved)
                 if link in self.visited:
                     continue
                 print(link)
@@ -80,9 +84,9 @@ if __name__ == "__main__":
 ##    https://www.disal.com.br/
 ##    https://www.americanas.com.br/  ???????????????
 ##    https://www.submarino.com.br/  ??????????????
-    sp = 'C:/Users/Gabs/Documents/UFPE-CC/RI/amazon'
-    urls_filename = "urls_amazon.txt"
+    sp = 'C:/Users/Gabs/Documents/UFPE-CC/RI/disal'
+    urls_filename = "urls_disal.txt"
     urls_completeName = os.path.join(sp, urls_filename)
-    site = "https://www.amazon.com.br/"
+    site = "https://www.disal.com.br/"
     crawler = PyCrawler(site, sp, urls_completeName)
     crawler.start()

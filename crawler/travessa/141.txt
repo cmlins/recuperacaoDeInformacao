@@ -1,0 +1,3138 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head><title>
+	SOBRE O AUTORITARISMO BRASILEIRO - Lilia Moritz Schwarcz - Livro
+</title><meta charset="utf-8" /><link rel="stylesheet" href="../../travessa.css?random=&lt;%# DateTime.Now.Ticks %>" /><link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="../../css/ArtigoSmall.css" /><link rel="stylesheet" media="screen and (min-device-width: 768px)" href="../../css/ArtigoSmall.css" /><link rel="stylesheet" media="screen and (min-device-width: 320px)" href="../../css/ArtigoSmall.css" /><link rel="stylesheet" media="screen and (min-device-width: 1280px)" href="../../css/ArtigoNormal.css" /><link rel="stylesheet" href="../../css/Travessa2.css?random=&lt;%# DateTime.Now.Ticks %>" />
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      
+        // <![CDATA[
+      var $f = jQuery.noConflict();
+ 
+        // Use jQuery via $f(...)
+        $f(document).ready(function(){
+
+        
+            //Scrool smoothly
+            $("#lnkLerMais").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#txtTituloSinopse").offset().top
+                }, 2000);
+            });
+
+            $("#lnkAvaliacoes").click(function () {
+              $('html, body').animate({
+                scrollTop: $("#divAviliacoesLeitor").offset().top
+              }, 2000);
+            });
+
+            $('#imgFace').hover(function () {
+                $(this).attr('src', 'img/sharefacebook_cor.gif');
+            }, function () {
+                $(this).attr('src', 'img/sharefacebook.gif');
+            });
+
+            $('#imgTwitter').hover(function () {
+                $(this).attr('src', 'img/shareTwitter_cor.gif');
+            }, function () {
+                $(this).attr('src', 'img/shareTwitter.gif');
+            });
+
+            $('#imgPlus').hover(function () {
+                $(this).attr('src', 'img/shareGoogle_cor.gif');
+            }, function () {
+                $(this).attr('src', 'img/shareGoogle.gif');
+            });
+
+            $('#imgMail').hover(function () {
+                $(this).attr('src', 'img/shareEmail_cor.gif');
+            }, function () {
+                $(this).attr('src', 'img/shareEmail.gif');
+            });
+
+           
+            $f('#btnAbrir').bind('click', function(){
+
+                if ($f(this).parents("#full").children("#mini").attr('estado') == 'fechado'){
+                    $f(this).parents("#full").children("#mini").addClass('containerAberto');                
+                    $f(this).parents("#full").children("#btnAbrir").addClass('btnFechar'); 
+                    $f(this).parents("#full").children("#mini").attr('estado', 'aberto');
+                    $f(this).parents("#full").children("#mini").attr('style', 'margin-bottom:50px');
+
+                }
+                else
+                {               
+                    $f(this).parents("#full").children("#mini").removeClass('container containerAberto').addClass('container'); 
+                    $f(this).parents("#full").children("#btnAbrir").removeClass('btnFechar'); 
+                    $f(this).parents("#full").children("#mini").attr('estado', 'fechado');
+                }
+ 
+            })
+       
+
+        })
+ 
+        // ]]>
+        function popMsg() {
+
+            $.colorbox({
+             
+                'iframe': true,
+                'open': true,
+                fixed: true,       
+                letf: "50%",
+                width: "350px",
+                height: "220px",
+                href: 'wpgMsgDisponibilidade.aspx',
+              
+            });
+        }
+        function popMsgFormato(url) {
+            
+            $.colorbox({
+
+                'iframe': true,
+                'open': true,
+                fixed: true,
+                letf: "50%",
+                width: "350px",
+                height: "220px",
+                href: url,
+
+            });
+        }
+        function popUpamigo(url) {
+
+            $.colorbox({
+                
+                open: true,
+                iframe: true,
+                height: "455px",
+                width: "385px",
+                fixed: true,
+                letf: "50%",
+                href: url,
+            });
+        }
+        function popUpLogin(url) {
+
+          if (url == null) {
+            url = 'wpgLoginPopUp.aspx';            
+          }
+            $.colorbox({
+                open: true,
+                iframe: true,
+                height: "185px",
+                width: "470px",
+                fixed: true,
+                letf: "50%",
+                href: url,
+            });
+        }
+        function popUpimgrande(url) {
+
+            $.colorbox({
+                
+                open: true,
+                fixed: true,
+                letf: "50%",
+                href: url,
+            });
+        }
+    </script>
+    <style type="text/css">
+        .boxCep {
+            border: 2px solid #cccccc;
+            font-family: Verdana;
+            font-size: 12px;
+            height: 27px !important;
+            max-height: 27px !important;
+        }
+      .avaliacaoQTD
+      {
+        font-family:Verdana;font-size:12px;color:#333333;font-style:normal;vertical-align:  super;
+      }
+      .StarHeight
+      {
+        line-height:22px;
+      }
+        .Star
+        {
+            background-repeat: no-repeat;
+            background-image: url(/img/Star.gif);
+            width: 17px; height: 17px;
+        }
+        .WaitingStar
+        {
+             background-repeat: no-repeat;
+            background-image: url(/img/WaitingStar.gif);
+            width: 17px; height: 17px;
+        }
+        .FilledStar
+        {
+             background-repeat: no-repeat;
+            background-image: url(/img/FilledStar.gif);
+            width: 17px; height: 17px;
+        }
+        .txtComentario
+        {
+            border:2px;
+            border-color:#cccccc;
+            width:554px;
+            border-style:solid;
+            height:25px;
+            font-family:Verdana;
+            font-size:12px;
+        }
+        .formComentario
+        {
+            width:100px;
+            text-align:right;
+            padding-bottom:15px;
+            vertical-align:top;
+            
+        }
+        .chkAnonimo
+        {
+            
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #333333;                        
+            font-weight: normal;
+            text-decoration: none;
+            float:left;
+        }
+      .auto-style2
+      {
+        width: 150px;
+        text-align: right;
+        padding-bottom: 15px;
+        vertical-align: top;
+      }
+      .auto-style3
+      {
+        width: 112px;
+      }
+      .auto-style4
+      {
+        width: 112px;
+        text-align: right;
+        padding-bottom: 15px;
+        vertical-align: top;
+        height: 22px;
+      }
+      .auto-style5
+      {
+        height: 22px;
+      }
+      .formComentarioErro
+      {
+        font-family:Verdana;
+        font-size:12px;
+        color:#990000;
+      }
+      #RatingMedia
+      {
+        line-height:20px;
+        padding-top:5px;
+      }
+      #divDesconto20 {
+       float: right;
+       width: 95px;
+       position: absolute;
+       right: 762px;
+       bottom: 215px;
+}
+
+
+
+
+
+    </style>
+
+<link href="/WebResource.axd?d=oogq0wtEfaKznqfek0-6yaw93uCqb4lNmHAwkSWrz7hI0OTjGOaqHmaoy48VTHiB0-Y7124Y_77VFIOpaJxK0_f246rytsBhi7EsmFKfj1KUMo-hs3iCLLhWrQp43ZwZhAIt4ZFTLRxX_69YPUTPWUsSWrY1&amp;t=635659896571480319" type="text/css" rel="stylesheet" /><base href="https://www.travessa.com.br/" target="_self" /><meta name="robots" content="INDEX, FOLLOW" /><meta name="title" content="SOBRE O AUTORITARISMO BRASILEIRO - Lilia Moritz Schwarcz - Livro" /><meta name="description" content="Livro > Livro de Humanidades > Livro de HistÃ³ria, isbn - 9788535932195, paginas - 288, editora - Companhia das Letras, preÃ§o - 40,420" /><meta name="Keywords" content="SOBRE O AUTORITARISMO BRASILEIRO, Lilia Moritz Schwarcz, Companhia das Letras, 9788535932195, Humanidades, HistÃ³ria, livro, autor, editora, biblioteca, leitura, livraria da travessa, mais vendidos, lanÃ§amentos, livraria" /><link  rel="canonical" href="https://www.travessa.com.br/sobre-o-autoritarismo-brasileiro/artigo/98b4641e-fbef-400b-888c-ad2594e8c836" /><link rel="amphtml" href="https://m.travessa.com.br/produtoAmp.aspx?codartigo=98b4641e-fbef-400b-888c-ad2594e8c836" /><link  rel="alternate" media="only screen and (max-width: 640px)" href="https://m.travessa.com.br/produto.aspx?codartigo=98b4641e-fbef-400b-888c-ad2594e8c836" /><link  rel="alternate"  media="handheld" href="https://m.travessa.com.br/produto.aspx?codartigo=98b4641e-fbef-400b-888c-ad2594e8c836" /><meta property="og:url" content="https://www.travessa.com.br/sobre-o-autoritarismo-brasileiro/artigo/98b4641e-fbef-400b-888c-ad2594e8c836" /><meta property="og:title" content="SOBRE O AUTORITARISMO BRASILEIRO - Lilia Moritz Schwarcz - Livro" /><meta property="og:description" content="Valendo-se de uma ampla reuniÃ£o de dados estatÃ­sticos, Lilia M. Schwarcz examina algumas das raÃ­zes do autoritarismo brasileiro, bastante antigas e arraigadas, embora frequentemente mascaradas pela..." /><meta property="og:site_name" content="Travessa.com.br" /><meta property="og:image" content="https://img.travessa.com.br/livro/BA/98/98b4641e-fbef-400b-888c-ad2594e8c836.jpg" /><meta property="og:image:type" content="image/jpeg" /><meta property="og:image:width" content="214" /><meta property="og:image:height" content="306" /><meta property="og:type" content="book" /><script type="text/javascript">window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-2355677-2', 'auto');
+ga('send', 'pageview');</script><script type="text/javascript"> (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PTH32SQ');</script></head>
+<body  >
+  <form name="form1" method="post" action="/sobre-o-autoritarismo-brasileiro/artigo/98b4641e-fbef-400b-888c-ad2594e8c836" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM4NjMwNTQwNg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgICAw8WAh4GYWN0aW9uBU0vc29icmUtby1hdXRvcml0YXJpc21vLWJyYXNpbGVpcm8vYXJ0aWdvLzk4YjQ2NDFlLWZiZWYtNDAwYi04ODhjLWFkMjU5NGU4YzgzNhYGAgEPFgIeBXZhbHVlBTtwcm9kdXRvLmFzcHg/Y29kYXJ0aWdvPTk4YjQ2NDFlLWZiZWYtNDAwYi04ODhjLWFkMjU5NGU4YzgzNmQCEw9kFhQCBA8WAh4EaHJlZgVFaHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3dwZ1BlZGlkb0Fjb21wYW5oYW1lbnRvLmFzcHg/VGlwb0FydGlnbz0xZAIFDxYCHwMFOWh0dHBzOi8vd3d3LnRyYXZlc3NhLmNvbS5ici93cGdTdWFDb250YS5hc3B4P1RpcG9BcnRpZ289MWQCBg8WAh8DBS9odHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvd3BnTm9zc2FzTG9qYXMuYXNweGQCBw8WAh8DBS1odHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvd3BnUXVlbVNvbW9zLmFzcHhkAggPFgIfAwUvaHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3dwZ0F0ZW5kaW1lbnRvLmFzcHhkAgoPZBYCZg9kFgICAQ8WAh8DBT5odHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvd3BnQ2FycmluaG9MaXN0YS5hc3B4P1RpcG9BcnRpZ289MRYCAgEPFgIeCWlubmVyaHRtbAUkPGRpdiBpZD0icXRkU2Fjb2xhMiIgPjxiPjA8L2I+PC9kaXY+ZAILD2QWAgIBDw8WAh4EVGV4dAUGTGl2cm9zZGQCDA9kFgICAQ8PFgIfBQUcRHZkcyZuYnNwOyZhbXA7Jm5ic3A7Qmx1LXJheWRkAg0PZBYCAgEPDxYCHgtOYXZpZ2F0ZVVybAUraHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3dwZ0V2ZW50b3MuYXNweGRkAhEPZBYCZg9kFgICAw8WAh8DBT5odHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvd3BnQ2FycmluaG9MaXN0YS5hc3B4P1RpcG9BcnRpZ289MRYCAgEPFgIfBAUjPGRpdiBpZD0icXRkU2Fjb2xhIiA+PGI+MDwvYj48L2Rpdj5kAhkPZBYUAgEPZBYSAgMPDxYEHwUFQTxhICBjbGFzcz0idHh0QnJlYWRjcnVtYnMiIGhyZWY9IndwZ0xpdnJvLmFzcHgiID5MaXZyb3MmbmJzcDs8L2E+HgdWaXNpYmxlZ2RkAgUPFgIfB2dkAgcPDxYEHwUFejxhICBjbGFzcz0idHh0QnJlYWRjcnVtYnMiIGhyZWY9IndwZ0xpdnJvTWFjcm8uYXNweD9Db2RNYWNyb1NlZ21lbnRvPTJkMzQ0NWYxLTg3OWUtNDIyMC1hMTQ1LTBmNzM2NmZjNjk4YyI+SHVtYW5pZGFkZXM8L2E+HwdnZGQCCQ8WAh8HZ2QCCw8PFgQfBQW4ATxhICBjbGFzcz0idHh0QnJlYWRjcnVtYnMiIGhyZWY9IndwZ0FydEZpbHRyb1NlZy5hc3B4P1RpcG9BcnRpZ289MSZDb2RNYWNyb1NlZ21lbnRvPTJkMzQ0NWYxLTg3OWUtNDIyMC1hMTQ1LTBmNzM2NmZjNjk4YyZDb2RTZWdtZW50bz1kNmUwM2IxNy1iMDgyLTQ4YTQtYmQwOC1hNWI4MjJjMmMzNDkiPkhpc3TDs3JpYTwvYT4fB2dkZAIPDxYCHwUFJDk4YjQ2NDFlLWZiZWYtNDAwYi04ODhjLWFkMjU5NGU4YzgzNmQCEQ8WAh8FBSRkNmUwM2IxNy1iMDgyLTQ4YTQtYmQwOC1hNWI4MjJjMmMzNDlkAhMPFgIfBQUBMWQCFQ8WAh8FBSQyZDM0NDVmMS04NzllLTQyMjAtYTE0NS0wZjczNjZmYzY5OGNkAgUPZBYCZg9kFggCAQ8WAh4Hb25jbGljawWlAndpbmRvdy5vcGVuKCdodHRwOi8vd3d3LmZhY2Vib29rLmNvbS9zaGFyZXIucGhwP3U9aHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3NvYnJlLW8tYXV0b3JpdGFyaXNtby1icmFzaWxlaXJvL2FydGlnby85OGI0NjQxZS1mYmVmLTQwMGItODg4Yy1hZDI1OTRlOGM4MzYnLCdGQicsICd0b29sYmFyPTAsIHJlc2l6YWJsZT0xLCBzdGF0dXM9MCwgd2lkdGg9OTAwLCBoZWlnaHQ9NTUwLCBsZWZ0PScrKChzY3JlZW4ud2lkdGggLSA1MzApIC8gMikrJywgdG9wPScgKyAoKHNjcmVlbi5oZWlndGggLSA4MCkgLyAyKSk7ZAIDDxYCHwgFjgN3aW5kb3cub3BlbignaHR0cDovL3R3aXR0ZXIuY29tL3NoYXJlP189OTc4ODU3NjE2NDIwMyZjb3VudD1ob3Jpem9udGFsJm9yaWdpbmFsX3JlZmVyZXI9aHR0cCUzQSUyRiUyRnd3dy50cmF2ZXNzYS5jb20uYnIlMkZ3cGdhcnRpZ28uYXNweCUzRkNvZEFydGlnbyUzRDk4YjQ2NDFlLWZiZWYtNDAwYi04ODhjLWFkMjU5NGU4YzgzNiZ0ZXh0PUVuY29udHJlaSUyMG5hJTIwVHJhdmVzc2ElMkMlMjAgbyBkdmQgInNvYnJlIG8gYXV0b3JpdGFyaXNtbyBicmFzaWxlaXJvIiBlbSAlMjAhJnVybD1odHRwJTNBJTJGJTJGd3d3LnRyYXZlc3NhLmNvbS5iciUyRndwZ2FydGlnby5hc3B4JTNGQ29kQXJ0aWdvJTNEOThiNDY0MWUtZmJlZi00MDBiLTg4OGMtYWQyNTk0ZThjODM2JnZpYT1MaXZUcmF2ZXNzYScpO2QCBQ8WAh8IBaECd2luZG93Lm9wZW4oJ2h0dHBzOi8vcGx1cy5nb29nbGUuY29tL3NoYXJlP3VybD1odHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvc29icmUtby1hdXRvcml0YXJpc21vLWJyYXNpbGVpcm8vYXJ0aWdvLzk4YjQ2NDFlLWZiZWYtNDAwYi04ODhjLWFkMjU5NGU4YzgzNicsJ0dQJywndG9vbGJhcj0wLCByZXNpemFibGU9MSwgc3RhdHVzPTAsIHdpZHRoPTkwMCwgaGVpZ2h0PTU1MCwgbGVmdD0nKygoc2NyZWVuLndpZHRoIC0gNTMwKSAvIDIpKycsIHRvcD0nICsgKChzY3JlZW4uaGVpZ3RoIC0gODApIC8gMikpO2QCBw8WAh8IBW1wb3BVcGFtaWdvKCdodHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvd3BnSW5kaXF1ZUFtaWdvLmFzcHg/Q29kQXJ0aWdvPTk4YjQ2NDFlLWZiZWYtNDAwYi04ODhjLWFkMjU5NGU4YzgzNicpZAIXDxYCHwdoFgQCAQ8WAh8HaGQCAg8WAh8HaGQCGQ9kFgJmDxYCHgpDYWxsYmFja0lEBQtSYXRpbmdNZWRpYWQCGw8WAh8EBUQ8YSBzdHlsZT0iY3Vyc29yOiBwb2ludGVyOyIgaWQ9Imxua0F2YWxpYWNvZXMiPigwIGF2YWxpYcOnw7VlcykgPC9hPmQCIQ9kFgJmD2QWCgIBDxYCHwUFaGh0dHBzOi8vd3d3LnRyYXZlc3NhLmNvbS5ici9zb2JyZS1vLWF1dG9yaXRhcmlzbW8tYnJhc2lsZWlyby9hcnRpZ28vOThiNDY0MWUtZmJlZi00MDBiLTg4OGMtYWQyNTk0ZThjODM2ZAIDDxYCHwUFUGh0dHBzOi8vaW1nLnRyYXZlc3NhLmNvbS5ici9saXZyby9CQS85OC85OGI0NjQxZS1mYmVmLTQwMGItODg4Yy1hZDI1OTRlOGM4MzYuanBnZAIFDxYCHwUFQFNPQlJFIE8gQVVUT1JJVEFSSVNNTyBCUkFTSUxFSVJPIC0gTGlsaWEgTW9yaXR6IFNjaHdhcmN6IC0gTGl2cm9kAgcPFgIfBQXLAVZhbGVuZG8tc2UgZGUgdW1hIGFtcGxhIHJldW5pw6NvIGRlIGRhZG9zIGVzdGF0w61zdGljb3MsIExpbGlhIE0uIFNjaHdhcmN6IGV4YW1pbmEgYWxndW1hcyBkYXMgcmHDrXplcyBkbyBhdXRvcml0YXJpc21vIGJyYXNpbGVpcm8sIGJhc3RhbnRlIGFudGlnYXMgZSBhcnJhaWdhZGFzLCBlbWJvcmEgZnJlcXVlbnRlbWVudGUgbWFzY2FyYWRhcyBwZWxhLi4uZAIJD2QWAgIDDw9kFgIeC3BsYWNlaG9sZGVyBQ0gZGlnaXRlIG8gQ0VQZAIlD2QWAgIDD2QWAmYPZBYCAgMPPCsACQBkAncPZBYCAgMPPCsACQBkAnsPZBYCAgMPZBYCZg9kFgICAw88KwAJAGQCgQEPZBYCZg9kFgQCAQ9kFgICAQ88KwAJAQAPFgQeCERhdGFLZXlzFgAeC18hSXRlbUNvdW50ZmRkAgMPZBYCAgUPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIfCQUHUmF0aW5nMWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgUFDmJ0blByZXZFbnRyZWdhBQdidG5Qcm94BQ9idG5Qcm94UGFydGljaTEFFGJ0bkVudmlhck9waWFvTGVpdG9yBRNjaGtBdmFsaWFjYW9Bbm9uaW1vgaHBJtNx9RN+guq8dh4L1H74eZI=" />
+
+<script>localStorage.setItem("total", '0,00');</script>
+<script type="text/javascript">
+//<![CDATA[
+localStorage.setItem("qtd", 0);//]]>
+</script>
+ <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "BreadcrumbList",  "itemListElement":[{"@type": "ListItem", "position":1,"item":{"@id":"http://www.travessa.com.br/livros","name":"Livro"}},{"@type": "ListItem", "position":2,"item":{"@id":"http://www.travessa.com.br/wpgLivroMacro.aspx?CodMacroSegmento=2d3445f1-879e-4220-a145-0f7366fc698c","name":"Livros Humanidades"}},{"@type": "ListItem", "position":3,"item":{"@id":"http://www.travessa.com.br/wpgArtFiltroSeg.aspx?TipoArtigo=1&CodMacroSegmento=2d3445f1-879e-4220-a145-0f7366fc698c&CodSegmento=d6e03b17-b082-48a4-bd08-a5b822c2c349","name":"Livros de HistÃ³ria"}}]}</script><script type="application/ld+json">{"@context": "http://schema.org/","@type": "Product","name":  "SOBRE O AUTORITARISMO BRASILEIRO","productID":  "9788535932195","sku":  "9788535932195","releaseDate":  "2019-05-21","image": "https://img.travessa.com.br/livro/DT/98/98b4641e-fbef-400b-888c-ad2594e8c836.jpg","brand": "Companhia das Letras","offers": {"@type": "Offer","availability": "http://schema.org/InStock","itemCondition": "http://schema.org/NewCondition","price": "40.42","priceCurrency": "BRL","category": "Livros"},"description": "Valendo-se de uma ampla reuniÃ£o de dados estatÃ­sticos, Lilia M. Schwarcz examina algumas das raÃ­zes do autoritarismo brasileiro, bastante antigas e arraigadas, embora frequentemente mascaradas pela mitologia nacional.  Os brasileiros gostam de se crer diversos do que sÃ£o. Tolerantes, abertos, pacÃ­ficos e acolhedores sÃ£o alguns dos adjetivos que habitam frequentemente a mitologia nacional. Neste livro urgente e necessÃ¡rio, Lilia M. Schwarcz reconstitui a construÃ§Ã£o dessa narrativa oficial que acabou por obscurecer uma realidade bem menos suave, marcada pela heranÃ§a perversa da escravidÃ£o e pelas lÃ³gicas de dominaÃ§Ã£o do sistema colonial.   Ao investigar esses subterrÃ¢neos da histÃ³ria do paÃ­s â e suas permanÃªncias no presente â a autora deixa expostas as raÃ­zes do autoritarismo no Brasil, e ajuda a entender por que fomos e continuamos a ser uma naÃ§Ã£o muito mais excludente que inclusiva, com um longo caminho pela frente na elaboraÃ§Ã£o de uma agenda justa e igualitÃ¡ria.</I></B></U></P>"}}}]</script>
+
+<script src="/ScriptResource.axd?d=yW4CCmbYwGMB1ZVdRV7BomVpoPyHIFbVH87A3Pyro6y-ckdHQZgvim2gCSDf1XJidHslulPY1HoxUASMdnzs_ks7JlBFNt7KIK07qdsAuGOmpjDTOYIhwLpTkMnnyzXChGWg-hyjQV92YBk9p2JRasGb9eVCwjl2OjAJvVc9nS7A00Db0&amp;t=ffffffffad4b7194" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=mJd_F1vS7WJ1VzCkbpRqT9Z_FLjAUSpGLFMWYd9bEsHTWrwhnS02UWgqHyrgS-La90fRkDm0HPSOzO4CdCk3FB6nKV1Yn_qKcx1rQkKdkNkTuqtR10GMlMMmth3ZuIBdGFQ6rg2&amp;t=fffffffff65665cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=IDlRPOM879AdKwjj01inJ4uorli4L8cp6VPt1EBhWgQ5VahrDcIlbEGveYJuGNiWHNhEPvK9Y-a4D2su0NcMoJcRV9nfMqw1qD4JgDWNMEs1RbcO3Cpe-_lVoAuzdGwzKs3Lxg2&amp;t=fffffffff65665cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=oMisS8XtHl-liKFpYM-TT4HwNk-dRJm2IOu74tmCubfUOUIUkksa50o1eTu-y5GyISHsTT2YIvBBBBwTmeX2IOG9bMzHhSvkLVHJuhulli9ph5zX0GJgp7_KC0oOPLy0LThz_A2&amp;t=fffffffff65665cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=h8Ql_4oCSMs8jHf0ZkxPNgfXHBeq4IKxj04P-J0G54cXmE7petR9HC0FuC82FBgX1YGDlok-lhGobmClTmUFwJROtImgs4jkuKsV-ld9EapAWRgt0&amp;t=fffffffff65665cf" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8C3BDB09" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAC1Wwu5D3jre2jrP/9rVN4OLoHCgmT2t5wxwHcpGd7yg0AN7GvQiwImNDUYMBfRCUBqgH4IBWoNrMQY31fbLGeIPeEj+zpyVXQrYblcxFJwBDIEY++2zJmtxJghlLx7kLqrMHcmn+Z2UHkyQ/8QHpC402+7E5FfaZShxjsXJF6TezvOhN7mdauyc/c4Kxzo6dfhmG9EXSPqAftlqvXWOFzAMsn3A1+AUM0XPI52OmL85fJMkt9dSc+/H7Yr+fThXq4t+LuizCw2cU15uw2+37H2yf0+gcllMnBGP3X1JlrrRV6vC766AcC5F9NB65syys0aAwfeMUFQPrLiX7rlW76dNy4E60JpzVq6oHB+oSu9Nnia9OCusjddWwbI8JPtz8dXz/LbRbRTbosZsJz6BxEF0jJRem4ovZPwFnD06dU/J9QCYaR9wQA05XEugHgnU7nOB0A2ms9gru/jXuTLoH+MSNeUh4vJflSWYCG8NVD9r+KLy4UNEitdaja7ueC6HvaY0eWmHciKahjVMMyMlrBVAv0lP2XJ8fwUP6oMEwF3rLVjh8xdMYUvUGLmmiklYvt1mMd1rSkzAjqk6TmobM6iJp7fNHbjjBl1fh4v/jqjAClBKSXvqrytDVRptHjN+wmBbg/j7GVkV8YNRSVfxUfVwm8C6RCI9o5+sD6yfU8CdHj5h8ydvLZ5LwGuIJ9rEQdHrP0bmBgU/0X+Abym8g4TN6fb+cn7TTK9vz0SCwd3EZww/81R1PjfhL+HI/anDKp3/IZPQs5dHStB1AQ1XPR5K97jHSJ0CZHSebwyXI8mPPNE4sBSSCeGt/YgecaskL1VxAwrnz0W5VXM3oNrzE9fyUcFj8quA2Tpj3Y+JA4yW9SpqAMf699XcQUkQNlvtlKovUoBJU0VsvNwpINqvKVX0X9QSH9MLiM8Y8ZbJ9dK/DRzBGOa1RXs3XCB6U8fWkQxTiCHFo+om1K8w5g2oKxddunXCBQ==" />    
+
+<div style="visibility:hidden"> <input name="txturl" type="text" id="txturl" style="display:none;" value="produto.aspx?codartigo=98b4641e-fbef-400b-888c-ad2594e8c836" />    </div>
+    <input name="txtMsg" type="hidden" id="txtMsg" />
+    <input name="txtTitMsg" type="hidden" id="txtTitMsg" />
+   
+    <input name="txtFB" type="hidden" id="txtFB" />
+    <input name="txtIsbn" type="hidden" id="txtIsbn" />                                         
+    <input name="txtGoogle" type="hidden" id="txtGoogle" />
+    <input name="txtCodArtigo" type="hidden" id="txtCodArtigo" />
+    <input name="txtSegmento" type="hidden" id="txtSegmento" value="d6e03b17-b082-48a4-bd08-a5b822c2c349" />
+     <input name="txtCodAutorArtista" type="hidden" id="txtCodAutorArtista" value="d6e03b17-b082-48a4-bd08-a5b822c2c349" />
+
+    
+        <input name="ucCabecalho$tipoExplosao" type="hidden" id="ucCabecalho_tipoExplosao" value="1" />
+<link href="https://www.travessa.com.br/favicon.ico" rel="shortcut icon" />
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=1200">
+<link rel="stylesheet" media="screen and (min-device-width: 768px)" href="css/travessaSmall.css?t=" />
+<link rel="stylesheet" media="screen and (min-device-width: 320px)" href="css/travessaSmall.css?t=" />
+<link rel="stylesheet"  href="travessa.css?random=" />
+
+
+<link rel="stylesheet" href="colorbox.css" type="text/css" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+<script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
+<script src="js/jquery.qtip.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/mobile-detect.min.js"></script>
+<link href="css/jquery.qtip.css" rel="stylesheet" type="text/css" />
+
+ 
+
+
+<style type="text/css">
+
+.container{font-size:14px; margin:0 auto; width:960px}
+.test_content{margin:10px 0;}
+.scroller_anchor{height:0px; margin:0; padding:0;}
+.scroller{background:#FFF;  margin:0 0 10px;z-index:100; height:70px; font-size:18px; font-weight:bold; text-align:center; width:1200px; overflow:hidden;transition: opacity 1s ease-out;opacity: 0; height: 0; }
+
+@-moz-document url-prefix() {
+.sacolaTratamento{
+      margin-bottom:11px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:0.5px;
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.sacolaTratamento{
+      margin-bottom:12px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:3px;
+    }
+}
+
+
+@supports (-webkit-appearance:none) {
+.sacolaTratamento{
+      margin-bottom:11px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:3px;
+    }
+}
+
+@media \0screen\,screen\9 {
+.sacolaTratamento{
+      margin-bottom:11px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:3px;
+    }
+
+}
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+.sacolaTratamento{
+      margin-bottom:11px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:3px;
+    }
+}
+</style>
+
+
+
+<script type="text/javascript">
+    function lnkTravessa(value) { window.location = value }
+    function lnkLivro(value) {
+        
+        try {
+            window.location = form1.ucCabecalho_hddLivro.value;
+        }
+        catch (e) {
+            window.location = '/livros';
+            
+        }
+    }
+    function lnkDvd(value) 
+    {
+        
+        try {
+            window.location = form1.ucCabecalho_hddDvd.value;
+        }
+        catch (e) {
+            window.location = '/dvds';
+            
+            
+        }
+    }
+    function lnkeBook(value) { window.location = value }
+    function lnkEvento(value) { window.location = value }
+</script>
+
+
+<table cellpadding="0" cellspacing="0" class="w100" >
+    <tr>
+        <td style="vertical-align: top;">
+
+            <table cellpadding="0" cellspacing="0" style="width: 100%;height:114px;">
+                <tr>
+                    <td style="height: 30px; vertical-align: top; padding-top: 11px;">
+                        <table cellpadding="0" cellspacing="0" class="w100">
+                            <tr>
+                                <td style="width: 50%; padding-left: 11px;">
+                                    <font class="CabecalhoTxt">OlÃ¡,</font><font class="CabecalhoTxt">FaÃ§a o seu </font><a href="wpgCarrinhoDados.aspx?pagina=wpgSuaConta.aspx" onmouseover="this.style.textDecoration='underline';"  onmouseout="this.style.textDecoration='none';" rel="nofollow" class="CabecalhoTxt" ><b>login</b></a><script>localStorage.setItem("nomeLogin","");</script>
+                                </td>
+                                <td style="width: 50%; text-align: right; padding-right: 11px;"><a href="https://www.travessa.com.br/wpgPedidoAcompanhamento.aspx?TipoArtigo=1" id="ucCabecalho_lnkPedidoAcompanhamento" onmouseover="this.style.textDecoration=&#39;underline&#39;;" onmouseout="this.style.textDecoration=&#39;none&#39;;" rel="nofollow" class="CabecalhoTxt">acompanhe&nbsp;o&nbsp;pedido</a><span class="CabecalhoTxt">&nbsp;|&nbsp;</span><a href="https://www.travessa.com.br/wpgSuaConta.aspx?TipoArtigo=1" id="ucCabecalho_lnkCadastro" rel="nofollow" class="CabecalhoTxt" onmouseover="this.style.textDecoration=&#39;underline&#39;;" onmouseout="this.style.textDecoration=&#39;none&#39;;">minha&nbsp;conta</a><span class="CabecalhoTxt">&nbsp;|&nbsp;</span><a href="https://www.travessa.com.br/wpgNossasLojas.aspx" id="ucCabecalho_lnkNossasLojas" class="CabecalhoTxt" rel="follow" onmouseover="this.style.textDecoration=&#39;underline&#39;;" onmouseout="this.style.textDecoration=&#39;none&#39;;">nossas lojas</a><span class="CabecalhoTxt">&nbsp;|&nbsp;</span><a href="https://www.travessa.com.br/wpgQuemSomos.aspx" id="ucCabecalho_lnkQuemSomos" class="CabecalhoTxt" rel="follow" onmouseover="this.style.textDecoration=&#39;underline&#39;;" onmouseout="this.style.textDecoration=&#39;none&#39;;">quem somos</a><span class="CabecalhoTxt">&nbsp;|&nbsp;</span><a href="https://www.travessa.com.br/wpgAtendimento.aspx" id="ucCabecalho_lnkAtendimento" class="CabecalhoTxt" rel="nofollow" onmouseover="this.style.textDecoration=&#39;underline&#39;;" onmouseout="this.style.textDecoration=&#39;none&#39;;">atendimento</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 40px;">
+                        <table cellpadding="0" cellspacing="0" class="styleHeaderTopo StyleHeaderPadding">
+                            <tr>
+                                <td style="width:370px;">
+                                    <a href="travessa.aspx">
+                                        
+                                        <img alt="Livraria da Travessa" class="CabecalhoLogo" src="img/header/logo-travessa-flip16.gif" id="imgLogo" style="padding-left:11px;padding-right:10px;" title="Livraria da Travessa" />
+                                    </a></td>
+                                <td style="padding-top: 1px;">
+                                     
+                                   <div class="search-div" id="divBusca" >
+                                     <input type="text" placeholder=" buscar" id="txtBusca"  onkeypress="return clickButton(event);" autocomplete="off" /><a id="btnBuscar"  onclick="lnkBusca('','','');"  class="search-icon"><img title="Buscar" src="img/header/buscaHeader.gif" style="widows: none; border-color: inherit; border-width: 0; vertical-align: top; cursor: pointer; position:relative; top: 0px; left: 0px; width:29px;height:29px;" /></a>  
+                                   </div>
+                                </td>                          
+                                <td style="text-align:center;width:170px;">
+                                <a id="ucCabecalho_btnBuscaRefinada" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ucCabecalho$btnBuscaRefinada&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><img alt="Refinar a sua busca"  src="img/header/buscaRefinada.gif" id="img1" style="padding-left:10px;padding-right:10px;cursor:pointer;" title="Busca Refinada" class="btnBuscaRefinadaTratamento" /></a>
+                                    
+                                </td>
+                              <td>
+                                
+                              </td>
+                                <td style="width: 36px;">
+                                    <div id="ucCabecalho_updatePanelQtd">
+	
+
+                                    <div class="image">
+                                       <a href="https://www.travessa.com.br/wpgCarrinhoLista.aspx?TipoArtigo=1" id="ucCabecalho_lnkCarrinhoLista" title="Carrinho de compras"> <img class="CabecalhoSacola sacolaTratamento" src="img/header/sacolaHeader.gif"  />
+                                        
+                                            <span id="ucCabecalho_SubstitutionQtd"><div id="qtdSacola2" ><b>0</b></div></span>
+                                         
+                                       </a>
+                                    </div>
+
+                                    
+</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+            
+            <table cellpadding="0" cellspacing="0" class="styleHeaderTopo">
+                <tr>
+                    <td>
+
+                        <table cellpadding="0" cellspacing="0"  style="height: 33px; vertical-align: middle; width:100%;">
+                            <tr align="center">
+
+                                <td id="ucCabecalho_tdLivro" onclick="lnkLivro();" style=" width: 30%;" class="menuSelected" valign="middle">
+                                    <a id="ucCabecalho_lnkLivro" class="menuFontNovo" style="display:inline-block;">Livros</a>
+                                </td>
+
+                                <td id="ucCabecalho_tdDvd" onclick="lnkDvd();" style="width: 30%;border-left:2px solid #FFFFFF;" valign="middle" class="menu">
+                                    <a id="ucCabecalho_lnkDvd" class="menuFontNovo" class="menuFont" style="display:inline-block;">Dvds&nbsp;&amp;&nbsp;Blu-ray</a>
+                                </td>
+
+                            
+                                <td id="ucCabecalho_tdEvento" onclick="lnkEvento(form1.ucCabecalho_hddEvento.value);" style="width: 30%;border-left:2px solid #FFFFFF;border-right:2px solid #FFFFFF;" valign="middle" class="menu">
+                                    <a id="ucCabecalho_lnkEvento" class="menuFontNovo" class="menuFont" href="https://www.travessa.com.br/wpgEventos.aspx" style="display:inline-block;">Eventos</a>
+                                </td>
+
+
+                                <td class="menuNovo" valign="middle" style="width:150px;vertical-align:middle;">
+                                    <table cellpadding="0" cellspacing="0" style="width:150px;text-align:center;vertical-align:middle;">
+                                        <tr>
+                                            <td style="vertical-align:middle;padding-left:5px;" >
+                                                <a href="https://www.facebook.com/LivrariaDaTravessaOficial/?ref=ts" title="Curta a Travessa no Facebook" target="_blank">
+                                                    <img src="img/header/facebook2017.gif" alt="Curta a Travessa no Facebook" border="0" style="padding-top:2px;" /></a></td>
+                                            <td  style="vertical-align:middle;">
+                                                <a href="http://instagram.com/livrariadatravessa" title="Siga a Travessa no Instagram" target="_blank">
+                                                    <img src="img/header/instagram2017.gif" alt="Siga a Travessa no Instagram" border="0" style="padding-top:2px;" /></a></td>
+                                            <td style="vertical-align:middle;">
+                                                <a href="http://twitter.com/livtravessa" title="Siga a Travessa no Twitter" target="_blank">
+                                                    <img src="img/header/twitter2017.gif" alt="Siga a Travessa no Twitter" border="0" style="padding-top:2px;" /></a></td>
+                                            
+                                            <td style="vertical-align:middle;padding-right:5px;">
+                                                <a href="https://www.youtube.com/c/livrariadatravessa" title="Siga a Travessa no Youtube" target="_blank">
+                                                    <img src="img/header/youtube2017.gif" alt="Siga a Travessa no Youtube" border="0" style="padding-top:2px;" /></a>
+                                            </td>
+                     
+                                
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+            
+            
+            <table id="ucCabecalho_tblLivro" cellpadding="0" cellspacing="0" width="100%" style="border-style: solid; border-width: 2px 0px 2px 0px; border-color: #FFFFFF; background-color: #999999">
+	<tr align="center" valign="middle" style="height: 33px;">
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkArtes" class="menuSelectedFont" href="https://www.travessa.com.br/livros/artes">artes</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkCiencias" class="menuSelectedFont" href="https://www.travessa.com.br/livros/ciencias">ciÃªncias</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkHumanidades" class="menuSelectedFont" href="https://www.travessa.com.br/livros/humanidades">humanidades</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkSaude" class="menuSelectedFont" href="https://www.travessa.com.br/livros/saude-esporte-lazer">&nbsp;&nbsp;saÃºde,&nbsp;esporte&nbsp;e&nbsp;lazer&nbsp;&nbsp;</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkLiteratura" class="menuSelectedFont" href="https://www.travessa.com.br/livros/literatura-ficcao">literatura&nbsp;e&nbsp;ficÃ§Ã£o</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkTurismo" class="menuSelectedFont" href="https://www.travessa.com.br/livros/guias-turismo">guias e turismo</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkInfantoJuvenil" class="menuSelectedFont" href="https://www.travessa.com.br/livros/infanto-juvenil">infanto-juvenil</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkIdiomas" class="menuSelectedFont" href="https://www.travessa.com.br/livros/idiomas-referencia">&nbsp;&nbsp;idiomas&nbsp;e&nbsp;referÃªncia&nbsp;&nbsp;</a></td>
+	</tr>
+</table>
+
+            
+            
+            
+            
+            
+            
+            
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+ <div class="scroller_anchor"></div>
+<div id="ucCabecalho_UpdatePanel14">
+	
+  
+<input name="ucCabecalho$headervisual" type="hidden" id="ucCabecalho_headervisual" value="2" />
+    <!-- This div will be displayed as fixed bar at the top of the page, when user scrolls -->
+  <div class="scroller hide">
+    
+        <table cellpadding="0" cellspacing="0" class="styleHeaderTopo StyleHeaderPadding">
+                            <tr>
+                                <td style="width:50px;">
+                                    <a href="travessa.aspx">
+                                        
+                                        <img alt="Livraria da Travessa" class="CabecalhoLogoFix" src="img/header/LogoTavessa.png" id="imgLogo2" style="padding-left:11px;padding-right:10px;width:50px;height:50px;padding-top:5px;" title="Livraria da Travessa" />
+                                    </a></td>
+                                <td style="width:450px;">
+                                <table cellpadding="0" cellspacing="0"><tr><td style="padding-right:10px;padding-left:10px;"><span style="font-family:Verdana;font-size:20px;color:#999999;font-weight:normal;cursor:pointer;" >[<a onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#999999'" onclick="location.href='/livros'"> Livros </a>]</span></td><td style="padding-right:10px;"><span style="font-family:Verdana;font-size:20px;color:#999999;font-weight:normal;cursor:pointer;" >[<a onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#999999'"  onclick="location.href='/dvds'" > Dvds&nbsp;&amp;&nbsp;Blu-ray </a>]</span></td><td style="padding-right:10px;"><span style="font-family:Verdana;font-size:20px;color:#999999;font-weight:normal;cursor:pointer;text-decoration:none;" >[<a onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#999999'"  onclick="location.href='/Eventos'" > Eventos </a>]</span></td></tr></table>
+                                </td>
+                                <td style="padding-top: 1px;">                                     
+                                   <div class="search-div" id="divBusca2" >
+                                     <input type="text" placeholder=" buscar" id="txtBusca2"  onkeypress="return clickButton2(event);" autocomplete="off" class="CabecalhoBoxBusca txtBusca paddBusca" style="box-shadow: none; outline: currentcolor none medium; border-radius: 0px;" /><a id="btnBuscar2"  onclick="lnkBusca2('','','');"  class="search-icon"><img title="Buscar" src="img/header/buscaHeader.gif" style="widows: none; border-color: inherit; border-width: 0; vertical-align: top; cursor: pointer; position:relative; top: 0px; left: 0px; width:29px;height:29px;" /></a>  
+                                   </div>
+                                </td>                          
+                         
+                              <td style="padding-right:10px;">
+                                &nbsp;
+                              </td>
+                                <td style="width: 36px;padding-top:4px;">
+                                    <div class="image">
+                                       <a href="https://www.travessa.com.br/wpgCarrinhoLista.aspx?TipoArtigo=1" id="ucCabecalho_lnkCarrinhoLista2" title="Carrinho de compras" style="cursor:pointer;"> <img class="CabecalhoSacola sacolaTratamento" src="img/header/sacolaHeader.gif"  />
+                                       
+                                        <span id="ucCabecalho_SubstitutionQtd2"><div id="qtdSacola" ><b>0</b></div></span>
+                                       </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+  </div>
+
+
+</div>
+
+
+
+
+<input name="ucCabecalho$hddLivro" type="hidden" id="ucCabecalho_hddLivro" value="https://www.travessa.com.br/livros" />
+<input name="ucCabecalho$hddDvd" type="hidden" id="ucCabecalho_hddDvd" value="https://www.travessa.com.br/dvds" />
+<input name="ucCabecalho$hddTravessa" type="hidden" id="ucCabecalho_hddTravessa" value="https://www.travessa.com.br/" />
+<input name="ucCabecalho$hddeBook" type="hidden" id="ucCabecalho_hddeBook" value="https://www.travessa.com.br/ebook" />
+<input name="ucCabecalho$hddEvento" type="hidden" id="ucCabecalho_hddEvento" value="https://www.travessa.com.br/wpgEventos.aspx" />
+
+<script type="text/javascript">
+
+    function clickButton(e) {
+        var evt = e ? e : window.event;
+
+            if (evt.keyCode == 13) {    
+                
+                lnkBusca('', '', '');
+            }
+  
+    }
+
+    function lnkBusca(txt, cta, br, b) {
+        
+        var cta = '00';
+        var brapida = document.getElementById('ucCabecalho_tipoExplosao').value;
+        brapida = brapida.replace(',', '');
+        if (brapida == '0') {
+            brapida = '1';
+        }
+        
+        var txt = document.getElementById('txtBusca').value;
+              
+        txt = txt.replace(/^\s+/, '').replace(/\s+$/, '');
+        
+        if (txt == '') {
+           
+            txt = '';
+        } else {
+                       
+        }
+
+        if (cta == '1') {
+            cta = '00';
+        }
+
+        if (txt == "") {
+            document.getElementById('txtBusca').value = '';
+            return false;
+        } else {
+
+            var str = txt.replace("&", "^");
+           
+           
+            //window.location = 'https://www.travessa.com.br/' + 'Busca.aspx?d=1&bt=' + str + '&br=' + cta + br + '&cta=' + cta + '&codtipoartigoexplosao=' + brapida;
+            window.location = 'https://www.travessa.com.br/' + 'Busca.aspx?d=1&bt=' + str + '&cta=' + cta + '&codtipoartigoexplosao=' + brapida;
+        }
+
+
+    
+    }
+
+    function clickButton2(e) {
+        var evt = e ? e : window.event;
+        
+        if (evt.keyCode == 13) {
+
+            lnkBusca2('', '', '');
+        }
+
+    }
+     function lnkBusca2(txt, cta, br, b) {
+       
+        var cta = '00';
+        var brapida = document.getElementById('ucCabecalho_tipoExplosao').value;
+        brapida = brapida.replace(',', '');
+        if (brapida == '0') {
+            brapida = '1';
+        }
+        
+        var txt = document.getElementById('txtBusca2').value;
+         
+        txt = txt.replace(/^\s+/, '').replace(/\s+$/, '');
+        
+        if (txt == '') {
+           
+            txt = '';
+        } else {
+                       
+        }
+
+        if (cta == '1') {
+            cta = '00';
+        }
+
+        if (txt == "") {
+            document.getElementById('txtBusca2').value = '';
+            return false;
+        } else {
+
+            var str = txt.replace("&", "^");
+            
+            
+            //window.location = 'https://www.travessa.com.br/' + 'Busca.aspx?d=1&bt=' + str + '&br=' + cta + br + '&cta=' + cta + '&codtipoartigoexplosao=' + brapida;
+          window.location = 'https://www.travessa.com.br/' + 'Busca.aspx?d=1&bt=' + str + '&cta=' + cta + '&codtipoartigoexplosao=' + brapida;
+        }
+
+
+    
+    }
+    
+    $(document).ready(function () {
+        
+        $('#txtBusca').focus(function () {                     
+            $('#txtBusca').css("box-shadow", "none");
+            $('#txtBusca').css("outline", "none");
+            $('#txtBusca').css("border-radius","0");
+        });
+
+        $('#txtBusca2').focus(function () {
+            $('#txtBusca2').css("box-shadow", "none");
+            $('#txtBusca2').css("outline", "none");
+            $('#txtBusca2').css("border-radius", "0");
+        });
+
+        $('#btnBuscar').click(function (e) {
+            if ($("#txtBusca").val() == '') {
+                $('#divBusca').effect("bounce", "slow");               
+                $('#txtBusca').attr("placeholder", " Antes, digite o que vocÃª busca...");
+            } 
+                       
+        });
+          
+        $('#btnBuscar2').click(function (e) {
+            if ($("#txtBusca2").val() == '') {
+                $('#divBusca2').effect("bounce", "slow");
+                $('#txtBusca2').attr("placeholder", " Antes, digite o que vocÃª busca...");
+            }
+
+        });
+        if (navigator.userAgent.indexOf('Firefox') != -1) {
+            $('#qtdSacola').addClass('txtSacolaSafari');            
+        } else {            
+            $('#qtdSacola').addClass('txtSacola');
+        }
+        
+        if (navigator.userAgent.indexOf('Safari') != -1) {            
+            $('#txtBusca').addClass("CabecalhoBoxBuscaSafari txtBusca paddBusca");
+        } else {            
+            $('#txtBusca').addClass("CabecalhoBoxBusca txtBusca paddBusca");
+        }
+
+        if (navigator.userAgent.indexOf('Firefox') != -1) {
+            $('#qtdSacola2').addClass('txtSacolaSafari');
+        } else {
+            $('#qtdSacola2').addClass('txtSacola');
+        }
+
+        if (navigator.userAgent.indexOf('Safari') != -1) {
+            $('#txtBusca2').addClass("CabecalhoBoxBuscaSafari txtBusca paddBusca");
+        } else {
+            $('#txtBusca2').addClass("CabecalhoBoxBusca txtBusca paddBusca");
+        }
+
+    });
+
+
+    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequest);
+    function endRequest(sender, e) {
+        //re-enable button once the AJAX call has completed
+
+
+        var headerV = document.getElementById('ucCabecalho_headervisual');
+
+        if (headerV.value === '1') { 
+
+            var headerS = document.getElementsByClassName('scroller');          
+       
+
+        //'transition': 'max - height 1s ease-in -out'
+            $('.scroller').css({
+                'background': '#FFF',
+                'border': '1px solid #999999',
+                'position': 'fixed',
+                'top': '0px',
+                'opacity': '1',
+                'height': 'auto'
+
+            });
+            $('.scroller_anchor').css('height', '50px');
+    }
+        var qtd = localStorage.getItem("qtd");
+        if (qtd == null) {
+            qtd = '0';
+        }
+        
+        var total = localStorage.getItem("total");
+        console.log(total);
+        if (total == null) {
+            total = '0';
+        } else {
+            //total = total.replace(".",",")
+        }
+        //console.log(total);
+        
+        var cart;
+        if (Number(qtd) > 1) {
+            cart = + qtd + ' itens: R$ ' + total;
+        } else {
+            cart = + qtd + ' item: R$ ' + total;
+        }
+
+        
+    $("#ucCabecalho_lnkCarrinhoLista").mouseover(function () {
+
+      $("#ucCabecalho_lnkCarrinhoLista").qtip('option', 'content.text', '<span Class="CabecalhoTxtItens" id="totalItens" >' + cart + '</span>')
+
+    });
+
+    $("#ucCabecalho_lnkCarrinhoLista2").mouseover(function () {
+
+        $("#ucCabecalho_lnkCarrinhoLista2").qtip('option', 'content.text', '<span Class="CabecalhoTxtItens" id="totalItens" >' + cart + '</span>')
+
+    });
+
+
+        $('#txtBusca').focus(function () {
+            $('#txtBusca').css("box-shadow", "none");
+            $('#txtBusca').css("outline", "none");
+            $('#txtBusca').css("border-radius", "0");
+        });
+
+        $('#txtBusca2').focus(function () {
+            $('#txtBusca2').css("box-shadow", "none");
+            $('#txtBusca2').css("outline", "none");
+            $('#txtBusca2').css("border-radius", "0");
+        });
+
+        $('#btnBuscar').click(function (e) {
+            if ($("#txtBusca").val() == '') {
+                $('#divBusca').effect("bounce", "slow");
+                $('#txtBusca').attr("placeholder", " Antes, digite o que vocÃª busca...");
+            }
+
+        });
+
+        $('#btnBuscar2').click(function (e) {
+            if ($("#txtBusca2").val() == '') {
+                $('#divBusca2').effect("bounce", "slow");
+                $('#txtBusca2').attr("placeholder", " Antes, digite o que vocÃª busca...");
+            }
+
+        });
+        if (navigator.userAgent.indexOf('Firefox') != -1) {
+            $('#qtdSacola').addClass('txtSacolaSafari');
+        } else {
+            $('#qtdSacola').addClass('txtSacola');
+        }
+
+        if (navigator.userAgent.indexOf('Safari') != -1) {
+            $('#txtBusca').addClass("CabecalhoBoxBuscaSafari txtBusca paddBusca");
+        } else {
+            $('#txtBusca').addClass("CabecalhoBoxBusca txtBusca paddBusca");
+        }
+
+        if (navigator.userAgent.indexOf('Firefox') != -1) {
+            $('#qtdSacola2').addClass('txtSacolaSafari');
+        } else {
+            $('#qtdSacola2').addClass('txtSacola');
+        }
+
+        if (navigator.userAgent.indexOf('Safari') != -1) {
+            $('#txtBusca2').addClass("CabecalhoBoxBuscaSafari txtBusca paddBusca");
+        } else {
+            $('#txtBusca2').addClass("CabecalhoBoxBusca txtBusca paddBusca");
+        }
+
+
+
+    }
+
+
+    // This function will be executed when the user scrolls the page.
+    $(window).scroll(function (e) {
+        // Get the position of the location where the scroller starts.
+        var scroller_anchor = $(".scroller_anchor").offset().top;
+        
+        // Check if the user has scrolled and the current position is after the scroller start location and if its not already fixed at the top 
+        if ($(this).scrollTop() >= scroller_anchor && $('.scroller').css('position') != 'fixed') {    // Change the CSS of the scroller to hilight it and fix it at the top of the screen.
+ 
+            var headerV = document.getElementById('ucCabecalho_headervisual');
+            //console.log(headerV);
+            headerV.value = 1;
+            //console.log(headerV.value);
+            $('.scroller').css({
+                'background': '#FFF',
+                'border': '1px solid #999999',
+                'position': 'fixed',
+                'top': '0px',
+                'opacity': '1',
+                'height': 'auto'
+                
+            });
+            
+   
+            // Changing the height of the scroller anchor to that of scroller so that there is no change in the overall height of the page.
+            $('.scroller_anchor').css('height', '50px');
+            
+        }
+        else if ($(this).scrollTop() < scroller_anchor && $('.scroller').css('position') != 'relative') {    // If the user has scrolled back to the location above the scroller anchor place it back into the content.
+
+            // Change the height of the scroller anchor to 0 and now we will be adding the scroller back to the content.
+            $('.scroller_anchor').css('height', '0px');
+
+            var headerV = document.getElementById('ucCabecalho_headervisual');
+           // console.log(headerV);    
+            headerV.value = 2;
+           
+            //'transition': 'max - height 1s ease-in -out'
+           $('.scroller').css({
+                'background': '#FFF',
+                'border': '1px solid #999999',
+                'position': 'relative',
+               'transition': 'max - height 1s ease-in -out',
+               'opacity': '0',
+               'height': '0',
+               'overflow': 'hidden'
+            });
+            
+
+        }
+    });
+
+
+    window.onload = function () {
+        
+    };
+    
+
+
+</script>
+
+<script type="text/javascript">
+  function getCookie(c_name) {
+    if (document.cookie.length > 0) {
+      c_start = document.cookie.indexOf(c_name + "=");
+      if (c_start != -1) {
+        c_start = c_start + c_name.length + 1;
+        c_end = document.cookie.indexOf(";", c_start);
+        if (c_end == -1) c_end = document.cookie.length;
+        return unescape(document.cookie.substring(c_start, c_end));
+      }
+    }
+    return "";
+  }
+  var flagCheck = getCookie('flagChk');
+ // alert(flagCheck);
+  function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+  var iTemAdd = getParameterByName('carr');
+
+  $(document).ready(function () {
+
+    var qtd = localStorage.getItem("qtd");
+    if (qtd == null) {
+      qtd = '0';
+    }
+
+    var total = localStorage.getItem("total");
+     // console.log(total);
+    if (total == null) {
+      total = '0';
+    }
+
+
+    var cart;
+    if (Number(qtd) > 1) {
+      cart = + qtd + ' itens: R$ ' + total;
+    } else {
+      cart = + qtd + ' item: R$ ' + total;
+    }
+
+    if (iTemAdd == 's') {
+
+      if (flagCheck != 'S') {
+        $('#ucCabecalho_lnkCarrinhoLista').qtip({
+          content: {
+            title: '<span Class="CabecalhoTxtItens">Minha sacola</span>',
+            text: '<span Class="CabecalhoTxtItens" id="totalItens" >Item adicionado com sucesso! </span>'
+          },
+          style: {
+            tip: true,
+            classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+          },
+
+          position: {
+            my: 'top right',
+            at: 'bottom center'
+
+          },
+          show:
+        {
+          effect: { length: 500 },
+          ready: true // Show when ready (page load)
+        },
+          hide: {
+            effect: { length: 500 }
+          },
+          api: {
+            onRender: function () {
+              setTimout(this.hide, 1000); // Hide it after 1 seconds
+            }
+          }
+        });
+        $('#ucCabecalho_lnkCarrinhoLista2').qtip({
+            content: {
+                title: '<span Class="CabecalhoTxtItens">Minha sacola</span>',
+                text: '<span Class="CabecalhoTxtItens" id="totalItens" >Item adicionado com sucesso! </span>'
+            },
+            style: {
+                tip: true,
+                classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+            },
+
+            position: {
+                my: 'top right',
+                at: 'bottom center'
+
+            },
+            show:
+          {
+              effect: { length: 500 },
+              ready: true // Show when ready (page load)
+          },
+            hide: {
+                effect: { length: 500 }
+            },
+            api: {
+                onRender: function () {
+                    setTimout(this.hide, 1000); // Hide it after 1 seconds
+                }
+            }
+        });
+        document.cookie = 'flagChk' + "=" + 'S' + ";" + expires + ";path=/";
+      }
+    } else {
+      $('#ucCabecalho_lnkCarrinhoLista').qtip({
+
+        content: {
+          title: '<span Class="CabecalhoTxtItens">Minha sacola</span>',
+          text: '<span Class="CabecalhoTxtItens" id="totalItens" >' + cart + '</span>'
+        },
+        style: {
+          tip: true,
+          classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+        },
+
+        position: {
+          my: 'top right',
+          at: 'bottom center'
+
+        }
+
+      });
+        
+      $('#ucCabecalho_lnkCarrinhoLista2').qtip({
+
+          content: {
+              title: '<span Class="CabecalhoTxtItens">Minha sacola</span>',
+              text: '<span Class="CabecalhoTxtItens" id="totalItens" >' + cart + '</span>'
+          },
+          style: {
+              tip: true,
+              classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+          },
+
+          position: {
+              my: 'top right',
+              at: 'bottom center'
+
+          }
+
+      });
+    }
+
+
+
+  });
+
+
+</script>
+
+<!-- Facebook Pixel Code -->
+<script type="text/javascript">
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1578973348841788');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1578973348841788&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<script>(function (w, d, t, r, u) { var f, n, i; w[u] = w[u] || [], f = function () { var o = { ti: "5218424" }; o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad") }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () { var s = this.readyState; s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null) }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i) })(window, document, "script", "//bat.bing.com/bat.js", "uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5218424&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+
+
+<!-- START Rakuten Marketing Tracking -->
+  <script type="text/javascript">
+      var url = window.location.href;
+      var conteudo;
+      conteudo = url.search(/[?|&]pcd=125(&|;|$)/i) != -1 ? "true" : "false";
+      var cookieeRKT = getCookie('pcd');
+      
+      var flagRKT = cookieeRKT.search(/125/i) != -1 ? "true" : "false";
+            
+      if (conteudo === 'true' || flagRKT === 'true') {
+            
+          (function (url) {
+
+              /*Tracking Bootstrap Set Up DataLayer objects/properties here*/
+              if (!window.DataLayer) {
+                  window.DataLayer = {};
+              }
+              if (!DataLayer.events) {
+                  DataLayer.events = {};
+              }
+              DataLayer.events.SPIVersion = DataLayer.events.SPIVersion || "3.4";
+              DataLayer.events.SiteSection = "1";
+
+              var loc, ct = document.createElement("script");
+              ct.type = "text/javascript";
+              ct.async = true; ct.src = url; loc = document.getElementsByTagName('script')[0];
+              loc.parentNode.insertBefore(ct, loc);
+          }(document.location.protocol + "//tag.rmp.rakuten.com/120330.ct.js"));
+      } 
+  </script>
+<!-- END Rakuten Marketing Tracking -->
+
+
+         
+         
+        
+
+        <div id="divItemScope" class="artigoLink">
+        
+            
+<style type="text/css">
+       .txtBreadcrumbs
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #333333;font-weight: normal;text-decoration: none;line-height:10px;
+        }
+</style>
+<div style="margin:7px 0px 55px 13px;" >
+        <a id="WctArtigoTitulo21_lblTitulo" class="txtBreadcrumbs"><a  class="txtBreadcrumbs" href="wpgLivro.aspx" >Livros&nbsp;</a></a>
+        <span id="WctArtigoTitulo21_tdSeparador1" class="txtBreadcrumbs">&nbsp;>&nbsp;</span>
+    <a id="WctArtigoTitulo21_lblMacro" class="txtBreadcrumbs"><a  class="txtBreadcrumbs" href="wpgLivroMacro.aspx?CodMacroSegmento=2d3445f1-879e-4220-a145-0f7366fc698c">Humanidades</a></a>
+   <span id="WctArtigoTitulo21_tdSeparador2" class="txtBreadcrumbs">&nbsp;>&nbsp</span>
+    <a id="WctArtigoTitulo21_lblSegmento" class="txtBreadcrumbs"><a  class="txtBreadcrumbs" href="wpgArtFiltroSeg.aspx?TipoArtigo=1&CodMacroSegmento=2d3445f1-879e-4220-a145-0f7366fc698c&CodSegmento=d6e03b17-b082-48a4-bd08-a5b822c2c349">HistÃ³ria</a></a>
+</div>
+
+
+
+
+
+
+
+         
+          
+            <div id="divT">
+                   
+                                          
+                    <div id="divImg" >                             
+                       <div id="divParent" class="parent"><div id="divChild" style="width:243px;height:344px;border:2px solid #CCCCCC;text-align:center;" class="child"><img id="imgArtigo" title="Clique Aqui para ampliar a capa" alt="LIVRO SOBRE O AUTORITARISMO BRASILEIRO" src="https://img.travessa.com.br/livro/BA/98/98b4641e-fbef-400b-888c-ad2594e8c836.jpg" onclick="popUpimgrande(&#39;https://img.travessa.com.br/livro/GR/98/98b4641e-fbef-400b-888c-ad2594e8c836.jpg&#39;)" src="" border="0" style="cursor:pointer;" /></div></div>
+                        <div id="updtePanelSocial">
+	
+                        <div id="divSocial" style="height:34px;text-align:center;margin-bottom:30px;padding-bottom:30px;position:relative;">
+                            <a id="lnkFB" class="lnkMidias" target="_blank" onclick="window.open(&#39;http://www.facebook.com/sharer.php?u=https://www.travessa.com.br/sobre-o-autoritarismo-brasileiro/artigo/98b4641e-fbef-400b-888c-ad2594e8c836&#39;,&#39;FB&#39;, &#39;toolbar=0, resizable=1, status=0, width=900, height=550, left=&#39;+((screen.width - 530) / 2)+&#39;, top=&#39; + ((screen.heigth - 80) / 2));" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lnkFB&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"> <img src="../../img/sharefacebook.gif" id="imgFace" class="imgShareSocial" alt="Compartilhe no Facebook sobre o autoritarismo brasileiro" title="Compartilhe no Facebook o livro sobre o autoritarismo brasileiro" /></a>
+                            <a id="lnkTwitter" target="_blank" onclick="window.open(&#39;http://twitter.com/share?_=9788576164203&amp;count=horizontal&amp;original_referer=http%3A%2F%2Fwww.travessa.com.br%2Fwpgartigo.aspx%3FCodArtigo%3D98b4641e-fbef-400b-888c-ad2594e8c836&amp;text=Encontrei%20na%20Travessa%2C%20 o dvd &quot;sobre o autoritarismo brasileiro&quot; em %20!&amp;url=http%3A%2F%2Fwww.travessa.com.br%2Fwpgartigo.aspx%3FCodArtigo%3D98b4641e-fbef-400b-888c-ad2594e8c836&amp;via=LivTravessa&#39;);" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lnkTwitter&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><img src="../../img/shareTwitter.gif" id="imgTwitter" class="imgShareSocial" alt="Compartilhe no Twittersobre o autoritarismo brasileiro" title="Compartilhe no Twitter o livro sobre o autoritarismo brasileiro" /></a>
+                            <a id="lnkPlus" target="_blank" onclick="window.open(&#39;https://plus.google.com/share?url=https://www.travessa.com.br/sobre-o-autoritarismo-brasileiro/artigo/98b4641e-fbef-400b-888c-ad2594e8c836&#39;,&#39;GP&#39;,&#39;toolbar=0, resizable=1, status=0, width=900, height=550, left=&#39;+((screen.width - 530) / 2)+&#39;, top=&#39; + ((screen.heigth - 80) / 2));" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lnkPlus&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><img src="../../img/shareGoogle.gif" id="imgPlus" class="imgShareSocial" alt="Compartilhe no Google Plussobre o autoritarismo brasileiro" title="Compartilhe no Google Plus o livro sobre o autoritarismo brasileiro" /></a>
+                            <a id="btAmigo" onclick="popUpamigo(&#39;https://www.travessa.com.br/wpgIndiqueAmigo.aspx?CodArtigo=98b4641e-fbef-400b-888c-ad2594e8c836&#39;)"><img src="../../img/shareEmail.gif" id="imgMail" alt="Compartilhe com seus amigos" title="Compartilhe com seus amigos" class="imgShareSocial" /></a>
+                            <a id="lnkObjDesejo" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lnkObjDesejo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><img src="../../img/shareCoracaoGray.gif" id="imgObjetoDesejo" alt="Adicione a sua lista de desejos" title="Adicione a sua lista de desejos" style="padding:10px 0px 10px 0px;cursor:pointer;" /></a>
+                        </div>
+                        
+</div>   
+                        <div id="divFlags" style="position:absolute; top:13px; left:-13px;">
+                            <img id="flagArtigo" src="../../img/flagdisponivel.png" border="0" />
+                        </div>
+                        <div id="divDesconto20" style="cursor: pointer;position:absolute; top:-10px; left:170px;height:100px;">
+                            <img id="imgDesconto20" src="../../img/botao_20_porcento.png" border="0" />
+                        </div> 
+                        
+                    </div>
+      
+                    <div id="divPrincipal"  >
+                        <h1 class="txtTitulo txtSpanAdjust" ><span id="lblNomArtigo" class="txtTitulo" title="SOBRE O AUTORITARISMO BRASILEIRO">SOBRE O AUTORITARISMO BRASILEIRO</span></h1>
+                        <h2><span id="lblNomAutor"><b class="txtLabel">autor: </b><a href="https://www.travessa.com.br/Lilia_Moritz_Schwarcz/autor/c87b36a1-5ee6-49f3-b69e-ccd071d44bff" class="txtConteudo">Lilia Moritz Schwarcz </a></span></h2>
+                        <h2><span id="lblNomProdutor" class="txtLabel">editora: <a href="https://www.travessa.com.br/Companhia_das_Letras/editora/899b2f6c-bc84-4e7d-8d81-b1ca33a2e91f" font  class="txtConteudo" >Companhia das Letras</a></span></h2>
+                        <h2><span id="lblNomColecao" class="txtConteudo" style="display:none;"></span></h2>
+                        <h2><span id="lblFormatoEbook" class="txtLabel" style="display:none;">formato: </span></h2>
+                        
+                          <div id="RatingMedia" disabled="disabled" align="right">
+	<input type="hidden" name="RatingMedia_RatingExtender_ClientState" id="RatingMedia_RatingExtender_ClientState" />
+                          <a href="javascript:void(0)" id="RatingMedia_A" title="0" style="text-decoration:none"><span id="RatingMedia_Star_1" class="Star Star">&nbsp;</span><span id="RatingMedia_Star_2" class="Star Star">&nbsp;</span><span id="RatingMedia_Star_3" class="Star Star">&nbsp;</span><span id="RatingMedia_Star_4" class="Star Star">&nbsp;</span><span id="RatingMedia_Star_5" class="Star Star">&nbsp;</span></a>
+</div>&nbsp;<span id="lblAvaliacaoMedia" class="txtConteudo"><a style="cursor: pointer;" id="lnkAvaliacoes">(0 avaliaÃ§Ãµes) </a></span>
+                        <p class="MarginTop txtSpanAdjust"  ><span class="txtLabelDescricao"  >sinopse:</span>
+                        <span id="lblSinopseResumida" class="txtDescricao">Valendo-se de uma ampla reuniÃ£o de dados estatÃ­sticos, Lilia M. Schwarcz examina algumas das raÃ­zes do autoritarismo brasileiro, bastante antigas e arraigadas, embora frequentemente mascaradas pela mitologia nacional.  Os brasileiros gostam de se crer diversos do que sÃ£o. Tolerantes, abertos, pacÃ­ficos e acolhedores sÃ£o alguns dos adjetivos que habitam frequentemente a mitologia nacional. Neste livro urgente...  <a onmouseover="this.style.textDecoration='underline';this.style.fontWeight='bold';"  onmouseout="this.style.textDecoration='underline';this.style.fontWeight='normal';"  style="cursor: pointer; font-family: Verdana;font-size: 12px;font-weight: normal;text-decoration: underline;color: #990000;" id="lnkLerMais"> Para ler mais </a></span>
+                        <a  style="cursor: pointer"></a></p>
+                       
+                        <div id="divDisponibilidade" class="MarginTop">
+                        <span id="txtDisponibilidade" class="txtDescricao" style="font-weight:bold;">produto disponÃ­vel</span><br />
+                        </div>
+                        <div id="divEntrega">
+                             
+                             <div id="UpdatePanel1">
+	
+                                    
+                                   
+                                   
+                                   
+                                   <div id="pnlEntrega">
+		 <span id="lblTitPrevisao0" class="txtDescricao" style="font-weight:bold;">previsÃ£o de entrega:</span> <input name="txtCepDestino" type="text" maxlength="9" id="txtCepDestino" class="boxCep" placeholder=" digite o CEP" />
+                                     <input type="image" name="btnPrevEntrega" id="btnPrevEntrega" src="../../img/btnOKNovo.gif" align="absbottom" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnPrevEntrega&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" border="0" style="margin-left: 2px" />
+	</div>
+                                     <span id="lblTitPrevisao" class="txtDescricao"></span>
+                                     <br />
+                                      <span id="txtPrevisaoEntrega" class="txtDescricao"> </span>
+                                 
+</div>
+                                
+  
+                             </div>
+ 
+                        <br />
+                        <div id="divPrecos">
+                          
+                          <span id="litPrecoOri" class="txtPrecoDe"><b style="font-size: 12px;">de:</b> R$ 49,90</span><br />                    
+                          
+                          <span style="font-family:Verdana;font-size:12px;color:#666666"><b>por:</b> </span> <br />                                               
+                          <span id="litPreco" class="txtPrecoPor">R$ 40,42</span>  
+                                                 
+                           <br /><span class="txtLabelPrecoPor"><b>em at&eacute; 3x sem juros</b></span>
+                            <a href="https://www.travessa.com.br/WpgCarrinho.aspx?CodArtigo=98b4641e-fbef-400b-888c-ad2594e8c836&TipoArtigo=0" id="lnkComprar" style="float:left;border:none;padding-top:10px;" rel="nofollow"><img id="imgComprar" src="../../img/btnComprarNovo.gif" border="0" /></a>
+                            
+                            </div>                
+
+                    </div>
+                <br />
+             
+                <div  style="height:30px;position:relative;display: inline-block;"><table style="height:5px;"><tr><td></td></tr></table></div>
+                   
+                   <div id="divMaisVendidos" class="boxMarginBottom painelMaisVendidos" style="top: 0px; left: 0px;">
+                    <p  class="txtLabelTituloBloco MarginBottom" ><span id="lblTituloMaisVendidos">MAIS VENDIDOS EM HISTÃRIA</span>
+                     <div id="UpdatePanel2">
+	         
+                            <table cellpadding="0" cellspacing="0" class="painelMaisVendidos">
+                                <tr>
+                                    <td style="width:35px;vertical-align:top;padding-top:85px;">
+                                        
+                                    </td>
+                                    <td >
+                                        <table id="dlMaisVendidos" cellspacing="0" border="0">
+		<tr>
+			<td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/escravidao-volume-1-do-primeiro-leilao-de-cativos-em-portugal-ate-a-morte-de-zumbi-dos-palmares/artigo/dab13d28-0af4-41a6-80e7-b015f015fd7c" id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="ESCRAVIDAO VOLUME 1: DO PRIMEIRO LEILAO DE CATIVOS EM PORTUGAL ATE A MORTE DE Z...">
+  <span id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_imgArtigo" alt="ESCRAVIDAO VOLUME 1: DO PRIMEIRO LEILAO DE CATIVOS EM PORTUGAL ATE A MORTE DE Z..." src="https://img.travessa.com.br/livro/BA/da/dab13d28-0af4-41a6-80e7-b015f015fd7c.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_hlkNomArtigo" title="ESCRAVIDAO VOLUME 1: DO PRIMEIRO LEILAO DE CATIVOS EM PORTUGAL ATE A MORTE DE Z..." class="txtNomeArtigoMaisVendidos ">ESCRAVIDAO VO ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_lblNomAutor" title="Laurentino Gomes" class="txtLabelDescricao">Laurentino Gom ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 49,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 40,42
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisVendidos$ctl00$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisVendidos$ctl00$wctArtigoMaisVendidos1$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/d-pedro-ii-a-historia-nao-contada-o-ultimo-imperador-do-novo-mundo-revelado-por-cartas-e-documentos-ineditos/artigo/eda5f19c-14d2-4ec9-8273-1bb82744fff4" id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="D. PEDRO II: A HISTORIA NAO CONTADA - O ULTIMO IMPERADOR DO NOVO MUNDO REVELADO...">
+  <span id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_imgArtigo" alt="D. PEDRO II: A HISTORIA NAO CONTADA - O ULTIMO IMPERADOR DO NOVO MUNDO REVELADO..." src="https://img.travessa.com.br/livro/BA/ed/eda5f19c-14d2-4ec9-8273-1bb82744fff4.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_hlkNomArtigo" title="D. PEDRO II: A HISTORIA NAO CONTADA - O ULTIMO IMPERADOR DO NOVO MUNDO REVELADO..." class="txtNomeArtigoMaisVendidos ">D. PEDRO II:  ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_lblNomAutor" title="Paulo Rezzutti" class="txtLabelDescricao">Paulo Rezzutti</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 69,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 56,62
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisVendidos$ctl01$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisVendidos$ctl01$wctArtigoMaisVendidos1$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/sapiens-uma-breve-historia-da-humanidade/artigo/5d7eb628-caa2-45bd-b476-b153a4999f55" id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="SAPIENS: UMA BREVE HISTORIA DA HUMANIDADE">
+  <span id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_imgArtigo" alt="SAPIENS: UMA BREVE HISTORIA DA HUMANIDADE" src="https://img.travessa.com.br/livro/BA/5d/5d7eb628-caa2-45bd-b476-b153a4999f55.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_hlkNomArtigo" title="SAPIENS: UMA BREVE HISTORIA DA HUMANIDADE" class="txtNomeArtigoMaisVendidos ">SAPIENS: UMA  ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_lblNomAutor" title="Yuval Noah Harari" class="txtLabelDescricao">Yuval Noah Har ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 69,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 60,11
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisVendidos$ctl02$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisVendidos$ctl02$wctArtigoMaisVendidos1$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/historia-da-amazonia-do-periodo-pre-colombiano-aos-desafios-do-seculo-xxi/artigo/0de69f4a-96f7-4db2-9a46-2bfc7081e2b4" id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="HISTORIA DA AMAZONIA: DO PERIODO PRE-COLOMBIANO AOS DESAFIOS DO SECULO XXI">
+  <span id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_imgArtigo" alt="HISTORIA DA AMAZONIA: DO PERIODO PRE-COLOMBIANO AOS DESAFIOS DO SECULO XXI" src="https://img.travessa.com.br/livro/BA/0d/0de69f4a-96f7-4db2-9a46-2bfc7081e2b4.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_hlkNomArtigo" title="HISTORIA DA AMAZONIA: DO PERIODO PRE-COLOMBIANO AOS DESAFIOS DO SECULO XXI" class="txtNomeArtigoMaisVendidos ">HISTORIA DA A ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_lblNomAutor" title="Marcio Souza" class="txtLabelDescricao">Marcio Souza</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 54,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 44,47
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisVendidos$ctl03$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisVendidos$ctl03$wctArtigoMaisVendidos1$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/21-licoes-para-o-seculo-21/artigo/d39cc5eb-e76c-4c0b-969e-1fefe9cc7f5e" id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="21 LIÃOES PARA O SECULO 21">
+  <span id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_imgArtigo" alt="21 LIÃOES PARA O SECULO 21" src="https://img.travessa.com.br/livro/BA/d3/d39cc5eb-e76c-4c0b-969e-1fefe9cc7f5e.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_hlkNomArtigo" title="21 LIÃOES PARA O SECULO 21" class="txtNomeArtigoMaisVendidos ">21 LIÃOES PAR ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_lblNomAutor" title="Yuval Noah Harari" class="txtLabelDescricao">Yuval Noah Har ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 59,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 48,52
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisVendidos$ctl04$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisVendidos$ctl04$wctArtigoMaisVendidos1$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/sapiens-uma-breve-historia-da-humanidade/artigo/0a76af3c-46ef-4419-81c8-eb71ff60e13a" id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="SAPIENS: UMA BREVE HISTORIA DA HUMANIDADE">
+  <span id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_imgArtigo" alt="SAPIENS: UMA BREVE HISTORIA DA HUMANIDADE" src="https://img.travessa.com.br/livro/BA/0a/0a76af3c-46ef-4419-81c8-eb71ff60e13a.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_hlkNomArtigo" title="SAPIENS: UMA BREVE HISTORIA DA HUMANIDADE" class="txtNomeArtigoMaisVendidos ">SAPIENS: UMA  ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_lblNomAutor" title="Yuval Noah Harari" class="txtLabelDescricao">Yuval Noah Har ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 36,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 31,73
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisVendidos$ctl05$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisVendidos$ctl05$wctArtigoMaisVendidos1$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td>
+		</tr>
+	</table>
+                                      
+           
+                                    </td>
+                                    <td style="width:35px;vertical-align:top;padding-top:85px;">
+                                        <input type="image" name="btnProx" id="btnProx" title="Veja mais" OnMouseOver="src=&#39;img/maisVendidosSetaDirV.png&#39;;" OnMouseOut="src=&#39;img/maisVendidosSetaDir.png&#39;;" src="../../img/maisVendidosSetaDir.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnProx&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" border="0" />
+                                    </td>
+                                </tr>
+                            </table>
+                        
+</div>
+                       </p>
+
+                </div>
+                     
+                    <div id="divSinopse" class="boxMarginBottom" >
+                        <p class="MarginBottom">
+                         <span class="txtLabelTituloBloco" id="txtTituloSinopse"  >SINOPSE</span></p>                                       
+                       
+                        <p class="txtSpanFullAdjust"><span id="lblSinopse" class="txtDescricao" style="line-height:20px;text-align:justify;text-align-last:justify;">Valendo-se de uma ampla reuniÃ£o de dados estatÃ­sticos, Lilia M. Schwarcz examina algumas das raÃ­zes do autoritarismo brasileiro, bastante antigas e arraigadas, embora frequentemente mascaradas pela mitologia nacional.<br/><br/>Os brasileiros gostam de se crer diversos do que sÃ£o. Tolerantes, abertos, pacÃ­ficos e acolhedores sÃ£o alguns dos adjetivos que habitam frequentemente a mitologia nacional. Neste livro urgente e necessÃ¡rio, Lilia M. Schwarcz reconstitui a construÃ§Ã£o dessa narrativa oficial que acabou por obscurecer uma realidade bem menos suave, marcada pela heranÃ§a perversa da escravidÃ£o e pelas lÃ³gicas de dominaÃ§Ã£o do sistema colonial. <br/><br/>Ao investigar esses subterrÃ¢neos da histÃ³ria do paÃ­s â e suas permanÃªncias no presente â a autora deixa expostas as raÃ­zes do autoritarismo no Brasil, e ajuda a entender por que fomos e continuamos a ser uma naÃ§Ã£o muito mais excludente que inclusiva, com um longo caminho pela frente na elaboraÃ§Ã£o de uma agenda justa e igualitÃ¡ria.</I></B></U></P></span></p></div>
+                   
+                    <div id="divDados" class="boxMarginBottom" >
+                        <p class="MarginBottom">
+                         <span class="txtLabelTituloBloco"   >DADOS DO PRODUTO</span></p>                              
+                         <span id="lblTituloDadosNome" class="txtDescricao">tÃ­tulo:</span>
+                         <span id="lblDadosNome" class="txtDescricao">SOBRE O AUTORITARISMO BRASILEIRO<br /></span>
+                         <span id="lblTituloDadosNomeOriginal" class="txtDescricao" style="display:none;">tÃ­tulo original:</span>
+                         <span id="lblDadosNomeOriginal" class="txtDescricao" style="display:none;"></span>
+                         <span id="lblTituloDadosIsbn" class="txtDescricao">isbn:</span>
+                         <span id="lblDadosIsbn" class="txtDescricao">9788535932195<br/></span>
+                         <span id="lblTituloSegmentoEspecifico" class="txtDescricao">segmento especÃ­fico:</span>
+                         <span id="lblSegmentoEspecifico" class="txtDescricao">HISTORIA POLITICA<br/></span> 
+                         <span id="lblTituloDadosIdioma" class="txtDescricao">idioma:</span>
+                         <span id="lblDadosIdioma" class="txtDescricao">PortuguÃªs<br/></span>
+                         <span id="lblTituloDadosEncadernacao" class="txtDescricao">encadernaÃ§Ã£o:</span>
+                         <span id="lblDadosEncadernacao" class="txtDescricao">Brochura<br/></span>
+                         <span id="lblTituloDadosFormato" class="txtDescricao">formato:</span>
+                         <span id="lblDadosFormato" class="txtDescricao">14 x 21 x 1,5<br /></span>    
+                         <span id="lblTituloDadosPaginas" class="txtDescricao">pÃ¡ginas:</span>
+                         <span id="lblDadosPaginas" class="txtDescricao">288<br/></span>
+                         <span id="lblTituloColecao" class="txtDescricao" style="display:none;">coleÃ§Ã£o:</span>
+                         <span id="lblDadosColecao" class="txtDescricao" style="display:none;"></span>
+                         <span id="lblTituloDadosAnoEdicao" class="txtDescricao">ano de ediÃ§Ã£o:</span>
+                         <span id="lblDadosAnoEdicao" class="txtDescricao">2019<br/></span>
+                         <span id="lblTituloAnoCopyright" class="txtDescricao">ano copyright:</span>
+                         <span id="lblTituloDadosAnoCopyright" class="txtDescricao">2019<br/></span>
+                         <span id="lblTituloDadosEdicao" class="txtDescricao">ediÃ§Ã£o:</span>
+                         <span id="lblDadosEdicao" class="txtDescricao">1Âª<br/></span>
+                         <span id="lblTituloDadosCoEditora" class="txtDescricao" style="display:none;">coeditora:</span>
+                         <span id="lblDadosCoEditora" class="txtDescricao" style="display:none;"></span>
+                         <span id="lblTituloDadosOutrasInfo" class="txtDescricao" style="display:none;">outras informaÃ§Ãµes:</span>
+                         <span id="lblDadosOutrasInfo" class="txtDescricao" style="display:none;"></span>
+                         
+                         
+                         <span id="lblTituloPrimeiroCapitulo" class="txtDescricao">primeiro capitulo: </span>
+                         <a href="https://img.travessa.com.br/capitulo/COMPANHIA_DAS_LETRAS/SOBRE_O_AUTORITARISMO_BRASILEIRO-9788535932195.pdf" id="produtoPrimeroCap" target="_blank" class="txtDescricao" rel="nofollow">clique aqui<img style="vertical-align:bottom;padding-left:5px;" src="http://img.travessa.com.br/capitulo/primeiroCapitulo.png" /></a>
+                         <span id="lblDadosTituloRegiao" class="txtDescricao" style="display:none;">regiÃ£o:</span>
+                         <span id="lblDadosRegiao" class="txtDescricao"></span>
+                         <span id="lblDadosTituloFaixaEtaria" class="txtDescricao" style="display:none;">faixa etÃ¡ria:</span>
+                         <span id="lblDadosFaixaEtaria" class="txtDescricao" style="display:none;"></span>  
+                         <span id="lblDadosTituloMaterialAdicional" class="txtDescricao" style="display:none;">material adicional:</span>
+                         <span id="lblDadosMaterialAdicional" class="txtDescricao" style="display:none;"></span>                           
+                        <div >
+                        <br /><span id="lblTituloDadosParticipantes" class="txtLabel">autor: <a href="https://www.travessa.com.br/Lilia_Moritz_Schwarcz/autor/c87b36a1-5ee6-49f3-b69e-ccd071d44bff" class="txtConteudo"  >Lilia Moritz Schwarcz</a></span>                        
+                        </div>
+  
+                    </div>
+                 
+                      <div id="divOutrosFormatos" class="boxMarginBottom" style="display:none">
+                        <p  class="txtLabelTituloBloco MarginBottom" ><span id="Span1">OUTROS FORMATOS</span></p>
+                        
+                    </div>   
+                    <div id="divAutor" class="boxMarginBottom" style="display:block;">
+                        <p class="MarginBottom">
+                        <span class="txtLabelTituloBloco" >AUTOR</span></p>                        
+                        
+<style type="text/css">
+  
+
+    .auto-style1
+    {
+        width: 100%;
+    }
+   
+    .imgAutor
+    {
+        width:243px;
+        height:243px;
+        border:2px;
+        border-color:#cccccc;
+        border-style:solid;
+    }
+    #divDescricaoAutor
+    {
+        margin-left:40px;
+    }
+</style>
+
+
+
+<table cellpadding="0" cellspacing="0" class="auto-style1">
+    <tr>
+        <td style="width:243px;vertical-align:top;"><img src="https://img.travessa.com.br/livro/Instancias/c8/c87b36a1-5ee6-49f3-b69e-ccd071d44bff.jpg" id="wctAutorDiretor1_imgAutor" class="imgAutor" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="2px" alt="LILIA MORITZ SCHWARCZ" /></td>
+        <td style="vertical-align:top;padding-left:40px;"><span id="wctAutorDiretor1_lblNomeAutorControle" class="txtTitulo">LILIA MORITZ SCHWARCZ</span>
+    <p style="padding-bottom:50px;" class="txtSpanAdjust"><span id="wctAutorDiretor1_lblAutorInfo" class="txtDescricao"><b>Lilia Moritz Schwarcz</b> nasceu em 1957, em SÃ£o Paulo. Ã professora titular no Departamento de Antropologia da USP e Global Scholar na Universidade de Princeton (EUA). Seu livro <i>As barbas do imperador: D. Pedro II, um monarca nos trÃ³picos</i> ganhou o prÃªmio Jabuti de Livro do Ano, em 1999. AlÃ©m deste, publicou tambÃ©m: <i>O espetÃ¡culo das raÃ§as</i>, <i>O sol do Brasil</i> (prÃªmio Jabuti de melhor biografia, 2009), <i>D. JoÃ£o carioca</i> â histÃ³ria em quadrinhos sobre a chegada da Corte portuguesa ao Brasil, em coautoria com Spacca â, entre outros e <i>Um enigma chamado Brasil</i>, com AndrÃ© Botelho (prÃªmio Jabuti ciÃªncias sociais, 2010). Dirigiu a coleÃ§Ã£o <i>HistÃ³ria do Brasil NaÃ§Ã£o</i> em seis volumes, sendo trÃªs volumes indicados para o Jabuti.</span></p></td>
+    </tr>
+</table>
+
+
+
+
+                                                                                 
+ 
+                    </div>
+               
+                        <div id="divLivrosAutor" class="boxMarginBottom" style="display:block;">
+                            <p id="txtTituloMaisArtigos" class="txtLabelTituloBloco MarginBottom">MAIS LIVROS DE LILIA MORITZ SCHWARCZ</p>
+                             <div id="UpdatePanel3">
+	   
+                             <table cellpadding="0" cellspacing="0" class="painelMaisVendidos">
+                            <tr>
+                                <td style="width:35px;vertical-align:top;padding-top:85px;">
+                                    
+                                </td>
+                                <td >
+                                    <table id="dlMaisLivrosAutor" cellspacing="0" border="0">
+		<tr>
+			<td>
+                                            
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/nem-preto-nem-branco-muito-pelo-contrario-cor-e-raca-na-sociabilidade-brasileira/artigo/cc10f32a-de34-41e1-be53-a2fa23a96ee4" id="dlMaisLivrosAutor_ctl00_wctArtigoMaisVendidos2_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="NEM PRETO NEM BRANCO, MUITO PELO CONTRARIO: COR E RAÃA NA SOCIABILIDADE BRASILE...">
+  <span id="dlMaisLivrosAutor_ctl00_wctArtigoMaisVendidos2_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisLivrosAutor_ctl00_wctArtigoMaisVendidos2_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisLivrosAutor_ctl00_wctArtigoMaisVendidos2_imgArtigo" alt="NEM PRETO NEM BRANCO, MUITO PELO CONTRARIO: COR E RAÃA NA SOCIABILIDADE BRASILE..." src="https://img.travessa.com.br/livro/BA/cc/cc10f32a-de34-41e1-be53-a2fa23a96ee4.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisLivrosAutor_ctl00_wctArtigoMaisVendidos2_hlkNomArtigo" title="NEM PRETO NEM BRANCO, MUITO PELO CONTRARIO: COR E RAÃA NA SOCIABILIDADE BRASILE..." class="txtNomeArtigoMaisVendidos ">NEM PRETO NEM ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisLivrosAutor_ctl00_wctArtigoMaisVendidos2_lblNomAutor" title="Lilia Moritz Schwarcz" class="txtLabelDescricao">Lilia Moritz S ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 37,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 30,70
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisLivrosAutor_ctl00_wctArtigoMaisVendidos2_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisLivrosAutor$ctl00$wctArtigoMaisVendidos2$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisLivrosAutor$ctl00$wctArtigoMaisVendidos2$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisLivrosAutor_ctl00_wctArtigoMaisVendidos2_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+
+                                        </td><td>
+                                            
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/lima-barreto-triste-visionario/artigo/f931d3a7-92d2-4f70-9aa4-02b277cc4328" id="dlMaisLivrosAutor_ctl01_wctArtigoMaisVendidos2_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="LIMA BARRETO: TRISTE VISIONARIO">
+  <span id="dlMaisLivrosAutor_ctl01_wctArtigoMaisVendidos2_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisLivrosAutor_ctl01_wctArtigoMaisVendidos2_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisLivrosAutor_ctl01_wctArtigoMaisVendidos2_imgArtigo" alt="LIMA BARRETO: TRISTE VISIONARIO" src="https://img.travessa.com.br/livro/BA/f9/f931d3a7-92d2-4f70-9aa4-02b277cc4328.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisLivrosAutor_ctl01_wctArtigoMaisVendidos2_hlkNomArtigo" title="LIMA BARRETO: TRISTE VISIONARIO" class="txtNomeArtigoMaisVendidos ">LIMA BARRETO: ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisLivrosAutor_ctl01_wctArtigoMaisVendidos2_lblNomAutor" title="Lilia Moritz Schwarcz" class="txtLabelDescricao">Lilia Moritz S ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 77,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 63,10
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisLivrosAutor_ctl01_wctArtigoMaisVendidos2_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisLivrosAutor$ctl01$wctArtigoMaisVendidos2$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisLivrosAutor$ctl01$wctArtigoMaisVendidos2$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisLivrosAutor_ctl01_wctArtigoMaisVendidos2_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+
+                                        </td><td>
+                                            
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/d-joao-carioca-a-corte-portuguesa-chega-ao-brasil-1808-1821/artigo/48dfb6ce-4c2d-4c75-84be-24275ef8b4a9" id="dlMaisLivrosAutor_ctl02_wctArtigoMaisVendidos2_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="D. JOAO CARIOCA: A CORTE PORTUGUESA CHEGA AO BRASIL (1808-1821)">
+  <span id="dlMaisLivrosAutor_ctl02_wctArtigoMaisVendidos2_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisLivrosAutor_ctl02_wctArtigoMaisVendidos2_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisLivrosAutor_ctl02_wctArtigoMaisVendidos2_imgArtigo" alt="D. JOAO CARIOCA: A CORTE PORTUGUESA CHEGA AO BRASIL (1808-1821)" src="https://img.travessa.com.br/livro/BA/48/48dfb6ce-4c2d-4c75-84be-24275ef8b4a9.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisLivrosAutor_ctl02_wctArtigoMaisVendidos2_hlkNomArtigo" title="D. JOAO CARIOCA: A CORTE PORTUGUESA CHEGA AO BRASIL (1808-1821)" class="txtNomeArtigoMaisVendidos ">D. JOAO CARIO ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisLivrosAutor_ctl02_wctArtigoMaisVendidos2_lblNomAutor" title="Lilia Moritz Schwarcz" class="txtLabelDescricao">Lilia Moritz S ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 47,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 38,80
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisLivrosAutor_ctl02_wctArtigoMaisVendidos2_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisLivrosAutor$ctl02$wctArtigoMaisVendidos2$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisLivrosAutor$ctl02$wctArtigoMaisVendidos2$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisLivrosAutor_ctl02_wctArtigoMaisVendidos2_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+
+                                        </td><td>
+                                            
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/o-espetaculo-das-racas-cientistas-instituicoes-e-questao-racial-no-brasil/artigo/62219f07-147b-41bb-99b1-2c2657dc992d" id="dlMaisLivrosAutor_ctl03_wctArtigoMaisVendidos2_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="O ESPETACULO DAS RAÃAS: CIENTISTAS, INSTITUIÃOES E QUESTAO RACIAL NO BRASIL">
+  <span id="dlMaisLivrosAutor_ctl03_wctArtigoMaisVendidos2_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisLivrosAutor_ctl03_wctArtigoMaisVendidos2_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisLivrosAutor_ctl03_wctArtigoMaisVendidos2_imgArtigo" alt="O ESPETACULO DAS RAÃAS: CIENTISTAS, INSTITUIÃOES E QUESTAO RACIAL NO BRASIL" src="https://img.travessa.com.br/livro/BA/62/62219f07-147b-41bb-99b1-2c2657dc992d.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisLivrosAutor_ctl03_wctArtigoMaisVendidos2_hlkNomArtigo" title="O ESPETACULO DAS RAÃAS: CIENTISTAS, INSTITUIÃOES E QUESTAO RACIAL NO BRASIL" class="txtNomeArtigoMaisVendidos ">O ESPETACULO  ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisLivrosAutor_ctl03_wctArtigoMaisVendidos2_lblNomAutor" title="Lilia Moritz Schwarcz" class="txtLabelDescricao">Lilia Moritz S ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 57,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 46,90
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisLivrosAutor_ctl03_wctArtigoMaisVendidos2_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisLivrosAutor$ctl03$wctArtigoMaisVendidos2$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisLivrosAutor$ctl03$wctArtigoMaisVendidos2$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisLivrosAutor_ctl03_wctArtigoMaisVendidos2_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+
+                                        </td><td>
+                                            
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/as-barbas-do-imperador-dom-pedro-ii-um-monarca-nos-tropicos/artigo/8de79e0d-137d-423d-8055-5e180ea77656" id="dlMaisLivrosAutor_ctl04_wctArtigoMaisVendidos2_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="AS BARBAS DO IMPERADOR: DOM PEDRO II, UM MONARCA NOS TROPICOS">
+  <span id="dlMaisLivrosAutor_ctl04_wctArtigoMaisVendidos2_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisLivrosAutor_ctl04_wctArtigoMaisVendidos2_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisLivrosAutor_ctl04_wctArtigoMaisVendidos2_imgArtigo" alt="AS BARBAS DO IMPERADOR: DOM PEDRO II, UM MONARCA NOS TROPICOS" src="https://img.travessa.com.br/livro/BA/8d/8de79e0d-137d-423d-8055-5e180ea77656.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisLivrosAutor_ctl04_wctArtigoMaisVendidos2_hlkNomArtigo" title="AS BARBAS DO IMPERADOR: DOM PEDRO II, UM MONARCA NOS TROPICOS" class="txtNomeArtigoMaisVendidos ">AS BARBAS DO  ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisLivrosAutor_ctl04_wctArtigoMaisVendidos2_lblNomAutor" title="Lilia Moritz Schwarcz" class="txtLabelDescricao">Lilia Moritz S ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 87,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 71,20
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisLivrosAutor_ctl04_wctArtigoMaisVendidos2_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisLivrosAutor$ctl04$wctArtigoMaisVendidos2$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisLivrosAutor$ctl04$wctArtigoMaisVendidos2$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisLivrosAutor_ctl04_wctArtigoMaisVendidos2_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+
+                                        </td><td>
+                                            
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/retrato-em-branco-e-negro/artigo/3bfdaafd-1bda-430f-bd04-984662183eb4" id="dlMaisLivrosAutor_ctl05_wctArtigoMaisVendidos2_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="RETRATO EM BRANCO E NEGRO">
+  <span id="dlMaisLivrosAutor_ctl05_wctArtigoMaisVendidos2_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span  style="text-align:center;padding-top:10px !important;">
+<table cellpadding="0" cellspacing="0" class="wctMaisVendidos" >
+    <tr>
+        <td align="center"><a id="dlMaisLivrosAutor_ctl05_wctArtigoMaisVendidos2_hlkImg" rel="follow" style="max-width: 135px;">
+            <div  style="width:135px;height:186px;" ><img id="dlMaisLivrosAutor_ctl05_wctArtigoMaisVendidos2_imgArtigo" alt="RETRATO EM BRANCO E NEGRO" src="https://img.travessa.com.br/livro/BA/3b/3bfdaafd-1bda-430f-bd04-984662183eb4.jpg" height="186" width="135" border="0" /></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <a id="dlMaisLivrosAutor_ctl05_wctArtigoMaisVendidos2_hlkNomArtigo" title="RETRATO EM BRANCO E NEGRO" class="txtNomeArtigoMaisVendidos ">RETRATO EM BR ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-top: 3px; padding-left: 5px; height: 18px;">
+            <span id="dlMaisLivrosAutor_ctl05_wctArtigoMaisVendidos2_lblNomAutor" title="Lilia Moritz Schwarcz" class="txtLabelDescricao">Lilia Moritz S ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl"  align="center" style="padding-top: 3px;padding-left: 5px; height: 18px;">
+            de:&nbsp;R$ 62,90<br />
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" align="center" style="padding-left: 0px; height: 18px;padding-top: 3px;">&nbsp;por:&nbsp;R$ 50,95
+
+        </td>
+    </tr>
+            
+</table>
+
+</span>
+  <span id="dlMaisLivrosAutor_ctl05_wctArtigoMaisVendidos2_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input type="submit" name="dlMaisLivrosAutor$ctl05$wctArtigoMaisVendidos2$btnSacola" value="INCLUIR NA SACOLA" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dlMaisLivrosAutor$ctl05$wctArtigoMaisVendidos2$btnSacola&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dlMaisLivrosAutor_ctl05_wctArtigoMaisVendidos2_btnSacola" title="Comprar" class="info my-btn btt" />             
+
+</span>
+</span>
+</span>
+</a>
+
+
+                                        </td>
+		</tr>
+	</table>
+                               </td>
+                                <td style="width:35px;vertical-align:top;padding-top:85px;">
+                                    <input type="image" name="btnProxPartici1" id="btnProxPartici1" title="Veja mais" OnMouseOver="src=&#39;img/maisVendidosSetaDirV.png&#39;;" OnMouseOut="src=&#39;img/maisVendidosSetaDir.png&#39;;" src="../../img/maisVendidosSetaDir.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnProxPartici1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" border="0" />
+                                </td>
+                            </tr>
+                        </table>
+                     
+</div>   
+                        </div>
+                           
+                    <div id="divVideo" class="boxMarginBottom" style="display:none;">
+                        <p class="MarginBottom">
+                        <span class="txtLabelTituloBloco" >VÃDEO</span></p>                                              
+                        <div ><span id="spanVideo"></span></div>
+                    </div>
+                       <div id="UpdatePanel4">
+	
+                    <style type="text/css">
+                        /* Style the button that is used to open and close the collapsible content */
+                        .collapsible {
+                          /*background-color: #eee;*/
+                          color: #444;
+                          cursor: pointer;
+                          padding-top: 18px;
+                          padding-bottom: 18px;
+                          padding-right: 18px;  
+                          width: 100%;
+                          border: none;
+                          text-align: left;
+                          outline: none;
+                          font-size: 15px;
+                        }
+
+                        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+                        .active, .collapsible:hover {
+                          background-color: #ccc;
+                        }
+
+                        /* Style the collapsible content. Note: hidden by default */
+                        .content {
+                          /*padding: 0 18px;*/
+                          display: none;
+                          overflow: hidden;
+                          background-color: #f1f1f1;
+                         
+                        }
+                        .collapsible:after {
+                          content: '\02795'; /* Unicode character for "plus" sign (+) */
+                          font-size: 13px;
+                          color: white;
+                          float: right;
+                          margin-left: 5px;
+                        }
+
+                        .active:after {
+                          content: "\2796"; /* Unicode character for "minus" sign (-) */
+                        }
+                    </style>
+                    <script type="text/javascript">
+              
+                        window.onload = function () {
+                            document.getElementById("btnHideAnElement").onclick = function () {
+                                
+                                if (document.getElementById("divDicaLivreiro").style.display == 'block') {
+                                    document.getElementById("divDicaLivreiro").style.display = 'none';
+                                
+                                }
+                                else {
+                                    document.getElementById("divDicaLivreiro").style.display = 'block';
+                                
+                                }
+                                return false;
+                            }
+                        }
+                    </script>
+                    <button id="btnHideAnElement" class="collapsible" style="display:none;"><span class="txtLabelTituloBloco" >OPINIÃO DO LIVREIRO</span></button>
+                    <div id="divDicaLivreiro" class="content" style="display:none;">                 
+                        <p class="MarginBottom" style="padding-bottom:10px;">
+                                              
+                        
+                         <span id="lblDadosDicaLivreiro" class="txtDescricao"> 
+                        </span></p>
+                                              
+                     
+                     </div>  
+                      
+</div>
+                     
+                  
+                  <div id="pnlCliente">
+	
+                    <div id="divAviliacoesLeitor" class="boxMarginBottom">
+                            <p class="MarginBottom">
+                                <span class="txtLabelTituloBloco">AVALIAÃÃES</span></p>                                               
+                            <div id="divGridAvaliacoes" > 
+
+                                
+                         
+                                </div>
+                        </div>
+
+    
+                        
+                        <div id="divOpiniaoLeitor" class="boxMarginBottom">
+                            <p class="MarginBottom">
+                                <span id="txtTituloOpiniaoLeitor" class="txtLabelTituloBloco">OPINIÃO DO LEITOR</span></p>
+                           
+                            <div id="divFormAvaliacao"  >
+                              
+                             <table id="tblAvaliacao" style="width:100%; ">
+		<tr>
+			<td class="auto-style4"> <span class="txtConteudo">sua classificaÃ§Ã£o:</span></td>
+			<td style="vertical-align:top;" class="auto-style5"><div id="Rating1" dir="ltr">
+				<input type="hidden" name="Rating1_RatingExtender_ClientState" id="Rating1_RatingExtender_ClientState" />            
+                                 <a href="javascript:void(0)" id="Rating1_A" title="0" style="text-decoration:none"><span id="Rating1_Star_1" class="Star Star">&nbsp;</span><span id="Rating1_Star_2" class="Star Star">&nbsp;</span><span id="Rating1_Star_3" class="Star Star">&nbsp;</span><span id="Rating1_Star_4" class="Star Star">&nbsp;</span><span id="Rating1_Star_5" class="Star Star">&nbsp;</span></a>
+			</div>&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="auto-style2"><span class="txtConteudo">titulo da avaliaÃ§Ã£o:</span></td>
+			<td style="vertical-align:top;"><input name="txtTituloCometarioLeitor" type="text" id="txtTituloCometarioLeitor" class="txtComentario" onkeypress="return this.value.length&lt;50" />
+                                     
+                                    
+                                     </td>
+		</tr>
+		<tr>
+			<td class="auto-style2"><span class="txtConteudo">sua avaliaÃ§Ã£o:</span></td>
+			<td style="vertical-align:top;text-align:match-parent;">
+                                     <textarea name="txtCometarioLeitor" rows="2" cols="20" id="txtCometarioLeitor" class="txtComentario" style="Resize:none;">
+</textarea>
+                                      
+                                     
+                                     </td>
+		</tr>
+		<tr>
+			<td class="auto-style3">&nbsp;</td>
+			<td style="text-align:center;">
+                                         <div style="width:560px;">
+                                             <input type="image" name="btnEnviarOpiaoLeitor" id="btnEnviarOpiaoLeitor" src="../../img/botao_enviar_artigo.gif" align="right" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnEnviarOpiaoLeitor&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" border="0" />
+                                             <span class="chkAnonimo" title="AvaliaÃ§Ãµes sem identificaÃ§Ã£o."><input id="chkAvaliacaoAnonimo" type="checkbox" name="chkAvaliacaoAnonimo" /><label for="chkAvaliacaoAnonimo">AnÃ´nimo</label></span>
+                                         </div>
+                                     </td>
+		</tr>
+	</table>
+	  
+      
+                            </div>
+                                           
+                        </div>
+                       
+                       
+</div>
+                 
+                    <br />    
+                    <span id="standOut" style="text-align:center;"></span>
+                </div>
+       
+            </div>
+           <br />
+           <br />
+        <input name="wctRodape1$valCodArtigos" type="hidden" id="wctRodape1_valCodArtigos" />
+
+<style type="text/css">
+    .styleEndereco1
+    {
+        width: 40%;
+    }
+      .styleEndereco2
+    {
+        width: 60%;
+    }
+    /*a {
+    text-decoration: none !important;
+    }*/
+    #r2 a  {
+        text-decoration:none!important;
+    }
+  .txtRodapeNovo
+  {
+    font-family:Verdana;
+    font-size:12px;
+    /*font-weight:bold;*/
+    color:#333333;
+  }
+   .txtSubmenuRodapeNovo
+  {
+    font-family:Verdana;
+    font-size:11px;
+    font-weight:normal;
+    color:#333333;
+    /*letter-spacing:0.6px;*/
+  }
+  .tabelaRodape
+  {
+    font-family:Verdana;
+    font-size:12px;
+    color:#333333;
+    background-color:#ececec;
+  }
+  .txt {
+    font-family: Verdana, Arial, Helvetica, Trebuchet MS, sans-serif;
+    font-size: 10px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 13px;
+}
+  .txtMailSac
+  {
+    cursor:pointer;
+
+  }
+  .txtMailSac:hover {
+    text-decoration: underline!important;
+}
+.txt2 {
+    font-family: Verdana, Arial, Helvetica, Trebuchet MS, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 13px;
+}
+</style>
+<div id="rodape">
+<table id="r1" style="width: 100%" cellpadding="0" cellspacing="0">
+    <tr><td  colspan="5" style="text-align:center;">
+       
+        <span class="txtRodapeNovo">  <b>Atendimento ao cliente: </b><a class="txtRodapeNovo txtMailSac"  onclick="parent.location='mailto:sac@travessa.com.br'" >sac@travessa.com.br</a> | t. <span id="wctRodape1_txtTelSac">(21) 2508.6872</span> | de 2Âª a 6Âª, das 9h Ã s 19:00h (exceto feriados) e sÃ¡bados, das 8h Ã s 14h</span>
+        </td>
+        
+    </tr>
+</table>
+<table id="r2" style="width: 100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center">
+            <table id="wctRodape1_r3" width="100%" align="center">
+	<tr style="background-color: #FFFFFF; font-size: 2pt;border-right-color:white;border-left-color:white; ">
+		<td style="border-bottom: #d3d3d3 1px solid;">&nbsp;</td>
+	</tr>
+	<tr style="text-align: center; background-color: #ececec;border-top:solid 1px #ececec;">
+		<td align="center"> 
+                       
+                        <table cellpadding="0" cellspacing="0" class="tabelaRodape"  style="padding-left: 10%; text-align: left;" width="80%" >
+                            <tr >
+                                <td width="26%">
+                                  &nbsp;</td>
+                                <td  width="26%">
+                                    &nbsp;</td>
+                                <td  width="28%" >
+                                  &nbsp;</td>
+                            </tr>
+                            <tr >
+                                <td width="26%">
+                                <a href="https://www.travessa.com.br/livros" id="wctRodape1_lnkLivros" class="txtRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;"><b>Livros</b></a>
+                                </td>
+                                <td  width="26%">
+                                    <a href="https://www.travessa.com.br/dvds" id="wctRodape1_lnkDvdsBlueRay" class="txtRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;"><b>DVDs e Blu-Rays</b></a>
+                                </td>
+                                <td  width="28%" >
+                                <span class="txtRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'"><b>Pesquise e conheÃ§a tambÃ©m</b></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                                <td>
+                                    &nbsp;</td>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                 <a href="https://www.travessa.com.br/livros/artes" id="wctRodape1_lnkLivroArtes" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Livros de Artes</a>
+                                </td>
+                                <td>
+                                    <a href="https://www.travessa.com.br/dvds/filmes" id="wctRodape1_lnkDvdFilmes" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Filmes</a>
+                                    </td>
+                                <td>
+                                  <a href="https://www.travessa.com.br/wpgEventos.aspx" id="wctRodape1_lnkEventos" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Eventos da Livraria da Travessa</a>
+                                  </td>
+                            </tr>
+                            <tr>
+                                <td>
+                              <a href="https://www.travessa.com.br/livros/ciencias" id="wctRodape1_lnkLivroCiencia" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Livros de CiÃªncias</a>
+                              </td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/dvds/show" id="wctRodape1_lnkDvdShows" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Shows e ApresentaÃ§Ãµes</a>
+                                 </td>
+                                <td>
+
+                                     <a href="https://www.travessa.com.br/wpgPresente.aspx" id="wctRodape1_lnkCartaoPresente" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">DÃª seu CartÃ£o Presente</a>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://www.travessa.com.br/wpgDidaticos.aspx" id="wctRodape1_lnkDidaticos" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Livros DidÃ¡ticos</a></td>
+                                <td>
+                               <a href="https://www.travessa.com.br/dvds/infantil" id="wctRodape1_lnkDvdInfantil" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Infantil</a>
+                               </td>
+                                <td>
+                               <a href="https://www.travessa.com.br/wpgPrecoBanana.aspx" id="wctRodape1_lnkPrecodeBanana" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Ofertas a PreÃ§o de Banana</a>
+                               </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://www.travessa.com.br/livros/humanidades" id="wctRodape1_lnkLivrosHumanidades" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Livros Humanidades</a></td>
+                                <td>
+                                <a href="https://www.travessa.com.br/dvds/series" id="wctRodape1_lnkDvdSeries" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">SÃ©ries</a>
+                                </td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/wpgObjDesejoMain.aspx" id="wctRodape1_lnkListaDesejo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Crie sua Lista de Desejos</a>
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   <a href="https://www.travessa.com.br/livros/saude-esporte-lazer" id="wctRodape1_lnkLivroSaudeEsporteLazer" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Livros de SaÃºde, Esporte e Lazer</a></td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/dvds/documentario" id="wctRodape1_lnkDvdDocumentario" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">DocumentÃ¡rios</a>
+                                 </td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/wpgCriancaQueLe.aspx" id="wctRodape1_lnkDoeLivros" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Doe Livros</a>
+                                 </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <a href="https://www.travessa.com.br/livros/literatura-ficcao" id="wctRodape1_lnkLivrosLiteraturaFiccao" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Livros de Literatura e FicÃ§Ã£o</a></td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=lancd" id="wctRodape1_lnkLancamnentoDvd" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">LanÃ§amento de Dvds</a> 
+                                 </td>
+                                <td>
+                                  <a href="https://www.travessa.com.br/wpgTravessaLeve.aspx" id="wctRodape1_lnkTravessaLeve" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Programa de Fidelidade</a>
+                                 </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://www.travessa.com.br/livros/guias-turismo" id="wctRodape1_lnkLivrosTurismo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Livros de Turismo</a></td>
+                                <td>
+                                     
+                                   </td>
+                                <td>
+                                   <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=segmentol" id="wctRodape1_lnkLivrosPorSegmento" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Livros por Segmento</a>
+                                 </td>
+                                 
+                            </tr>
+                            <tr>
+                                <td>
+                                     <a href="https://www.travessa.com.br/livros/infanto-juvenil" id="wctRodape1_lnkLivrosInfantoJuvenil" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Livros Infanto-Juvenil</a></td>
+                                <td>&nbsp;</td>
+
+                               <td>
+                                   <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=segmentod" id="wctRodape1_lnkDvdsPorSegmento" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Dvds por Segmento</a>
+                                 </td>
+                                 
+                            </tr>
+                            <tr>
+                                <td>
+                                    
+                                     <a href="https://www.travessa.com.br/livros/idiomas-referencia" id="wctRodape1_lnkLivrosLingua" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Livros de Idiomas e ReferÃªncia</a></td>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=autorMV" id="wctRodape1_lnkAutoresMaisVendidos" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Autores Mais Vendidos</a> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                            <a href="https://www.travessa.com.br/didaticos" id="wctRodape1_lnkListaEscolares" class="txtSubmenuRodapeNovo" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;">Listas Escolares</a>
+                                    </td>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <a href="../../ofertas-livros" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Livros em Ofertas</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://www.travessa.com.br/wpgArtigosSelecionados.aspx?TipoArtigo=1&TipoSelecao=AudioBook" id="wctRodape1_lnkAudioBook" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Audiobook</a></td>
+                                <td>&nbsp;</td>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <a href="https://www.travessa.com.br/wpgVendaAntecipada.aspx?TipoArtigo=1" id="wctRodape1_lnkPreVendaLivro" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">PrÃ©-Venda de Livros</a>
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>
+                                 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=lancl" id="wctRodape1_lnkLancamnentoLivro" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">LanÃ§amento de Livros</a>
+                                </td>
+                                <td style="align-content:center;text-align:left;">
+                          
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom:10px;">
+                                  <a href="https://www.travessa.com.br/wpgTravessaRecomenda.aspx?TipoArtigo=1" id="wctRodape1_lnkLivrosRecomenda" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Travessa Recomenda</a>
+                                </td>
+                                <td style="padding-bottom:10px;">&nbsp;</td>
+                                <td style="padding-bottom:10px;">
+                                  <a href="https://www.travessa.com.br/wpgTrabalheConosco.aspx" id="wctRodape1_lnkTrabalheConosco" onmouseover="this.style.color=&#39;#a90101&#39;" onmouseout="this.style.color=&#39;#333333&#39;" class="txtSubmenuRodapeNovo">Trabalhe conosco</a>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                    </td>
+                </tr>        
+                         
+                <tr style="background-color: #FFFFFF; height:23px; ">
+                    <td style="border-top: #d3d3d3 1px solid;">
+                        <div align="center" class="topmenu" >
+                        <a href="https://www.travessa.com.br/" id="wctRodape1_lnkPagInicial" class="txt2">pÃ¡gina&nbsp;inicial</a><font class="txt"> | </font>
+                        <a href="https://www.travessa.com.br/wpgNossasLojas.aspx" id="wctRodape1_lnkNossasLojas" class="txt2">nossas lojas</a><font class="txt"> | </font> 
+                        <a href="../../wpgQuemSomos.aspx" id="wctRodape1_lnkQuemSomos" class="txt2">quem&nbsp;somos</a><font class="txt"> | </font>
+                        <a href="https://www.travessa.com.br/livros" id="wctRodape1_lnkLivro" class="txt2">livros</a><font class="txt"> | </font>
+                        <a href="https://www.travessa.com.br/dvds" id="wctRodape1_lnkDVD" class="txt2">dvds e Blu-Rays</a><font class="txt"> | </font>
+                                               
+                        <a href="../../wpgTrabalheConosco.aspx" id="wctRodape1_lnkTrabalheConosco2" class="txt2" rel="nofollow">trabalhe conosco</a><font class="txt"> | </font>                         
+                        <a href="https://www.travessa.com.br/wpgAtendimento.aspx?s=1" id="wctRodape1_lnkPrivacidadeSeg" class="txt2" rel="nofollow">privacidade e  seguranÃ§a</a><font class="txt"> | </font> 
+                        <a href="../../wpgCriancaQueLe.aspx" id="wctRodape1_lnkCriancaquele" class="txt2">crianÃ§a que lÃª</a><font class="txt"> | </font>
+                        
+                        <a href="/novo/Cenas.html#/" id="wctRodape1_lnkCenasTravessa" class="txt2">cenas travessa</a>
+                        </div>    
+                    </td>
+                </tr>
+            </table>
+        </td>
+	</tr>
+	<tr>
+		<td>
+            <table style="width: 100%;" cellpadding="0" cellspacing="0" >
+                <tr style="background-color: #FFFFFF; height:23px; ">
+                <td style="border-top: #d3d3d3 1px solid;border-bottom: #d3d3d3 1px solid;">
+                        <div align="center" class="topmenu" >
+                        <a href="../../flip" id="wctRodape1_lnkFlip" class="txt">Flip 2019</a><font class="txt"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaPrincipal.aspx?t=autor" id="wctRodape1_lnkAutores" class="txt2">autores livro</a><font class="txt2"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=segmentol" id="wctRodape1_lnkSegmentosLivro" class="txt2">seÃ§Ãµes livro</a><font class="txt2"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaPrincipal.aspx?t=diretor" id="wctRodape1_lnkDiretores" class="txt2">diretores dvd</a><font class="tx2t"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=segmentod" id="wctRodape1_lnkSegmentosDVD" class="txt2">seÃ§Ãµes dvd</a><font class="txt2"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaPrincipal.aspx?t=artista" id="wctRodape1_lnkArtistas" class="txt2">artistas dvd</a>
+                        </div>    
+                
+                </td></tr>
+                <tr style="background-color: #FFFFFF; font-size: 10px;"><td>&nbsp;</td></tr>
+                <tr style="vertical-align: top;">
+                    <td class="txt2" align="center" valign="middle"  style="text-align: center">
+                      <center>Os preÃ§os apresentados nesse site nÃ£o sÃ£o, necessariamente, iguais aos das lojas fÃ­sicas. | Todos os produtos estÃ£o sujeitos a alteraÃ§Ã£o de preÃ§o sem prÃ©via comunicaÃ§Ã£o.</center>
+                    </td>
+                </tr>
+                <tr style="background-color: #FFFFFF; font-size: 1px;"><td>&nbsp;</td></tr>
+                <tr style="vertical-align: top;">
+                    <td class="txt2" align="center" valign="middle"  style="text-align: center">
+                      <center>Livraria da Travessa Ltda. - www.travessa.com.br | Rua 7 de Setembro, n. 54, Centro Rio de Janeiro 20050-009 | cnpj: 31.004.013/0010-53 / insc. est. 78.769.220 </center>
+                    </td>
+                </tr>
+                <tr style="vertical-align: top;">
+                    <td class="txt" align="center" valign="middle"  style="text-align: center">
+                        &nbsp;</td>
+                </tr>
+                <tr  style="text-align: center; "  class="txt">
+                    <td  align="center" >
+                          <table  width="80%" >
+                            <tr >
+                                <td width="26%" align="center">
+                                  <table >
+                                    <tr><td style="padding-right:10px;text-align:center;" >              
+                                 <!-- Begin DigiCert site seal HTML and JavaScript -->
+                                    <div id="DigiCertClickID_a_TLVZTY" data-language="pt">
+ââââ	                                <a href="https://www.digicert.com/wildcard-ssl-certificates.htm" style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:9px;"></a>
+                                    </div>
+                                    <script async type="text/javascript">
+ââââ	                                var __dcid = __dcid || [];__dcid.push(["DigiCertClickID_a_TLVZTY", "3", "m", "black", "a_TLVZTY"]);
+ââââ	                                (function(){var cid=document.createElement("script");
+ââââ	                                cid.async=true;
+ââââ	                                cid.src="//seal.digicert.com/seals/cascade/seal.min.js";
+ââââ	                                var s = document.getElementsByTagName("script");
+ââââ	                                var ls = s[(s.length - 1)];ls.parentNode.insertBefore(cid, ls.nextSibling);
+ââââ                                 }());
+                                    </script>
+                                <!-- End DigiCert site seal HTML and JavaScript -->
+
+                
+                                        </td>
+                                      <td>
+
+                                             <a id="seloEbit" href="http://www.ebit.com.br/1825" target="_blank" data-noop="redir(this.href);"> </a> 
+
+                                              <script async type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?1825"> </script> 
+                                
+
+                                      </td>
+                                      <td>
+                                        <script src="https://apis.google.com/js/platform.js?onload=renderBadge" async defer></script>
+
+                                            <script>
+                                                window.renderBadge = function () {
+                                                    var ratingBadgeContainer = document.createElement("div");
+                                                    document.body.appendChild(ratingBadgeContainer);
+                                                    window.gapi.load('ratingbadge', function () {
+                                                        window.gapi.ratingbadge.render(ratingBadgeContainer, { "merchant_id": 5581397 });
+                                                    });
+                                                }
+                                            </script>
+                                      </td>
+                                    </tr></table>
+                                </td>
+                                <td  width="26%" align="center">                                 
+            
+                                  <table><tr><td rowspan="2"></td><td style="text-align:center;font-family: Verdana;font-size: 10px;color: #000000;font-weight: normal;text-decoration: none;line-height: 14px;">FORMAS DE PAGAMENTOS</td></tr>
+                                    <tr><td><img alt="" border="0" src="img/cartoes3.gif"></td></tr></table>
+                                </td>
+                                <td  width="28%"  >
+                                  <table style="padding-left:30px;"><tr><td style="text-align:center;color:white;">TRAVESSA</td><tr>
+                                    <td style="text-align:center;">
+                                      <a  href="https://www.facebook.com/LivrariaDaTravessaOficial/?ref=ts" title="Curta a Travessa no Facebook" target="_blank">
+                                                    <img src="img/facebook2016.gif" alt="Curta a Travessa no Facebook" border="0" /></a>
+                                      <a href="http://instagram.com/livrariadatravessa" title="Siga a Travessa no Instagram" target="_blank">
+                                                    <img src="img/instagram2016.gif" alt="Siga a Travessa no Instagram" border="0" /></a>
+                                       <a href="http://twitter.com/livtravessa" title="Siga a Travessa no Twitter" target="_blank">
+                                                    <img src="img/twitter2016.gif" alt="Siga a Travessa no Twitter" border="0" /></a>
+                                       <a href="https://www.youtube.com/c/livrariadatravessa" title="Siga a Travessa no Youtube" target="_blank">
+                                                    <img src="img/youtube2016.gif" alt="Siga a Travessa no Youtube" border="0" /></a>
+                                       
+            
+                                   </td></tr></table>
+                                </td>
+                            </tr>
+                            </table> 
+                 </td>
+                </tr>
+            </table>
+        </td>
+	</tr>
+</table>
+
+    </div>
+
+
+
+
+
+<p style="font-family:Verdana; font-size: 9px;font-weight: normal;text-decoration: none;vertical-align: text-bottom;text-align:center;">Livraria da Travessa Â® - Todos os direitos reservados  </p>
+
+
+
+
+  
+
+
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+ 
+    
+
+<script type="text/javascript">
+//<![CDATA[
+fbq('track', 'ViewContent', {
+ content_name : 'SOBRE O AUTORITARISMO BRASILEIRO',
+ content_category: 'Livro > Livro de Humanidades > Livro de HistÃ³ria',
+ content_ids: ['9788573960587'],
+ content_type: 'product', 
+ value:39.00,
+  currency: 'BRL' 
+});$('#lnkComprar').click(function() {
+fbq('track', 'AddToCart', {
+ content_name : 'SOBRE O AUTORITARISMO BRASILEIRO',
+ content_category: 'Livro > Livro de Humanidades > Livro de HistÃ³ria',
+ content_ids: ['9788573960587'],
+ content_type: 'product', 
+ value:39.00,
+  currency: 'BRL' 
+});
+});$('#lnkObjDesejo').click(function() {
+fbq('track', 'AddToWishlist', {
+ content_name : 'SOBRE O AUTORITARISMO BRASILEIRO',
+ content_category: 'Livro > Livro de Humanidades > Livro de HistÃ³ria',
+ content_ids: ['9788573960587'],
+ content_type: 'product', 
+ value:39.00,
+  currency: 'BRL' 
+});
+});//]]>
+</script>
+<script type='text/javascript' src='js/jsDetectMobile.js?t=1.5'></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Extended.UI.Localization.SetLocale("pt");Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.RatingBehavior, {"AutoPostBack":false,"CallbackID":"RatingMedia","ClientStateFieldID":"RatingMedia_RatingExtender_ClientState","EmptyStarCssClass":"Star","FilledStarCssClass":"FilledStar","ReadOnly":true,"StarCssClass":"Star","WaitingStarCssClass":"WaitingStar","_isServerControl":true,"id":"RatingBehavior1"}, null, null, $get("RatingMedia"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.RatingBehavior, {"AutoPostBack":true,"CallbackID":"Rating1","ClientStateFieldID":"Rating1_RatingExtender_ClientState","EmptyStarCssClass":"Star","FilledStarCssClass":"FilledStar","StarCssClass":"Star","WaitingStarCssClass":"WaitingStar","_isServerControl":true,"id":"RatingBehavior2"}, null, null, $get("Rating1"));
+});
+//]]>
+</script>
+</form>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1054115639;
+var google_tag_params = {
+ecomm_prodid: '9788573960587',
+ecomm_pagetype: 'product',
+ecomm_totalvalue:  39.00 
+ };
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt=" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1054115639/?guid=ON&amp;script=0"/>
+</div>
+</noscript><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTH32SQ" 
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+</body>
+</html>
+  <script  type="text/javascript">
+      function disablekeypress(e) {
+          alert('entrei');
+          var key;
+          if (window.event)
+              key = window.event.keyCode; //IE
+          else
+              key = e.which; //firefox      
+
+          return (key != 13);
+      }
+
+  </script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var txt = document.getElementById('txtMsg').value;
+        var txtTit = document.getElementById('txtTitMsg').value;
+        //QTip Object
+        $('#lnkSaibaMais').qtip({ 
+            
+            content: {
+                title: txtTit,
+                text: txt
+            },
+            style: {
+                classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+            }
+
+        });
+        $('#imgDesconto20').qtip({
+
+          content: {
+            title: '<b class="txtDescricao txtBold">regras para a primeira compra</b>',
+            text: '<span class="txtConteudoDisponibilidade">Na sua primeira compra, vocÃª terÃ¡ garantido pelo menos 20% de desconto sobre o valor de cada produto, exceto para livros didÃ¡ticos e e-books. Caso um produto esteja com valor de desconto superior a 20%, o desconto concedido serÃ¡ o oferecido no produto. Este desconto <b>nÃ£o</b> Ã© cumulativo com outros descontos do site.</span>'
+          },
+          style: {
+            classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+         } ,
+          position: {
+            my: 'top right', // Position my top left...
+            at: 'bottom center' // at the bottom right of...
+           
+          }
+          
+        });
+    });
+</script>
+

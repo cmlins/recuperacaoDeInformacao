@@ -1,0 +1,2065 @@
+
+
+        <html class="no-js" lang="pt-br">
+        <!--Desenvolvido por Gustavo Medeiros - gustavo@disal.com.br|2018  -->
+        <head>
+            
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Livraria Disal Distribuidora de Conhecimento - Livros de idiomas.</title>
+<!--By Gustavo Medeiros - gustavo@disal.com.br -->
+<meta name="google-site-verification" content="SC_IesIQBrqBijZTIDfroVUgF6DkDBsMM4r7PVZ-H6c" />
+<meta name="description" content="Livros de idiomas, t&#233;cnicos e interesse geral. Temos editoras como Oxford, NatGeo Learning, Macmillan, Pearson, Cambridge e Edelsa">
+<meta name="keywords" content="Disal, Livraria Disal, Livraria de Idiomas, Livros de Idiomas, Livros de Ingl&#234;s, English Books, Livraria Universit&#225;ria, Livros Universit&#225;rios, Livros de espanhol, Livros de franc&#234;s, Livros de alem&#227;o, Livros de italiano, Dicion&#225;rios.">
+<meta property="og:title" content="Livraria Disal Distribuidora de Conhecimento - Livros de idiomas." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.disal.com.br/" />
+<meta property="og:description" content="Livros de idiomas, t&#233;cnicos e interesse geral. Temos editoras como Oxford, NatGeo Learning, Macmillan, Pearson, Cambridge e Edelsa" />
+<meta property="og:site_name" content="Disal - Distribuidora de Conhecimento" />
+<link rel="shortcut icon" href="/disal_ic.ico" type="image/x-icon" />
+<meta name="theme-color" content="#c4161c" />
+
+<script defer src="/Scripts/fontawesome/js/all.js"></script>
+
+
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../stylesv2/main.css?v=422">
+    <link rel="stylesheet" href="../../stylesv2/hanna.css?v=422">
+    <link rel="stylesheet" href="../../stylesv2/helper.css?v=422">
+    <link rel="stylesheet" href="../../stylesv2/main.mobile.css?v=422">
+    <link rel="stylesheet" href="../../stylesv2/sidebar.css?v=422">
+<!--Chat-->
+<script type="application/javascript" charset="UTF-8" src="https://cdn.agentbot.net/core/142b9f4eb4f587c13a7041864629ca2c.js" async></script>
+<!--Fim do chat-->
+<script src="../../Scripts/jquery.js"></script>
+<script src="../../Scripts/jquery.mask.js"></script>
+<script src="../../bootstrap/js/bootstrap.js"></script>
+<script src="../../Scripts/EasyAutocomplete/jquery.easy-autocomplete.min.js"></script>
+<link rel="stylesheet" href="../../Scripts/EasyAutocomplete/easy-autocomplete.min.css">
+<link rel="stylesheet" href="../../Scripts/EasyAutocomplete/easy-autocomplete.themes.min.css">
+<link rel="stylesheet" href="/Scriptsv2/lightslider.css" />
+<script src="/Scriptsv2/lightslider.js"></script>
+<link rel="manifest" href="/manifest">
+<script src="../../styles/custom.js?v=422"></script>
+    <script src="../../Scripts/hanna.js?v=422"></script>
+    <meta name="sb.validation_hash" content="BLI-ewMVDSRoXDHPjxwmJQCqbdpyArkbmPjIfHyNrOqUpLGzElkTEmpmLeZaSpVjJSnWMvRyzdKPiOrzLCeoORjACBVVRRdJbwna" />
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9914448-2']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PZ5WN7C');</script>
+
+<script type="text/javascript">
+    window._st_account = 4450;
+    (function () {
+        var ss = document.createElement('script');
+        ss.type = 'text/javascript';
+        ss.async = true;
+        ss.src = '//app.shoptarget.com.br/js/tracking.js';
+        var sc = document.getElementsByTagName('script')[0];
+        sc.parentNode.insertBefore(ss, sc);
+    })();
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+            navigator.serviceWorker.register("/service-worker.js");
+        });
+    }
+</script>
+
+            
+
+            <script type="text/javascript">
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-9914448-2']);
+                _gaq.push(['_trackPageview']);
+                (function () {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
+            <!-- Facebook Pixel Code -->
+            <script>
+                !function (f, b, e, v, n, t, s) {
+                    if (f.fbq) return; n = f.fbq = function () {
+                        n.callMethod ?
+                            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    };
+                    if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+                    n.queue = []; t = b.createElement(e); t.async = !0;
+                    t.src = v; s = b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s)
+                }(window, document, 'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '1475668742723952');
+                fbq('track', 'PageView');
+            </script>
+            <noscript>
+                <img height="1" width="1" style="display:none"
+                     src="https://www.facebook.com/tr?id=1475668742723952&ev=PageView&noscript=1" />
+            </noscript>
+            <!-- End Facebook Pixel Code -->
+            <script type="application/ld+json">
+                {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "url": "https://www.disal.com.br",
+                "logo": "https://www.disal.com.br/images/logo.png",
+                "name": "DISAL DISTRIBUIDORES ASSOCIADOS DE LIVROS S.A.",
+                "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+55-11-3226-3100",
+                "contactType": "Customer service"
+                },
+                "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Marginal Direita do Tiete,800",
+                "addressLocality": "SÃ£o Paulo",
+                "addressRegion": "SP",
+                "postalCode": "05118100",
+                "addressCountry": "BR"
+                },
+                "sameAs": [
+                "https://www.facebook.com/disaldistribuidora/",
+                "https://www.instagram.com/disal_distribuidora/",
+                "https://twitter.com/disallivraria",
+                "https://www.youtube.com/user/disalchannel"
+                ]
+                }
+            </script>
+        </head>
+        <body>
+                <script src="../../Scripts/milla.js"></script>
+                <script src="/Scriptsv2/jssor.slider.min.js"></script>
+        
+           
+            <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZ5WN7C"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+            <!--Facebook Button-->
+            <div id="fb-root"></div>
+            <script>
+                (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=1134295179940586";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+            <script>var lojaespecial = ""</script>
+
+            <div id="main-wrapper">
+
+                
+<section id="header">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div><div class="col-md-7">
+                    <div class="links hide-mobile">
+                        <a href="../nossaslojas" class="link">
+                            <span class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>ConheÃ§a nossas lojas
+                        </a>
+
+                        <a href="../searchadv" class="link" style="float:right;margin-right:0px;">
+                            <span class="icon">
+                                <i class="fas fa-search"></i>
+                            </span>Busca avanÃ§ada
+                        </a>
+
+                        <!--<a href="../atendimento" class="link">
+                            <span class="icon">
+                                <i class="far fa-comments"></i>
+                            </span>Central de atendimento (11) 3226-3118
+                        </a><a href="tel:+551132263118" class="link">
+                            <span class="icon">
+                                <i class="fas fa-phone"></i>
+                            </span>Televendas (11) 3226-3111
+                        </a><a href="https://wa.me/5511976171773" class="link">
+                            <span class="icon">
+                                <i class="fas ion-social-whatsapp"></i>
+                            </span>Whatsapp (11) 97617-1773
+                        </a>-->
+                    </div>
+                </div>
+            </div><div class="row">
+                <div class="col-md-2 col-sm-6 col-xs-6">
+                    <div class="nav-button-menu fullheight hide-desktop"><i class="fas fa-bars"></i></div><div class="logo">
+                        <a href="../../">
+                            <img src="../../images/logo.png" alt="Disal">
+                        </a>
+                    </div>
+                </div><div class="col-sm-6 col-xs-6 hide-desktop">
+                    <div class="user-account">
+                        <div class="login-box fechalogin">
+                            <div class="icon"><img src="https://www.disal.com.br/images/login.png"></div>
+                                <span>OlÃ¡, faÃ§a seu login <br> ou cadastre-se</span>
+
+
+                        </div>
+                        <div id="loget" class="register-box ">
+<form action="/Home/Login" method="post" onsubmit="processando(event)">                                <div class="register-box--content">
+                                        <p>Email ou CNPJ/CPF ou CÃ³digo Disal</p>
+                                        <input type="text" name="usuario" autocomplete="off">
+                                        <p>Senha</p>
+                                        <input type="password" name="senha" AUTOCOMPLETE="off">
+                                        <button class="btn-theme">Entrar</button>
+                                        <button class="btn-theme botaoface" id="facebook" name="facebook" style="background-color:blue" onclick="window.location.href = 'https://www.facebook.com/v2.4/dialog/oauth/?client_id=1134295179940586&amp;redirect_uri=https://www.disal.com.br/Loginface&amp;response_type=code&amp;state=1'; return false;"><!--FaceBook--></button>
+                                        <div class="mb-5">
+                                            <a class="forgot-password" href="../../esqueci">Esqueci a senha</a>
+                                        </div>
+                                    
+                                        <div>
+                                            NÃ£o tem cadastro? <a class="new-register" href="../../cadastro">Cadastre-se</a>
+                                        </div>
+                                </div>
+</form>                        </div>
+
+
+
+
+                        <div class="cart-box">
+                            <a href="../../cesta">
+                                <div class="icon">
+                                    <img src="https://www.disal.com.br/images/carrinho.png">
+                                </div>
+                                <div class="badge">0</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-md-7 col-sm-12 col-xs-12">
+<form action="/busca" id="bsearch" method="get" onsubmit="return check_small_search_form()">                        <div class="search">
+                            <div class="search-content">
+
+                                <div class="easy-autocomplete">
+                                    <input type="text" id="busca" value="Digite aqui o livro que vocÃª procura..." name="q" onfocus="if (this.value == 'Digite aqui o livro que vocÃª procura...') this.value = ''" onblur="if (this.value=='' ) { this.value='Digite aqui o livro que vocÃª procura...' ; }" />
+                                    <div class="easy-autocomplete-container" id="eac-container-busca"><ul></ul></div>
+                                    <button type="submit">
+                                        <i class="fas fa-search fa-2x"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+</form>                </div>
+
+
+
+
+
+                <div class="col-md-3 hide-mobile">
+                    <div class="user-account">
+                        <div class="login-box register-icon fechalogin">
+                            <div class="icon">
+                                <img src="https://www.disal.com.br/images/login.png">
+                            </div>
+                                <span>OlÃ¡, faÃ§a seu login <br> ou cadastre-se</span>
+                        </div>
+                        <div id="loget" class="register-box ">
+<form action="/Home/Login" method="post">                                <div class="register-box--content">
+                                        <p>Email ou CNPJ/CPF ou CÃ³digo Disal</p>
+                                        <input type="text" name="usuario">
+                                        <p>Senha</p>
+                                        <input type="password" name="senha" AUTOCOMPLETE="off">
+                                        <button class="btn-theme">Entrar</button>
+                                        <button class="btn-theme botaoface" id="facebook" name="facebook" style="background-color:blue" onclick="window.location.href = 'https://www.facebook.com/v2.4/dialog/oauth/?client_id=1134295179940586&amp;redirect_uri=https://www.disal.com.br/Loginface&amp;response_type=code&amp;state=1'; return false;"><!--FaceBook--></button>
+                                        <div class="mb-5">
+                                            <a class="forgot-password" href="../../esqueci">Esqueci a senha</a>
+                                        </div>
+                                    
+                                        <div>
+                                            NÃ£o tem cadastro? <a class="new-register" href="../../cadastro">Cadastre-se</a>
+                                        </div>
+                                </div>
+</form>                        </div>
+
+
+
+
+
+                        <div class="cart-box" id="baskimage">
+                            <a href="../../cesta">
+                                <div class="icon">
+                                    <img src="https://www.disal.com.br/images/carrinho.png">
+                                </div>
+                                <div class="badge">0</div>
+                            </a>
+                        </div>
+                            <div id="float-basket">
+                                <div class="float-basket-container">
+                                    <div class="basket-title">
+                                        Seu Carrinho
+                                    </div>
+                                    <div class="basket-items-container">
+                                            <div class="basket-items">
+                                                <center><strong>Nenhum produto em sua cesta</strong></center>
+                                            </div>
+
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>
+
+<!-- Fim CabeÃÂ§alho -->
+
+                
+
+<section id="navbar"><nav><div class="container hide-mobile"><div class="row no-gutters"><div class="col-md-2 no-padding"><div class="navbar-main-item">
+<i class="fas fa-bars"></i><span>Livros de idioma</span></div><div class="navbar-main-item-sub"><ul>
+    <li class="submenu">
+        <a href="../../idiomas/418-ingles">InglÃªs</a><div class="submenu-item-right column-1">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/418-ingles/4342-Cursos">Cursos</a>
+                    <a href="../../idiomas/418-ingles/202-Exames">Exames</a><a href="../../idiomas/418-ingles/4454-Instrumental">Instrumental</a><a href="../../idiomas/418-ingles/4622-Gramaticas">GramÃ¡ticas</a><a href="../../idiomas/418-ingles/99999-Leitura">Leitura</a><a href="../../idiomas/418-ingles/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/259-espanhol">Espanhol</a><div class="submenu-item-right column-1" style="margin-top: -54px">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/259-espanhol/4342-Cursos">Cursos</a><a href="../../idiomas/259-espanhol/202-Exames">Exames</a>
+                    <a href="../../idiomas/259-espanhol/4454-Instrumental">Instrumental</a><a href="../../idiomas/259-espanhol/4622-Gramaticas">GramÃ¡ticas</a><a href="../../idiomas/259-espanhol/99999-Leitura">Leitura</a>
+                    <a href="../../idiomas/259-espanhol/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/264-alemao">AlemÃ£o</a><div class="submenu-item-right column-1" style="margin-top: -99px">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/264-alemao/4342-Cursos">Cursos</a><a href="../../idiomas/264-alemao/202-Exames">Exames</a><a href="../../idiomas/264-alemao/4454-Instrumental">Instrumental</a><a href="../../idiomas/264-alemao/4622-Gramaticas">GramÃ¡ticas</a>
+                    <a href="../../idiomas/264-alemao/99999-Leitura">Leitura</a><a href="../../idiomas/264-alemao/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/260-frances">FrancÃªs</a><div class="submenu-item-right column-1" style="margin-top: -144px">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/260-frances/4342-Cursos">Cursos</a><a href="../../idiomas/260-frances/202-Exames">Exames</a><a href="../../idiomas/260-frances/4454-Instrumental">Instrumental</a><a href="../../idiomas/260-frances/4622-Gramaticas">GramÃ¡ticas</a>
+                    <a href="../../idiomas/260-frances/99999-Leitura">Leitura</a><a href="../../idiomas/260-frances/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/265-italiano">Italiano</a><div class="submenu-item-right column-1" style="margin-top: -190px">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/265-italiano/4342-Cursos">Cursos</a><a href="../../idiomas/265-italiano/202-Exames">Exames</a><a href="../../idiomas/265-italiano/4454-Instrumental">Instrumental</a><a href="../../idiomas/265-italiano/4622-Gramaticas">GramÃ¡ticas</a>
+                    <a href="../../idiomas/265-italiano/99999-Leitura">Leitura</a><a href="../../idiomas/265-italiano/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="submenu">
+        <a href="../../idiomas/261-outros">Outros</a><div class="submenu-item-right column-1" style="margin-top: -234px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="../../idiomas/261-outros/4342-Cursos">Cursos</a><a href="../../idiomas/261-outros/202-Exames">Exames</a><a href="../../idiomas/261-outros/4454-Instrumental">Instrumental</a><a href="../../idiomas/261-outros/4622-Gramaticas">GramÃ¡ticas</a>
+                    <a href="../../idiomas/261-outros/99999-Leitura">Leitura</a><a href="../../idiomas/261-outros/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul></div></div><div class="col-md-10 no-padding">
+<ul class="navbar"><ul>
+    <li class="submenu">
+        <a href="../../convenios">ConvÃªnios</a>
+    </li>
+    <li class="submenu"><a href="../../destaques">Livros em destaque</a></li>
+    <li class="submenu">
+        <a href="../../maisvendidos">Mais vendidos</a>
+    </li>
+    <li class="submenu"><a href="../../tecnicos">Livros tÃ©cnicos</a></li>
+            <li class="submenu">
+            <a href="/eventos">EVENTOS</a>
+        </li>
+
+</ul></ul></div></div></div></nav></section>
+<!-- Fim Menu Principal -->
+
+
+                <section id="banner">
+                    <div class="container">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 hide-mobile no-padding">
+                                <div class="navbar-main-item-sub active">
+                                    <ul>
+                                        <li class="submenu">
+                                            <a href="../../idiomas/418-ingles">InglÃªs</a><div class="submenu-item-right column-1" style="margin-top: -10px">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="../../idiomas/418-ingles/4342-Cursos">Cursos</a>
+                                                        <a href="../../idiomas/418-ingles/202-Exames">Exames</a><a href="../../idiomas/418-ingles/4454-Instrumental">Instrumental</a><a href="../../idiomas/418-ingles/4622-Gramaticas">GramÃ¡ticas</a><a href="../../idiomas/418-ingles/99999-Leitura">Leitura</a><a href="../../idiomas/418-ingles/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="../../idiomas/259-espanhol">Espanhol</a><div class="submenu-item-right column-1" style="margin-top: -59px">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="../../idiomas/259-espanhol/4342-Cursos">Cursos</a><a href="../../idiomas/259-espanhol/202-Exames">Exames</a>
+                                                        <a href="../../idiomas/259-espanhol/4454-Instrumental">Instrumental</a><a href="../../idiomas/259-espanhol/4622-Gramaticas">GramÃ¡ticas</a><a href="../../idiomas/259-espanhol/99999-Leitura">Leitura</a>
+                                                        <a href="../../idiomas/259-espanhol/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="../../idiomas/264-alemao">AlemÃ£o</a><div class="submenu-item-right column-1" style="margin-top: -108px">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="../../idiomas/264-alemao/4342-Cursos">Cursos</a><a href="../../idiomas/264-alemao/202-Exames">Exames</a><a href="../../idiomas/264-alemao/4454-Instrumental">Instrumental</a><a href="../../idiomas/264-alemao/4622-Gramaticas">GramÃ¡ticas</a>
+                                                        <a href="../../idiomas/264-alemao/99999-Leitura">Leitura</a><a href="../../idiomas/264-alemao/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="../../idiomas/260-frances">FrancÃªs</a><div class="submenu-item-right column-1" style="margin-top: -157px">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="../../idiomas/260-frances/4342-Cursos">Cursos</a><a href="../../idiomas/260-frances/202-Exames">Exames</a><a href="../../idiomas/260-frances/4454-Instrumental">Instrumental</a><a href="../../idiomas/260-frances/4622-Gramaticas">GramÃ¡ticas</a>
+                                                        <a href="../../idiomas/260-frances/99999-Leitura">Leitura</a><a href="../../idiomas/260-frances/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="../../idiomas/265-italiano">Italiano</a><div class="submenu-item-right column-1" style="margin-top: -206px">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="../../idiomas/265-italiano/4342-Cursos">Cursos</a><a href="../../idiomas/265-italiano/202-Exames">Exames</a><a href="../../idiomas/265-italiano/4454-Instrumental">Instrumental</a><a href="../../idiomas/265-italiano/4622-Gramaticas">GramÃ¡ticas</a>
+                                                        <a href="../../idiomas/265-italiano/99999-Leitura">Leitura</a><a href="../../idiomas/265-italiano/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="../../idiomas/261-outros">Outros</a><div class="submenu-item-right column-1 forcalinha" style="margin-top: -255px;">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="../../idiomas/261-outros/4342-Cursos">Cursos</a><a href="../../idiomas/261-outros/202-Exames">Exames</a><a href="../../idiomas/261-outros/4454-Instrumental">Instrumental</a><a href="../../idiomas/261-outros/4622-Gramaticas">GramÃ¡ticas</a>
+                                                        <a href="../../idiomas/261-outros/99999-Leitura">Leitura</a><a style="border-bottom:none !important;" href="../../idiomas/261-outros/178-DicionÃ¡rios">DicionÃ¡rios</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <!---->
+                            </div>
+                            <div class="col-md-10 col-sm-12 no-padding">
+                                <div id="slider1_container" style="visibility: hidden; position: relative; width: 986px; height: 328px; overflow: hidden;">
+                                    <!-- Loading Screen -->
+                                    <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                                        <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
+                                    </div>
+
+                                    <!-- Slides Container -->
+                                    <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 985px; height: 313px;
+            overflow: hidden;">
+                                                    <div>
+                                                        <a href="https://www.disal.com.br/quinzena-do-professor?utm_source=site&amp;utm_medium=fullbanner&amp;utm_campaign=Quinzena%20do%20Professor"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/L80KLKUAE0TIF0TTKHR0.png" /></a>
+                                                    </div>
+                                                    <div>
+                                                        <a href="https://www.disal.com.br/quinzena-da-crianca?utm_source=site&amp;utm_medium=fullbanner&amp;utm_campaign=Quinzena%20das%20Criancas"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/81DME7LTUBP5GJE5XKCM.png" /></a>
+                                                    </div>
+                                                    <div>
+                                                        <a href="https://www.disal.com.br/desafio-da-educacao?utm_source=site&amp;utm_medium=fullbanner&amp;utm_campaign=Desafio%20da%20Educacao"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/AIC69CYJ4TUKG4FIZLRS.png" /></a>
+                                                    </div>
+                                                    <div>
+                                                        <a href="https://www.disal.com.br/como-me-sinto?utm_source=site&amp;utm_medium=fullbanner&amp;utm_campaign=Como%20me%20Sinto"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/X2CCEA0RL1FJ2DBQB7R0.png" /></a>
+                                                    </div>
+                                                    <div>
+                                                        <a href="https://www.disal.com.br/especial-musica?utm_source=site&amp;utm_medium=fullbanner&amp;utm_campaign=Especial%20Musica%20Disal%20Editora"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/UBOPCYSRASHOGB4ZTSWZ.png" /></a>
+                                                    </div>
+                                                    <div>
+                                                        <a href="https://www.newroutes.com.br/?utm_source=site&amp;utm_medium=fullbanner&amp;utm_campaign=New%20Routes%2069"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/4F4LZUW2PHPVH4JAYCMU.png" /></a>
+                                                    </div>
+
+                                    </div>
+                                    <style>
+                                        .jssorb031 {
+                                            position: absolute;
+                                            /*left: -85px !important;*/
+                                            /* margin-top:12px;*/
+                                        }
+
+                                            .jssorb031 .i {
+                                                position: absolute;
+                                                cursor: pointer;
+                                            }
+
+                                                .jssorb031 .i .b {
+                                                    fill: #000;
+                                                    fill-opacity: 0.5;
+                                                    stroke: #fff;
+                                                    stroke-width: 1200;
+                                                    stroke-miterlimit: 10;
+                                                    stroke-opacity: 0.3;
+                                                }
+
+                                                .jssorb031 .i:hover .b {
+                                                    fill: #C11724;
+                                                    fill-opacity: .7;
+                                                    stroke: #000;
+                                                    stroke-opacity: .5;
+                                                }
+
+                                            .jssorb031 .iav .b {
+                                                fill: #C11724;
+                                                stroke: #000;
+                                                fill-opacity: 1;
+                                            }
+
+                                            .jssorb031 .i.idn {
+                                                opacity: .3;
+                                            }
+                                    </style>
+                                    <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;left:-5px;" data-autocenter="1" data-scale="0.5" data-scale-left="0.75" data-scale-bottom="0.75">
+                                        <div data-u="prototype" class="i" style="width:16px;height:36px;">
+                                            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                                <path class="b" d="M11400,13800H4600c-1320,0-2400-1080-2400-2400V4600c0-1320,1080-2400,2400-2400h6800 c1320,0,2400,1080,2400,2400v6800C13800,12720,12720,13800,11400,13800z"></path>
+                                            </svg>
+
+                                        </div>
+                                    </div>
+                                    <style>
+                                        .jssora051 {
+                                            display: block;
+                                            position: absolute;
+                                            cursor: pointer;
+                                        }
+
+                                            .jssora051 .a {
+                                                fill: none;
+                                                stroke: #fff;
+                                                stroke-width: 360;
+                                                stroke-miterlimit: 10;
+                                            }
+
+                                            .jssora051:hover {
+                                                opacity: .8;
+                                            }
+
+                                            .jssora051.jssora051dn {
+                                                opacity: .5;
+                                            }
+
+                                            .jssora051.jssora051ds {
+                                                opacity: .3;
+                                                pointer-events: none;
+                                            }
+                                    </style>
+                                    <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:10px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                                        <svg viewBox="0 0 16000 16000" style="position:absolute;top:-30px;left:0;width:100%;height:100%;">
+                                            <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                                        </svg>
+                                    </div>
+                                    <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:10px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                                        <svg viewBox="0 0 16000 16000" style="position:absolute;top:-30px;left:0;width:100%;height:100%;">
+                                            <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                                        </svg>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="page-home">
+                    <header style="margin-top:-10px;">
+                        <div class="container">
+                            <!--
+                            <br />
+                            <div class="row hide-mobile">
+                                <div class="col">
+                                    <div class="section-title">
+                                        <h4>Mundos</h4>
+                                    </div>
+                                </div>
+                            </div>
+                                -->
+
+<script type="text/javascript">
+            jssor_1_slider_init = function() {
+
+                var jssor_1_options = {
+                  $AutoPlay: 1,
+                  $Idle: 0,
+                  $SlideDuration: 5000,
+                  $SlideEasing: $Jease$.$Linear,
+                  $PauseOnHover: 4,
+                  $SlideWidth: 180,
+                  
+                  $Align: 0
+                };
+
+                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                /*#region responsive code begin*/
+
+                var MAX_WIDTH = 1024;
+
+                function ScaleSlider() {
+                    var containerElement = jssor_1_slider.$Elmt.parentNode;
+                    var containerWidth = containerElement.clientWidth;
+
+                    if (containerWidth) {
+
+                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                        jssor_1_slider.$ScaleWidth(expectedWidth);
+                    }
+                    else {
+                        window.setTimeout(ScaleSlider, 30);
+                    }
+                }
+
+                ScaleSlider();
+
+                $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                /*#endregion responsive code end*/
+            };
+</script>
+<style>
+            /*jssor slider loading skin spin css*/
+            .jssorl-009-spin img {
+                animation-name: jssorl-009-spin;
+                animation-duration: 1.6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            @keyframes jssorl-009-spin {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+</style>
+
+<div class="row">
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:90px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1024px;height:80px;overflow:hidden;">
+
+                    <div>
+                        <a href="/Edelsa"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/BWUJ98C5GW8EJATBCP5R.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Cambridge"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/YQNLXJFO4G8NYV90ERUW.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Oxford"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/X4KBVR2IWWHNZVH0IXUU.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Pearson"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/4Z2WK42Y7Z2CUSWLUI8A.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Cengage"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/AGF8ZIG43WOBYK31LD3L.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/NationalGeographicLearning"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/6V9L4NNQ8IGMQ9X1A4G6.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/macmillan"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/DCMXQNOZNM87TINLMZOJ.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Edinumen"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/JQXE54HAE6QH5VURFJ5M.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/DisalEditora"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/NHOTDLBLHVNQOVFYM3N9.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/didier"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/EX30ESLP8EYN0ZUJ6AE0.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Richmond"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/WW1Z6SJGJRO4X1AVHXE5.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Hachette"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/MUDEZD6DC6BCA27XZFG9.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Cle"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/QDALGPHQSMG1C993GL2M.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/GrupoA"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/0V4YAIJ0246VVZFPXHBL.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/CiaDasLetras"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/EMAEOLWW9Z8B7J9YH21O.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Blucher"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/E9EE79ECJHTV2E4E7VLU.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/GrupoGen"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/JP8XY0ASGL7Q35CMEKLO.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Record"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/6VV9LLDHUDCIPC5QGGAE.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/manole"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/OYNDHX00GDGAOUX3QY8O.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Alma"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/4O1C2E4QR6M9L15WAOAR.png" /></a>
+                    </div>
+                    <div>
+                        <a href="/Fundamento"><img data-u="image" src="https://www.disal.com.br/../../Images/banners/9U01P5ZJMVP79SBM4EK1.png" /></a>
+                    </div>
+        </div>
+        <div data-interaction="user-commands" class="cmd-box" style="display:none;top:2px;left:auto;bottom:auto;right:2px;width:23px;height:69px;box-sizing:border-box;" data-scale=".2" data-scale-top=".5" data-scale-right=".5">
+            <div data-command="jssor-getslider" class="cmd-btn" title="get this slider">î¥</div>
+            <div data-command="jssor-qrcode" class="cmd-btn" title="QR code">î¥</div>
+            <div data-command="jssor-share" class="cmd-btn" title="share">î¥</div>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+
+  
+</div>
+<!-- Fim Parceiros  -->
+
+                            <div class="block-separator hide-mobile"></div>
+                            <div class="row">
+                                <div class="col-md-2 hide-mobile">
+
+                                    <div class="sidenav">
+                                        <div class="sidenav-item">
+                                            <span>Categorias</span>
+                                            <ul>
+
+ <li><a href="../../categoria/26-administracao-e-negocios/0-administracao-e-negocios">Administra&#231;&#227;o e Neg&#243;cios </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/30-arquitetura-e-urbanismo/0-arquitetura-e-urbanismo">Arquitetura e Urbanismo </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/31-artes/0-artes">Artes</a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/85-biografia-e-memorias/0-biografia-e-memorias">Biografia e Mem&#243;rias </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/37-ciencias-biologicas-e-naturais/0-ciencias-biologicas-e-naturais">Ci&#234;ncias Biol&#243;gicas e Naturais </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/39-ciencias-exatas/0-ciencias-exatas">Ci&#234;ncias Exatas </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/40-ciencias-humanas-e-sociais/0-ciencias-humanas-e-sociais">Ci&#234;ncias Humanas e Sociais </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/41-comunicacao/0-comunicacao">Comunica&#231;&#227;o </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/42-concursos/0-concursos">Concursos </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/44-culinaria-e-gastronomia/0-culinaria-e-gastronomia">Culin&#225;ria e Gastronomia </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/46-dicionarios/0-dicionarios">Dicion&#225;rios </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/48-direito/0-direito">Direito </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/49-economia/0-economia">Economia </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/50-educacao/0-educacao">Educa&#231;&#227;o </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/52-engenharia/0-engenharia">Engenharia </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/54-ensino-de-linguas/0-ensino-de-linguas">Ensino de L&#237;nguas</a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/56-esportes/0-esportes">Esportes </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/63-historias-em-quadrinhos/0-historias-em-quadrinhos">Hist&#243;rias em Quadrinhos </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/64-informatica/0-informatica">Inform&#225;tica </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/68-literatura-estrangeira/0-literatura-estrangeira">Literatura Estrangeira</a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/69-literatura-infanto-juvenil/0-literatura-infanto-juvenil">Literatura Infanto Juvenil</a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/70-literatura-nacional/0-literatura-nacional">Literatura Nacional </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/72-medicina-e-saude/0-medicina-e-saude">Medicina e Sa&#250;de </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/75-moda-estetica-beleza/0-moda-estetica-beleza">Moda Est&#233;tica &amp; Beleza</a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/77-psicologia/0-psicologia">Psicologia </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/79-religiao/0-religiao">Religi&#227;o </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+ <li><a href="../../categoria/83-viagens-e-turismo/0-viagens-e-turismo">Viagens e Turismo </a><i class="fas fa-chevron-right"></i></li>
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                        <a class="block fullwidth mb-20 mt-20" href="https://www.disal.com.br/clique-e-retire?utm_source=lateral&amp;utm_medium=banner&amp;utm_campaign=Clique%20e%20Retire">
+                                            <img class="fullwidth" src="../../Images/banners/NEH90ARCDXM7CNEUR3JJ.png">
+                                        </a>
+                                        <a class="block fullwidth mb-20 mt-20" href="https://www.newroutes.com.br/?utm_source=site&amp;utm_medium=banner%20lateral&amp;utm_campaign=New%20Routes%2069">
+                                            <img class="fullwidth" src="../../Images/banners/JTP0XUWJ4P9FTUCT8JBT.png">
+                                        </a>
+                                        <a class="block fullwidth mb-20 mt-20" href="https://www.disal.com.br/convenios#convenios-detalhes">
+                                            <img class="fullwidth" src="../../Images/banners/5KWD17H888H8G8Q6478T.png">
+                                        </a>
+                                        <a class="block fullwidth mb-20 mt-20" href="https://www.disal.com.br/appdisal">
+                                            <img class="fullwidth" src="../../Images/banners/6LFAUD1PR4Q2NAOV3Q20.png">
+                                        </a>
+                                        <a class="block fullwidth mb-20 mt-20" href="http://www.disaldigital.com.br/">
+                                            <img class="fullwidth" src="../../Images/banners/UT3JAA7X7EVMGW6NTYLP.png">
+                                        </a>
+                                        <a class="block fullwidth mb-20 mt-20" href="https://www.disal.com.br/eventos">
+                                            <img class="fullwidth" src="../../Images/banners/I8GG9MSC5KBX3TX4G4C5.png">
+                                        </a>
+                                        <a class="block fullwidth mb-20 mt-20" href="https://www.disal.com.br/clara">
+                                            <img class="fullwidth" src="../../Images/banners/VFADJSDOTOE1Y7YOBV1C.png">
+                                        </a>
+                                </div>
+
+                                <div class="col-md-10">
+                                <div id="sugestaosync" style="display:none;"></div>
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="section-title t-left">
+                                                <h4>Idiomas</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="books-slider">
+                                                <div class="books-slider-container">
+                                                    <ul id="testep" class="cS-hidden">
+                                                                <li>
+                                                                    
+<div class='item active'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2437831-connect-1-combo-sb-wb-revised-ed"><img src="https://imagens.disal.com.br/produtos/normal/2437831.jpg" title="CONNECT 1 COMBO SB + WB REVISED ED " alt="CONNECT 1 COMBO SB + WB REVISED ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2437831-connect-1-combo-sb-wb-revised-ed">CONNECT 1 COMBO SB + WB REVISED ED </a></span><small style="color:#000;font-size:1.5rem;">Cambridge University </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 152,00</div>
+<small class='forcawrap'>em atÃ© 3x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2437831'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/4055713-english-id-2-sb-with-access-code---br"><img src="https://imagens.disal.com.br/produtos/normal/4055713.jpg" title="ENGLISH ID 2 SB WITH ACCESS CODE - BRITISH " alt="ENGLISH ID 2 SB WITH ACCESS CODE - BRITISH " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/4055713-english-id-2-sb-with-access-code---br">ENGLISH ID 2 SB WITH ACCESS CODE - BRITISH </a></span><small style="color:#000;font-size:1.5rem;">Richmond Didatico Uk (moderna) </small></h2><div class="book-price">
+        <div class="old">R$ 190,00</div>
+    <div class="new">R$ 171,00</div>
+<small class='forcawrap'>em atÃ© 3x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('4055713'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2524651-entorno-laboral-a1b1---edicion-amplia"><img src="https://imagens.disal.com.br/produtos/normal/2524651.jpg" title="ENTORNO LABORAL A1/B1 - EDICION AMPLIADA + AUDIO DESCARGABLE " alt="ENTORNO LABORAL A1/B1 - EDICION AMPLIADA + AUDIO DESCARGABLE " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2524651-entorno-laboral-a1b1---edicion-amplia">ENTORNO LABORAL A1/B1 - EDICION AMPLIADA + AUDIO DESCARGABLE </a></span><small style="color:#000;font-size:1.5rem;">Edelsa (anaya) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 208,15</div>
+<small class='forcawrap'>em atÃ© 4x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2524651'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2364786-american-english-file-1-sb-with-onlin"><img src="https://imagens.disal.com.br/produtos/normal/2364786.jpg" title="AMERICAN ENGLISH FILE 1 SB WITH ONLINE SKILLS - 2ND ED " alt="AMERICAN ENGLISH FILE 1 SB WITH ONLINE SKILLS - 2ND ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2364786-american-english-file-1-sb-with-onlin">AMERICAN ENGLISH FILE 1 SB WITH ONLINE SKILLS - 2ND ED </a></span><small style="color:#000;font-size:1.5rem;">Oxford University </small></h2><div class="book-price">
+        <div class="old">R$ 211,00</div>
+    <div class="new">R$ 202,00</div>
+<small class='forcawrap'>em atÃ© 4x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2364786'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2531011-interchange-1-sb-with-online-self-stu"><img src="https://imagens.disal.com.br/produtos/normal/2531011.jpg" title="INTERCHANGE 1 SB WITH ONLINE SELF-STUDY - 5TH ED " alt="INTERCHANGE 1 SB WITH ONLINE SELF-STUDY - 5TH ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2531011-interchange-1-sb-with-online-self-stu">INTERCHANGE 1 SB WITH ONLINE SELF-STUDY - 5TH ED </a></span><small style="color:#000;font-size:1.5rem;">Cambridge University </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 203,00</div>
+<small class='forcawrap'>em atÃ© 4x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2531011'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2419122-alter-ego-1-bresil---cahier-dactivite"><img src="https://imagens.disal.com.br/produtos/normal/2419122.jpg" title="ALTER EGO + 1 BRESIL - CAHIER D&#180;ACTIVITES " alt="ALTER EGO + 1 BRESIL - CAHIER D&#180;ACTIVITES " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2419122-alter-ego-1-bresil---cahier-dactivite">ALTER EGO + 1 BRESIL - CAHIER D&#180;ACTIVITES </a></span><small style="color:#000;font-size:1.5rem;">Hachette Franca </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 80,96</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2419122'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2381540-big-picture-b1-pre-intermediate-sb-ne"><img src="https://imagens.disal.com.br/produtos/normal/2381540.jpg" title="BIG PICTURE B1 PRE-INTERMEDIATE SB N/E " alt="BIG PICTURE B1 PRE-INTERMEDIATE SB N/E " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2381540-big-picture-b1-pre-intermediate-sb-ne">BIG PICTURE B1 PRE-INTERMEDIATE SB N/E </a></span><small style="color:#000;font-size:1.5rem;">Richmond Didatico Uk (moderna) </small></h2><div class="book-price">
+        <div class="old">R$ 195,00</div>
+    <div class="new">R$ 175,50</div>
+<small class='forcawrap'>em atÃ© 3x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2381540'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2536773-tiger-time-1-sb-with-ebook-pack"><img src="https://imagens.disal.com.br/produtos/normal/2536773.jpg" title="TIGER TIME 1 SB WITH EBOOK PACK " alt="TIGER TIME 1 SB WITH EBOOK PACK " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2536773-tiger-time-1-sb-with-ebook-pack">TIGER TIME 1 SB WITH EBOOK PACK </a></span><small style="color:#000;font-size:1.5rem;">Macmillan Br </small></h2><div class="book-price">
+        <div class="old">R$ 128,26</div>
+    <div class="new">R$ 115,43</div>
+<small class='forcawrap'>em atÃ© 2x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2536773'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/4196154-american-inside-out-evolution-beginne"><img src="https://imagens.disal.com.br/produtos/normal/4196154.jpg" title="AMERICAN INSIDE OUT EVOLUTION BEGINNER SB " alt="AMERICAN INSIDE OUT EVOLUTION BEGINNER SB " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/4196154-american-inside-out-evolution-beginne">AMERICAN INSIDE OUT EVOLUTION BEGINNER SB </a></span><small style="color:#000;font-size:1.5rem;">Macmillan Br </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 131,25</div>
+<small class='forcawrap'>em atÃ© 2x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('4196154'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                                <li>
+                                                                    
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2343843-objective-proficiency-sb-with-answers"><img src="https://imagens.disal.com.br/produtos/normal/2343843.jpg" title="OBJECTIVE PROFICIENCY SB WITH ANSWERS - 2ND ED " alt="OBJECTIVE PROFICIENCY SB WITH ANSWERS - 2ND ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2343843-objective-proficiency-sb-with-answers">OBJECTIVE PROFICIENCY SB WITH ANSWERS - 2ND ED </a></span><small style="color:#000;font-size:1.5rem;">Cambridge University </small></h2><div class="book-price">
+        <div class="old">R$ 239,00</div>
+    <div class="new">R$ 215,10</div>
+<small class='forcawrap'>em atÃ© 4x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2343843'); return false;"></button></div></div></div>
+
+
+
+                                                                </li>
+                                                    </ul>
+                                                    <div class="book-slider-controller">
+                                                        <div class="prev-button goToPrevSlide">
+                                                            <img src="../images2/carousel-book-left.png" style="width:17px;" alt="">
+                                                        </div>
+                                                        <div class="next-button goToNextSlide">
+                                                            <img src="../images2/carousel-book-right.png" style="width:17px;" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="section-title t-left">
+                                                <h4>DicionÃ¡rios</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="books-slider">
+                                                <div class="books-slider-container">
+                                                    <ul id="testep2" class="cS-hidden">
+
+<div class='item active'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2404461-collins-dicionario-escolar-ing-port--"><img src="https://imagens.disal.com.br/produtos/normal/2404461.jpg" title="COLLINS DICIONARIO ESCOLAR ING / PORT - PORT / ING - PAPER - NOVA ORTOGRAFIA - 6TH ED " alt="COLLINS DICIONARIO ESCOLAR ING / PORT - PORT / ING - PAPER - NOVA ORTOGRAFIA - 6TH ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2404461-collins-dicionario-escolar-ing-port--">COLLINS DICIONARIO ESCOLAR ING / PORT - PORT / ING - PAPER - NOVA ORTOGRAFIA - 6TH ED </a></span><small style="color:#000;font-size:1.5rem;">Collins Sons Uk </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 45,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2404461'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5309808-michaelis-minidicionario-alemao---3a"><img src="https://imagens.disal.com.br/produtos/normal/5309808.jpg" title="MICHAELIS MINIDICIONARIO ALEMAO - 3&#170; ED " alt="MICHAELIS MINIDICIONARIO ALEMAO - 3&#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5309808-michaelis-minidicionario-alemao---3a">MICHAELIS MINIDICIONARIO ALEMAO - 3&#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Melhoramentos </small></h2><div class="book-price">
+        <div class="old">R$ 48,00</div>
+    <div class="new">R$ 45,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5309808'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5309761-michaelis-minidicionario-espanhol---3"><img src="https://imagens.disal.com.br/produtos/normal/5309761.jpg" title="MICHAELIS MINIDICIONARIO ESPANHOL - 3&#170; ED " alt="MICHAELIS MINIDICIONARIO ESPANHOL - 3&#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5309761-michaelis-minidicionario-espanhol---3">MICHAELIS MINIDICIONARIO ESPANHOL - 3&#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Melhoramentos </small></h2><div class="book-price">
+        <div class="old">R$ 48,00</div>
+    <div class="new">R$ 45,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5309761'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2557827-dicionario-oxford-escolar-with-access"><img src="https://imagens.disal.com.br/produtos/normal/2557827.jpg" title="DICIONARIO OXFORD ESCOLAR WITH ACCESS CODE - 3RD ED " alt="DICIONARIO OXFORD ESCOLAR WITH ACCESS CODE - 3RD ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2557827-dicionario-oxford-escolar-with-access">DICIONARIO OXFORD ESCOLAR WITH ACCESS CODE - 3RD ED </a></span><small style="color:#000;font-size:1.5rem;">Oxford University </small></h2><div class="book-price">
+        <div class="old">R$ 74,00</div>
+    <div class="new">R$ 71,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2557827'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2074710-longman-dicionario-escolar-ingport--"><img src="https://imagens.disal.com.br/produtos/normal/2074710.jpg" title="LONGMAN DICIONARIO ESCOLAR ING/PORT - PORT/ING - 2&#170; ED - NOVA ORTOGRAFIA " alt="LONGMAN DICIONARIO ESCOLAR ING/PORT - PORT/ING - 2&#170; ED - NOVA ORTOGRAFIA " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2074710-longman-dicionario-escolar-ingport--">LONGMAN DICIONARIO ESCOLAR ING/PORT - PORT/ING - 2&#170; ED - NOVA ORTOGRAFIA </a></span><small style="color:#000;font-size:1.5rem;">Pearson (importado) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 58,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2074710'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5309778-michaelis-minidicionario-frances---3a"><img src="https://imagens.disal.com.br/produtos/normal/5309778.jpg" title="MICHAELIS MINIDICIONARIO FRANCES - 3&#170; ED " alt="MICHAELIS MINIDICIONARIO FRANCES - 3&#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5309778-michaelis-minidicionario-frances---3a">MICHAELIS MINIDICIONARIO FRANCES - 3&#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Melhoramentos </small></h2><div class="book-price">
+        <div class="old">R$ 48,00</div>
+    <div class="new">R$ 45,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5309778'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2425491-collins-dicionario-espport---portesp"><img src="https://imagens.disal.com.br/produtos/normal/2425491.jpg" title="COLLINS DICIONARIO ESP/PORT - PORT/ESP - GEM " alt="COLLINS DICIONARIO ESP/PORT - PORT/ESP - GEM " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2425491-collins-dicionario-espport---portesp">COLLINS DICIONARIO ESP/PORT - PORT/ESP - GEM </a></span><small style="color:#000;font-size:1.5rem;">Collins Sons Uk </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 25,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2425491'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2422808-oxford-advanced-learners-dictionary-w"><img src="https://imagens.disal.com.br/produtos/normal/2422808.jpg" title="OXFORD ADVANCED LEARNERS DICTIONARY WITH ISPEAKER / IWHITER ON DVD AND ONLINE - 9TH ED " alt="OXFORD ADVANCED LEARNERS DICTIONARY WITH ISPEAKER / IWHITER ON DVD AND ONLINE - 9TH ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2422808-oxford-advanced-learners-dictionary-w">OXFORD ADVANCED LEARNERS DICTIONARY WITH ISPEAKER / IWHITER ON DVD AND ONLINE - 9TH ED </a></span><small style="color:#000;font-size:1.5rem;">Oxford University </small></h2><div class="book-price">
+        <div class="old">R$ 312,00</div>
+    <div class="new">R$ 299,00</div>
+<small class='forcawrap'>em atÃ© 4x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2422808'); return false;"></button></div></div></div>
+
+
+                                                    </ul>
+                                                    <div class="book-slider-controller">
+                                                        <div class="prev-button goToPrevSlide2">
+                                                            <img src="../images2/carousel-book-left.png" style="width:17px;" alt="">
+                                                        </div>
+                                                        <div class="next-button goToNextSlide2">
+                                                            <img src="../images2/carousel-book-right.png" style="width:17px;" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+    <div class="row">
+        <div class="col">
+            <div class="fullwidth-page-banner">
+                <div id="carousel" class="carousel slides" data-ride="carousel">
+                    <div class="carousel-inner row w-100 mx-auto" role="listbox">
+<div class='item active'>                                <a href="https://www.disal.com.br/5829852?utm_source=site&amp;utm_medium=banner%20entre%20vitrine&amp;utm_campaign=582985.2">
+                                    <img src="../../Images/banners/TGTLOGDTK7U55NBAJPWI.png" alt="">
+                                </a>
+</div>                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+            <!-- Fim Novidades -->
+
+
+         
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="section-title t-left">
+                                                <h4>GramÃ¡tica</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="books-slider">
+                                                <div class="books-slider-container">
+                                                    <ul id="testep3" class="cS-hidden">
+
+<div class='item active'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5218632-moderna-gramatica-portuguesa---38a-ed"><img src="https://imagens.disal.com.br/produtos/normal/5218632.jpg" title="MODERNA GRAMATICA PORTUGUESA - 38&#170; EDICAO " alt="MODERNA GRAMATICA PORTUGUESA - 38&#170; EDICAO " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5218632-moderna-gramatica-portuguesa---38a-ed">MODERNA GRAMATICA PORTUGUESA - 38&#170; EDICAO </a></span><small style="color:#000;font-size:1.5rem;">Nova Fronteira </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 84,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5218632'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2449501-grammatica-della-lingua-italiana-per"><img src="https://imagens.disal.com.br/produtos/normal/2449501.jpg" title="GRAMMATICA DELLA LINGUA ITALIANA PER STRANIERI 1 (A1-A2) " alt="GRAMMATICA DELLA LINGUA ITALIANA PER STRANIERI 1 (A1-A2) " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2449501-grammatica-della-lingua-italiana-per">GRAMMATICA DELLA LINGUA ITALIANA PER STRANIERI 1 (A1-A2) </a></span><small style="color:#000;font-size:1.5rem;">Alma Edizioni </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 103,14</div>
+<small class='forcawrap'>em atÃ© 2x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2449501'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5603447-gramatica-da-lingua-portuguesa-para-l"><img src="https://imagens.disal.com.br/produtos/normal/5603447.jpg" title="GRAMATICA DA LINGUA PORTUGUESA PARA LEIGOS " alt="GRAMATICA DA LINGUA PORTUGUESA PARA LEIGOS " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5603447-gramatica-da-lingua-portuguesa-para-l">GRAMATICA DA LINGUA PORTUGUESA PARA LEIGOS </a></span><small style="color:#000;font-size:1.5rem;">Alta Books </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 37,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5603447'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5486734-portugues-do-brasil-como-lingua-estra"><img src="https://imagens.disal.com.br/produtos/normal/5486734.jpg" title="PORTUGUES DO BRASIL COMO LINGUA ESTRANGEIRA - GRAMATICA " alt="PORTUGUES DO BRASIL COMO LINGUA ESTRANGEIRA - GRAMATICA " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5486734-portugues-do-brasil-como-lingua-estra">PORTUGUES DO BRASIL COMO LINGUA ESTRANGEIRA - GRAMATICA </a></span><small style="color:#000;font-size:1.5rem;">Disal Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 79,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5486734'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2380031-grammaire-contrastive-para-brasileiro"><img src="https://imagens.disal.com.br/produtos/normal/2380031.jpg" title="GRAMMAIRE CONTRASTIVE PARA BRASILEIROS - LIVRE + CD AUDIO " alt="GRAMMAIRE CONTRASTIVE PARA BRASILEIROS - LIVRE + CD AUDIO " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2380031-grammaire-contrastive-para-brasileiro">GRAMMAIRE CONTRASTIVE PARA BRASILEIROS - LIVRE + CD AUDIO </a></span><small style="color:#000;font-size:1.5rem;">Cle International - Paris </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 152,33</div>
+<small class='forcawrap'>em atÃ© 3x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2380031'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/1906380-pronomes-em-ingles---pronouns"><img src="https://imagens.disal.com.br/produtos/normal/1906380.jpg" title="PRONOMES EM INGLES - PRONOUNS " alt="PRONOMES EM INGLES - PRONOUNS " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/1906380-pronomes-em-ingles---pronouns">PRONOMES EM INGLES - PRONOUNS </a></span><small style="color:#000;font-size:1.5rem;">Disal Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 54,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('1906380'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2240386-gramatica-de-espanol-lengua-extranjer"><img src="https://imagens.disal.com.br/produtos/normal/2240386.jpg" title="GRAMATICA DE ESPANOL LENGUA EXTRANJERA - N/E " alt="GRAMATICA DE ESPANOL LENGUA EXTRANJERA - N/E " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2240386-gramatica-de-espanol-lengua-extranjer">GRAMATICA DE ESPANOL LENGUA EXTRANJERA - N/E </a></span><small style="color:#000;font-size:1.5rem;">Edelsa (anaya) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 148,76</div>
+<small class='forcawrap'>em atÃ© 2x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2240386'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2419335-essential-grammar-in-use-with-answers"><img src="https://imagens.disal.com.br/produtos/normal/2419335.jpg" title="ESSENTIAL GRAMMAR IN USE WITH ANSWERS AND INTERACTIVE E-BOOK - 4TH ED " alt="ESSENTIAL GRAMMAR IN USE WITH ANSWERS AND INTERACTIVE E-BOOK - 4TH ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2419335-essential-grammar-in-use-with-answers">ESSENTIAL GRAMMAR IN USE WITH ANSWERS AND INTERACTIVE E-BOOK - 4TH ED </a></span><small style="color:#000;font-size:1.5rem;">Cambridge University </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 205,00</div>
+<small class='forcawrap'>em atÃ© 4x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2419335'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2235511-uso-de-la-gramatica-elemental-ne---re"><img src="https://imagens.disal.com.br/produtos/normal/2235511.jpg" title="USO DE LA GRAMATICA ELEMENTAL N/E - REVISADA Y A COLOR " alt="USO DE LA GRAMATICA ELEMENTAL N/E - REVISADA Y A COLOR " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2235511-uso-de-la-gramatica-elemental-ne---re">USO DE LA GRAMATICA ELEMENTAL N/E - REVISADA Y A COLOR </a></span><small style="color:#000;font-size:1.5rem;">Edelsa (anaya) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 105,99</div>
+<small class='forcawrap'>em atÃ© 2x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2235511'); return false;"></button></div></div></div>
+
+
+                                                    </ul>
+                                                    <div class="book-slider-controller">
+                                                        <div class="prev-button goToPrevSlide3">
+                                                            <img src="../images2/carousel-book-left.png" style="width:17px;" alt="">
+                                                        </div>
+                                                        <div class="next-button goToNextSlide3">
+                                                            <img src="../images2/carousel-book-right.png" style="width:17px;" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="section-title t-left">
+                                                <h4>Leitura</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="books-slider">
+                                                <div class="books-slider-container">
+                                                    <ul id="testep4" class="cS-hidden">
+
+<div class='item active'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2256381-big-fire---level-a-with-cd-rom-audio"><img src="https://imagens.disal.com.br/produtos/normal/2256381.jpg" title="BIG FIRE - LEVEL A WITH CD-ROM AUDIO CD " alt="BIG FIRE - LEVEL A WITH CD-ROM AUDIO CD " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2256381-big-fire---level-a-with-cd-rom-audio">BIG FIRE - LEVEL A WITH CD-ROM AUDIO CD </a></span><small style="color:#000;font-size:1.5rem;">Disal Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 62,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2256381'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2561761-time-capsule-with-audio-the"><img src="https://imagens.disal.com.br/produtos/normal/2561761.jpg" title="TIME CAPSULE WITH AUDIO, THE " alt="TIME CAPSULE WITH AUDIO, THE " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2561761-time-capsule-with-audio-the">TIME CAPSULE WITH AUDIO, THE </a></span><small style="color:#000;font-size:1.5rem;">Disal Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 54,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2561761'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5200210-dad-for-sale-with-cd-romaudio-cd"><img src="https://imagens.disal.com.br/produtos/normal/5200210.jpg" title="DAD FOR SALE WITH CD-ROM/AUDIO-CD " alt="DAD FOR SALE WITH CD-ROM/AUDIO-CD " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5200210-dad-for-sale-with-cd-romaudio-cd">DAD FOR SALE WITH CD-ROM/AUDIO-CD </a></span><small style="color:#000;font-size:1.5rem;">Disal Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 62,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5200210'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2344051-more-tales-from-shakespeare-with-cdmp"><img src="https://imagens.disal.com.br/produtos/normal/2344051.jpg" title="MORE TALES FROM SHAKESPEARE WITH CD/MP3 " alt="MORE TALES FROM SHAKESPEARE WITH CD/MP3 " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2344051-more-tales-from-shakespeare-with-cdmp">MORE TALES FROM SHAKESPEARE WITH CD/MP3 </a></span><small style="color:#000;font-size:1.5rem;">Pearson (importado) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 50,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2344051'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/2561786-grace-romeo-juliet-and-fred-with-cd-e"><img src="https://imagens.disal.com.br/produtos/normal/2561786.jpg" title="GRACE, ROMEO, JULIET AND FRED WITH CD + E-ZONE " alt="GRACE, ROMEO, JULIET AND FRED WITH CD + E-ZONE " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/2561786-grace-romeo-juliet-and-fred-with-cd-e">GRACE, ROMEO, JULIET AND FRED WITH CD + E-ZONE </a></span><small style="color:#000;font-size:1.5rem;">Disal Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 58,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('2561786'); return false;"></button></div></div></div>
+
+
+
+                                                    </ul>
+                                                    <div class="book-slider-controller">
+                                                        <div class="prev-button goToPrevSlide4">
+                                                            <img src="../images2/carousel-book-left.png" style="width:17px;" alt="">
+                                                        </div>
+                                                        <div class="next-button goToNextSlide4">
+                                                            <img src="../images2/carousel-book-right.png" style="width:17px;" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="fullwidth-page-banner">
+                <div id="carousel" class="carousel slides" data-ride="carousel">
+                    <div class="carousel-inner row w-100 mx-auto" role="listbox">
+<div class='item active'>                            <a href="https://www.disal.com.br/5157900?utm_source=site&amp;utm_medium=banner%20entre%20vitrine&amp;utm_campaign=515790.0">
+                                <img src="../../Images/banners/TVWO7YIEYSINGKQOLTHK.png" alt="">
+                            </a>
+</div>                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="section-title t-left">
+                                                <h4>TÃ©cnicos</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="books-slider">
+                                                <div class="books-slider-container">
+                                                    <ul id="testep5" class="cS-hidden">
+
+<div class='item active'>
+<div class="book-item"><div class="book-image"><a href="../../produto/1962027-fundacoes---guia-pratico-de-projeto-e"><img src="https://imagens.disal.com.br/produtos/normal/1962027.jpg" title="FUNDACOES - GUIA PRATICO DE PROJETO, EXECUCAO E DIMENSIONAMENTO " alt="FUNDACOES - GUIA PRATICO DE PROJETO, EXECUCAO E DIMENSIONAMENTO " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/1962027-fundacoes---guia-pratico-de-projeto-e">FUNDACOES - GUIA PRATICO DE PROJETO, EXECUCAO E DIMENSIONAMENTO </a></span><small style="color:#000;font-size:1.5rem;">Zigurate Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 80,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('1962027'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5364221-gerenciamento-de-obras-qualidade-e-de"><img src="https://imagens.disal.com.br/produtos/normal/5364221.jpg" title="GERENCIAMENTO DE OBRAS, QUALIDADE E DESEMPENHO DA CONSTRUCAO " alt="GERENCIAMENTO DE OBRAS, QUALIDADE E DESEMPENHO DA CONSTRUCAO " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5364221-gerenciamento-de-obras-qualidade-e-de">GERENCIAMENTO DE OBRAS, QUALIDADE E DESEMPENHO DA CONSTRUCAO </a></span><small style="color:#000;font-size:1.5rem;">Ciencia Moderna </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 164,00</div>
+<small class='forcawrap'>em atÃ© 3x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5364221'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5696259-algebrista-o---teoria-e-exercicios-de"><img src="https://imagens.disal.com.br/produtos/normal/5696259.jpg" title="ALGEBRISTA, O - TEORIA E EXERCICIOS DE FIXACAO E REVISAO - 5.400 EXERCICIOS + 1.300 QUESTOES - VOL. 1 " alt="ALGEBRISTA, O - TEORIA E EXERCICIOS DE FIXACAO E REVISAO - 5.400 EXERCICIOS + 1.300 QUESTOES - VOL. 1 " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5696259-algebrista-o---teoria-e-exercicios-de">ALGEBRISTA, O - TEORIA E EXERCICIOS DE FIXACAO E REVISAO - 5.400 EXERCICIOS + 1.300 QUESTOES - VOL. 1 </a></span><small style="color:#000;font-size:1.5rem;">Ciencia Moderna </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 239,00</div>
+<small class='forcawrap'>em atÃ© 4x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5696259'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5378400-branding-design"><img src="https://imagens.disal.com.br/produtos/normal/5378400.jpg" title="BRANDING + DESIGN " alt="BRANDING + DESIGN " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5378400-branding-design">BRANDING + DESIGN </a></span><small style="color:#000;font-size:1.5rem;">Senac Sp </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 49,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5378400'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/1383396-estruturas-de-aco-concreto-e-madeira"><img src="https://imagens.disal.com.br/produtos/normal/1383396.jpg" title="ESTRUTURAS DE ACO, CONCRETO E MADEIRA " alt="ESTRUTURAS DE ACO, CONCRETO E MADEIRA " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/1383396-estruturas-de-aco-concreto-e-madeira">ESTRUTURAS DE ACO, CONCRETO E MADEIRA </a></span><small style="color:#000;font-size:1.5rem;">Zigurate Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 85,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('1383396'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5662400-codigo-de-defesa-do-consumidor---9a-e"><img src="https://imagens.disal.com.br/produtos/normal/5662400.jpg" title="CODIGO DE DEFESA DO CONSUMIDOR - 9&#170; ED " alt="CODIGO DE DEFESA DO CONSUMIDOR - 9&#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5662400-codigo-de-defesa-do-consumidor---9a-e">CODIGO DE DEFESA DO CONSUMIDOR - 9&#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Manole (juridico) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 14,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5662400'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/1437003-desvendando-os-segredos-da-linguagem"><img src="https://imagens.disal.com.br/produtos/normal/1437003.jpg" title="DESVENDANDO OS SEGREDOS DA LINGUAGEM CORPORAL " alt="DESVENDANDO OS SEGREDOS DA LINGUAGEM CORPORAL " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/1437003-desvendando-os-segredos-da-linguagem">DESVENDANDO OS SEGREDOS DA LINGUAGEM CORPORAL </a></span><small style="color:#000;font-size:1.5rem;">Gmt (sextante) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 39,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('1437003'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5657040-caderno-de-exercicios-de-psicologia-p"><img src="https://imagens.disal.com.br/produtos/normal/5657040.jpg" title="CADERNO DE EXERCICIOS DE PSICOLOGIA POSITIVA " alt="CADERNO DE EXERCICIOS DE PSICOLOGIA POSITIVA " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5657040-caderno-de-exercicios-de-psicologia-p">CADERNO DE EXERCICIOS DE PSICOLOGIA POSITIVA </a></span><small style="color:#000;font-size:1.5rem;">Vozes </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 15,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5657040'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5420954-resistencia-dos-materiais---4a-ed"><img src="https://imagens.disal.com.br/produtos/normal/5420954.jpg" title="RESISTENCIA DOS MATERIAIS - 4&#170; ED " alt="RESISTENCIA DOS MATERIAIS - 4&#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5420954-resistencia-dos-materiais---4a-ed">RESISTENCIA DOS MATERIAIS - 4&#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Edgard Blucher </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 94,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5420954'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/1094394-introducao-a-analise-matematica--2-a"><img src="https://imagens.disal.com.br/produtos/normal/1094394.jpg" title="INTRODUCAO A ANALISE MATEMATICA- 2 &#170; ED " alt="INTRODUCAO A ANALISE MATEMATICA- 2 &#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/1094394-introducao-a-analise-matematica--2-a">INTRODUCAO A ANALISE MATEMATICA- 2 &#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Edgard Blucher </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 99,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('1094394'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/1084003-concepcao-estrutural-e-a-arquitetura"><img src="https://imagens.disal.com.br/produtos/normal/1084003.jpg" title="CONCEPCAO ESTRUTURAL E A ARQUITETURA, A " alt="CONCEPCAO ESTRUTURAL E A ARQUITETURA, A " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/1084003-concepcao-estrutural-e-a-arquitetura">CONCEPCAO ESTRUTURAL E A ARQUITETURA, A </a></span><small style="color:#000;font-size:1.5rem;">Zigurate Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 80,00</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('1084003'); return false;"></button></div></div></div>
+
+
+                                                    </ul>
+                                                    <div class="book-slider-controller">
+                                                        <div class="prev-button goToPrevSlide5">
+                                                            <img src="../images2/carousel-book-left.png" style="width:17px;" alt="">
+                                                        </div>
+                                                        <div class="next-button goToNextSlide5">
+                                                            <img src="../images2/carousel-book-right.png" style="width:17px;" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="section-title t-left">
+                                                <h4>Mais procurados</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="books-slider">
+                                                <div class="books-slider-container">
+                                                    <ul id="testep6" class="cS-hidden">
+
+<div class='item active'>
+<div class="book-item"><div class="book-image"><a href="../../produto/1481592-segredos-da-mente-milionaria-os"><img src="https://imagens.disal.com.br/produtos/normal/1481592.jpg" title="SEGREDOS DA MENTE MILIONARIA, OS " alt="SEGREDOS DA MENTE MILIONARIA, OS " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/1481592-segredos-da-mente-milionaria-os">SEGREDOS DA MENTE MILIONARIA, OS </a></span><small style="color:#000;font-size:1.5rem;">Gmt (sextante) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 34,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('1481592'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5686385-brincando-com-luccas-neto"><img src="https://imagens.disal.com.br/produtos/normal/5686385.jpg" title="BRINCANDO COM LUCCAS NETO " alt="BRINCANDO COM LUCCAS NETO " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5686385-brincando-com-luccas-neto">BRINCANDO COM LUCCAS NETO </a></span><small style="color:#000;font-size:1.5rem;">Pixel Media (nova Fronteira) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 24,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5686385'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5215102-poder-da-acao-o---24a-ed"><img src="https://imagens.disal.com.br/produtos/normal/5215102.jpg" title="PODER DA ACAO, O - 24&#170; ED " alt="PODER DA ACAO, O - 24&#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5215102-poder-da-acao-o---24a-ed">PODER DA ACAO, O - 24&#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Gente </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 34,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5215102'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/4139596-milagre-da-manha-o---26a-ed"><img src="https://imagens.disal.com.br/produtos/normal/4139596.jpg" title="MILAGRE DA MANHA, O - 26&#170; ED " alt="MILAGRE DA MANHA, O - 26&#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/4139596-milagre-da-manha-o---26a-ed">MILAGRE DA MANHA, O - 26&#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Best Seller (record) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 39,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('4139596'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5472067-poder-da-autorresponsabilidade-o"><img src="https://imagens.disal.com.br/produtos/normal/5472067.jpg" title="PODER DA AUTORRESPONSABILIDADE, O " alt="PODER DA AUTORRESPONSABILIDADE, O " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5472067-poder-da-autorresponsabilidade-o">PODER DA AUTORRESPONSABILIDADE, O </a></span><small style="color:#000;font-size:1.5rem;">Gente </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 19,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5472067'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5377609-pai-rico-pai-pobre---edicao-de-20-ano"><img src="https://imagens.disal.com.br/produtos/normal/5377609.jpg" title="PAI RICO, PAI POBRE - EDICAO DE 20 ANOS ATUALIZADO E AMPLIADO - 2&#170; ED " alt="PAI RICO, PAI POBRE - EDICAO DE 20 ANOS ATUALIZADO E AMPLIADO - 2&#170; ED " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5377609-pai-rico-pai-pobre---edicao-de-20-ano">PAI RICO, PAI POBRE - EDICAO DE 20 ANOS ATUALIZADO E AMPLIADO - 2&#170; ED </a></span><small style="color:#000;font-size:1.5rem;">Alta Books </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 79,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5377609'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5430542-seja-foda"><img src="https://imagens.disal.com.br/produtos/normal/5430542.jpg" title="SEJA FODA! " alt="SEJA FODA! " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5430542-seja-foda">SEJA FODA! </a></span><small style="color:#000;font-size:1.5rem;">Buzz Editora </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 39,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5430542'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5683351-fodeu-geral---um-livro-sobre-esperanc"><img src="https://imagens.disal.com.br/produtos/normal/5683351.jpg" title="FODEU GERAL - UM LIVRO SOBRE ESPERANCA? " alt="FODEU GERAL - UM LIVRO SOBRE ESPERANCA? " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5683351-fodeu-geral---um-livro-sobre-esperanc">FODEU GERAL - UM LIVRO SOBRE ESPERANCA? </a></span><small style="color:#000;font-size:1.5rem;">Intrinseca </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 34,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5683351'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5608155-do-mil-ao-milhao"><img src="https://imagens.disal.com.br/produtos/normal/5608155.jpg" title="DO MIL AO MILHAO " alt="DO MIL AO MILHAO " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5608155-do-mil-ao-milhao">DO MIL AO MILHAO </a></span><small style="color:#000;font-size:1.5rem;">Harpercollins Br (casa Dos Livros) </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 34,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5608155'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/4103394-mindset---a-nova-psicologia-do-sucess"><img src="https://imagens.disal.com.br/produtos/normal/4103394.jpg" title="MINDSET - A NOVA PSICOLOGIA DO SUCESSO " alt="MINDSET - A NOVA PSICOLOGIA DO SUCESSO " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/4103394-mindset---a-nova-psicologia-do-sucess">MINDSET - A NOVA PSICOLOGIA DO SUCESSO </a></span><small style="color:#000;font-size:1.5rem;">Objetiva Cia Das Letras </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 49,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('4103394'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5431735-sutil-arte-de-ligar-o-foda-se-a"><img src="https://imagens.disal.com.br/produtos/normal/5431735.jpg" title="SUTIL ARTE DE LIGAR O FODA-SE, A " alt="SUTIL ARTE DE LIGAR O FODA-SE, A " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5431735-sutil-arte-de-ligar-o-foda-se-a">SUTIL ARTE DE LIGAR O FODA-SE, A </a></span><small style="color:#000;font-size:1.5rem;">Intrinseca </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 34,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5431735'); return false;"></button></div></div></div>
+
+
+
+<div class='item'>
+<div class="book-item"><div class="book-image"><a href="../../produto/5771102-escravidao---vol-1"><img src="https://imagens.disal.com.br/produtos/normal/5771102.jpg" title="ESCRAVIDAO - VOL. 1 " alt="ESCRAVIDAO - VOL. 1 " height="150px">
+</a></div><h2 class="book-title" style="text-align:center;"><span><a href="produto/5771102-escravidao---vol-1">ESCRAVIDAO - VOL. 1 </a></span><small style="color:#000;font-size:1.5rem;">Globo Livros </small></h2><div class="book-price">
+        <div class="old">&nbsp;</div>
+    <div class="new">R$ 49,90</div>
+<small class='forcawrap'>em atÃ© 1x sem juros no cartÃ£o</small></div><div class="book-button"><button class="theme button-default-icon" style="cursor:pointer" onclick="addcart('5771102'); return false;"></button></div></div></div>
+
+
+                                                    </ul>
+                                                    <div class="book-slider-controller">
+                                                        <div class="prev-button goToPrevSlide6">
+                                                            <img src="../images2/carousel-book-left.png" style="width:17px;" alt="">
+                                                        </div>
+                                                        <div class="next-button goToNextSlide6">
+                                                            <img src="../images2/carousel-book-right.png" style="width:17px;" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+</header>
+                </section>
+
+                <script>
+
+                    jQuery(document).ready(function ($) {
+                        var options = {
+                            $AutoPlay: 1,
+                            $AutoPlaySteps: 1,
+                            $Idle: 2000,
+                            $PauseOnHover: 1,
+
+                            $ArrowKeyNavigation: 1,
+                            $SlideEasing: $Jease$.$OutQuint,
+                            $SlideDuration: 800,
+                            $MinDragOffsetToSlide: 20,
+                            //$SlideWidth: 600,
+                            //$SlideHeight: 300,
+                            $SlideSpacing: 0,
+                            $UISearchMode: 1,
+                            $PlayOrientation: 1,
+                            $DragOrientation: 1,
+
+                            $ArrowNavigatorOptions: {
+                                $Class: $JssorArrowNavigator$,
+                                $ChanceToShow: 2,
+                                $Steps: 1
+                            },
+
+                            $BulletNavigatorOptions: {
+                                $Class: $JssorBulletNavigator$,
+                                $ChanceToShow: 2,
+                                $Steps: 1,
+                                $SpacingX: 12,
+                                $Orientation: 1
+                            }
+                        };
+
+
+                        var options1 = {
+                            $AutoPlay: 1,
+                            $AutoPlaySteps: 4,
+                            $Idle: 2000,
+                            $PauseOnHover: 1,
+                            $ArrowKeyNavigation: 1,
+                            $SlideEasing: $Jease$.$OutQuint,
+                            $SlideDuration: 800,
+                            $MinDragOffsetToSlide: 20,
+                            $SlideWidth: 200,
+                            //$SlideHeight: 300,
+                            $SlideSpacing: 3,
+                            $UISearchMode: 1,
+                            $PlayOrientation: 1,
+                            $DragOrientation: 1,
+
+                            $ArrowNavigatorOptions: {
+                                $Class: $JssorArrowNavigator$,
+                                $ChanceToShow: 2,
+                                $Steps: 1
+                            },
+
+                            $BulletNavigatorOptions: {
+                                $Class: $JssorBulletNavigator$,
+                                $ChanceToShow: 2,
+                                $Steps: 1,
+                                $SpacingX: 12,
+                                $Orientation: 1
+                            }
+                        };
+
+                        var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+                        var jssor_slider2 = new $JssorSlider$("jssor_2", options1);
+
+
+                        function ScaleSlider() {
+                            var containerElement = jssor_slider1.$Elmt.parentNode;
+                            var containerWidth = containerElement.clientWidth;
+
+                            if (containerWidth) {
+
+                                var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                                jssor_slider1.$ScaleWidth(expectedWidth);
+                            }
+                            else {
+                                window.setTimeout(ScaleSlider, 30);
+                            }
+                        }
+
+
+                        if ($(window).width() < 480) {
+                            var MAX_WIDTH = 3000;
+                            ScaleSlider();
+                            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                        }
+
+                    });
+                </script>
+
+                	<!-- BenefÃÂ­cios -->
+<div class="container hide-mobile">
+    <br />
+    <div class="row">
+        <div class="col">
+            <div class="section-title">
+                <h4>Vantagens Disal</h4>
+            </div>
+        </div>
+    </div>
+    <div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:1200px;height:100px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
+        </div>
+        <div data-u="slides" data-autocenter="1" style="cursor:default;position:relative;top:0px;left:0px;width:1024px;height:80px;overflow:hidden;">
+
+
+            <div>
+                <a href="https://www.newroutes.com.br" target="_blank">
+                    <img data-u="image" src="/images/beneficios/1.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="/promomag">
+                    <img data-u="image" src="/images/beneficios/2.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="http://blogdisal.com.br/" target="_blank">
+                    <img data-u="image" src="/images/beneficios/802.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="/sempremais">
+                    <img data-u="image" src="/images/beneficios/4.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="/eventos">
+                    <img data-u="image" src="/images/beneficios/5.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="/convenios">
+                    <img data-u="image" src="/images/beneficios/803.png" alt="">
+                </a>
+            </div>
+            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:10px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:-30px;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:155px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:-30px;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fim BenefÃÂ­cios -->
+
+
+                <!-- Footer -->
+
+
+<section id="footer-novo2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="icon">
+                    <!--<img src="../../images2/footer-icon-1.png" alt="">-->
+                </div>
+                <h4 style="text-align:left;">Central de atendimento</h4>
+
+                <div class="info">
+                    <div class="central-atendimento">
+                        <div class="small-label">Atendimento site</div>
+                        <a href="tel:+551132263111">(11) 3226-3118</a>
+                        <div class="small-label">Televendas</div>
+                        <a href="tel:+551132263111">(11) 3226-3111</a>
+                        <div class="small-label">WhatsApp inteligente</div>
+                        <a href="#"><img src="/images/whats-icone-preto.png" alt="whatsapp" title="whatsapp" style="margin-bottom:1px;"> (11) 97617-1773</a>
+                        <div class="small-label">E-mail</div>
+                        <a href="mailto:sac@disal.com.br">sac@disal.com.br</a>
+
+                        <div class="small-label">
+                            HorÃ¡rio de atendimento de segunda Ã Â sexta-feira das 08h30 Ã s 18:00 exceto feriados
+                        </div>
+                        <div class="small-label"></div>
+                        <a href="../atendimento">DÃºvidas frequentes</a>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-md-3">
+                <div class="icon">
+                    <!--<img src="../../images2/footer-icon-4.png" alt="">-->
+                </div>
+                <h4 style="text-align:left;">ConheÃ§a a Disal</h4>
+
+                <div class="info">
+                    <div class="conheca-disal">
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../institucional">Institucional</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../sempremais">Sempre mais Disal</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="https://www.newroutes.com.br/" target="_blank">Revista New Routes</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="http://blogdisal.com.br/" target="_blank">Blog Disal</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../eventos">Eventos Disal</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../convenios">ConvÃªnios</a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="https://mkt.disal.com.br/produtos/servidor/trabalheconosco">Trabalhe conosco</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="col-md-3">
+                <div class="icon">
+                    <!--<img src="../../images2/footer-icon-3.png" alt="">-->
+                </div>
+                <h4 style="text-align:left;">Nossas lojas</h4>
+
+                <div class="info">
+                    <div class="nossas-lojas">
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                SÃ£o Paulo
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Minas Gerais
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Distrito Federal
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                ParanÃ¡
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Rio Grande do Sul
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Pernambuco
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Rio de Janeiro
+                            </a>
+                        </div>
+                        <div class="small-label" style="margin-top:0px;">
+                            <a href="../../nossaslojas">
+                                Bahia
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h4 style="text-align:left;">Formas de pagamento</h4>
+
+                <div class="info payment" style="text-align: left;">
+                    <img src="/images2/v2/american.png" alt="American Express">
+                    <img src="/images2/v2/diners.png" alt="Diners">
+                    <img src="/images2/v2/elo.png" alt="Elo">
+                    <img src="/images2/v2/hipercard.png" alt="Hipercard">
+                    <img src="/images2/v2/master.png" alt="MasterCard">
+                    <br><img src="/images2/v2/visa.png" style="margin-top: 8px; margin-left: 44px;" alt="Visa">
+                    <img src="/images2/v2/boleto.png" style="margin-top: 8px;" alt="Boleto">
+                    <img src="/images2/v2/itau.png" style="margin-top: 8px;" alt="TransferÃªncia">
+                </div>
+
+                <br><h4>Redes sociais</h4>
+                <div class="info social">
+
+                    <a href="https://www.facebook.com/disaldistribuidora/">
+                        <img src="/images2/v2/facebook-icon.png" alt="Facebook">
+                    </a>
+
+                    <a href="https://www.youtube.com/user/disalchannel">
+                        <img src="/images2/v2/youtube-icon.png" alt="Youtube">
+                    </a>
+
+                    <a href="https://twitter.com/disallivraria">
+                        <img src="/images2/v2/twitter-icon.png" alt="Twitter">
+                    </a>
+
+                    <a href="https://www.instagram.com/disal_distribuidora/">
+                        <img src="/images2/v2/instagram-icon.png" alt="Instagram">
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/220464/">
+                        <img src="/images2/v2/linkedin-icon.png" alt="Linkedin">
+                    </a>
+
+                    <a href="https://wa.me/5511976171773">
+                        <img src="/images2/v2/whatsapp-icon.png" alt="WhatsApp">
+                    </a>
+                </div>
+
+                <br><h4>
+                    Site seguro
+                </h4>
+                <div class="info securities" style="height:120px;text-align:left;">
+
+                    <div class="col-md-6 siteseguro">
+                        <span id="ss_img_wrapper_115-55_image_en"><a href="http://www.alphassl.com/ssl-certificates/wildcard-ssl.html" style="width:50%;float:left;" target="_blank" title="SSL Certificates"><img alt="Wildcard SSL Certificates" border=0 id="ss_img" src="//seal.alphassl.com/SiteSeal/images/alpha_noscript_115-55_en.gif" title="SSL Certificate"></a></span>
+                        <script type="text/javascript" src="//seal.alphassl.com/SiteSeal/alpha_image_115-55_en.js" async></script>
+                    </div>
+                    <div class="col-md-6 siteseguro">
+                        <a id="seloEbit" style="width:90px!important;float:right;" href="http://www.ebit.com.br/#disal" target="_blank" onclick="redir(this.href);"></a>
+                        <script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?9787 " async></script>
+                    </div>
+                </div>
+                <div class="info securities" style="text-align:left;">
+                    <div class="col-md-6 siteseguro">
+                        <div id="armored_website">
+                            <param id="aw_preload" value="true" />
+                            <param id="aw_use_cdn" value="true" />
+                        </div>
+                        <script type="text/javascript" src="//cdn.siteblindado.com/aw.js"></script>
+                    </div>
+                </div>
+
+
+                </div>
+
+
+
+
+            </div>
+     
+    </div>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Todas as regras e promoÃ§Ãµes sÃ£o vÃ¡lidas apenas para produtos vendidos e entregues pela Disal Distribuidora.
+                    </p>
+                    <p>
+                        <span class="uppercase">
+                            Disal Distribuidores Associados de Livros S.A. | CNPJ: 622770410001/87 | Av. Marginal Direita do Tiete, 800 - CEP: 05118-100 - SÃ£o Paulo - SP
+                        </span>
+                        <br>
+                        TEL: (11) 3226-3100 Atendimento ao cliente pelo e-mail <a href="#" style="color:white;">sac@disal.com.br</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+		</div>
+
+
+<div class="modal"><!-- Display background --></div>
+<div class="modalapres"><!-- Display background --></div>
+<div class="modalpag"><!-- Display background --></div>
+<script src="/stylesv2/main.js"></script>
+</body>
+</html>
+<!--By Gustavo Medeiros | gustavo@disal.com.br-->
+
+
