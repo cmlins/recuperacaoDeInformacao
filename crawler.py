@@ -2,6 +2,7 @@ import requests
 import re
 from urllib.parse import urlparse
 import os.path
+import time
 
 class PyCrawler(object):
     def __init__(self, starting_url, save_path, urls_completeName):
@@ -13,7 +14,8 @@ class PyCrawler(object):
     #gets the html of the current link
     def get_html(self, url):
         try:
-            html = requests.get(url)
+            time.sleep(10)
+            html = requests.get(url)            
         except Exception as e:
             print(e)
             return ""
@@ -25,8 +27,13 @@ class PyCrawler(object):
         parsed = urlparse(url)
         base = f"{parsed.scheme}://{parsed.netloc}"
         #amazon '''<a\s+(?:[^>]*?\s+)?href="([^"]*dp+[^;<>&]*)'''
-        #saraiva '''<a\s+(?:[^>]*?\s+)?href="([^"]*/p+)'''
-        links = re.findall('''<a\s+(?:[^>]*?\s+)?href="([^"]*/p+)''', html)
+        #saraiva '''<a\s+(?:[^>]*?\s+)?href="([^"]*[\d]+/p+)'''
+        #travessa '''<a\s+(?:[^>]*?\s+)?href="([^"]*/artigo/+[^"]*)'''
+        #traca '''<a\s+(?:[^>]*?\s+)?href="([^"]*/livro/+[^"]*)'''
+        #ciadoslivros '''<a\s+(?:[^>]*?\s+)?href="([^"]*/produto/+[\w-]*[\d]+[^/"]*)'''
+        #livrariacultura '''<a\s+(?:[^>]*?\s+)?href="([^"]*p/livros/+[\w/]+[\w-]+[\d]+[^/;"]*)'''
+        #americanas e submarino '''<a\s+(?:[^>]*?\s+)?href="([^"]*produto/+[\d/]+livro+[^"]*)'''
+        links = re.findall('''<a\s+(?:[^>]*?\s+)?href="([^"]*dp+[^;<>&]*)''', html)
         for i, link in enumerate(links):
             if not urlparse(link).netloc:
                 link_with_base = base + link
@@ -38,8 +45,8 @@ class PyCrawler(object):
         html_code = self.get_html(url)
         filename1 = str(counter) + ".txt"
         completeName1 = os.path.join(self.save_path, filename1)
-        file1 = open(completeName1,"w+")
-        file1.write(html_code)
+        with open(completeName1, "w+", encoding="utf-8") as file1:
+            file1.write(html_code)
         file1.close()
         return None
 
@@ -63,9 +70,19 @@ class PyCrawler(object):
         self.crawl(self.starting_url)
 
 if __name__ == "__main__":
-    sp = 'C:/Users/Gabs/Documents/UFPE-CC/RI/saraiva'
-    urls_filename = "urls_saraiva.txt"
+##    https://www.amazon.com.br/
+##    https://www.saraiva.com.br/
+##    https://www.travessa.com.br/
+##    https://www.traca.com.br/
+##    https://www.ciadoslivros.com.br/
+##    https://www.extra.com.br/ ??????????????
+##    https://www.livrariacultura.com.br/
+##    https://www.disal.com.br/
+##    https://www.americanas.com.br/  ???????????????
+##    https://www.submarino.com.br/  ??????????????
+    sp = 'C:/Users/Gabs/Documents/UFPE-CC/RI/amazon'
+    urls_filename = "urls_amazon.txt"
     urls_completeName = os.path.join(sp, urls_filename)
-    site = "https://www.saraiva.com.br/"
+    site = "https://www.amazon.com.br/"
     crawler = PyCrawler(site, sp, urls_completeName)
     crawler.start()
