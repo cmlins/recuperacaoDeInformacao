@@ -1,0 +1,810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0041)http://hotsite.disal.com.br/lista-escolar -->
+<html xml:lang="pt" lang="pt"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><style type="text/css">h1,h2,h3,h4,h5,h6,b,strong{ font-weight: 700; }a{ text-decoration: none; }a:not(".text") > *{ text-underline: decoration; }td{vertical-align:top;}img,a img{border:0;height:auto;outline:none;text-decoration:none;max-width:100%;}.social-media a img{width:auto !important;}body{margin:0;padding:0;}img{line-height:100%;-ms-interpolation-mode:bicubic;}table, td{border-collapse:separate;}#bodyTable{height:100% !important;margin:0;padding:0;width:100% !important;}.ExternalClass{width:100%;}.ExternalClass a{text-decoration:none !important;}.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;}#outlook a{padding:0;}table{mso-table-lspace:0pt;mso-table-rspace:0pt;}body{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}@media only screen and (max-width:600px){.formIntegration div.containerMultiple{max-height:none !important;} .button-menu-vertical span.button{max-width:100% !important;}body,table,tbody,tr{width:100% !important;min-width:100% !important;}span.button{width:100% !important;min-width:100% !important;display:block !important;}.gt>td{display:block !important;width:100% !important;min-width:100% !important;}.imgGl, .imgGl img{width:100% !important;min-width:100% !important; height:auto !important; display: inline !important;}.hide-mobile{display: none !important;}}
+		/*hacks para editor antigo mas que usa minha nova versão*/
+		form.formIntegration2 div.divlabel {font-weight: bold;}
+		form.formIntegration2 div.vertical.divlabel {text-align: left;} /*BUGFIX EXCLUSIVO PARA O EDITOR ANTIGO! Ele tem/tinha tds com align:"center" nos templates */
+		form.formIntegration2 div.containerMultiple div label {font-weight:normal;}
+		form.formIntegration2 {text-align:left;}
+
+		*,*::after,*::before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+        table{position:relative;z-index:1000;}
+        .bg-extended{position:absolute;width:100%;height:100%;left:0;top:0;}
+        .bg-extended.front{z-index:-1;}tr,td{position:relative;}
+        .hrTable{position:relative}
+        .td-with-margin{display:inline-block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+        .pc100{width:100%;}
+        .icheckbox_minimal{position:relative;border:2px solid #BEC5CB;border-radius:3px;width:18px !important;height:18px !important;display:inline-block;float:left;cursor:pointer;margin-right:3px;}
+        .icheckbox_minimal:not(.checked).hover{border-color:#6B6B78;}
+        .checked::after{content:"";background-color:transparent;position:absolute;left:5px;top:1px;width:4px;border-bottom:2px solid #6B6B78;height:10px;border-right:2px solid #6B6B78;transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);}
+        .actual-video div {position: relative;padding-bottom: 56.25%; /* 16:9 */padding-top: 25px;height: 0;}
+        .actual-video div iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+        input, select, textarea, button {font-family:inherit;}
+        
+		form.formIntegration2 *,
+		form.formIntegration2 *::before,
+		form.formIntegration2 *::after{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+		form.formIntegration2{ width: 100%; margin: 0 auto; }
+		form.formIntegration2 input[type="text"]{outline:none; width: 100%; }    
+		form.formIntegration2 select{width:100%; overflow:auto;}
+		form.formIntegration2 select.invi-select{display:none; width:0px; height:0px; border:none;}
+		form.formIntegration2 textarea{width:100%; height:80px; overflow:auto; resize:vertical;}
+		form.formIntegration2 div.containerMultiple {width:100%; overflow:auto; border: 1px solid #bec5cb; padding: 2px; background-color:#FFF; position:relative;}
+		form.formIntegration2 div.containerMultiple div {min-height: 20px;}
+		form.formIntegration2 div.containerMultiple div label{white-space:nowrap; display:inline-block; position:relative;}
+		form.formIntegration2 input.type_PHN_DDI{text-align:center;}
+		form.formIntegration2 div.div_PHN_DDI {width: 28%; margin-right: 2%; text-align: center; display: inline-block; }
+		form.formIntegration2 div.div_PHN_NUM {width: 70%; display: inline-block; }
+		form.formIntegration2 .div_PHN.hidden_DDI div.div_PHN_DDI {width: 0; display: none; }
+		form.formIntegration2 .div_PHN.hidden_DDI div.div_PHN_NUM {width: 100%; display: inline-block; }
+		form.formIntegration2 .field-error{border-color: #CC0000!important;}
+		form.formIntegration2 .g-recaptcha {margin-bottom:5px;}
+
+		form.formIntegration2 .DinamizeDivMessageSuccess,
+		form.formIntegration2 .DinamizeDivMessageAlert,
+		form.formIntegration2 .DinamizeDivMessageError,
+		form.formIntegration2 .DinamizeDivCaptchaMessage {display: none; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-size: 14px; font-family: arial; padding: 15px;}
+
+		form.formIntegration2 .DinamizeDivMessageSuccess {background-color: rgb(20, 118, 18);}
+		form.formIntegration2 .DinamizeDivMessageAlert,
+		form.formIntegration2 .DinamizeDivMessageError,
+		form.formIntegration2 .DinamizeDivCaptchaMessage { background-color: #ac0000; }
+
+		form.formIntegration2 div.block {display: block; margin-bottom: 10px; }
+		form.formIntegration2 div.block:last-child {margin-bottom: 0px;}
+		form.formIntegration2 div.vertical {display: block;}
+		form.formIntegration2 div.horizontal {display: inline-block; vertical-align: middle;}
+		form.formIntegration2 div.horizontal.divlabel {width: 28%; margin-right: 2%; text-align: right;}
+		form.formIntegration2 div.horizontal.divinput {width: 70%}
+
+		form.formIntegration2 div.containerAllInline div.block {display: inline-block; margin-right: 5px; margin-bottom: 5px;}
+		form.formIntegration2 div.containerAllInline div.horizontal.divinput {width: 182px}
+
+		form.formIntegration2 .submit {position: relative; width: 100%}
+		form.formIntegration2 .submit.class1 {text-align:left;}
+		form.formIntegration2 .submit.class2 {text-align:left; width: 70%}
+		form.formIntegration2 .submit.class3 {text-align:center;}
+		form.formIntegration2 .submit.class4 {text-align:right;}
+		form.formIntegration2 .submit.class5 {text-align:center;}
+		form.formIntegration2 .submit.class5 input[type=submit] {width:100%}
+		form.formIntegration2 .spinner {display: none;}
+
+		form.formIntegration2.style1 label{ color: #4a5765; font-family: arial; font-size: 14px; }
+		form.formIntegration2.style1 input[type="text"]{ border: 2px solid #bec5cb; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; box-shadow: 0 0 0 4px transparent; color: #4a5766; font-size: 13px; padding: 9px 6px; height: 38px;}
+		form.formIntegration2.style1 input[type="submit"]{ -webkit-appearance: none; border: medium none; background-color: #a11217; color: #ffffff; cursor: pointer; font: bold 13px/38px Arial; height: 38px; padding: 0 15px; display: inline-block; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; margin: 5px 0 0 0;}
+        form.formIntegration2.style1 input[type="submit"]:hover{background-color: #700c0f;}
+		form.formIntegration2.style1 div.containerMultiple,
+		form.formIntegration2.style1 select,
+		form.formIntegration2.style1 textarea{border: 2px solid #bec5cb; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; box-shadow: 0 0 0 4px transparent; color: #4a5766;}
+		form.formIntegration2.style1 select{height:40px;}
+		form.formIntegration2.style1 textarea{max-height: 200px; min-height: 52px;}
+		form.formIntegration2.style1 .spinner { display: none; bottom: 0; height: 18px; left: 0; margin: auto; position: absolute; right: 0; top: 0; }
+		form.formIntegration2.style1 .spinner > div { width: 18px; height: 18px; background-color: #fff; border-radius: 100%; display: inline-block; -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both; animation: sk-bouncedelay 1.4s infinite ease-in-out both;}
+		form.formIntegration2.style1 .spinner .bounce1 { -webkit-animation-delay: -0.32s; animation-delay: -0.32s;}
+		form.formIntegration2.style1 .spinner .bounce2 { -webkit-animation-delay: -0.16s; animation-delay: -0.16s;}
+		
+		form.formIntegration2.style1 .checkbox-container {display: block; position: absolute !important; padding-left: 22px; margin-bottom: 4px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+		form.formIntegration2.style1 .checkbox-container input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; top: 0; left: 0;}
+		form.formIntegration2.style1 .checkmark {position: absolute; top: 0; left: 0; height: 18px; width: 18px; background-color: #FFF; border: 2px solid #BBB; border-radius: 3px; }
+		form.formIntegration2.style1 .checkbox-container:hover input ~ .checkmark {border: 2px solid #777; }
+		form.formIntegration2.style1 .checkmark:after {content: ""; position: absolute; display: none; }
+		form.formIntegration2.style1 .checkbox-container input:checked ~ .checkmark:after {display: block; }
+		form.formIntegration2.style1 .checkbox-container .checkmark:after {left: 5px; top: 0px; width: 5px; height: 12px; border: solid #555; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); } 
+
+		form.formIntegration2.style2 label{ font-family: arial; font-size: 14px; }
+		form.formIntegration2.style2 input[type="text"] { border: 1px solid #bec5cb; box-shadow: 0 0 0 4px transparent; color: #4a5766; font-size: 13px; padding: 9px 6px;}
+		form.formIntegration2.style2 div.containerMultiple {max-height:82px;}
+		form.formIntegration2.style2 div.containerMultiple,
+		form.formIntegration2.style2 select,
+		form.formIntegration2.style2 textarea {border: 1px solid #bec5cb; box-shadow: 0 0 0 4px transparent; color: #4a5766; }
+		form.formIntegration2.style2 select{height:40px;}
+		form.formIntegration2.style2 textarea{max-height: 200px; min-height: 52px;}
+		form.formIntegration2.style2 ::-webkit-input-placeholder { color: #000000; }
+		form.formIntegration2.style2 ::-moz-placeholder { color: #000000; font-family: arial; }
+		form.formIntegration2.style2 :-ms-input-placeholder { color: #000000; font-family: arial; }
+		form.formIntegration2.style2 :-moz-placeholder { color: #000000; font-family: arial; }
+		form.formIntegration2.style2 .spinner { display: none; bottom: 0; height: 18px; left: 0; margin: auto; position: absolute; right: 0; top: 0; }
+		form.formIntegration2.style2 .spinner > div { width: 18px; height: 18px; background-color: #fff; border-radius: 100%; display: inline-block; -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both; animation: sk-bouncedelay 1.4s infinite ease-in-out both;}
+		form.formIntegration2.style2 .spinner .bounce1 { -webkit-animation-delay: -0.32s; animation-delay: -0.32s;}
+		form.formIntegration2.style2 .spinner .bounce2 { -webkit-animation-delay: -0.16s; animation-delay: -0.16s;}
+        .infos-abaixo{text-align: center; font-style: italic; font-size: 11px;}
+        .infos-item{text-align: left; font-style: italic; font-size: 11px;}
+        .botao-saiba-mais-sobre-nos{text-decoration: none; color:#fff; font-size: 16px; text-align: center; background-color: #a11217; padding:8px; margin: 0px 190px; border-radius:10px;}
+    
+    
+		@-webkit-keyframes sk-bouncedelay { 0%, 80%, 100% { -webkit-transform: scale(0) } 40% { -webkit-transform: scale(1.0) }}
+		@keyframes sk-bouncedelay { 0%, 80%, 100% { -webkit-transform: scale(0); transform: scale(0); } 40% { -webkit-transform: scale(1.0); transform: scale(1.0); }}
+		</style><meta property="og:title" content="Trabalhe conosco"><title>Trabalhe conosco</title></head><body style="margin:0; padding:0; font-family: Arial; background-color: rgb(239, 239, 239); font-size: 14px;"><table style="width: 100%;" width-table="900" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr style="background-color: rgb(255, 255, 255);"><td style="background-color: rgb(161, 18, 23);" class="hrTable" bgcolor="#a11217"><table style="font-size: 14px; width: 900px; margin: 0px auto;" id="Introdução" align="center" width="900" cellspacing="0" cellpadding="0" border="0"><tbody><tr class="gt"><td width="100%"><table style="text-align: left; font-size: 14px; width: 360px; table-layout: fixed;" class="connect hide-mobile" align="left" width="360" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td>&nbsp;</td></tr></tbody></table></td></tr></tbody></table><table style="text-align: left; font-size: 14px; width: 180px; table-layout: fixed;" class="connect" align="left" width="180" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="padding: 10px 20px; border-color: transparent;" width="100%"><table style="table-layout:fixed;" align="left" width="140" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%"><a class="imgGl"><img style="vertical-align: top;" alt="logo" src="Trabalhe%20conosco_arquivos/OUHmf7ABF0416.png" width="140" height="70"></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table style="text-align: left; font-size: 14px; width: 360px; table-layout: fixed;" class="connect hide-mobile" align="left" width="360" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td>&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr style="background-color: rgb(255, 255, 255);"><td style="background-color: rgb(255, 255, 255); background-image: url(&quot;http://imagens.disal.com.br/produtos/servidor/trabalheconosco/trabalheconosco-files/fundo.png&quot;); background-size: cover; background-position: center top;" background-image="http://imagens.disal.com.br/produtos/servidor/trabalheconosco/trabalheconosco-files/fundo.png" image-style="COVER" class="hrTable" bgcolor="#ffffff"><table class="connect" style="font-size: 14px; width: 900px; margin: 0px auto;" id="Topo" background-image="" align="center" width="900" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="padding: 10px 20px; text-align: left; color: rgb(102, 102, 102); border-color: transparent; margin-top: 35px; margin-bottom: 35px;" class="td-with-margin" width="100%"><h1 style="text-align: center; font-family: Arial; font-size: 28px; color: rgb(102, 102, 102);"><span style="font-size: 48px; font-family: Arial; color: rgb(102, 102, 102); text-align: center;"><span style="color: rgb(255, 255, 255); font-family: Arial; font-size: 48px; text-align: center;"><span style="background-color: rgb(0, 0, 0); font-family: Arial; font-size: 48px; color: rgb(255, 255, 255); text-align: center;">&nbsp;TRABALHE CONOSCO&nbsp;</span></span></span></h1><!--<div style="text-align: center; font-family: Arial; font-size: 14px; color: rgb(102, 102, 102);"><span style="color: rgb(255, 255, 255); font-family: Arial; font-size: 14px; text-align: center;"><span style="font-size: 48px; font-family: Arial; color: rgb(255, 255, 255); text-align: center;"><span style="background-color: rgb(0, 0, 0); font-family: Arial; font-size: 48px; color: rgb(255, 255, 255); text-align: center;">&nbsp;e fique atento ao seu e-mail!&nbsp;</span></span></span></div>--></td></tr></tbody></table></td></tr><tr style="background-color: rgb(255, 255, 255);"><td style="background-color: rgb(255, 255, 255);" class="hrTable" bgcolor="#ffffff"><table style="font-size: 14px; width: 900px; margin: 0px auto;" id="Corpo" align="center" width="900" cellspacing="0" cellpadding="0" border="0"><tbody><tr class="gt"><td width="100%"><table style="text-align: left; font-size: 14px; width: 135px; table-layout: fixed;" class="connect hide-mobile" align="left" width="135" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td>&nbsp;</td></tr></tbody></table></td></tr></tbody></table><table style="text-align: left; font-size: 14px; width: 630px; table-layout: fixed;" class="connect" align="left" width="630" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="padding: 20px; border-color: transparent; margin-bottom: 0px; border-width: 0px; border-style: solid; border-radius: 0px; margin-top: 0px;" align="center" width="100%"><div class="formElement"><form version="2.0" class="formIntegration formIntegration2 style1" accept-charset="UTF-8" method="post" action="https://www.disal.com.br/enviaformulario" enctype="multipart/form-data">
+		        <input name="codigo" value="LASID2019" type="hidden">
+                <input name="retorno" value="2" type="hidden">
+			<input name="redir" value="http://mkt.disal.com.br/produtos/servidor/trabalheconosco/obrigado.html" type="hidden">
+			
+            <p style="font-size: 16px; text-align: center;color:#2e2e2e;">Você é apaixonado por livros, idiomas e está sempre em busca de conhecimento?<br>Então, junte-se ao time da <b>melhor distribuidora de conhecimento do Brasil</b>, que está a mais de meio século servindo a cultura e a educação.</p>
+            <p class="botao-saiba-mais-sobre-nos"><a href="https://www.disal.com.br/institucional" target="_blank" style="color: #fff;"><b>Saiba mais sobre nós &gt;</b></a></p> 
+            <p style="font-size: 15px; text-align: center; color:#2e2e2e; margin-bottom:40px; margin-top: 30px;">Preencha os seus dados abaixo. De acordo com o seu perfil, entraremos em contato!</p>
+    
+			<div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Nome Completo*</label></div><div class="vertical divinput"><input name="Nome" placeholder="" format="" class="type_VC field-required " maxlength="80" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text">
+		                            </div>
+		            </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">E-mail*</label></div><div class="vertical divinput"><input name="E-mail" placeholder="" format="" class="type_EMAIL field-required " maxlength="80" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text">
+		                            </div>
+		            </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Endereço*</label></div><div class="vertical divinput"><input name="Endereço" placeholder="" format="" class="type_VC  " maxlength="80" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text">
+		                            </div>
+                    </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">CEP*</label></div><div class="vertical divinput"><input name="CEP" placeholder="" format="" class="type_VC  " maxlength="80" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text">
+                                    </div>
+                    </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Cidade*</label></div><div class="vertical divinput"><input name="Cidade" placeholder="" format="" class="type_VC  " maxlength="80" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text">
+		                            </div>
+		            </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Telefone*</label></div><div class="vertical divinput"><input name="Telefone" placeholder="(00) 0000-0000" format="" class="type_INT  din-input-mask  " maxlength="15" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text">
+		                            </div>
+                    </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Celular*</label></div><div class="vertical divinput"><input name="Celular" placeholder="(00) 00000-0000" format="" class="type_INT  din-input-mask  " maxlength="15" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text">
+		                            </div>
+		            </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);"><img src="Trabalhe%20conosco_arquivos/linkedin.png" width="12px"> Perfil do Linkedin</label></div><div class="vertical divinput"><input name="Perfil do Linkedin" placeholder="" format="" class="type_VC  " maxlength="800" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" type="text">
+		                            </div>
+                    </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);"><img src="Trabalhe%20conosco_arquivos/facebook.png" width="12px"> Perfil do Facebook</label></div><div class="vertical divinput"><input name="Perfil do Facebook" placeholder="" format="" class="type_VC  " maxlength="800" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" type="text">
+		                            </div>
+                    </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Possui o conhecimento de algum Idioma? Especifique abaixo, classificando o nível:*</label></div><div class="infos-item"><p>Ex: Inglês: Avançado / Espanhol: Básico.</p><div class="vertical divinput"><input name="Conhecimento de idiomas" placeholder="" format="" class="type_VC  " maxlength="80" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text"></div>
+		                            </div>
+		            </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Área de interesse*</label></div><div class="vertical divinput"><select name="Área de interesse" class="type_LVU " style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="">
+                                    <option value="" selected="selected">Selecione</option>
+                                    <option value="Administrativo / Financeiro">Administrativo / Financeiro</option>
+                                    <option value="Comercial">Comercial</option>
+                                    <option value="Contabilidade">Contabilidade</option>
+                                    <option value="E-commerce / Televendas">E-commerce / Televendas</option>
+                                    <option value="Livraria">Livraria</option>
+                                    <option value="Logística">Logística</option>
+                                    <option value="Marketing">Marketing</option>
+                                    <option value="Serviços Gerais">Serviços Gerais</option>
+                                    <option value="Teconologia da Informação">Teconologia da Informação</option>
+                    </select></div>
+		            </div><div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Pretensão salarial*</label></div><div class="vertical divinput"><input name="Pretensão salarial" placeholder="" format="" class="type_VC  " maxlength="15" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23);" required="" type="text">
+		                            </div>
+                    </div>
+			    
+			    <div class="block"><div class="vertical divlabel"><label style="font-size: 13px; color: rgb(46, 46, 46);">Anexar Currículo*</label></div><div class="vertical divinput"><input name="arquivo" placeholder="" format="" class="type_VC  " maxlength="80" style="background-color: rgb(255, 255, 255); color: rgb(93, 93, 93); border-width: 1px; border-style: solid; border-color: rgb(161, 18, 23); border-radius: 5px; width:100%" type="file"><p class="infos-item">*Se possível, anexar arquivos em .pdf ou .docx.</p></div></div>
+			 <div class="block">
+                        <div class="vertical class1 submit submit-button-td" style="text-align: center;">
+                            <input value="Contate-me" original-value="Cadastre-se" class="dinSubmit pc100" style="font-size: 16px;" type="submit">
+                            <div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>
+                        </div>
+		          </div>
+                <div class="infos-abaixo"><p>Os campos com * são de preenchimento obrigatório.</p></div>
+		    </div>
+		</form></div></td></tr></tbody></table></td></tr></tbody></table><table style="text-align: left; font-size: 14px; width: 135px; table-layout: fixed;" class="connect hide-mobile" align="left" width="135" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td>&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr style="background-color: rgb(239, 239, 239);"><td class="hrTable"><table style="padding: 0px; font-size: 14px; width: 900px; margin: 0px auto;" id="Rodapé" align="center" width="900" cellspacing="0" cellpadding="0" border="0"><tbody><tr class="gt"><td width="100%"><table style="text-align: left; font-size: 14px; width: 225px; table-layout: fixed;" class="connect hide-mobile" align="left" width="225" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td>&nbsp;</td></tr></tbody></table></td></tr></tbody></table><table style="text-align: left; font-size: 14px; width: 450px; table-layout: fixed;" class="connect" align="left" width="450" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="padding-top: 20px; padding-bottom: 20px; text-align: left;" align="center" width="100%"><div style="text-align: center; font-family: Arial; font-size: 14px; color: rgb(34, 34, 34);"><b><span style="font-family: Arial; font-size: 14px; color: rgb(34, 34, 34); text-align: center;">Embarque em um mundo de conhecimento!</span></b></div><table style="padding-top: 10px;table-layout: fixed;margin: 0 auto;" align="center" cellspacing="0" cellpadding="0" border="0">
+        <tbody><tr>
+            <td style="text-align: center;" class="social-media" align="center">&nbsp;<a href="http://dislink.disal.com.br/lf/LCH/BMLx/cdcc/FCB/?url=https%3A%2F%2Ffacebook.com%2Fdisaldistribuidora" style="color: rgb(51, 122, 183);"><img src="Trabalhe%20conosco_arquivos/FCB.png" alt="Facebook" width="30" height="30"></a>&nbsp;&nbsp;<a href="http://dislink.disal.com.br/lf/LCH/BMLx/cdcc/TWT/?url=https%3A%2F%2Ftwitter.com%2Fdisallivraria" style="color: rgb(51, 122, 183);"><img src="Trabalhe%20conosco_arquivos/TWT.png" alt="Twitter" width="30" height="30"></a>&nbsp;&nbsp;<a href="http://dislink.disal.com.br/lf/LCH/BMLx/cdcc/INS/?url=https%3A%2F%2Finstagram.com%2Fdisal_distribuidora" style="color: rgb(51, 122, 183);"><img src="Trabalhe%20conosco_arquivos/INS.png" alt="Instagram" width="30" height="30"></a>&nbsp;&nbsp;<a href="http://dislink.disal.com.br/lf/LCH/BMLx/cdcc/YOU/?url=https%3A%2F%2Fyoutube.com%2Fdisalchannel" style="color: rgb(51, 122, 183);"><img src="Trabalhe%20conosco_arquivos/YOU.png" alt="Youtube" width="30" height="30"></a>&nbsp;</td>
+        </tr>
+     </tbody></table></td></tr><tr><td style="padding: 10px 20px; text-align: left; color: rgb(102, 102, 102); border-color: transparent; position: relative;" width="100%"><div style="text-align: center; font-family: Arial; font-size: 14px; color: rgb(102, 102, 102);"><span style="color: rgb(161, 18, 23); font-family: Arial; font-size: 14px; text-align: center;"><span style="font-size: 9px; font-family: Arial; color: rgb(161, 18, 23); text-align: center;"><span style="font-size: 11px; font-family: Arial; color: rgb(161, 18, 23); text-align: center;"><b>DISAL – DISTRIBUIDORES ASSOCIADOS DE LIVROS S.A.</b></span></span></span><br><span style="font-size: 9px; font-family: Arial; color: rgb(102, 102, 102); text-align: center;">AV. MARGINAL DIREITA DO TIETE, 800 - SÃO PAULO - SP<br>TEL:&nbsp;(11) 3226-3100 | COMERCIAL@DISAL.COM.BR<br>CNPJ: 622770410001/87</span></div></td></tr></tbody></table></td></tr></tbody></table><table style="text-align: left; font-size: 14px; width: 225px; table-layout: fixed;" class="connect hide-mobile" align="left" width="225" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><table style="width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td>&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>
+			<script type="text/javascript" src="Trabalhe%20conosco_arquivos/jquery.html"></script>
+	        <script>
+	        var resize = function(){
+	            var width = $("[width-table]").attr("width-table");
+	            $(".bg-extended").each(function(){
+	                var index = $(this).attr("bgextended");
+	                var element = $("td[bgextended='"+index+"']");
+	                if( element.length == 0 ){
+	                    $(this).remove();
+	                    return true;
+	                }
+	                var height = element.outerHeight();
+	                
+	                var zIndex = element.parent().index();
+	                var parent = element.parents("table:first");
+	                var indexParent = parent.index();
+	                $(parent).siblings("table").each(function(){
+	                    if( indexParent > $(this).index() ){
+	                        zIndex += $(this).find("> tbody > tr").length;
+	                    }
+	                });
+	                $(this).attr("zindex",zIndex);
+	                if( $(this).hasClass("front") && $(this).parents(".connect:first").siblings("table.connect").length == 0 ){
+	                    $(this).css("z-index","-1");
+	                } else{
+	                    $(this).css("z-index",zIndex);
+	                }
+	                var top = 0;
+	                if( $(this).hasClass("back") || ( $(this).hasClass("front") && $(this).siblings("table.connect").length>0 ) ){
+	                    top = element.parent().position().top + (parseInt(element[0].style.marginTop)||0);
+	                }
+	                top = Math.round(top);
+	                $(this).height(height).css("top",top+"px");
+	            });
+	        };
+	        for( var i = 0; i <= 10; i++ ){
+	            setTimeout(function(){
+	                resize();
+	            },i*200);
+	        }
+	        $(window).resize(function(){
+	            resize();
+	        });
+	        </script>
+	    <script type="text/javascript">
+
+		/* Suggested Phone Validation ==> 
+http://jackocnr.com/intl-tel-input.html*/
+
+		!function(t,e){"function"==typeof 
+define&&define.amd?define(e):"object"==typeof 
+exports?module.exports=e():t.VMasker=e()}(this,function(){var 
+t="9",e="A",n="S",i=[8,9,16,17,18,36,37,38,39,40,91,92,93],o=function(t){for(var
+ 
+e=0,n=i.length;n>e;e++)if(t==i[e])return!1;return!0},r=function(t){return
+ 
+t=t||{},t={precision:t.hasOwnProperty("precision")?t.precision:2,separator:t.separator||",",unit:t.unit&&t.unit.replace(/[\s]/g,"")+"
+ "||"",suffixUnit:t.suffixUnit&&" 
+"+t.suffixUnit.replace(/[\s]/g,"")||"",zeroCents:t.zeroCents,lastOutput:t.lastOutput},t.moneyPrecision=t.zeroCents?0:t.precision,t},s=function(i,o,r){for(;o<i.length;o++)(i[o]===t||i[o]===e||i[o]===n)&&(i[o]=r);return
+ 
+i},l=function(t){this.elements=t};l.prototype.unbindElementToMask=function(){for(var
+ 
+t=0,e=this.elements.length;e>t;t++)this.elements[t].lastOutput="",this.elements[t].onkeyup=!1,this.elements[t].onkeydown=!1,this.elements[t].value.length&&(this.elements[t].value=this.elements[t].value.replace(/\D/g,""))},l.prototype.bindElementToMask=function(t){for(var
+ e=this,n=function(n){n=n||window.event;var 
+i=n.target||n.srcElement;o(n.keyCode)&&setTimeout(function(){e.opts.lastOutput=i.lastOutput,i.value=a[t](i.value,e.opts),i.lastOutput=i.value,i.setSelectionRange&&e.opts.suffixUnit&&i.setSelectionRange(i.value.length,i.value.length-e.opts.suffixUnit.length)},0)},i=0,r=this.elements.length;r>i;i++)this.elements[i].lastOutput="",this.elements[i].onkeyup=n,this.elements[i].value.length&&(this.elements[i].value=a[t](this.elements[i].value,this.opts))},l.prototype.maskMoney=function(t){this.opts=r(t),this.bindElementToMask("toMoney")},l.prototype.maskNumber=function(){this.opts={},this.bindElementToMask("toNumber")},l.prototype.maskAlphaNum=function(){this.opts={},this.bindElementToMask("toAlphaNumeric")},l.prototype.maskPattern=function(t){this.opts={pattern:t},this.bindElementToMask("toPattern")},l.prototype.unMask=function(){this.unbindElementToMask()};var
+ a=function(t){if(!t)throw new Error("VanillaMasker: There is no element
+ to bind.");var e="length"in t?t.length?t:[]:[t];return new l(e)};return
+ 
+a.toMoney=function(t,e){if(e=r(e),e.zeroCents){e.lastOutput=e.lastOutput||"";var
+ n="("+e.separator+"[0]{0,"+e.precision+"})",i=new 
+RegExp(n,"g"),o=t.toString().replace(/[\D]/g,"").length||0,s=e.lastOutput.toString().replace(/[\D]/g,"").length||0;t=t.toString().replace(i,""),s>o&&(t=t.slice(0,t.length-1))}var
+ l=t.toString().replace(/[\D]/g,""),a=new 
+RegExp("(\\"+e.separator+")$"),u=l.substr(0,l.length-e.moneyPrecision),p=u.substr(0,u.length%3),h=new
+ Array(e.precision+1).join("");u=u.substr(u.length%3,u.length);for(var 
+c=0,f=u.length;f>c;c++)p+=u[c];if(!e.zeroCents){var 
+g=l.length-e.precision,m=l.substr(g,e.precision),v=m.length,y=e.precision>v?e.precision:v;h=(h+m).slice(-y)}var
+ b=e.unit+p+e.separator+h+e.suffixUnit;return 
+b.replace(a,"")},a.toPattern=function(i,o){var r,l="object"==typeof 
+o?o.pattern:o,a=l.replace(/\W/g,""),u=l.split(""),p=i.toString().replace(/\W/g,""),h=p.replace(/\W/g,""),c=0,f=u.length,g="object"==typeof
+ o?o.placeholder:void 
+0;for(r=0;f>r;r++){if(c>=p.length){if(a.length==h.length)return 
+u.join("");if(void 0!==g&&a.length>h.length)return 
+s(u,r,g).join("");break}if(u[r]===t&&p[c].match(/[0-9]/)||u[r]===e&&p[c].match(/[a-zA-Z]/)||u[r]===n&&p[c].match(/[0-9a-zA-Z]/))u[r]=p[c++];else
+ if(u[r]===t||u[r]===e||u[r]===n)return void 
+0!==g?s(u,r,g).join(""):u.slice(0,r).join("")}return 
+u.join("").substr(0,r)},a.toNumber=function(t){return 
+t.toString().replace(/(?!^-)[^0-9]/g,"")},a.toAlphaNumeric=function(t){return
+ t.toString().replace(/[^a-z0-9 ]+/i,"")},a});
+
+		// Mantem apenas a versão mais recente do script
+		if (typeof dinForms == "undefined" || dinForms.version < 1.0) {
+		    var dinForms = {
+		    	version:1.0,
+		        onLoad: function(){
+		            //
+		            var forms = 
+document.getElementsByClassName("formIntegration");
+		            for (var k = 0; k < forms.length; ++k) {
+		                var inputElement = 
+forms[k].getElementsByClassName("din-input-mask");
+		                for (var i = 0; i < inputElement.length; ++i) {
+		                    
+switch(inputElement[i].getAttribute("din-mask-type")){
+		                        case "DT":
+		                        case "DH":
+		                            var str = 
+inputElement[i].getAttribute("format");
+		                            
+VMasker(inputElement[i]).maskPattern(str.replace(/D|M|A|Y|H/g, "9"));
+		                            break;
+		                        case "INT":
+		                            VMasker(inputElement[i]).maskNumber();
+		                            break;
+		                        case "FLT":
+		                            var str = 
+inputElement[i].getAttribute("format");
+		                            
+VMasker(inputElement[i]).maskMoney({separator:str});
+		                            break;
+		                    }
+		                }                
+		            }
+
+		            //
+		            var referer = document.referrer ? 
+document.referrer.match(/:\/\/(.[^/]+)/)[1] : "";
+		            var hostname = window.location.hostname;
+		            if (referer != hostname) {
+		                var jsonParams = {"url":window.location.href, 
+"referer":document.referrer};
+		                var cookieData = btoa(JSON.stringify(jsonParams));
+		                dinForms.SetCookie("dinTrafficSource", cookieData, 
+90);
+		            }
+		        },
+		        ValidateForm: function(form){
+		            this.LimpaAvisos(form);
+
+		            /********************************************************/
+		            // validação de cada tipo de campo
+		            /********************************************************/
+		            var elem = form.elements;
+		            var enviar = true;
+		            for(var i = 0; i < elem.length; i++){
+		                if( elem[i].type == "hidden" ){
+		                    continue
+		                }
+
+		                var classList = elem[i].className.split(" ");
+
+		                this.removeClass("field-error", elem[i]);
+		                elem[i].value = elem[i].value.trim();
+		                
+		                if(classList.indexOf("type_EMAIL") != -1){
+		                    if(!this.validateEmail(elem[i].value) ){
+		                        this.addClass("field-error", elem[i]);
+		                        enviar = false;
+		                    }
+		                }
+		                else if(classList.indexOf("type_DT") != -1){
+		                    if(elem[i].value != "" && 
+!this.existDate(this.prepareDate(elem[i].value, 
+elem[i].getAttribute("format")),false)){
+		                        this.addClass("field-error", elem[i]);
+		                        enviar = false;
+		                    }
+		                }
+		                else if(classList.indexOf("type_DH") != -1){
+		                    if(elem[i].value != "" && 
+!this.existDate(this.prepareDate(elem[i].value, 
+elem[i].getAttribute("format")),true)){
+		                        this.addClass("field-error", elem[i]);
+		                        enviar = false;
+		                    }
+		                }
+		                else if( classList.indexOf("type_PHN_NUM") != -1 ){
+		                    var fieldName = elem[i].getAttribute("hd-name");
+		                    var text = elem[i].value;
+		                    var patPhone = /\d+/g;
+		                    var res;
+		                    var resultNum = "";
+		                    var resultDDI = "";
+		                    res = text.match(patPhone);
+
+		                    if (res !== null){
+		                         resultNum = res.join("");
+		                    }
+
+		                    form.elements[fieldName].value = "";
+
+		                    if(text != "" && resultNum.length < 3 ){
+		                        this.addClass("field-error", elem[i]);
+		                        enviar = false;
+		                    }else if (resultNum.length >= 3 ){
+
+		                        text = form.elements[fieldName+"_DDI"].value
+		                        res = text.match(patPhone);
+
+		                        if (res !== null){
+		                            resultDDI = res.join("");
+		                            form.elements[fieldName].value = 
+resultDDI+resultNum;
+		                        }else{
+		                            this.addClass("field-error", 
+form.elements[fieldName+"_DDI"]);
+		                            enviar = false;
+		                        }
+		                    }
+		                }
+
+		                // CAMPOS OBRIGATORIOS
+		                if( classList.indexOf("field-required") != -1 ){
+
+		                    // Todos os campos não-LVM
+		                    if(classList.indexOf("type_LVM") == -1){
+		                        if( elem[i].value.trim() == "" ){
+		                            this.addClass("field-error", elem[i]);
+		                            enviar = false;
+		                        }
+		                    }
+
+		                    // else lvm...
+		                    if(classList.indexOf("type_LVM") != -1){
+		                        var hdName = elem[i].getAttribute("hd-name");
+		                        var ok = false;
+
+		                        this.removeClass("field-error", 
+form.getElementsByClassName("containerMultiple_"+hdName)[0]); // é o 
+único caso que a classe é removida deste jeito
+
+		                        var checkboxes = 
+form.getElementsByClassName("chk_"+hdName);
+		                        for(var j=0; j < checkboxes.length; j++){
+		                            if(checkboxes[j].checked == true){
+		                                ok = true;
+		                                break;
+		                            }
+		                        }
+		                        if(!ok){
+		                            this.addClass("field-error", 
+form.getElementsByClassName("containerMultiple_"+hdName)[0] );
+		                            enviar = false;
+		                        }
+		                    }
+		                }
+		                
+		            }
+		            /********************************************************/
+		            // Em caso de falha na validação...
+		            // Mensagem de Campo Obrigatório
+		            /********************************************************/
+		            if(!enviar){
+		                var msgError = 
+form.getElementsByClassName("DinamizeDivMessageError")[0];
+		                if(msgError && msgError.innerHTML.length) {
+		                    msgError.style.display = "block";
+		                }
+		                return false
+		            }
+
+		            /********************************************************/
+		            // Escreve valores nos campos hidden (quando necessário)
+		            /********************************************************/
+
+		            // Listas de Valores Multiplos (LVM)
+		            var lvmElements = form.getElementsByClassName("type_LVM");
+		            var checkboxes, checkedValues;
+		            var hdName;
+		            for (var i = 0; i < lvmElements.length; i++) {
+		                hdName = lvmElements[i].getAttribute("hd-name");
+
+		                checkboxes = 
+form.getElementsByClassName("chk_"+hdName);
+		                checkedValues = "";
+
+		                if(checkboxes.length > 0){
+		                    for (var k = 0; k < checkboxes.length; k++) {
+		                        if(checkboxes[k].checked){
+		                            checkedValues += "|"+checkboxes[k].value;
+		                        }
+		                    }
+		                }
+		                checkedValues = checkedValues.replace("|","");
+		                
+form.elements[lvmElements[i].getAttribute("hd-name")].value = 
+checkedValues;
+		            }
+
+		            // Datas
+		            this.setDateValues(form, "type_DT");
+		            this.setDateValues(form, "type_DH");
+		            
+		            // Floats
+		            var fltElements = form.getElementsByClassName("type_FLT");
+		            for (var i = 0; i < fltElements.length; i++) {
+		                
+form.elements[fltElements[i].getAttribute("hd-name")].value = 
+fltElements[i].value.replace(",",".");
+		            };
+
+		            /********************************************************/
+		            // finalizando...
+		            /********************************************************/
+
+		            //  se for preview... dá msg de sucesso e cai fora!
+		            var isPreview = form.elements["isPreview"];
+		            if (isPreview) {
+		            	dinForms.ResetFormValues(form);
+		            	return false
+		            }
+
+		            // Se o form usa "msg", não faz action com redirect.
+		            var isMsg = form.elements["isMsg"].value;
+		            var redirectElement = form.elements["redirect-url-js"];
+		            if(isMsg == "true" || (redirectElement && 
+redirectElement.value != "") ){
+		                this.LoadingForm(form);
+		                return false; // posta o conteudo, mas não executa 
+action do form
+		            }
+
+		            // Posta pro nosso receiver e este fará um redirect.
+		            return true;
+		        },
+		        setDateValues: function(form, className){
+		            var dtElements = form.getElementsByClassName(className);
+		            for (var i = 0; i < dtElements.length; i++) {
+		                if (dtElements[i].value == "") {
+		                    continue;
+		                }
+		                
+form.elements[dtElements[i].getAttribute("hd-name")].value = 
+this.prepareDate(dtElements[i].value, 
+dtElements[i].getAttribute("format"));
+		            };
+		        },
+		        // NOVO, apenas landing page
+		        SetCookie: function(cname, cvalue, exdays){
+		            var d = new Date();
+		            d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		            var expires = "expires="+ d.toUTCString();
+		            document.cookie = cname + "=" + cvalue + ";" + expires + 
+";path=/";
+		        },
+		        hasCaptcha: function(form){
+		            // Detecta se existe este elemento (deprecated) de 
+captcha.
+		            if (form.elements["dnz-captcha-google"] != undefined) {
+		                return true;
+		            }
+		            // Validação normal
+		            var action = form.getAttribute("action");
+		            if (action === null) {
+		            	return false;
+		            }
+
+		            action = action.split("/");
+		            if (action.length == 8){
+		                if(action[7] == 1){
+		                    return true;
+		                }
+		            }
+		            return false;
+		        },
+		        LoadingForm: function(form){
+		            // só para site e landingpage
+		            var isCaptcha = this.hasCaptcha(form);
+		            if(isCaptcha){
+		                
+form.getElementsByClassName("DinamizeDivCaptchaMessage")[0].style.display
+ = "none";
+		                var recaptcha = form.elements["g-recaptcha-response"];
+		                if (recaptcha.value === ""){
+		                    
+form.getElementsByClassName("DinamizeDivCaptchaMessage")[0].style.display
+ = "block";
+		                    grecaptcha.reset(); // ver se precisa 
+		                    return;
+		                }
+		            }
+
+		            //
+		            if 
+(document.getElementById("DinamizeIframeFormIntegration") == undefined){
+		                var ifrm = document.createElement("iframe");
+		                ifrm.setAttribute("id", 
+"DinamizeIframeFormIntegration");
+		                ifrm.setAttribute("name", 
+"DinamizeIframeFormIntegration");
+		                ifrm.style.display = "none";
+		                document.body.appendChild(ifrm);
+		            }
+
+		            if (this.GetCookie("dinTrafficSource")) {
+		                // MANTER COM ID, SÓ PRECISAMOS DE UM POR document
+		                if (document.getElementById("__dinTrafficSource")) {
+		                    
+document.getElementById("__dinTrafficSource").setAttribute("value", 
+this.GetCookie("dinTrafficSource"));
+		                } else {
+		                    var ts = document.createElement("input");
+		                    ts.type = "hidden";
+		                    ts.name = "__dinTrafficSource";
+		                    // MANTER COM ID, SÓ PRECISAMOS DE UM POR document
+		                    ts.id = "__dinTrafficSource";
+		                    ts.value = this.GetCookie("dinTrafficSource");
+		                    form.appendChild(ts);               
+		                }
+		            }
+
+		            this.Spinner(form, true);
+
+		            // Usa um "img" para fazer uma requisição
+		            var imgReq = document.createElement("img");
+		            imgReq.setAttribute("id", "DinamizeImgResponse");
+		            imgReq.style.display = "none"; // redundancia
+		            
+		            imgReq.onload = function () {
+		                // LandingPage
+		                var redirectElement = 
+form.elements["redirect-url-js"];
+		                if (redirectElement && redirectElement.value != "") {
+		                    location.href = redirectElement.value;
+		                }
+		                // Fim LandingPage
+
+		                dinForms.Spinner(form, false);
+		                dinForms.ResetFormValues(form)
+		            }
+		            imgReq.onerror = function () {
+		                dinForms.Spinner(form, false);
+		                
+		                // elemento deprecated
+		                var msgErrorDep = 
+form.getElementsByClassName("divMessageError")[0];
+		                if(msgErrorDep) {
+		                    msgErrorDep.style.display = "block";
+		                }
+
+		                var msgAlert = 
+form.getElementsByClassName("DinamizeDivMessageAlert")[0];
+		                if(msgAlert) {
+		                    msgAlert.style.display = "block";
+		                }
+		            }
+		            imgReq.src = form.getAttribute("action") + "/?" + 
+this.serialize(form) + "&a=" + Math.floor((Math.random()*99999)+1);
+		            form.appendChild(imgReq);
+		            
+		            //
+		            if(isCaptcha){
+		                grecaptcha.reset();
+		            }
+		        },
+		        Spinner: function(form, show){
+		            // manter versão por compatibilidade?
+		            var submitElement = 
+form.getElementsByClassName("dinSubmit")[0];
+		            var spinnerElement = 
+form.getElementsByClassName("spinner")[0];
+
+		            if (show) {
+		                if (spinnerElement)
+		                    spinnerElement.style.display = "block";
+		                
+		                if (submitElement)
+		                    submitElement.value = "";
+
+		            }else{
+		                if (spinnerElement)
+		                    spinnerElement.style.display = "none";
+
+		                if (submitElement)
+		                    submitElement.value = 
+submitElement.getAttribute("original-value");
+		            }
+		        },
+		        GetCookie: function(cname){
+		            var name = cname + "=";
+		            var decodedCookie = decodeURIComponent(document.cookie);
+		            var ca = decodedCookie.split(";");
+		            for(var i = 0; i <ca.length; i++) {
+		                var c = ca[i];
+		                while (c.charAt(0) == " ") {
+		                    c = c.substring(1);
+		                }
+		                if (c.indexOf(name) == 0) {
+		                    return c.substring(name.length, c.length);
+		                }
+		            }
+		            return "";
+		        },
+		        ResetFormValues: function(form){
+		            // jquery existe?
+		            if (typeof($) != "undefined"){
+		                // iCheck existe?
+		                if ( (typeof($().iCheck) != "undefined") ){
+		                    
+$(form).find("input[type=\"checkbox\"]:not(.cssOnly)").iCheck("uncheck");
+
+		                }
+		            }
+
+		            var msgSuccess = 
+form.getElementsByClassName("DinamizeDivMessageSuccess")[0];
+		            if(msgSuccess) {
+		                msgSuccess.style.display = "block";
+		            }
+		            var imgRequest = 
+document.getElementById("DinamizeImgResponse");
+		            if(imgRequest) {
+		                imgRequest.remove();
+		            }
+		            form.reset();
+		        },
+		        LimpaAvisos: function(form){
+		            var msgSuccess = 
+form.getElementsByClassName("DinamizeDivMessageSuccess")[0];
+		            if(msgSuccess)
+		                msgSuccess.style.display = "none";
+
+		            var msgAlert = 
+form.getElementsByClassName("DinamizeDivMessageAlert")[0];
+		            if(msgAlert)
+		                msgAlert.style.display = "none";
+
+		            var msgError = 
+form.getElementsByClassName("DinamizeDivMessageError")[0];
+		            if(msgError)
+		                msgError.style.display = "none";
+
+		            // elemento deprecated, de landingPage
+		            var msgErrorDep = 
+form.getElementsByClassName("divMessageError")[0];
+		            if(msgErrorDep)
+		                msgErrorDep.style.display = "none";
+
+		            var msgCaptcha = 
+form.getElementsByClassName("DinamizeDivCaptchaMessage")[0];
+		            if(msgCaptcha)
+		                msgCaptcha.style.display = "none";
+		        },
+		        validateEmail: function(email){
+		            var re = 
+/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		            return re.test(email);
+		        },
+		        prepareDate: function(date, format){
+		            var newDate, time;
+		            format = 
+format.substr(0,10).replace("/","").replace("/","").replace("-","").replace("-","");
+
+		            time = date.substr(10,15);
+
+		            if(format == "DDMMAAAA"){
+		                newDate = date[6]+date[7]+date[8]+date[9] +"-"+ 
+date[3]+date[4] +"-"+ date[0]+date[1];
+		            }else if(format == "MMDDAAAA"){
+		                newDate = date[6]+date[7]+date[8]+date[9] +"-"+ 
+date[0]+date[1] +"-"+ date[3]+date[4];
+		            }else if(format == "AAAAMMDD"){
+		                newDate = date[0]+date[1]+date[2]+date[3] +"-"+ 
+date[5]+date[6] +"-"+ date[8]+date[9];
+		            }
+
+		            return newDate+time;
+		        },
+		        existDate: function(date,time){
+		            if(time){
+		                if(date.length != 16){
+		                    return false;
+		                }
+		            }else if(!time){
+		                if(date.length != 10){
+		                    return false;
+		                }
+		                date +=" 00:00";
+		            }
+
+		            var NEWDATE = new 
+Date(date.replace("-","/").replace("-","/"));
+		            var strNewdate;
+
+		            var y = NEWDATE.getFullYear().toString();
+		            var m = (NEWDATE.getMonth()+1).toString();
+		            var d  = NEWDATE.getDate().toString();
+		            var h  = NEWDATE.getHours().toString();
+		            var min  = NEWDATE.getMinutes().toString();
+		            strNewdate = y +"-"+ (m[1]?m:"0"+m[0]) +"-"+ 
+(d[1]?d:"0"+d[0]) +" "+ (h[1]?h:"0"+h[0]) + ":" + 
+(min[1]?min:"0"+min[0]);
+
+		            if(date != strNewdate){
+		                return false;
+		            }
+
+		            return true;
+		        },
+		        addClass: function( classname, element ) {
+		            var cn = element.className;
+		            if( cn.indexOf( classname ) != -1 ) {
+		                return;
+		            }
+		            if( cn != "" ) {
+		                classname = " "+classname;
+		            }
+		            element.className = cn+classname;
+		        },
+		        removeClass: function( classname, element ) {
+		           var cn = element.className;                     
+		           var rxp = new RegExp( "\\s?\\b"+classname+"\\b", "g" );
+		           cn = cn.replace( rxp, "" );
+		           element.className = cn;
+		        },
+		        //funcao do google faz o serialize estilo JQuery
+		        serialize: 
+function(form){if(!form||form.nodeName!=="FORM"){return }var 
+i,j,q=[];for(i=form.elements.length-1;i>=0;i=i-1){if(form.elements[i].name===""){continue}switch(form.elements[i].nodeName){case"INPUT":switch(form.elements[i].type){case"text":case"hidden":case"password":case"button":case"reset":case"submit":q.push(form.elements[i].name+"="+encodeURIComponent(form.elements[i].value));break;case"checkbox":case"radio":if(form.elements[i].checked){q.push(form.elements[i].name+"="+encodeURIComponent(form.elements[i].value))}break;case"file":break}break;case"TEXTAREA":q.push(form.elements[i].name+"="+encodeURIComponent(form.elements[i].value));break;case"SELECT":switch(form.elements[i].type){case"select-one":q.push(form.elements[i].name+"="+encodeURIComponent(form.elements[i].value));break;case"select-multiple":for(j=form.elements[i].options.length-1;j>=0;j=j-1){if(form.elements[i].options[j].selected){q.push(form.elements[i].name+"="+encodeURIComponent(form.elements[i].options[j].value))}}break}break;case"BUTTON":switch(form.elements[i].type){case"reset":case"submit":case"button":q.push(form.elements[i].name+"="+encodeURIComponent(form.elements[i].value));break}break}}return
+ q.join("&")},
+		    };
+		}
+
+		//
+		if ( document.readyState === "complete" ) {
+		    dinForms.onLoad();
+		}else {
+		    if (window.attachEvent) {
+		        window.attachEvent("load", dinForms.onLoad);
+		    } else {
+		        window.addEventListener("load", dinForms.onLoad);
+		    }
+		}
+		</script>
+</body></html>

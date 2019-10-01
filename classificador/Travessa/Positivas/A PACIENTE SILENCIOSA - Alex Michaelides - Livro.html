@@ -1,0 +1,2834 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>
+	A PACIENTE SILENCIOSA - Alex Michaelides - Livro
+</title><meta charset="utf-8"><link rel="stylesheet" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/travessa.css"><link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ArtigoSmall.css"><link rel="stylesheet" media="screen and (min-device-width: 768px)" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ArtigoSmall.css"><link rel="stylesheet" media="screen and (min-device-width: 320px)" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ArtigoSmall.css"><link rel="stylesheet" media="screen and (min-device-width: 1280px)" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ArtigoNormal.css"><link rel="stylesheet" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/Travessa2.css">
+    <script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/cbgapi.loaded_0" async=""></script><script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/bat.js" async=""></script><script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/inferredEvents.js" async=""></script><script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/1578973348841788" async=""></script><script async="" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/fbevents.js"></script><script async="" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/gtm.html"></script><script type="text/javascript" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jquery_005.js"></script>
+    <script type="text/javascript">
+
+      
+        // <![CDATA[
+      var $f = jQuery.noConflict();
+ 
+        // Use jQuery via $f(...)
+        $f(document).ready(function(){
+
+        
+            //Scrool smoothly
+            $("#lnkLerMais").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#txtTituloSinopse").offset().top
+                }, 2000);
+            });
+
+            $("#lnkAvaliacoes").click(function () {
+              $('html, body').animate({
+                scrollTop: $("#divAviliacoesLeitor").offset().top
+              }, 2000);
+            });
+
+            $('#imgFace').hover(function () {
+                $(this).attr('src', 'img/sharefacebook_cor.gif');
+            }, function () {
+                $(this).attr('src', 'img/sharefacebook.gif');
+            });
+
+            $('#imgTwitter').hover(function () {
+                $(this).attr('src', 'img/shareTwitter_cor.gif');
+            }, function () {
+                $(this).attr('src', 'img/shareTwitter.gif');
+            });
+
+            $('#imgPlus').hover(function () {
+                $(this).attr('src', 'img/shareGoogle_cor.gif');
+            }, function () {
+                $(this).attr('src', 'img/shareGoogle.gif');
+            });
+
+            $('#imgMail').hover(function () {
+                $(this).attr('src', 'img/shareEmail_cor.gif');
+            }, function () {
+                $(this).attr('src', 'img/shareEmail.gif');
+            });
+
+           
+            $f('#btnAbrir').bind('click', function(){
+
+                if ($f(this).parents("#full").children("#mini").attr('estado') == 'fechado'){
+                    $f(this).parents("#full").children("#mini").addClass('containerAberto');                
+                    $f(this).parents("#full").children("#btnAbrir").addClass('btnFechar'); 
+                    $f(this).parents("#full").children("#mini").attr('estado', 'aberto');
+                    $f(this).parents("#full").children("#mini").attr('style', 'margin-bottom:50px');
+
+                }
+                else
+                {               
+                    $f(this).parents("#full").children("#mini").removeClass('container containerAberto').addClass('container'); 
+                    $f(this).parents("#full").children("#btnAbrir").removeClass('btnFechar'); 
+                    $f(this).parents("#full").children("#mini").attr('estado', 'fechado');
+                }
+ 
+            })
+       
+
+        })
+ 
+        // ]]>
+        function popMsg() {
+
+            $.colorbox({
+             
+                'iframe': true,
+                'open': true,
+                fixed: true,       
+                letf: "50%",
+                width: "350px",
+                height: "220px",
+                href: 'wpgMsgDisponibilidade.aspx',
+              
+            });
+        }
+        function popMsgFormato(url) {
+            
+            $.colorbox({
+
+                'iframe': true,
+                'open': true,
+                fixed: true,
+                letf: "50%",
+                width: "350px",
+                height: "220px",
+                href: url,
+
+            });
+        }
+        function popUpamigo(url) {
+
+            $.colorbox({
+                
+                open: true,
+                iframe: true,
+                height: "455px",
+                width: "385px",
+                fixed: true,
+                letf: "50%",
+                href: url,
+            });
+        }
+        function popUpLogin(url) {
+
+          if (url == null) {
+            url = 'wpgLoginPopUp.aspx';            
+          }
+            $.colorbox({
+                open: true,
+                iframe: true,
+                height: "185px",
+                width: "470px",
+                fixed: true,
+                letf: "50%",
+                href: url,
+            });
+        }
+        function popUpimgrande(url) {
+
+            $.colorbox({
+                
+                open: true,
+                fixed: true,
+                letf: "50%",
+                href: url,
+            });
+        }
+    </script>
+    <style type="text/css">
+        .boxCep {
+            border: 2px solid #cccccc;
+            font-family: Verdana;
+            font-size: 12px;
+            height: 27px !important;
+            max-height: 27px !important;
+        }
+      .avaliacaoQTD
+      {
+        font-family:Verdana;font-size:12px;color:#333333;font-style:normal;vertical-align:  super;
+      }
+      .StarHeight
+      {
+        line-height:22px;
+      }
+        .Star
+        {
+            background-repeat: no-repeat;
+            background-image: url(/img/Star.gif);
+            width: 17px; height: 17px;
+        }
+        .WaitingStar
+        {
+             background-repeat: no-repeat;
+            background-image: url(/img/WaitingStar.gif);
+            width: 17px; height: 17px;
+        }
+        .FilledStar
+        {
+             background-repeat: no-repeat;
+            background-image: url(/img/FilledStar.gif);
+            width: 17px; height: 17px;
+        }
+        .txtComentario
+        {
+            border:2px;
+            border-color:#cccccc;
+            width:554px;
+            border-style:solid;
+            height:25px;
+            font-family:Verdana;
+            font-size:12px;
+        }
+        .formComentario
+        {
+            width:100px;
+            text-align:right;
+            padding-bottom:15px;
+            vertical-align:top;
+            
+        }
+        .chkAnonimo
+        {
+            
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #333333;                        
+            font-weight: normal;
+            text-decoration: none;
+            float:left;
+        }
+      .auto-style2
+      {
+        width: 150px;
+        text-align: right;
+        padding-bottom: 15px;
+        vertical-align: top;
+      }
+      .auto-style3
+      {
+        width: 112px;
+      }
+      .auto-style4
+      {
+        width: 112px;
+        text-align: right;
+        padding-bottom: 15px;
+        vertical-align: top;
+        height: 22px;
+      }
+      .auto-style5
+      {
+        height: 22px;
+      }
+      .formComentarioErro
+      {
+        font-family:Verdana;
+        font-size:12px;
+        color:#990000;
+      }
+      #RatingMedia
+      {
+        line-height:20px;
+        padding-top:5px;
+      }
+      #divDesconto20 {
+       float: right;
+       width: 95px;
+       position: absolute;
+       right: 762px;
+       bottom: 215px;
+}
+
+
+
+
+
+    </style>
+
+<link href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/WebResource.css" type="text/css" rel="stylesheet"><!-- base href="https://www.travessa.com.br/" --><meta name="robots" content="INDEX, FOLLOW"><meta name="title" content="A PACIENTE SILENCIOSA - Alex Michaelides - Livro"><meta name="description" content="Livro &gt; Livro de Literatura e Ficção &gt; Livro de Literatura Estrangeira, isbn - 9788501116437, paginas - 350, editora - Record, preço - 44,900"><meta name="Keywords" content="A PACIENTE SILENCIOSA, Alex Michaelides, Record, 9788501116437, Literatura e Ficção, Literatura Estrangeira, livro, autor, editora, biblioteca, leitura, livraria da travessa, mais vendidos, lançamentos, livraria"><link rel="canonical" href="https://www.travessa.com.br/a-paciente-silenciosa/artigo/a68005fd-a5be-4de7-a789-859c18b833b2"><link rel="amphtml" href="https://m.travessa.com.br/produtoAmp.aspx?codartigo=a68005fd-a5be-4de7-a789-859c18b833b2"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.travessa.com.br/produto.aspx?codartigo=a68005fd-a5be-4de7-a789-859c18b833b2"><link rel="alternate" media="handheld" href="https://m.travessa.com.br/produto.aspx?codartigo=a68005fd-a5be-4de7-a789-859c18b833b2"><meta property="og:url" content="https://www.travessa.com.br/a-paciente-silenciosa/artigo/a68005fd-a5be-4de7-a789-859c18b833b2"><meta property="og:title" content="A PACIENTE SILENCIOSA - Alex Michaelides - Livro"><meta property="og:description" content="Um assassinato, uma verdade oculta. As raízes do silêncio são muito mais profundas do que se pode imaginar.  Alicia Berenson escreve um diário para colocar..."><meta property="og:site_name" content="Travessa.com.br"><meta property="og:image" content="https://img.travessa.com.br/livro/BA/a6/a68005fd-a5be-4de7-a789-859c18b833b2.jpg"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="214"><meta property="og:image:height" content="306"><meta property="og:type" content="book"><script type="text/javascript">window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-2355677-2', 'auto');
+ga('send', 'pageview');</script><script type="text/javascript"> (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PTH32SQ');</script><script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/a"></script></head>
+<body>
+  <form name="form1" method="post" action="/a-paciente-silenciosa/artigo/a68005fd-a5be-4de7-a789-859c18b833b2" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM4NjMwNTQwNg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgICAw8WAh4GYWN0aW9uBUIvYS1wYWNpZW50ZS1zaWxlbmNpb3NhL2FydGlnby9hNjgwMDVmZC1hNWJlLTRkZTctYTc4OS04NTljMThiODMzYjIWBgIBDxYCHgV2YWx1ZQU7cHJvZHV0by5hc3B4P2NvZGFydGlnbz1hNjgwMDVmZC1hNWJlLTRkZTctYTc4OS04NTljMThiODMzYjJkAhMPZBYUAgQPFgIeBGhyZWYFRWh0dHBzOi8vd3d3LnRyYXZlc3NhLmNvbS5ici93cGdQZWRpZG9BY29tcGFuaGFtZW50by5hc3B4P1RpcG9BcnRpZ289MWQCBQ8WAh8DBTlodHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvd3BnU3VhQ29udGEuYXNweD9UaXBvQXJ0aWdvPTFkAgYPFgIfAwUvaHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3dwZ05vc3Nhc0xvamFzLmFzcHhkAgcPFgIfAwUtaHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3dwZ1F1ZW1Tb21vcy5hc3B4ZAIIDxYCHwMFL2h0dHBzOi8vd3d3LnRyYXZlc3NhLmNvbS5ici93cGdBdGVuZGltZW50by5hc3B4ZAIKD2QWAmYPZBYCAgEPFgIfAwU+aHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3dwZ0NhcnJpbmhvTGlzdGEuYXNweD9UaXBvQXJ0aWdvPTEWAgIBDxYCHglpbm5lcmh0bWwFJDxkaXYgaWQ9InF0ZFNhY29sYTIiID48Yj4wPC9iPjwvZGl2PmQCCw9kFgICAQ8PFgIeBFRleHQFBkxpdnJvc2RkAgwPZBYCAgEPDxYCHwUFHER2ZHMmbmJzcDsmYW1wOyZuYnNwO0JsdS1yYXlkZAIND2QWAgIBDw8WAh4LTmF2aWdhdGVVcmwFK2h0dHBzOi8vd3d3LnRyYXZlc3NhLmNvbS5ici93cGdFdmVudG9zLmFzcHhkZAIRD2QWAmYPZBYCAgMPFgIfAwU+aHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3dwZ0NhcnJpbmhvTGlzdGEuYXNweD9UaXBvQXJ0aWdvPTEWAgIBDxYCHwQFIzxkaXYgaWQ9InF0ZFNhY29sYSIgPjxiPjA8L2I+PC9kaXY+ZAIZD2QWFAIBD2QWEgIDDw8WBB8FBUE8YSAgY2xhc3M9InR4dEJyZWFkY3J1bWJzIiBocmVmPSJ3cGdMaXZyby5hc3B4IiA+TGl2cm9zJm5ic3A7PC9hPh4HVmlzaWJsZWdkZAIFDxYCHwdnZAIHDw8WBB8FBYQBPGEgIGNsYXNzPSJ0eHRCcmVhZGNydW1icyIgaHJlZj0id3BnTGl2cm9NYWNyby5hc3B4P0NvZE1hY3JvU2VnbWVudG89MzgwOGE2MTYtMjBiNS00OGMyLWI2ZjYtY2U4ZTkzN2YzMjgwIj5MaXRlcmF0dXJhIGUgRmljw6fDo288L2E+HwdnZGQCCQ8WAh8HZ2QCCw8PFgQfBQXFATxhICBjbGFzcz0idHh0QnJlYWRjcnVtYnMiIGhyZWY9IndwZ0FydEZpbHRyb1NlZy5hc3B4P1RpcG9BcnRpZ289MSZDb2RNYWNyb1NlZ21lbnRvPTM4MDhhNjE2LTIwYjUtNDhjMi1iNmY2LWNlOGU5MzdmMzI4MCZDb2RTZWdtZW50bz04ZTkyZGQ1Zi0yNzQwLTQxNmItYWRhYi1iNWYyMzlhNmQ2OWQiPkxpdGVyYXR1cmEgRXN0cmFuZ2VpcmE8L2E+HwdnZGQCDw8WAh8FBSRhNjgwMDVmZC1hNWJlLTRkZTctYTc4OS04NTljMThiODMzYjJkAhEPFgIfBQUkOGU5MmRkNWYtMjc0MC00MTZiLWFkYWItYjVmMjM5YTZkNjlkZAITDxYCHwUFATFkAhUPFgIfBQUkMzgwOGE2MTYtMjBiNS00OGMyLWI2ZjYtY2U4ZTkzN2YzMjgwZAIFD2QWAmYPZBYIAgEPFgIeB29uY2xpY2sFmgJ3aW5kb3cub3BlbignaHR0cDovL3d3dy5mYWNlYm9vay5jb20vc2hhcmVyLnBocD91PWh0dHBzOi8vd3d3LnRyYXZlc3NhLmNvbS5ici9hLXBhY2llbnRlLXNpbGVuY2lvc2EvYXJ0aWdvL2E2ODAwNWZkLWE1YmUtNGRlNy1hNzg5LTg1OWMxOGI4MzNiMicsJ0ZCJywgJ3Rvb2xiYXI9MCwgcmVzaXphYmxlPTEsIHN0YXR1cz0wLCB3aWR0aD05MDAsIGhlaWdodD01NTAsIGxlZnQ9JysoKHNjcmVlbi53aWR0aCAtIDUzMCkgLyAyKSsnLCB0b3A9JyArICgoc2NyZWVuLmhlaWd0aCAtIDgwKSAvIDIpKTtkAgMPFgIfCAWDA3dpbmRvdy5vcGVuKCdodHRwOi8vdHdpdHRlci5jb20vc2hhcmU/Xz05Nzg4NTc2MTY0MjAzJmNvdW50PWhvcml6b250YWwmb3JpZ2luYWxfcmVmZXJlcj1odHRwJTNBJTJGJTJGd3d3LnRyYXZlc3NhLmNvbS5iciUyRndwZ2FydGlnby5hc3B4JTNGQ29kQXJ0aWdvJTNEYTY4MDA1ZmQtYTViZS00ZGU3LWE3ODktODU5YzE4YjgzM2IyJnRleHQ9RW5jb250cmVpJTIwbmElMjBUcmF2ZXNzYSUyQyUyMCBvIGR2ZCAiYSBwYWNpZW50ZSBzaWxlbmNpb3NhIiBlbSAlMjAhJnVybD1odHRwJTNBJTJGJTJGd3d3LnRyYXZlc3NhLmNvbS5iciUyRndwZ2FydGlnby5hc3B4JTNGQ29kQXJ0aWdvJTNEYTY4MDA1ZmQtYTViZS00ZGU3LWE3ODktODU5YzE4YjgzM2IyJnZpYT1MaXZUcmF2ZXNzYScpO2QCBQ8WAh8IBZYCd2luZG93Lm9wZW4oJ2h0dHBzOi8vcGx1cy5nb29nbGUuY29tL3NoYXJlP3VybD1odHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvYS1wYWNpZW50ZS1zaWxlbmNpb3NhL2FydGlnby9hNjgwMDVmZC1hNWJlLTRkZTctYTc4OS04NTljMThiODMzYjInLCdHUCcsJ3Rvb2xiYXI9MCwgcmVzaXphYmxlPTEsIHN0YXR1cz0wLCB3aWR0aD05MDAsIGhlaWdodD01NTAsIGxlZnQ9JysoKHNjcmVlbi53aWR0aCAtIDUzMCkgLyAyKSsnLCB0b3A9JyArICgoc2NyZWVuLmhlaWd0aCAtIDgwKSAvIDIpKTtkAgcPFgIfCAVtcG9wVXBhbWlnbygnaHR0cHM6Ly93d3cudHJhdmVzc2EuY29tLmJyL3dwZ0luZGlxdWVBbWlnby5hc3B4P0NvZEFydGlnbz1hNjgwMDVmZC1hNWJlLTRkZTctYTc4OS04NTljMThiODMzYjInKWQCFw8WAh8HaBYEAgEPFgIfB2hkAgIPFgIfB2hkAhkPZBYCZg8WAh4KQ2FsbGJhY2tJRAULUmF0aW5nTWVkaWFkAhsPFgIfBAVEPGEgc3R5bGU9ImN1cnNvcjogcG9pbnRlcjsiIGlkPSJsbmtBdmFsaWFjb2VzIj4oMCBhdmFsaWHDp8O1ZXMpIDwvYT5kAiEPZBYCZg9kFgoCAQ8WAh8FBV1odHRwczovL3d3dy50cmF2ZXNzYS5jb20uYnIvYS1wYWNpZW50ZS1zaWxlbmNpb3NhL2FydGlnby9hNjgwMDVmZC1hNWJlLTRkZTctYTc4OS04NTljMThiODMzYjJkAgMPFgIfBQVQaHR0cHM6Ly9pbWcudHJhdmVzc2EuY29tLmJyL2xpdnJvL0JBL2E2L2E2ODAwNWZkLWE1YmUtNGRlNy1hNzg5LTg1OWMxOGI4MzNiMi5qcGdkAgUPFgIfBQUwQSBQQUNJRU5URSBTSUxFTkNJT1NBIC0gQWxleCBNaWNoYWVsaWRlcyAtIExpdnJvZAIHDxYCHwUFogFVbSBhc3Nhc3NpbmF0bywgdW1hIHZlcmRhZGUgb2N1bHRhLiBBcyByYcOtemVzIGRvIHNpbMOqbmNpbyBzw6NvIG11aXRvIG1haXMgcHJvZnVuZGFzIGRvIHF1ZSBzZSBwb2RlIGltYWdpbmFyLiAgQWxpY2lhIEJlcmVuc29uIGVzY3JldmUgdW0gZGnDoXJpbyBwYXJhIGNvbG9jYXIuLi5kAgkPZBYCAgMPD2QWAh4LcGxhY2Vob2xkZXIFDSBkaWdpdGUgbyBDRVBkAiUPZBYCAgMPZBYCZg9kFgICAw88KwAJAGQCdw9kFgICAw88KwAJAGQCew9kFgICAw9kFgJmD2QWAgIDDzwrAAkAZAKBAQ9kFgJmD2QWBAIBD2QWAgIBDzwrAAkBAA8WBB4IRGF0YUtleXMWAB4LXyFJdGVtQ291bnRmZGQCAw9kFgICBQ9kFgJmD2QWAgIBD2QWAmYPZBYCZg8WAh8JBQdSYXRpbmcxZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBgUOYnRuUHJldkVudHJlZ2EFB2J0blByb3gFEGJ0bkFudGVyUGFydGljaTEFD2J0blByb3hQYXJ0aWNpMQUUYnRuRW52aWFyT3BpYW9MZWl0b3IFE2Noa0F2YWxpYWNhb0Fub25pbW/8UwaZ/y15wKSbotOpu4IuJKH+sQ==" type="hidden">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/WebResource.axd" type="text/javascript"></script>
+
+<script>localStorage.setItem("total", '0,00');</script>
+<script type="text/javascript">
+//<![CDATA[
+localStorage.setItem("qtd", 0);//]]>
+</script>
+ <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "BreadcrumbList",  "itemListElement":[{"@type": "ListItem", "position":1,"item":{"@id":"http://www.travessa.com.br/livros","name":"Livro"}},{"@type": "ListItem", "position":2,"item":{"@id":"http://www.travessa.com.br/wpgLivroMacro.aspx?CodMacroSegmento=3808a616-20b5-48c2-b6f6-ce8e937f3280","name":"Livros Literatura e Ficção"}},{"@type": "ListItem", "position":3,"item":{"@id":"http://www.travessa.com.br/wpgArtFiltroSeg.aspx?TipoArtigo=1&CodMacroSegmento=3808a616-20b5-48c2-b6f6-ce8e937f3280&CodSegmento=8e92dd5f-2740-416b-adab-b5f239a6d69d","name":"Livros de Literatura Estrangeira"}}]}</script>
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ScriptResource.axd" type="text/javascript"></script><script type="application/ld+json">{"@context": "http://schema.org/","@type": "Product","name":  "A PACIENTE SILENCIOSA","productID":  "9788501116437","sku":  "9788501116437","releaseDate":  "2019-05-13","image": "https://img.travessa.com.br/livro/DT/a6/a68005fd-a5be-4de7-a789-859c18b833b2.jpg","brand": "Record","offers": {"@type": "Offer","availability": "http://schema.org/InStock","itemCondition": "http://schema.org/NewCondition","price": "44.90","priceCurrency": "BRL","category": "Livros"},"description": "Um assassinato, uma verdade oculta. As raízes do silêncio são muito mais profundas do que se pode imaginar.  Alicia Berenson escreve um diário para colocar suas ideias em ordem. Ele é tanto uma válvula de escape quanto uma forma de provar ao seu adorado marido que está bem. Ela não consegue suportar conviver com a ideia de que está deixando Gabriel preocupado, de que está lhe causando algum mal.  Alicia Berenson tinha 33 anos quando matou seu marido com cinco tiros. E nunca mais disse uma palavra.  O psicoterapeuta forense Theo Faber está convencido de que é capaz de tratar Alicia, depois de tantos outros falharem. E, se ela falar, ele será capaz de ouvir a verdade?</I></B></U></P>"}}}]</script>
+
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ScriptResource_004.axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ScriptResource_002.axd" type="text/javascript"></script>
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ScriptResource_003.axd" type="text/javascript"></script>
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ScriptResource_007.axd" type="text/javascript"></script>
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ScriptResource_005.axd" type="text/javascript"></script>
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/ScriptResource_006.axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8C3BDB09" type="hidden">
+	<input name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" type="hidden">
+	<input name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" type="hidden">
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACgezidCMVjUNlX50rZWMRSWoHCgmT2t5wxwHcpGd7yg0AN7GvQiwImNDUYMBfRCUBqgH4IBWoNrMQY31fbLGeIPeEj+zpyVXQrYblcxFJwBDIEY++2zJmtxJghlLx7kLqrMHcmn+Z2UHkyQ/8QHpC402+7E5FfaZShxjsXJF6TezvOhN7mdauyc/c4Kxzo6dfhmG9EXSPqAftlqvXWOFzAMsn3A1+AUM0XPI52OmL85fJMkt9dSc+/H7Yr+fThXq4t+LuizCw2cU15uw2+37H2yf0+gcllMnBGP3X1JlrrRV6vC766AcC5F9NB65syys0aAwfeMUFQPrLiX7rlW76dNy4E60JpzVq6oHB+oSu9Nnia9OCusjddWwbI8JPtz8dXz/LbRbRTbosZsJz6BxEF0jJRem4ovZPwFnD06dU/J9QCYaR9wQA05XEugHgnU7nOB0A2ms9gru/jXuTLoH+MSNeUh4vJflSWYCG8NVD9r+KLy4UNEitdaja7ueC6HvaY0eWmHciKahjVMMyMlrBVAv0lP2XJ8fwUP6oMEwF3rLVjh8xdMYUvUGLmmiklYvt1mMd1rSkzAjqk6TmobM6iJp7fNHbjjBl1fh4v/jqjAClBKSXvqrytDVRptHjN+wmBbg/j7GVkV8YNRSVfxUfVwm8C6RCI9o5+sD6yfU8CdHpT0R3vSt66xno9aHP229wLROLAUkgnhrf2IHnGrJC9VcQMK589FuVVzN6Da8xPX8lHBY/KrgNk6Y92PiQOMlvUqagDH+vfV3EFJEDZb7ZSqL1KASVNFbLzcKSDarylV9F/UEh/TC4jPGPGWyfXSvw0cwRjmtUV7N1wgelPH1pEM0boCR1ZhUjv2ob3bHmxcsCaFk5U=" type="hidden">
+</div>    
+
+<div style="visibility:hidden"> <input name="txturl" id="txturl" style="display:none;" value="produto.aspx?codartigo=a68005fd-a5be-4de7-a789-859c18b833b2" type="text">    </div>
+    <input name="txtMsg" id="txtMsg" type="hidden">
+    <input name="txtTitMsg" id="txtTitMsg" type="hidden">
+   
+    <input name="txtFB" id="txtFB" type="hidden">
+    <input name="txtIsbn" id="txtIsbn" type="hidden">                                         
+    <input name="txtGoogle" id="txtGoogle" type="hidden">
+    <input name="txtCodArtigo" id="txtCodArtigo" type="hidden">
+    <input name="txtSegmento" id="txtSegmento" value="8e92dd5f-2740-416b-adab-b5f239a6d69d" type="hidden">
+     <input name="txtCodAutorArtista" id="txtCodAutorArtista" value="8e92dd5f-2740-416b-adab-b5f239a6d69d" type="hidden">
+
+    
+        <input name="ucCabecalho$tipoExplosao" id="ucCabecalho_tipoExplosao" value="1" type="hidden">
+<link href="https://www.travessa.com.br/favicon.ico" rel="shortcut icon">
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=1200">
+<link rel="stylesheet" media="screen and (min-device-width: 768px)" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/travessaSmall.css">
+<link rel="stylesheet" media="screen and (min-device-width: 320px)" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/travessaSmall.css">
+<link rel="stylesheet" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/travessa_002.css">
+
+
+<link rel="stylesheet" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/colorbox.css" type="text/css">
+<link rel="stylesheet" href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jquery-ui.css">
+<script async="" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/analytics.js"></script>
+<script type="text/javascript" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jquery_004.js"></script>
+<script type="text/javascript" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jquery-ui.js"></script> 
+<script type="text/javascript" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jquery_003.js"></script>
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jquery_002.js" type="text/javascript"></script>
+<script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/mobile-detect.js"></script>
+<link href="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jquery.css" rel="stylesheet" type="text/css">
+
+ <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ucCabecalho$ScriptManager1', 'form1', ['tucCabecalho$updatePanelQtd','','tucCabecalho$UpdatePanel14','','tupdtePanelSocial','','tUpdatePanel1','','tUpdatePanel2','','tUpdatePanel3','','tUpdatePanel4','','tpnlCliente',''], ['lnkFB','','lnkTwitter','','lnkPlus','','lnkObjDesejo','','btnPrevEntrega','','btnProx','','btnProxPartici1','','btnAnterPartici1',''], [], 90, '');
+//]]>
+</script>
+
+
+
+<style type="text/css">
+
+.container{font-size:14px; margin:0 auto; width:960px}
+.test_content{margin:10px 0;}
+.scroller_anchor{height:0px; margin:0; padding:0;}
+.scroller{background:#FFF;  margin:0 0 10px;z-index:100; height:70px; font-size:18px; font-weight:bold; text-align:center; width:1200px; overflow:hidden;transition: opacity 1s ease-out;opacity: 0; height: 0; }
+
+@-moz-document url-prefix() {
+.sacolaTratamento{
+      margin-bottom:11px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:0.5px;
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.sacolaTratamento{
+      margin-bottom:12px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:3px;
+    }
+}
+
+
+@supports (-webkit-appearance:none) {
+.sacolaTratamento{
+      margin-bottom:11px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:3px;
+    }
+}
+
+@media \0screen\,screen\9 {
+.sacolaTratamento{
+      margin-bottom:11px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:3px;
+    }
+
+}
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+.sacolaTratamento{
+      margin-bottom:11px;
+  }
+    .btnBuscaRefinadaTratamento {
+    padding-top:3px;
+    }
+}
+</style>
+
+
+
+<script type="text/javascript">
+    function lnkTravessa(value) { window.location = value }
+    function lnkLivro(value) {
+        
+        try {
+            window.location = form1.ucCabecalho_hddLivro.value;
+        }
+        catch (e) {
+            window.location = '/livros';
+            
+        }
+    }
+    function lnkDvd(value) 
+    {
+        
+        try {
+            window.location = form1.ucCabecalho_hddDvd.value;
+        }
+        catch (e) {
+            window.location = '/dvds';
+            
+            
+        }
+    }
+    function lnkeBook(value) { window.location = value }
+    function lnkEvento(value) { window.location = value }
+</script>
+
+
+<table class="w100" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td style="vertical-align: top;">
+
+            <table style="width: 100%;height:114px;" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                    <td style="height: 30px; vertical-align: top; padding-top: 11px;">
+                        <table class="w100" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td style="width: 50%; padding-left: 11px;">
+                                    <font class="CabecalhoTxt">Olá,</font><font class="CabecalhoTxt">Faça o seu </font><a href="https://www.travessa.com.br/wpgCarrinhoDados.aspx?pagina=wpgSuaConta.aspx" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';" rel="nofollow" class="CabecalhoTxt"><b>login</b></a><script>localStorage.setItem("nomeLogin","");</script>
+                                </td>
+                                <td style="width: 50%; text-align: right; padding-right: 11px;"><a href="https://www.travessa.com.br/wpgPedidoAcompanhamento.aspx?TipoArtigo=1" id="ucCabecalho_lnkPedidoAcompanhamento" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';" rel="nofollow" class="CabecalhoTxt">acompanhe&nbsp;o&nbsp;pedido</a><span class="CabecalhoTxt">&nbsp;|&nbsp;</span><a href="https://www.travessa.com.br/wpgSuaConta.aspx?TipoArtigo=1" id="ucCabecalho_lnkCadastro" rel="nofollow" class="CabecalhoTxt" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';" style="text-decoration: none;">minha&nbsp;conta</a><span class="CabecalhoTxt">&nbsp;|&nbsp;</span><a href="https://www.travessa.com.br/wpgNossasLojas.aspx" id="ucCabecalho_lnkNossasLojas" class="CabecalhoTxt" rel="follow" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">nossas lojas</a><span class="CabecalhoTxt">&nbsp;|&nbsp;</span><a href="https://www.travessa.com.br/wpgQuemSomos.aspx" id="ucCabecalho_lnkQuemSomos" class="CabecalhoTxt" rel="follow" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">quem somos</a><span class="CabecalhoTxt">&nbsp;|&nbsp;</span><a href="https://www.travessa.com.br/wpgAtendimento.aspx" id="ucCabecalho_lnkAtendimento" class="CabecalhoTxt" rel="nofollow" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">atendimento</a></td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 40px;">
+                        <table class="styleHeaderTopo StyleHeaderPadding" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td style="width:370px;">
+                                    <a href="https://www.travessa.com.br/travessa.aspx">
+                                        
+                                        <img alt="Livraria da Travessa" class="CabecalhoLogo" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/logo-travessa-flip16.gif" id="imgLogo" style="padding-left:11px;padding-right:10px;" title="Livraria da Travessa">
+                                    </a></td>
+                                <td style="padding-top: 1px;">
+                                     
+                                   <div class="search-div" id="divBusca">
+                                     <input placeholder=" buscar" id="txtBusca" onkeypress="return clickButton(event);" autocomplete="off" class="CabecalhoBoxBusca txtBusca paddBusca" type="text"><a id="btnBuscar" onclick="lnkBusca('','','');" class="search-icon"><img title="Buscar" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/buscaHeader.gif" style="widows: none; border-color: inherit; border-width: 0; vertical-align: top; cursor: pointer; position:relative; top: 0px; left: 0px; width:29px;height:29px;"></a>  
+                                   </div>
+                                </td>                          
+                                <td style="text-align:center;width:170px;">
+                                <a id="ucCabecalho_btnBuscaRefinada" href='javascript:WebForm_DoPostBackWithOptions(new%20WebForm_PostBackOptions("ucCabecalho$btnBuscaRefinada",%20"",%20true,%20"",%20"",%20false,%20true))'><img alt="Refinar a sua busca" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/buscaRefinada.gif" id="img1" style="padding-left:10px;padding-right:10px;cursor:pointer;" title="Busca Refinada" class="btnBuscaRefinadaTratamento"></a>
+                                    
+                                </td>
+                              <td>
+                                
+                              </td>
+                                <td style="width: 36px;">
+                                    <div id="ucCabecalho_updatePanelQtd">
+	
+
+                                    <div class="image">
+                                       <a href="https://www.travessa.com.br/wpgCarrinhoLista.aspx?TipoArtigo=1" id="ucCabecalho_lnkCarrinhoLista" data-hasqtip="0" oldtitle="Carrinho de compras" title=""> <img class="CabecalhoSacola sacolaTratamento" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/sacolaHeader.gif">
+                                        
+                                            <span id="ucCabecalho_SubstitutionQtd"><div id="qtdSacola2" class="txtSacolaSafari"><b>0</b></div></span>
+                                         
+                                       </a>
+                                    </div>
+
+                                    
+</div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+            
+            <table class="styleHeaderTopo" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                    <td>
+
+                        <table style="height: 33px; vertical-align: middle; width:100%;" cellspacing="0" cellpadding="0">
+                            <tbody><tr align="center">
+
+                                <td id="ucCabecalho_tdLivro" onclick="lnkLivro();" style=" width: 30%;" class="menuSelected" valign="middle">
+                                    <a id="ucCabecalho_lnkLivro" class="menuFontNovo" style="display:inline-block;width:100%;">Livros</a>
+                                </td>
+
+                                <td id="ucCabecalho_tdDvd" onclick="lnkDvd();" style="width: 30%;border-left:2px solid #FFFFFF;" class="menu" valign="middle">
+                                    <a id="ucCabecalho_lnkDvd" class="menuFontNovo" style="display:inline-block;width:100%;">Dvds&nbsp;&amp;&nbsp;Blu-ray</a>
+                                </td>
+
+                            
+                                <td id="ucCabecalho_tdEvento" onclick="lnkEvento(form1.ucCabecalho_hddEvento.value);" style="width: 30%;border-left:2px solid #FFFFFF;border-right:2px solid #FFFFFF;" class="menu" valign="middle">
+                                    <a id="ucCabecalho_lnkEvento" class="menuFontNovo" href="https://www.travessa.com.br/wpgEventos.aspx" style="display:inline-block;width:100%;">Eventos</a>
+                                </td>
+
+
+                                <td class="menuNovo" style="width:150px;vertical-align:middle;" valign="middle">
+                                    <table style="width:150px;text-align:center;vertical-align:middle;" cellspacing="0" cellpadding="0">
+                                        <tbody><tr>
+                                            <td style="vertical-align:middle;padding-left:5px;">
+                                                <a href="https://www.facebook.com/LivrariaDaTravessaOficial/?ref=ts" title="Curta a Travessa no Facebook" target="_blank">
+                                                    <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/facebook2017.gif" alt="Curta a Travessa no Facebook" style="padding-top:2px;" border="0"></a></td>
+                                            <td style="vertical-align:middle;">
+                                                <a href="http://instagram.com/livrariadatravessa" title="Siga a Travessa no Instagram" target="_blank">
+                                                    <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/instagram2017.gif" alt="Siga a Travessa no Instagram" style="padding-top:2px;" border="0"></a></td>
+                                            <td style="vertical-align:middle;">
+                                                <a href="http://twitter.com/livtravessa" title="Siga a Travessa no Twitter" target="_blank">
+                                                    <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/twitter2017.gif" alt="Siga a Travessa no Twitter" style="padding-top:2px;" border="0"></a></td>
+                                            
+                                            <td style="vertical-align:middle;padding-right:5px;">
+                                                <a href="https://www.youtube.com/c/livrariadatravessa" title="Siga a Travessa no Youtube" target="_blank">
+                                                    <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/youtube2017.gif" alt="Siga a Travessa no Youtube" style="padding-top:2px;" border="0"></a>
+                                            </td>
+                     
+                                
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                    </td>
+                </tr>
+            </tbody></table>
+            
+            
+            <table id="ucCabecalho_tblLivro" style="border-style: solid; border-width: 2px 0px 2px 0px; border-color: #FFFFFF; background-color: #999999" width="100%" cellspacing="0" cellpadding="0">
+	<tbody><tr style="height: 33px;" align="center" valign="middle">
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkArtes" class="menuSelectedFont" href="https://www.travessa.com.br/livros/artes">artes</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkCiencias" class="menuSelectedFont" href="https://www.travessa.com.br/livros/ciencias">ciências</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkHumanidades" class="menuSelectedFont" href="https://www.travessa.com.br/livros/humanidades">humanidades</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkSaude" class="menuSelectedFont" href="https://www.travessa.com.br/livros/saude-esporte-lazer">&nbsp;&nbsp;saúde,&nbsp;esporte&nbsp;e&nbsp;lazer&nbsp;&nbsp;</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkLiteratura" class="menuSelectedFont" href="https://www.travessa.com.br/livros/literatura-ficcao">literatura&nbsp;e&nbsp;ficção</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkTurismo" class="menuSelectedFont" href="https://www.travessa.com.br/livros/guias-turismo">guias e turismo</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkInfantoJuvenil" class="menuSelectedFont" href="https://www.travessa.com.br/livros/infanto-juvenil">infanto-juvenil</a></td>
+		<td class="menuSelectedFont" style="color: #FFFFFF"><b>|</b></td>
+		<td style="width: 12.5%;">
+                        <a id="ucCabecalho_lnkIdiomas" class="menuSelectedFont" href="https://www.travessa.com.br/livros/idiomas-referencia">&nbsp;&nbsp;idiomas&nbsp;e&nbsp;referência&nbsp;&nbsp;</a></td>
+	</tr>
+</tbody></table>
+
+            
+            
+            
+            
+            
+            
+            
+        </td>
+    </tr>
+</tbody></table>
+
+<table>
+    <tbody><tr>
+        <td></td>
+    </tr>
+</tbody></table>
+ <div class="scroller_anchor"></div>
+<div id="ucCabecalho_UpdatePanel14">
+	
+  
+<input name="ucCabecalho$headervisual" id="ucCabecalho_headervisual" value="2" type="hidden">
+    <!-- This div will be displayed as fixed bar at the top of the page, when user scrolls -->
+  <div class="scroller hide">
+    
+        <table class="styleHeaderTopo StyleHeaderPadding" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td style="width:50px;">
+                                    <a href="https://www.travessa.com.br/travessa.aspx">
+                                        
+                                        <img alt="Livraria da Travessa" class="CabecalhoLogoFix" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/LogoTavessa.png" id="imgLogo2" style="padding-left:11px;padding-right:10px;width:50px;height:50px;padding-top:5px;" title="Livraria da Travessa">
+                                    </a></td>
+                                <td style="width:450px;">
+                                <table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding-right:10px;padding-left:10px;"><span style="font-family:Verdana;font-size:20px;color:#999999;font-weight:normal;cursor:pointer;">[<a onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#999999'" onclick="location.href='/livros'"> Livros </a>]</span></td><td style="padding-right:10px;"><span style="font-family:Verdana;font-size:20px;color:#999999;font-weight:normal;cursor:pointer;">[<a onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#999999'" onclick="location.href='/dvds'"> Dvds&nbsp;&amp;&nbsp;Blu-ray </a>]</span></td><td style="padding-right:10px;"><span style="font-family:Verdana;font-size:20px;color:#999999;font-weight:normal;cursor:pointer;text-decoration:none;">[<a onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#999999'" onclick="location.href='/Eventos'"> Eventos </a>]</span></td></tr></tbody></table>
+                                </td>
+                                <td style="padding-top: 1px;">                                     
+                                   <div class="search-div" id="divBusca2">
+                                     <input placeholder=" buscar" id="txtBusca2" onkeypress="return clickButton2(event);" autocomplete="off" class="CabecalhoBoxBusca txtBusca paddBusca" style="box-shadow: none; outline: currentcolor none medium; border-radius: 0px;" type="text"><a id="btnBuscar2" onclick="lnkBusca2('','','');" class="search-icon"><img title="Buscar" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/buscaHeader.gif" style="widows: none; border-color: inherit; border-width: 0; vertical-align: top; cursor: pointer; position:relative; top: 0px; left: 0px; width:29px;height:29px;"></a>  
+                                   </div>
+                                </td>                          
+                         
+                              <td style="padding-right:10px;">
+                                &nbsp;
+                              </td>
+                                <td style="width: 36px;padding-top:4px;">
+                                    <div class="image">
+                                       <a href="https://www.travessa.com.br/wpgCarrinhoLista.aspx?TipoArtigo=1" id="ucCabecalho_lnkCarrinhoLista2" style="cursor:pointer;" data-hasqtip="1" oldtitle="Carrinho de compras" title=""> <img class="CabecalhoSacola sacolaTratamento" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/sacolaHeader.gif">
+                                       
+                                        <span id="ucCabecalho_SubstitutionQtd2"><div id="qtdSacola" class="txtSacolaSafari"><b>0</b></div></span>
+                                       </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+  </div>
+
+
+</div>
+
+
+
+
+<input name="ucCabecalho$hddLivro" id="ucCabecalho_hddLivro" value="https://www.travessa.com.br/livros" type="hidden">
+<input name="ucCabecalho$hddDvd" id="ucCabecalho_hddDvd" value="https://www.travessa.com.br/dvds" type="hidden">
+<input name="ucCabecalho$hddTravessa" id="ucCabecalho_hddTravessa" value="https://www.travessa.com.br/" type="hidden">
+<input name="ucCabecalho$hddeBook" id="ucCabecalho_hddeBook" value="https://www.travessa.com.br/ebook" type="hidden">
+<input name="ucCabecalho$hddEvento" id="ucCabecalho_hddEvento" value="https://www.travessa.com.br/wpgEventos.aspx" type="hidden">
+
+<script type="text/javascript">
+
+    function clickButton(e) {
+        var evt = e ? e : window.event;
+
+            if (evt.keyCode == 13) {    
+                
+                lnkBusca('', '', '');
+            }
+  
+    }
+
+    function lnkBusca(txt, cta, br, b) {
+        
+        var cta = '00';
+        var brapida = document.getElementById('ucCabecalho_tipoExplosao').value;
+        brapida = brapida.replace(',', '');
+        if (brapida == '0') {
+            brapida = '1';
+        }
+        
+        var txt = document.getElementById('txtBusca').value;
+              
+        txt = txt.replace(/^\s+/, '').replace(/\s+$/, '');
+        
+        if (txt == '') {
+           
+            txt = '';
+        } else {
+                       
+        }
+
+        if (cta == '1') {
+            cta = '00';
+        }
+
+        if (txt == "") {
+            document.getElementById('txtBusca').value = '';
+            return false;
+        } else {
+
+            var str = txt.replace("&", "^");
+           
+           
+            //window.location = 'https://www.travessa.com.br/' + 'Busca.aspx?d=1&bt=' + str + '&br=' + cta + br + '&cta=' + cta + '&codtipoartigoexplosao=' + brapida;
+            window.location = 'https://www.travessa.com.br/' + 'Busca.aspx?d=1&bt=' + str + '&cta=' + cta + '&codtipoartigoexplosao=' + brapida;
+        }
+
+
+    
+    }
+
+    function clickButton2(e) {
+        var evt = e ? e : window.event;
+        
+        if (evt.keyCode == 13) {
+
+            lnkBusca2('', '', '');
+        }
+
+    }
+     function lnkBusca2(txt, cta, br, b) {
+       
+        var cta = '00';
+        var brapida = document.getElementById('ucCabecalho_tipoExplosao').value;
+        brapida = brapida.replace(',', '');
+        if (brapida == '0') {
+            brapida = '1';
+        }
+        
+        var txt = document.getElementById('txtBusca2').value;
+         
+        txt = txt.replace(/^\s+/, '').replace(/\s+$/, '');
+        
+        if (txt == '') {
+           
+            txt = '';
+        } else {
+                       
+        }
+
+        if (cta == '1') {
+            cta = '00';
+        }
+
+        if (txt == "") {
+            document.getElementById('txtBusca2').value = '';
+            return false;
+        } else {
+
+            var str = txt.replace("&", "^");
+            
+            
+            //window.location = 'https://www.travessa.com.br/' + 'Busca.aspx?d=1&bt=' + str + '&br=' + cta + br + '&cta=' + cta + '&codtipoartigoexplosao=' + brapida;
+          window.location = 'https://www.travessa.com.br/' + 'Busca.aspx?d=1&bt=' + str + '&cta=' + cta + '&codtipoartigoexplosao=' + brapida;
+        }
+
+
+    
+    }
+    
+    $(document).ready(function () {
+        
+        $('#txtBusca').focus(function () {                     
+            $('#txtBusca').css("box-shadow", "none");
+            $('#txtBusca').css("outline", "none");
+            $('#txtBusca').css("border-radius","0");
+        });
+
+        $('#txtBusca2').focus(function () {
+            $('#txtBusca2').css("box-shadow", "none");
+            $('#txtBusca2').css("outline", "none");
+            $('#txtBusca2').css("border-radius", "0");
+        });
+
+        $('#btnBuscar').click(function (e) {
+            if ($("#txtBusca").val() == '') {
+                $('#divBusca').effect("bounce", "slow");               
+                $('#txtBusca').attr("placeholder", " Antes, digite o que você busca...");
+            } 
+                       
+        });
+          
+        $('#btnBuscar2').click(function (e) {
+            if ($("#txtBusca2").val() == '') {
+                $('#divBusca2').effect("bounce", "slow");
+                $('#txtBusca2').attr("placeholder", " Antes, digite o que você busca...");
+            }
+
+        });
+        if (navigator.userAgent.indexOf('Firefox') != -1) {
+            $('#qtdSacola').addClass('txtSacolaSafari');            
+        } else {            
+            $('#qtdSacola').addClass('txtSacola');
+        }
+        
+        if (navigator.userAgent.indexOf('Safari') != -1) {            
+            $('#txtBusca').addClass("CabecalhoBoxBuscaSafari txtBusca paddBusca");
+        } else {            
+            $('#txtBusca').addClass("CabecalhoBoxBusca txtBusca paddBusca");
+        }
+
+        if (navigator.userAgent.indexOf('Firefox') != -1) {
+            $('#qtdSacola2').addClass('txtSacolaSafari');
+        } else {
+            $('#qtdSacola2').addClass('txtSacola');
+        }
+
+        if (navigator.userAgent.indexOf('Safari') != -1) {
+            $('#txtBusca2').addClass("CabecalhoBoxBuscaSafari txtBusca paddBusca");
+        } else {
+            $('#txtBusca2').addClass("CabecalhoBoxBusca txtBusca paddBusca");
+        }
+
+    });
+
+
+    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequest);
+    function endRequest(sender, e) {
+        //re-enable button once the AJAX call has completed
+
+
+        var headerV = document.getElementById('ucCabecalho_headervisual');
+
+        if (headerV.value === '1') { 
+
+            var headerS = document.getElementsByClassName('scroller');          
+       
+
+        //'transition': 'max - height 1s ease-in -out'
+            $('.scroller').css({
+                'background': '#FFF',
+                'border': '1px solid #999999',
+                'position': 'fixed',
+                'top': '0px',
+                'opacity': '1',
+                'height': 'auto'
+
+            });
+            $('.scroller_anchor').css('height', '50px');
+    }
+        var qtd = localStorage.getItem("qtd");
+        if (qtd == null) {
+            qtd = '0';
+        }
+        
+        var total = localStorage.getItem("total");
+        console.log(total);
+        if (total == null) {
+            total = '0';
+        } else {
+            //total = total.replace(".",",")
+        }
+        //console.log(total);
+        
+        var cart;
+        if (Number(qtd) > 1) {
+            cart = + qtd + ' itens: R$ ' + total;
+        } else {
+            cart = + qtd + ' item: R$ ' + total;
+        }
+
+        
+    $("#ucCabecalho_lnkCarrinhoLista").mouseover(function () {
+
+      $("#ucCabecalho_lnkCarrinhoLista").qtip('option', 'content.text', '<span Class="CabecalhoTxtItens" id="totalItens" >' + cart + '</span>')
+
+    });
+
+    $("#ucCabecalho_lnkCarrinhoLista2").mouseover(function () {
+
+        $("#ucCabecalho_lnkCarrinhoLista2").qtip('option', 'content.text', '<span Class="CabecalhoTxtItens" id="totalItens" >' + cart + '</span>')
+
+    });
+
+
+        $('#txtBusca').focus(function () {
+            $('#txtBusca').css("box-shadow", "none");
+            $('#txtBusca').css("outline", "none");
+            $('#txtBusca').css("border-radius", "0");
+        });
+
+        $('#txtBusca2').focus(function () {
+            $('#txtBusca2').css("box-shadow", "none");
+            $('#txtBusca2').css("outline", "none");
+            $('#txtBusca2').css("border-radius", "0");
+        });
+
+        $('#btnBuscar').click(function (e) {
+            if ($("#txtBusca").val() == '') {
+                $('#divBusca').effect("bounce", "slow");
+                $('#txtBusca').attr("placeholder", " Antes, digite o que você busca...");
+            }
+
+        });
+
+        $('#btnBuscar2').click(function (e) {
+            if ($("#txtBusca2").val() == '') {
+                $('#divBusca2').effect("bounce", "slow");
+                $('#txtBusca2').attr("placeholder", " Antes, digite o que você busca...");
+            }
+
+        });
+        if (navigator.userAgent.indexOf('Firefox') != -1) {
+            $('#qtdSacola').addClass('txtSacolaSafari');
+        } else {
+            $('#qtdSacola').addClass('txtSacola');
+        }
+
+        if (navigator.userAgent.indexOf('Safari') != -1) {
+            $('#txtBusca').addClass("CabecalhoBoxBuscaSafari txtBusca paddBusca");
+        } else {
+            $('#txtBusca').addClass("CabecalhoBoxBusca txtBusca paddBusca");
+        }
+
+        if (navigator.userAgent.indexOf('Firefox') != -1) {
+            $('#qtdSacola2').addClass('txtSacolaSafari');
+        } else {
+            $('#qtdSacola2').addClass('txtSacola');
+        }
+
+        if (navigator.userAgent.indexOf('Safari') != -1) {
+            $('#txtBusca2').addClass("CabecalhoBoxBuscaSafari txtBusca paddBusca");
+        } else {
+            $('#txtBusca2').addClass("CabecalhoBoxBusca txtBusca paddBusca");
+        }
+
+
+
+    }
+
+
+    // This function will be executed when the user scrolls the page.
+    $(window).scroll(function (e) {
+        // Get the position of the location where the scroller starts.
+        var scroller_anchor = $(".scroller_anchor").offset().top;
+        
+        // Check if the user has scrolled and the current position is after the scroller start location and if its not already fixed at the top 
+        if ($(this).scrollTop() >= scroller_anchor && $('.scroller').css('position') != 'fixed') {    // Change the CSS of the scroller to hilight it and fix it at the top of the screen.
+ 
+            var headerV = document.getElementById('ucCabecalho_headervisual');
+            //console.log(headerV);
+            headerV.value = 1;
+            //console.log(headerV.value);
+            $('.scroller').css({
+                'background': '#FFF',
+                'border': '1px solid #999999',
+                'position': 'fixed',
+                'top': '0px',
+                'opacity': '1',
+                'height': 'auto'
+                
+            });
+            
+   
+            // Changing the height of the scroller anchor to that of scroller so that there is no change in the overall height of the page.
+            $('.scroller_anchor').css('height', '50px');
+            
+        }
+        else if ($(this).scrollTop() < scroller_anchor && $('.scroller').css('position') != 'relative') {    // If the user has scrolled back to the location above the scroller anchor place it back into the content.
+
+            // Change the height of the scroller anchor to 0 and now we will be adding the scroller back to the content.
+            $('.scroller_anchor').css('height', '0px');
+
+            var headerV = document.getElementById('ucCabecalho_headervisual');
+           // console.log(headerV);    
+            headerV.value = 2;
+           
+            //'transition': 'max - height 1s ease-in -out'
+           $('.scroller').css({
+                'background': '#FFF',
+                'border': '1px solid #999999',
+                'position': 'relative',
+               'transition': 'max - height 1s ease-in -out',
+               'opacity': '0',
+               'height': '0',
+               'overflow': 'hidden'
+            });
+            
+
+        }
+    });
+
+
+    window.onload = function () {
+        
+    };
+    
+
+
+</script>
+
+<script type="text/javascript">
+  function getCookie(c_name) {
+    if (document.cookie.length > 0) {
+      c_start = document.cookie.indexOf(c_name + "=");
+      if (c_start != -1) {
+        c_start = c_start + c_name.length + 1;
+        c_end = document.cookie.indexOf(";", c_start);
+        if (c_end == -1) c_end = document.cookie.length;
+        return unescape(document.cookie.substring(c_start, c_end));
+      }
+    }
+    return "";
+  }
+  var flagCheck = getCookie('flagChk');
+ // alert(flagCheck);
+  function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+  var iTemAdd = getParameterByName('carr');
+
+  $(document).ready(function () {
+
+    var qtd = localStorage.getItem("qtd");
+    if (qtd == null) {
+      qtd = '0';
+    }
+
+    var total = localStorage.getItem("total");
+     // console.log(total);
+    if (total == null) {
+      total = '0';
+    }
+
+
+    var cart;
+    if (Number(qtd) > 1) {
+      cart = + qtd + ' itens: R$ ' + total;
+    } else {
+      cart = + qtd + ' item: R$ ' + total;
+    }
+
+    if (iTemAdd == 's') {
+
+      if (flagCheck != 'S') {
+        $('#ucCabecalho_lnkCarrinhoLista').qtip({
+          content: {
+            title: '<span Class="CabecalhoTxtItens">Minha sacola</span>',
+            text: '<span Class="CabecalhoTxtItens" id="totalItens" >Item adicionado com sucesso! </span>'
+          },
+          style: {
+            tip: true,
+            classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+          },
+
+          position: {
+            my: 'top right',
+            at: 'bottom center'
+
+          },
+          show:
+        {
+          effect: { length: 500 },
+          ready: true // Show when ready (page load)
+        },
+          hide: {
+            effect: { length: 500 }
+          },
+          api: {
+            onRender: function () {
+              setTimout(this.hide, 1000); // Hide it after 1 seconds
+            }
+          }
+        });
+        $('#ucCabecalho_lnkCarrinhoLista2').qtip({
+            content: {
+                title: '<span Class="CabecalhoTxtItens">Minha sacola</span>',
+                text: '<span Class="CabecalhoTxtItens" id="totalItens" >Item adicionado com sucesso! </span>'
+            },
+            style: {
+                tip: true,
+                classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+            },
+
+            position: {
+                my: 'top right',
+                at: 'bottom center'
+
+            },
+            show:
+          {
+              effect: { length: 500 },
+              ready: true // Show when ready (page load)
+          },
+            hide: {
+                effect: { length: 500 }
+            },
+            api: {
+                onRender: function () {
+                    setTimout(this.hide, 1000); // Hide it after 1 seconds
+                }
+            }
+        });
+        document.cookie = 'flagChk' + "=" + 'S' + ";" + expires + ";path=/";
+      }
+    } else {
+      $('#ucCabecalho_lnkCarrinhoLista').qtip({
+
+        content: {
+          title: '<span Class="CabecalhoTxtItens">Minha sacola</span>',
+          text: '<span Class="CabecalhoTxtItens" id="totalItens" >' + cart + '</span>'
+        },
+        style: {
+          tip: true,
+          classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+        },
+
+        position: {
+          my: 'top right',
+          at: 'bottom center'
+
+        }
+
+      });
+        
+      $('#ucCabecalho_lnkCarrinhoLista2').qtip({
+
+          content: {
+              title: '<span Class="CabecalhoTxtItens">Minha sacola</span>',
+              text: '<span Class="CabecalhoTxtItens" id="totalItens" >' + cart + '</span>'
+          },
+          style: {
+              tip: true,
+              classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+          },
+
+          position: {
+              my: 'top right',
+              at: 'bottom center'
+
+          }
+
+      });
+    }
+
+
+
+  });
+
+
+</script>
+
+<!-- Facebook Pixel Code -->
+<script type="text/javascript">
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1578973348841788');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1578973348841788&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<script>(function (w, d, t, r, u) { var f, n, i; w[u] = w[u] || [], f = function () { var o = { ti: "5218424" }; o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad") }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () { var s = this.readyState; s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null) }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i) })(window, document, "script", "//bat.bing.com/bat.js", "uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5218424&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+
+
+<!-- START Rakuten Marketing Tracking -->
+  <script type="text/javascript">
+      var url = window.location.href;
+      var conteudo;
+      conteudo = url.search(/[?|&]pcd=125(&|;|$)/i) != -1 ? "true" : "false";
+      var cookieeRKT = getCookie('pcd');
+      
+      var flagRKT = cookieeRKT.search(/125/i) != -1 ? "true" : "false";
+            
+      if (conteudo === 'true' || flagRKT === 'true') {
+            
+          (function (url) {
+
+              /*Tracking Bootstrap Set Up DataLayer objects/properties here*/
+              if (!window.DataLayer) {
+                  window.DataLayer = {};
+              }
+              if (!DataLayer.events) {
+                  DataLayer.events = {};
+              }
+              DataLayer.events.SPIVersion = DataLayer.events.SPIVersion || "3.4";
+              DataLayer.events.SiteSection = "1";
+
+              var loc, ct = document.createElement("script");
+              ct.type = "text/javascript";
+              ct.async = true; ct.src = url; loc = document.getElementsByTagName('script')[0];
+              loc.parentNode.insertBefore(ct, loc);
+          }(document.location.protocol + "//tag.rmp.rakuten.com/120330.ct.js"));
+      } 
+  </script>
+<!-- END Rakuten Marketing Tracking -->
+
+
+         
+         
+        
+
+        <div id="divItemScope" class="artigoLink">
+        
+            
+<style type="text/css">
+       .txtBreadcrumbs
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #333333;font-weight: normal;text-decoration: none;line-height:10px;
+        }
+</style>
+<div style="margin:7px 0px 55px 13px;">
+        <a id="WctArtigoTitulo21_lblTitulo" class="txtBreadcrumbs"></a><a class="txtBreadcrumbs" href="https://www.travessa.com.br/wpgLivro.aspx">Livros&nbsp;</a>
+        <span id="WctArtigoTitulo21_tdSeparador1" class="txtBreadcrumbs">&nbsp;&gt;&nbsp;</span>
+    <a id="WctArtigoTitulo21_lblMacro" class="txtBreadcrumbs"></a><a class="txtBreadcrumbs" href="https://www.travessa.com.br/wpgLivroMacro.aspx?CodMacroSegmento=3808a616-20b5-48c2-b6f6-ce8e937f3280">Literatura e Ficção</a>
+   <span id="WctArtigoTitulo21_tdSeparador2" class="txtBreadcrumbs">&nbsp;&gt;&nbsp;</span>
+    <a id="WctArtigoTitulo21_lblSegmento" class="txtBreadcrumbs"></a><a class="txtBreadcrumbs" href="https://www.travessa.com.br/wpgArtFiltroSeg.aspx?TipoArtigo=1&amp;CodMacroSegmento=3808a616-20b5-48c2-b6f6-ce8e937f3280&amp;CodSegmento=8e92dd5f-2740-416b-adab-b5f239a6d69d">Literatura Estrangeira</a>
+</div>
+
+
+
+
+
+
+
+         
+          
+            <div id="divT">
+                   
+                                          
+                    <div id="divImg">                             
+                       <div id="divParent" class="parent"><div id="divChild" style="width:243px;height:344px;border:2px solid #CCCCCC;text-align:center;" class="child"><img id="imgArtigo" title="Clique Aqui para ampliar a capa" alt="LIVRO A PACIENTE SILENCIOSA" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/a68005fd-a5be-4de7-a789-859c18b833b2.jpg" onclick="popUpimgrande('https://img.travessa.com.br/livro/GR/a6/a68005fd-a5be-4de7-a789-859c18b833b2.jpg')" style="border-width:0px;cursor:pointer;"></div></div>
+                        <div id="updtePanelSocial">
+	
+                        <div id="divSocial" style="height:34px;text-align:center;margin-bottom:30px;padding-bottom:30px;position:relative;">
+                            <a id="lnkFB" class="lnkMidias" target="_blank" onclick="window.open('http://www.facebook.com/sharer.php?u=https://www.travessa.com.br/a-paciente-silenciosa/artigo/a68005fd-a5be-4de7-a789-859c18b833b2','FB', 'toolbar=0, resizable=1, status=0, width=900, height=550, left='+((screen.width - 530) / 2)+', top=' + ((screen.heigth - 80) / 2));" href='javascript:WebForm_DoPostBackWithOptions(new%20WebForm_PostBackOptions("lnkFB",%20"",%20true,%20"",%20"",%20false,%20true))'> <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/sharefacebook.gif" id="imgFace" class="imgShareSocial" alt="Compartilhe no Facebook a paciente silenciosa" title="Compartilhe no Facebook o livro a paciente silenciosa"></a>
+                            <a id="lnkTwitter" target="_blank" onclick="window.open('http://twitter.com/share?_=9788576164203&amp;count=horizontal&amp;original_referer=http%3A%2F%2Fwww.travessa.com.br%2Fwpgartigo.aspx%3FCodArtigo%3Da68005fd-a5be-4de7-a789-859c18b833b2&amp;text=Encontrei%20na%20Travessa%2C%20 o dvd &quot;a paciente silenciosa&quot; em %20!&amp;url=http%3A%2F%2Fwww.travessa.com.br%2Fwpgartigo.aspx%3FCodArtigo%3Da68005fd-a5be-4de7-a789-859c18b833b2&amp;via=LivTravessa');" href='javascript:WebForm_DoPostBackWithOptions(new%20WebForm_PostBackOptions("lnkTwitter",%20"",%20true,%20"",%20"",%20false,%20true))'><img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/shareTwitter.gif" id="imgTwitter" class="imgShareSocial" alt="Compartilhe no Twittera paciente silenciosa" title="Compartilhe no Twitter o livro a paciente silenciosa"></a>
+                            <a id="lnkPlus" target="_blank" onclick="window.open('https://plus.google.com/share?url=https://www.travessa.com.br/a-paciente-silenciosa/artigo/a68005fd-a5be-4de7-a789-859c18b833b2','GP','toolbar=0, resizable=1, status=0, width=900, height=550, left='+((screen.width - 530) / 2)+', top=' + ((screen.heigth - 80) / 2));" href='javascript:WebForm_DoPostBackWithOptions(new%20WebForm_PostBackOptions("lnkPlus",%20"",%20true,%20"",%20"",%20false,%20true))'><img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/shareGoogle.gif" id="imgPlus" class="imgShareSocial" alt="Compartilhe no Google Plusa paciente silenciosa" title="Compartilhe no Google Plus o livro a paciente silenciosa"></a>
+                            <a id="btAmigo" onclick="popUpamigo('https://www.travessa.com.br/wpgIndiqueAmigo.aspx?CodArtigo=a68005fd-a5be-4de7-a789-859c18b833b2')"><img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/shareEmail.gif" id="imgMail" alt="Compartilhe com seus amigos" title="Compartilhe com seus amigos" class="imgShareSocial"></a>
+                            <a id="lnkObjDesejo" href='javascript:WebForm_DoPostBackWithOptions(new%20WebForm_PostBackOptions("lnkObjDesejo",%20"",%20true,%20"",%20"",%20false,%20true))'><img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/shareCoracaoGray.gif" id="imgObjetoDesejo" alt="Adicione a sua lista de desejos" title="Adicione a sua lista de desejos" style="padding:10px 0px 10px 0px;cursor:pointer;"></a>
+                        </div>
+                        
+</div>   
+                        <div id="divFlags" style="position:absolute; top:13px; left:-13px;">
+                            <img id="flagArtigo" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/flagdisponivel.png" style="border-width:0px;">
+                        </div>
+                        <div id="divDesconto20" style="cursor: pointer;position:absolute; top:-10px; left:170px;height:100px;">
+                            <img id="imgDesconto20" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/botao_20_porcento.png" style="border-width:0px;" data-hasqtip="2">
+                        </div> 
+                        
+                    </div>
+      
+                    <div id="divPrincipal">
+                        <h1 class="txtTitulo txtSpanAdjust"><span id="lblNomArtigo" class="txtTitulo" title="A PACIENTE SILENCIOSA">A PACIENTE SILENCIOSA</span></h1>
+                        <h2><span id="lblNomAutor"><b class="txtLabel">autor: </b><a href="https://www.travessa.com.br/Alex_Michaelides/autor/95f0142b-7e0f-4212-8ffe-1c57cc0cd21b" class="txtConteudo">Alex Michaelides </a></span></h2>
+                        <h2><span id="lblNomProdutor" class="txtLabel">editora: <a href="https://www.travessa.com.br/Record/editora/fb08bbad-2594-4abc-93eb-0a32a034a864" font="" class="txtConteudo">Record</a></span></h2>
+                        <h2><span id="lblNomColecao" class="txtConteudo" style="display:none;"></span></h2>
+                        <h2><span id="lblFormatoEbook" class="txtLabel" style="display:none;">formato: </span></h2>
+                        
+                          <div id="RatingMedia" disabled="disabled" style="text-align:right;">
+	<input name="RatingMedia_RatingExtender_ClientState" id="RatingMedia_RatingExtender_ClientState" type="hidden">
+                          <a href="javascript:void(0)" id="RatingMedia_A" title="0" style="text-decoration:none"><span id="RatingMedia_Star_1" class="Star Star" style="float:left;">&nbsp;</span><span id="RatingMedia_Star_2" class="Star Star" style="float:left;">&nbsp;</span><span id="RatingMedia_Star_3" class="Star Star" style="float:left;">&nbsp;</span><span id="RatingMedia_Star_4" class="Star Star" style="float:left;">&nbsp;</span><span id="RatingMedia_Star_5" class="Star Star" style="float:left;">&nbsp;</span></a>
+</div>&nbsp;<span id="lblAvaliacaoMedia" class="txtConteudo"><a style="cursor: pointer;" id="lnkAvaliacoes">(0 avaliações) </a></span>
+                        <p class="MarginTop txtSpanAdjust"><span class="txtLabelDescricao">sinopse:</span>
+                        <span id="lblSinopseResumida" class="txtDescricao">Um
+ assassinato, uma verdade oculta. As raízes do silêncio são muito mais 
+profundas do que se pode imaginar.  Alicia Berenson escreve um diário 
+para colocar suas ideias em ordem. Ele é tanto uma válvula de escape 
+quanto uma forma de provar ao seu adorado marido que está bem. Ela não 
+consegue suportar conviver com a ideia...  <a onmouseover="this.style.textDecoration='underline';this.style.fontWeight='bold';" onmouseout="this.style.textDecoration='underline';this.style.fontWeight='normal';" style="cursor: pointer; font-family: Verdana;font-size: 12px;font-weight: normal;text-decoration: underline;color: #990000;" id="lnkLerMais"> Para ler mais </a></span>
+                        <a style="cursor: pointer"></a></p>
+                       
+                        <div id="divDisponibilidade" class="MarginTop">
+                        <span id="txtDisponibilidade" class="txtDescricao" style="font-weight:bold;">produto disponível</span><br>
+                        </div>
+                        <div id="divEntrega">
+                             
+                             <div id="UpdatePanel1">
+	
+                                    
+                                   
+                                   
+                                   
+                                   <div id="pnlEntrega" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnPrevEntrega')">
+		 <span id="lblTitPrevisao0" class="txtDescricao" style="font-weight:bold;">previsão de entrega:</span> <input name="txtCepDestino" maxlength="9" id="txtCepDestino" class="boxCep" placeholder=" digite o CEP" style="width:100px;" type="text">
+                                     <input name="btnPrevEntrega" id="btnPrevEntrega" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/btnOKNovo.gif" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("btnPrevEntrega", "", true, "", "", false, false))' style="border-width:0px;margin-left: 2px" align="absbottom" type="image">
+	</div>
+                                     <span id="lblTitPrevisao" class="txtDescricao"></span>
+                                     <span id="rfvCep" class="txtVerm" style="color:Red;display:none;">*CEP inválido!</span><br>
+                                      <span id="txtPrevisaoEntrega" class="txtDescricao"> </span>
+                                 
+</div>
+                                
+  
+                             </div>
+ 
+                        <br>
+                        <div id="divPrecos">
+                          
+                          <span id="litPrecoOri" class="txtPrecoDe"></span><br>                    
+                          
+                          <span style="font-family:Verdana;font-size:12px;color:#666666"><b>por:</b> </span> <br>                                               
+                          <span id="litPreco" class="txtPrecoPor">R$ 44,90</span>  
+                                                 
+                           <br><span class="txtLabelPrecoPor"><b>em até 3x sem juros</b></span>
+                            <a href="https://www.travessa.com.br/WpgCarrinho.aspx?CodArtigo=a68005fd-a5be-4de7-a789-859c18b833b2&amp;TipoArtigo=0" id="lnkComprar" style="float:left;border:none;padding-top:10px;" rel="nofollow"><img id="imgComprar" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/btnComprarNovo.gif" style="border-width:0px;"></a>
+                            
+                            </div>                
+
+                    </div>
+                <br>
+             
+                <div style="height:30px;position:relative;display: inline-block;"><table style="height:5px;"><tbody><tr><td></td></tr></tbody></table></div>
+                   
+                   <div id="divMaisVendidos" class="boxMarginBottom painelMaisVendidos" style="top: 0px; left: 0px;">
+                    <p class="txtLabelTituloBloco MarginBottom"><span id="lblTituloMaisVendidos">MAIS VENDIDOS EM LITERATURA ESTRANGEIRA</span>
+                     </p><div id="UpdatePanel2">
+	         
+                            <table class="painelMaisVendidos" cellspacing="0" cellpadding="0">
+                                <tbody><tr>
+                                    <td style="width:35px;vertical-align:top;padding-top:85px;">
+                                        
+                                    </td>
+                                    <td>
+                                        <table id="dlMaisVendidos" style="border-collapse:collapse;" cellspacing="0" border="0">
+		<tbody><tr>
+			<td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #990000;font-weight: normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;color: #333333;font-weight: normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #990000;font-weight: normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/fernao-de-magalhaes-a-magnifica-historia-da-primeira-circum-navegacao-da-terra/artigo/feeae4e3-a156-471a-a1cc-0fc4b14d4481" id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="FERNAO DE MAGALHAES: A MAGNIFICA HISTORIA DA PRIMEIRA CIRCUM-NAVEGAÇAO DA TERRA">
+  <span id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span style="text-align:center;padding-top:10px !important;">
+<table class="wctMaisVendidos" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td align="center"><a id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div style="width:135px;height:186px;"><img id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_imgArtigo" alt="FERNAO DE MAGALHAES: A MAGNIFICA HISTORIA DA PRIMEIRA CIRCUM-NAVEGAÇAO DA TERRA" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/feeae4e3-a156-471a-a1cc-0fc4b14d4481.jpg" style="height:186px;width:135px;border-width:0px;"></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <a id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_hlkNomArtigo" title="FERNAO DE MAGALHAES: A MAGNIFICA HISTORIA DA PRIMEIRA CIRCUM-NAVEGAÇAO DA TERRA" class="txtNomeArtigoMaisVendidos ">FERNAO DE MAG ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <span id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_lblNomAutor" title="Gianluca Barbera" class="txtLabelDescricao">Gianluca Barbe ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl" style="padding-top: 3px;padding-left: 5px; height: 18px;" align="center">
+            de:&nbsp;R$ 49,80<br>
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" style="padding-left: 0px; height: 18px;padding-top: 3px;" align="center">&nbsp;por:&nbsp;R$ 40,34
+
+        </td>
+    </tr>
+            
+</tbody></table>
+
+</span>
+  <span id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input name="dlMaisVendidos$ctl00$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dlMaisVendidos$ctl00$wctArtigoMaisVendidos1$btnSacola", "", true, "", "", false, false))' id="dlMaisVendidos_ctl00_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" type="submit">             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 10px;color: #990000;font-weight: 
+normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 14px;color: #333333;font-weight: 
+normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 12px;color: #990000;font-weight: 
+normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/serotonina/artigo/8cf5cf86-1b53-422b-8f3a-ca38abc31db4" id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="SEROTONINA">
+  <span id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span style="text-align:center;padding-top:10px !important;">
+<table class="wctMaisVendidos" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td align="center"><a id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div style="width:135px;height:186px;"><img id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_imgArtigo" alt="SEROTONINA" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/8cf5cf86-1b53-422b-8f3a-ca38abc31db4.jpg" style="height:186px;width:135px;border-width:0px;"></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <a id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_hlkNomArtigo" title="SEROTONINA" class="txtNomeArtigoMaisVendidos ">SEROTONINA</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <span id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_lblNomAutor" title="Michel Houellebecq" class="txtLabelDescricao">Michel Houelle ...</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl" style="padding-top: 3px;padding-left: 5px; height: 18px;" align="center">
+            
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" style="padding-left: 0px; height: 18px;padding-top: 3px;" align="center">&nbsp;R$ 59,90
+
+        </td>
+    </tr>
+            
+</tbody></table>
+
+</span>
+  <span id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input name="dlMaisVendidos$ctl01$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dlMaisVendidos$ctl01$wctArtigoMaisVendidos1$btnSacola", "", true, "", "", false, false))' id="dlMaisVendidos_ctl01_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" type="submit">             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 10px;color: #990000;font-weight: 
+normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 14px;color: #333333;font-weight: 
+normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 12px;color: #990000;font-weight: 
+normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/uma-fortuna-perigosa/artigo/4b56e2b7-6253-4b29-9a0c-de764d0a344f" id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="UMA FORTUNA PERIGOSA">
+  <span id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span style="text-align:center;padding-top:10px !important;">
+<table class="wctMaisVendidos" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td align="center"><a id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div style="width:135px;height:186px;"><img id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_imgArtigo" alt="UMA FORTUNA PERIGOSA" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/4b56e2b7-6253-4b29-9a0c-de764d0a344f.jpg" style="height:186px;width:135px;border-width:0px;"></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <a id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_hlkNomArtigo" title="UMA FORTUNA PERIGOSA" class="txtNomeArtigoMaisVendidos ">UMA FORTUNA P ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <span id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_lblNomAutor" title="Ken Follett" class="txtLabelDescricao">Ken Follett</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl" style="padding-top: 3px;padding-left: 5px; height: 18px;" align="center">
+            
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" style="padding-left: 0px; height: 18px;padding-top: 3px;" align="center">&nbsp;R$ 54,90
+
+        </td>
+    </tr>
+            
+</tbody></table>
+
+</span>
+  <span id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input name="dlMaisVendidos$ctl02$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dlMaisVendidos$ctl02$wctArtigoMaisVendidos1$btnSacola", "", true, "", "", false, false))' id="dlMaisVendidos_ctl02_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" type="submit">             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 10px;color: #990000;font-weight: 
+normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 14px;color: #333333;font-weight: 
+normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 12px;color: #990000;font-weight: 
+normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/a-ordem-do-dia/artigo/4fae111b-e81f-425e-9e43-099041eee7ed" id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="A ORDEM DO DIA">
+  <span id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span style="text-align:center;padding-top:10px !important;">
+<table class="wctMaisVendidos" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td align="center"><a id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div style="width:135px;height:186px;"><img id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_imgArtigo" alt="A ORDEM DO DIA" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/4fae111b-e81f-425e-9e43-099041eee7ed.jpg" style="height:186px;width:135px;border-width:0px;"></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <a id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_hlkNomArtigo" title="A ORDEM DO DIA" class="txtNomeArtigoMaisVendidos ">A ORDEM DO DIA</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <span id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_lblNomAutor" title="Eric Vuillard" class="txtLabelDescricao">Eric Vuillard</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl" style="padding-top: 3px;padding-left: 5px; height: 18px;" align="center">
+            de:&nbsp;R$ 41,90<br>
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" style="padding-left: 0px; height: 18px;padding-top: 3px;" align="center">&nbsp;por:&nbsp;R$ 33,94
+
+        </td>
+    </tr>
+            
+</tbody></table>
+
+</span>
+  <span id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input name="dlMaisVendidos$ctl03$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dlMaisVendidos$ctl03$wctArtigoMaisVendidos1$btnSacola", "", true, "", "", false, false))' id="dlMaisVendidos_ctl03_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" type="submit">             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 10px;color: #990000;font-weight: 
+normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 14px;color: #333333;font-weight: 
+normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 12px;color: #990000;font-weight: 
+normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/as-mais-belas-coisas-do-mundo/artigo/94b91f7c-b76e-422e-87a4-61f281f50741" id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="AS MAIS BELAS COISAS DO MUNDO">
+  <span id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span style="text-align:center;padding-top:10px !important;">
+<table class="wctMaisVendidos" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td align="center"><a id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div style="width:135px;height:186px;"><img id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_imgArtigo" alt="AS MAIS BELAS COISAS DO MUNDO" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/94b91f7c-b76e-422e-87a4-61f281f50741.jpg" style="height:186px;width:135px;border-width:0px;"></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <a id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_hlkNomArtigo" title="AS MAIS BELAS COISAS DO MUNDO" class="txtNomeArtigoMaisVendidos ">AS MAIS BELAS ...</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <span id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_lblNomAutor" title="Valter Hugo Mae" class="txtLabelDescricao">Valter Hugo Mae</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl" style="padding-top: 3px;padding-left: 5px; height: 18px;" align="center">
+            de:&nbsp;R$ 49,90<br>
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" style="padding-left: 0px; height: 18px;padding-top: 3px;" align="center">&nbsp;por:&nbsp;R$ 39,42
+
+        </td>
+    </tr>
+            
+</tbody></table>
+
+</span>
+  <span id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input name="dlMaisVendidos$ctl04$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dlMaisVendidos$ctl04$wctArtigoMaisVendidos1$btnSacola", "", true, "", "", false, false))' id="dlMaisVendidos_ctl04_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" type="submit">             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td><td>
+                                            
+                                                
+
+
+
+<style type="text/css">
+
+      .txtPrecoDeControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 10px;color: #990000;font-weight: 
+normal;text-decoration: none;
+        }
+         .txtConteudoControl
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 14px;color: #333333;font-weight: 
+normal;text-decoration: none;
+        }
+
+
+        .borderArtigo
+        {
+            border:2px solid #fff;
+        }    
+         .txtNomeArtigoMaisVendidos
+        {
+            font-family: Verdana, Arial, Helvetica, 
+sans-serif;font-size: 12px;color: #990000;font-weight: 
+normal;text-decoration: none !important;
+        }
+  .btt {
+        cursor:pointer;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+
+<a href="https://www.travessa.com.br/a-corrente/artigo/596ed49a-4217-44b7-a675-79a9d51e1c73" id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_lnkClickArtigo" style="width:100%;height:100%;display:block;" title="A CORRENTE">
+  <span id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_divwctMaisVendidos" class="hovereffect" style="width:190px;height:340px;">          
+ <div class="divIMG"></div>   
+<span style="text-align:center;padding-top:10px !important;">
+<table class="wctMaisVendidos" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td align="center"><a id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_hlkImg" rel="follow" style="max-width: 135px;">
+            <div style="width:135px;height:186px;"><img id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_imgArtigo" alt="A CORRENTE" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/596ed49a-4217-44b7-a675-79a9d51e1c73.jpg" style="height:186px;width:135px;border-width:0px;"></div>
+        </a>
+          
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <a id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_hlkNomArtigo" title="A CORRENTE" class="txtNomeArtigoMaisVendidos ">A CORRENTE</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 3px; padding-left: 5px; height: 18px;" align="center">
+            <span id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_lblNomAutor" title="Adrian Mckinty" class="txtLabelDescricao">Adrian Mckinty</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="txtPrecoDeControl" style="padding-top: 3px;padding-left: 5px; height: 18px;" align="center">
+            de:&nbsp;R$ 42,90<br>
+
+        </td>
+    </tr>
+    <tr>
+        <td class="txtConteudoControl" style="padding-left: 0px; height: 18px;padding-top: 3px;" align="center">&nbsp;por:&nbsp;R$ 34,75
+
+        </td>
+    </tr>
+            
+</tbody></table>
+
+</span>
+  <span id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_lnkArtigo" class="overlay" style="display:block;">   
+  <span class="overlay">  
+<input name="dlMaisVendidos$ctl05$wctArtigoMaisVendidos1$btnSacola" value="INCLUIR NA SACOLA" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dlMaisVendidos$ctl05$wctArtigoMaisVendidos1$btnSacola", "", true, "", "", false, false))' id="dlMaisVendidos_ctl05_wctArtigoMaisVendidos1_btnSacola" title="Comprar" class="info my-btn btt" type="submit">             
+
+</span>
+</span>
+</span>
+</a>
+
+      
+                                        
+                                            
+                                            </td>
+		</tr>
+	</tbody></table>
+                                      
+           
+                                    </td>
+                                    <td style="width:35px;vertical-align:top;padding-top:85px;">
+                                        <input name="btnProx" id="btnProx" title="Veja mais" onmouseover="src='img/maisVendidosSetaDirV.png';" onmouseout="src='img/maisVendidosSetaDir.png';" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/maisVendidosSetaDir.png" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("btnProx", "", true, "", "", false, false))' style="border-width:0px;" type="image">
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        
+</div>
+                       <p></p>
+
+                </div>
+                     
+                    <div id="divSinopse" class="boxMarginBottom">
+                        <p class="MarginBottom">
+                         <span class="txtLabelTituloBloco" id="txtTituloSinopse">SINOPSE</span></p>                                       
+                       
+                        <p class="txtSpanFullAdjust"><span id="lblSinopse" class="txtDescricao" style="line-height:20px;text-align:justify;text-align-last:justify;">Um assassinato, uma verdade oculta. As raízes do silêncio são muito mais profundas do que se pode imaginar.<br><br>Alicia
+ Berenson escreve um diário para colocar suas ideias em ordem. Ele é 
+tanto uma válvula de escape quanto uma forma de provar ao seu adorado 
+marido que está bem. Ela não consegue suportar conviver com a ideia de 
+que está deixando Gabriel preocupado, de que está lhe causando algum 
+mal.<br><br>Alicia Berenson tinha 33 anos quando matou seu marido com cinco tiros. E nunca mais disse uma palavra.<br><br>O
+ psicoterapeuta forense Theo Faber está convencido de que é capaz de 
+tratar Alicia, depois de tantos outros falharem. E, se ela falar, ele 
+será capaz de ouvir a verdade?</span></p><p></p></div>
+                   
+                    <div id="divDados" class="boxMarginBottom">
+                        <p class="MarginBottom">
+                         <span class="txtLabelTituloBloco">DADOS DO PRODUTO</span></p>                              
+                         <span id="lblTituloDadosNome" class="txtDescricao">título:</span>
+                         <span id="lblDadosNome" class="txtDescricao">A PACIENTE SILENCIOSA<br></span>
+                         <span id="lblTituloDadosNomeOriginal" class="txtDescricao">título original:</span>
+                         <span id="lblDadosNomeOriginal" class="txtDescricao">The Salient Patient<br></span>
+                         <span id="lblTituloDadosIsbn" class="txtDescricao">isbn:</span>
+                         <span id="lblDadosIsbn" class="txtDescricao">9788501116437<br></span>
+                         <span id="lblTituloSegmentoEspecifico" class="txtDescricao">segmento específico:</span>
+                         <span id="lblSegmentoEspecifico" class="txtDescricao">SUSPENSE E MISTERIO<br></span> 
+                         <span id="lblTituloDadosIdioma" class="txtDescricao">idioma:</span>
+                         <span id="lblDadosIdioma" class="txtDescricao">Português<br></span>
+                         <span id="lblTituloDadosEncadernacao" class="txtDescricao">encadernação:</span>
+                         <span id="lblDadosEncadernacao" class="txtDescricao">Brochura<br></span>
+                         <span id="lblTituloDadosFormato" class="txtDescricao">formato:</span>
+                         <span id="lblDadosFormato" class="txtDescricao">15,5 x 22,7 x 2<br></span>    
+                         <span id="lblTituloDadosPaginas" class="txtDescricao">páginas:</span>
+                         <span id="lblDadosPaginas" class="txtDescricao">350<br></span>
+                         <span id="lblTituloColecao" class="txtDescricao" style="display:none;">coleção:</span>
+                         <span id="lblDadosColecao" class="txtDescricao" style="display:none;"></span>
+                         <span id="lblTituloDadosAnoEdicao" class="txtDescricao">ano de edição:</span>
+                         <span id="lblDadosAnoEdicao" class="txtDescricao">2019<br></span>
+                         <span id="lblTituloAnoCopyright" class="txtDescricao">ano copyright:</span>
+                         <span id="lblTituloDadosAnoCopyright" class="txtDescricao">2019<br></span>
+                         <span id="lblTituloDadosEdicao" class="txtDescricao">edição:</span>
+                         <span id="lblDadosEdicao" class="txtDescricao">1ª<br></span>
+                         <span id="lblTituloDadosCoEditora" class="txtDescricao" style="display:none;">coeditora:</span>
+                         <span id="lblDadosCoEditora" class="txtDescricao" style="display:none;"></span>
+                         <span id="lblTituloDadosOutrasInfo" class="txtDescricao" style="display:none;">outras informações:</span>
+                         <span id="lblDadosOutrasInfo" class="txtDescricao" style="display:none;"></span>
+                         
+                         
+                         <span id="lblTituloPrimeiroCapitulo" class="txtDescricao" style="display:none;">primeiro capitulo: </span>
+                         
+                         <span id="lblDadosTituloRegiao" class="txtDescricao" style="display:none;">região:</span>
+                         <span id="lblDadosRegiao" class="txtDescricao"></span>
+                         <span id="lblDadosTituloFaixaEtaria" class="txtDescricao" style="display:none;">faixa etária:</span>
+                         <span id="lblDadosFaixaEtaria" class="txtDescricao" style="display:none;"></span>  
+                         <span id="lblDadosTituloMaterialAdicional" class="txtDescricao" style="display:none;">material adicional:</span>
+                         <span id="lblDadosMaterialAdicional" class="txtDescricao" style="display:none;"></span>                           
+                        <div>
+                        <br><span id="lblTituloDadosParticipantes" class="txtLabel">autor: <a href="https://www.travessa.com.br/Alex_Michaelides/autor/95f0142b-7e0f-4212-8ffe-1c57cc0cd21b" class="txtConteudo">Alex Michaelides</a><br>tradutor: <a href="https://www.travessa.com.br/Clovis_Marques/autor/bd1bc6ec-ea0f-4cc8-817e-d0a00d8e70a5" class="txtConteudo">Clovis Marques</a></span>                        
+                        </div>
+  
+                    </div>
+                 
+                      <div id="divOutrosFormatos" class="boxMarginBottom" style="display:none">
+                        <p class="txtLabelTituloBloco MarginBottom"><span id="Span1">OUTROS FORMATOS</span></p>
+                        
+                    </div>   
+                    <div id="divAutor" class="boxMarginBottom" style="display:none;">
+                        <p class="MarginBottom">
+                        <span class="txtLabelTituloBloco">AUTOR</span></p>                        
+                        
+<style type="text/css">
+  
+
+    .auto-style1
+    {
+        width: 100%;
+    }
+   
+    .imgAutor
+    {
+        width:243px;
+        height:243px;
+        border:2px;
+        border-color:#cccccc;
+        border-style:solid;
+    }
+    #divDescricaoAutor
+    {
+        margin-left:40px;
+    }
+</style>
+
+
+
+<table class="auto-style1" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td style="width:243px;vertical-align:top;"><img id="wctAutorDiretor1_imgAutor" class="imgAutor" bordercolor="#CCCCCC" borderstyle="Solid" borderwidth="2px"></td>
+        <td style="vertical-align:top;padding-left:40px;"><span id="wctAutorDiretor1_lblNomeAutorControle" class="txtTitulo"></span>
+    <p style="padding-bottom:50px;" class="txtSpanAdjust"><span id="wctAutorDiretor1_lblAutorInfo" class="txtDescricao"></span></p></td>
+    </tr>
+</tbody></table>
+
+
+
+
+                                                                                 
+ 
+                    </div>
+               
+                        <div id="divLivrosAutor" class="boxMarginBottom" style="display:none;">
+                            <p id="txtTituloMaisArtigos" class="txtLabelTituloBloco MarginBottom">MAIS LIVROS DE ALEX MICHAELIDES</p>
+                             <div id="UpdatePanel3">
+	   
+                             <table class="painelMaisVendidos" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td style="width:35px;vertical-align:top;padding-top:85px;">
+                                    <input name="btnAnterPartici1" id="btnAnterPartici1" onmouseover="src='img/maisVendidosSetaEsqV.png';" onmouseout="src='img/maisVendidosSetaEsq.png';" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/maisVendidosSetaEsq.png" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("btnAnterPartici1", "", true, "", "", false, false))' style="border-width:0px;" type="image">
+                                </td>
+                                <td>
+                                    
+                               </td>
+                                <td style="width:35px;vertical-align:top;padding-top:85px;">
+                                    <input name="btnProxPartici1" id="btnProxPartici1" title="Veja mais" onmouseover="src='img/maisVendidosSetaDirV.png';" onmouseout="src='img/maisVendidosSetaDir.png';" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/maisVendidosSetaDir.png" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("btnProxPartici1", "", true, "", "", false, false))' style="border-width:0px;" type="image">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                     
+</div>   
+                        </div>
+                           
+                    <div id="divVideo" class="boxMarginBottom" style="display:none;">
+                        <p class="MarginBottom">
+                        <span class="txtLabelTituloBloco">VÍDEO</span></p>                                              
+                        <div><span id="spanVideo"></span></div>
+                    </div>
+                       <div id="UpdatePanel4">
+	
+                    <style type="text/css">
+                        /* Style the button that is used to open and 
+close the collapsible content */
+                        .collapsible {
+                          /*background-color: #eee;*/
+                          color: #444;
+                          cursor: pointer;
+                          padding-top: 18px;
+                          padding-bottom: 18px;
+                          padding-right: 18px;  
+                          width: 100%;
+                          border: none;
+                          text-align: left;
+                          outline: none;
+                          font-size: 15px;
+                        }
+
+                        /* Add a background color to the button if it is
+ clicked on (add the .active class with JS), and when you move the mouse
+ over it (hover) */
+                        .active, .collapsible:hover {
+                          background-color: #ccc;
+                        }
+
+                        /* Style the collapsible content. Note: hidden 
+by default */
+                        .content {
+                          /*padding: 0 18px;*/
+                          display: none;
+                          overflow: hidden;
+                          background-color: #f1f1f1;
+                         
+                        }
+                        .collapsible:after {
+                          content: '\02795'; /* Unicode character for 
+"plus" sign (+) */
+                          font-size: 13px;
+                          color: white;
+                          float: right;
+                          margin-left: 5px;
+                        }
+
+                        .active:after {
+                          content: "\2796"; /* Unicode character for 
+"minus" sign (-) */
+                        }
+                    </style>
+                    <script type="text/javascript">
+              
+                        window.onload = function () {
+                            document.getElementById("btnHideAnElement").onclick = function () {
+                                
+                                if (document.getElementById("divDicaLivreiro").style.display == 'block') {
+                                    document.getElementById("divDicaLivreiro").style.display = 'none';
+                                
+                                }
+                                else {
+                                    document.getElementById("divDicaLivreiro").style.display = 'block';
+                                
+                                }
+                                return false;
+                            }
+                        }
+                    </script>
+                    <button id="btnHideAnElement" class="collapsible" style="display:none;"><span class="txtLabelTituloBloco">OPINIÃO DO LIVREIRO</span></button>
+                    <div id="divDicaLivreiro" class="content" style="display:none;">                 
+                        <p class="MarginBottom" style="padding-bottom:10px;">
+                                              
+                        
+                         <span id="lblDadosDicaLivreiro" class="txtDescricao"> 
+                        </span></p>
+                                              
+                     
+                     </div>  
+                      
+</div>
+                     
+                  
+                  <div id="pnlCliente">
+	
+                    <div id="divAviliacoesLeitor" class="boxMarginBottom">
+                            <p class="MarginBottom">
+                                <span class="txtLabelTituloBloco">AVALIAÇÕES</span></p>                                               
+                            <div id="divGridAvaliacoes"> 
+
+                                
+                         
+                                </div>
+                        </div>
+
+    
+                        
+                        <div id="divOpiniaoLeitor" class="boxMarginBottom">
+                            <p class="MarginBottom">
+                                <span id="txtTituloOpiniaoLeitor" class="txtLabelTituloBloco">OPINIÃO DO LEITOR</span></p>
+                           
+                            <div id="divFormAvaliacao">
+                              
+                             <table id="tblAvaliacao" style="width:100%; ">
+		<tbody><tr>
+			<td class="auto-style4"> <span class="txtConteudo">sua classificação:</span></td>
+			<td style="vertical-align:top;" class="auto-style5"><div id="Rating1" dir="ltr">
+				<input name="Rating1_RatingExtender_ClientState" id="Rating1_RatingExtender_ClientState" type="hidden">            
+                                 <a href="javascript:void(0)" id="Rating1_A" title="0" style="text-decoration:none"><span id="Rating1_Star_1" class="Star Star" style="float:left;">&nbsp;</span><span id="Rating1_Star_2" class="Star Star" style="float:left;">&nbsp;</span><span id="Rating1_Star_3" class="Star Star" style="float:left;">&nbsp;</span><span id="Rating1_Star_4" class="Star Star" style="float:left;">&nbsp;</span><span id="Rating1_Star_5" class="Star Star" style="float:left;">&nbsp;</span></a>
+			</div><span id="rfvRating" class="formComentarioErro" style="color:Red;visibility:hidden;">* Obrigatório!</span></td>
+		</tr>
+		<tr>
+			<td class="auto-style2"><span class="txtConteudo">titulo da avaliação:</span></td>
+			<td style="vertical-align:top;"><input name="txtTituloCometarioLeitor" id="txtTituloCometarioLeitor" class="txtComentario" onkeypress="return this.value.length<50" type="text">
+                                     <span id="rfvTituloAvaliacao" class="formComentarioErro" style="color:Red;display:none;">* Obrigatório!</span>
+                                    <span id="revTituloAvaliacao" class="formComentarioErro" style="color:Red;display:none;">* Minimo de 2 e Máximo 50 characters.</span>
+                                     </td>
+		</tr>
+		<tr>
+			<td class="auto-style2"><span class="txtConteudo">sua avaliação:</span></td>
+			<td style="vertical-align:top;text-align:match-parent;">
+                                     <textarea name="txtCometarioLeitor" rows="2" cols="20" id="txtCometarioLeitor" class="txtComentario" style="height:132px;width:550px;Resize:none;"></textarea>
+                                      
+                                     <span id="rfvAvaliacao" class="formComentarioErro" style="color:Red;display:none;">* Obrigatório!</span>
+                                     </td>
+		</tr>
+		<tr>
+			<td class="auto-style3">&nbsp;</td>
+			<td style="text-align:center;">
+                                         <div style="width:560px;">
+                                             <input name="btnEnviarOpiaoLeitor" id="btnEnviarOpiaoLeitor" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/botao_enviar_artigo.gif" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("btnEnviarOpiaoLeitor", "", true, "", "", false, false))' style="border-width:0px;" align="right" type="image">
+                                             <span class="chkAnonimo" title="Avaliações sem identificação."><input id="chkAvaliacaoAnonimo" name="chkAvaliacaoAnonimo" type="checkbox"><label for="chkAvaliacaoAnonimo">Anônimo</label></span>
+                                         </div>
+                                     </td>
+		</tr>
+	</tbody></table>
+	  
+      
+                            </div>
+                                           
+                        </div>
+                       
+                       
+</div>
+                 
+                    <br>    
+                    <span id="standOut" style="text-align:center;"></span>
+                </div>
+       
+            </div>
+           <br>
+           <br>
+        <input name="wctRodape1$valCodArtigos" id="wctRodape1_valCodArtigos" type="hidden">
+
+<style type="text/css">
+    .styleEndereco1
+    {
+        width: 40%;
+    }
+      .styleEndereco2
+    {
+        width: 60%;
+    }
+    /*a {
+    text-decoration: none !important;
+    }*/
+    #r2 a  {
+        text-decoration:none!important;
+    }
+  .txtRodapeNovo
+  {
+    font-family:Verdana;
+    font-size:12px;
+    /*font-weight:bold;*/
+    color:#333333;
+  }
+   .txtSubmenuRodapeNovo
+  {
+    font-family:Verdana;
+    font-size:11px;
+    font-weight:normal;
+    color:#333333;
+    /*letter-spacing:0.6px;*/
+  }
+  .tabelaRodape
+  {
+    font-family:Verdana;
+    font-size:12px;
+    color:#333333;
+    background-color:#ececec;
+  }
+  .txt {
+    font-family: Verdana, Arial, Helvetica, Trebuchet MS, sans-serif;
+    font-size: 10px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 13px;
+}
+  .txtMailSac
+  {
+    cursor:pointer;
+
+  }
+  .txtMailSac:hover {
+    text-decoration: underline!important;
+}
+.txt2 {
+    font-family: Verdana, Arial, Helvetica, Trebuchet MS, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 13px;
+}
+</style>
+<div id="rodape">
+<table id="r1" style="width: 100%" cellspacing="0" cellpadding="0">
+    <tbody><tr><td colspan="5" style="text-align:center;">
+       
+        <span class="txtRodapeNovo">  <b>Atendimento ao cliente: </b><a class="txtRodapeNovo txtMailSac" onclick="parent.location='mailto:sac@travessa.com.br'">sac@travessa.com.br</a> | t. <span id="wctRodape1_txtTelSac">(21) 2508.6872</span> | de 2ª a 6ª, das 9h às 19:00h (exceto feriados) e sábados, das 8h às 14h</span>
+        </td>
+        
+    </tr>
+</tbody></table>
+<table id="r2" style="width: 100%" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td align="center">
+            <table id="wctRodape1_r3" align="center" width="100%">
+	<tbody><tr style="background-color: #FFFFFF; font-size: 2pt;border-right-color:white;border-left-color:white; ">
+		<td style="border-bottom: #d3d3d3 1px solid;">&nbsp;</td>
+	</tr>
+	<tr style="text-align: center; background-color: #ececec;border-top:solid 1px #ececec;">
+		<td align="center"> 
+                       
+                        <table class="tabelaRodape" style="padding-left: 10%; text-align: left;" width="80%" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td width="26%">
+                                  &nbsp;</td>
+                                <td width="26%">
+                                    &nbsp;</td>
+                                <td width="28%">
+                                  &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td width="26%">
+                                <a href="https://www.travessa.com.br/livros" id="wctRodape1_lnkLivros" class="txtRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'"><b>Livros</b></a>
+                                </td>
+                                <td width="26%">
+                                    <a href="https://www.travessa.com.br/dvds" id="wctRodape1_lnkDvdsBlueRay" class="txtRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'"><b>DVDs e Blu-Rays</b></a>
+                                </td>
+                                <td width="28%">
+                                <span class="txtRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'"><b>Pesquise e conheça também</b></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                                <td>
+                                    &nbsp;</td>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                 <a href="https://www.travessa.com.br/livros/artes" id="wctRodape1_lnkLivroArtes" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Livros de Artes</a>
+                                </td>
+                                <td>
+                                    <a href="https://www.travessa.com.br/dvds/filmes" id="wctRodape1_lnkDvdFilmes" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Filmes</a>
+                                    </td>
+                                <td>
+                                  <a href="https://www.travessa.com.br/wpgEventos.aspx" id="wctRodape1_lnkEventos" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Eventos da Livraria da Travessa</a>
+                                  </td>
+                            </tr>
+                            <tr>
+                                <td>
+                              <a href="https://www.travessa.com.br/livros/ciencias" id="wctRodape1_lnkLivroCiencia" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Livros de Ciências</a>
+                              </td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/dvds/show" id="wctRodape1_lnkDvdShows" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Shows e Apresentações</a>
+                                 </td>
+                                <td>
+
+                                     <a href="https://www.travessa.com.br/wpgPresente.aspx" id="wctRodape1_lnkCartaoPresente" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Dê seu Cartão Presente</a>
+                            </td></tr>
+                            <tr>
+                                <td>
+                                    <a href="https://www.travessa.com.br/wpgDidaticos.aspx" id="wctRodape1_lnkDidaticos" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Livros Didáticos</a></td>
+                                <td>
+                               <a href="https://www.travessa.com.br/dvds/infantil" id="wctRodape1_lnkDvdInfantil" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Infantil</a>
+                               </td>
+                                <td>
+                               <a href="https://www.travessa.com.br/wpgPrecoBanana.aspx" id="wctRodape1_lnkPrecodeBanana" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Ofertas a Preço de Banana</a>
+                               </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://www.travessa.com.br/livros/humanidades" id="wctRodape1_lnkLivrosHumanidades" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Livros Humanidades</a></td>
+                                <td>
+                                <a href="https://www.travessa.com.br/dvds/series" id="wctRodape1_lnkDvdSeries" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Séries</a>
+                                </td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/wpgObjDesejoMain.aspx" id="wctRodape1_lnkListaDesejo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Crie sua Lista de Desejos</a>
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   <a href="https://www.travessa.com.br/livros/saude-esporte-lazer" id="wctRodape1_lnkLivroSaudeEsporteLazer" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Livros de Saúde, Esporte e Lazer</a></td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/dvds/documentario" id="wctRodape1_lnkDvdDocumentario" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Documentários</a>
+                                 </td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/wpgCriancaQueLe.aspx" id="wctRodape1_lnkDoeLivros" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Doe Livros</a>
+                                 </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <a href="https://www.travessa.com.br/livros/literatura-ficcao" id="wctRodape1_lnkLivrosLiteraturaFiccao" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Livros de Literatura e Ficção</a></td>
+                                <td>
+                                 <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=lancd" id="wctRodape1_lnkLancamnentoDvd" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Lançamento de Dvds</a> 
+                                 </td>
+                                <td>
+                                  <a href="https://www.travessa.com.br/wpgTravessaLeve.aspx" id="wctRodape1_lnkTravessaLeve" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Programa de Fidelidade</a>
+                                 </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://www.travessa.com.br/livros/guias-turismo" id="wctRodape1_lnkLivrosTurismo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Livros de Turismo</a></td>
+                                <td>
+                                     
+                                   </td>
+                                <td>
+                                   <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=segmentol" id="wctRodape1_lnkLivrosPorSegmento" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Livros por Segmento</a>
+                                 </td>
+                                 
+                            </tr>
+                            <tr>
+                                <td>
+                                     <a href="https://www.travessa.com.br/livros/infanto-juvenil" id="wctRodape1_lnkLivrosInfantoJuvenil" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Livros Infanto-Juvenil</a></td>
+                                <td>&nbsp;</td>
+
+                               <td>
+                                   <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=segmentod" id="wctRodape1_lnkDvdsPorSegmento" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Dvds por Segmento</a>
+                                 </td>
+                                 
+                            </tr>
+                            <tr>
+                                <td>
+                                    
+                                     <a href="https://www.travessa.com.br/livros/idiomas-referencia" id="wctRodape1_lnkLivrosLingua" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Livros de Idiomas e Referência</a></td>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=autorMV" id="wctRodape1_lnkAutoresMaisVendidos" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Autores Mais Vendidos</a> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                            <a href="https://www.travessa.com.br/didaticos" id="wctRodape1_lnkListaEscolares" class="txtSubmenuRodapeNovo" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'">Listas Escolares</a>
+                                    </td>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <a href="https://www.travessa.com.br/ofertas-livros" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Livros em Ofertas</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://www.travessa.com.br/wpgArtigosSelecionados.aspx?TipoArtigo=1&amp;TipoSelecao=AudioBook" id="wctRodape1_lnkAudioBook" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Audiobook</a></td>
+                                <td>&nbsp;</td>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <a href="https://www.travessa.com.br/wpgVendaAntecipada.aspx?TipoArtigo=1" id="wctRodape1_lnkPreVendaLivro" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Pré-Venda de Livros</a>
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>
+                                 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=lancl" id="wctRodape1_lnkLancamnentoLivro" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Lançamento de Livros</a>
+                                </td>
+                                <td style="align-content:center;text-align:left;">
+                          
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom:10px;">
+                                  <a href="https://www.travessa.com.br/wpgTravessaRecomenda.aspx?TipoArtigo=1" id="wctRodape1_lnkLivrosRecomenda" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Travessa Recomenda</a>
+                                </td>
+                                <td style="padding-bottom:10px;">&nbsp;</td>
+                                <td style="padding-bottom:10px;">
+                                  <a href="https://www.travessa.com.br/wpgTrabalheConosco.aspx" id="wctRodape1_lnkTrabalheConosco" onmouseover="this.style.color='#a90101'" onmouseout="this.style.color='#333333'" class="txtSubmenuRodapeNovo">Trabalhe conosco</a>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                        
+                    </td>
+                </tr>        
+                         
+                <tr style="background-color: #FFFFFF; height:23px; ">
+                    <td style="border-top: #d3d3d3 1px solid;">
+                        <div class="topmenu" align="center">
+                        <a href="https://www.travessa.com.br/" id="wctRodape1_lnkPagInicial" class="txt2">página&nbsp;inicial</a><font class="txt"> | </font>
+                        <a href="https://www.travessa.com.br/wpgNossasLojas.aspx" id="wctRodape1_lnkNossasLojas" class="txt2">nossas lojas</a><font class="txt"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgQuemSomos.aspx" id="wctRodape1_lnkQuemSomos" class="txt2">quem&nbsp;somos</a><font class="txt"> | </font>
+                        <a href="https://www.travessa.com.br/livros" id="wctRodape1_lnkLivro" class="txt2">livros</a><font class="txt"> | </font>
+                        <a href="https://www.travessa.com.br/dvds" id="wctRodape1_lnkDVD" class="txt2">dvds e Blu-Rays</a><font class="txt"> | </font>
+                                               
+                        <a href="https://www.travessa.com.br/wpgTrabalheConosco.aspx" id="wctRodape1_lnkTrabalheConosco2" class="txt2" rel="nofollow">trabalhe conosco</a><font class="txt"> | </font>                         
+                        <a href="https://www.travessa.com.br/wpgAtendimento.aspx?s=1" id="wctRodape1_lnkPrivacidadeSeg" class="txt2" rel="nofollow">privacidade e  segurança</a><font class="txt"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgCriancaQueLe.aspx" id="wctRodape1_lnkCriancaquele" class="txt2">criança que lê</a><font class="txt"> | </font>
+                        
+                        <a href="https://www.travessa.com.br/novo/Cenas.html#/" id="wctRodape1_lnkCenasTravessa" class="txt2">cenas travessa</a>
+                        </div>    
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+	</tr>
+	<tr>
+		<td>
+            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                <tbody><tr style="background-color: #FFFFFF; height:23px; ">
+                <td style="border-top: #d3d3d3 1px solid;border-bottom: #d3d3d3 1px solid;">
+                        <div class="topmenu" align="center">
+                        <a href="https://www.travessa.com.br/flip" id="wctRodape1_lnkFlip" class="txt">Flip 2019</a><font class="txt"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaPrincipal.aspx?t=autor" id="wctRodape1_lnkAutores" class="txt2">autores livro</a><font class="txt2"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=segmentol" id="wctRodape1_lnkSegmentosLivro" class="txt2">seções livro</a><font class="txt2"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaPrincipal.aspx?t=diretor" id="wctRodape1_lnkDiretores" class="txt2">diretores dvd</a><font class="tx2t"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaSec.aspx?t=segmentod" id="wctRodape1_lnkSegmentosDVD" class="txt2">seções dvd</a><font class="txt2"> | </font> 
+                        <a href="https://www.travessa.com.br/wpgListaPrincipal.aspx?t=artista" id="wctRodape1_lnkArtistas" class="txt2">artistas dvd</a>
+                        </div>    
+                
+                </td></tr>
+                <tr style="background-color: #FFFFFF; font-size: 10px;"><td>&nbsp;</td></tr>
+                <tr style="vertical-align: top;">
+                    <td class="txt2" style="text-align: center" align="center" valign="middle">
+                      <center>Os preços apresentados nesse site não são,
+ necessariamente, iguais aos das lojas físicas. | Todos os produtos 
+estão sujeitos a alteração de preço sem prévia comunicação.</center>
+                    </td>
+                </tr>
+                <tr style="background-color: #FFFFFF; font-size: 1px;"><td>&nbsp;</td></tr>
+                <tr style="vertical-align: top;">
+                    <td class="txt2" style="text-align: center" align="center" valign="middle">
+                      <center>Livraria da Travessa Ltda. - 
+www.travessa.com.br | Rua 7 de Setembro, n. 54, Centro Rio de Janeiro 
+20050-009 | cnpj: 31.004.013/0010-53 / insc. est. 78.769.220 </center>
+                    </td>
+                </tr>
+                <tr style="vertical-align: top;">
+                    <td class="txt" style="text-align: center" align="center" valign="middle">
+                        &nbsp;</td>
+                </tr>
+                <tr style="text-align: center; " class="txt">
+                    <td align="center">
+                          <table width="80%">
+                            <tbody><tr>
+                                <td align="center" width="26%">
+                                  <table>
+                                    <tbody><tr><td style="padding-right:10px;text-align:center;">              
+                                 <!-- Begin DigiCert site seal HTML and JavaScript -->
+                                    <div id="DigiCertClickID_a_TLVZTY" data-language="pt"><div style="text-decoration: none; text-align: center; display: block; vertical-align: baseline; font-size: 100%; font-style: normal; text-indent: 0px; line-height: 1; width: auto; margin: 0px auto; padding: 0px; border: 0px none; background: transparent none repeat scroll 0% 0%; position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px; clear: both; float: none; cursor: default;" id="DigiCertClickID_a_TLVZTYSeal"><img style="text-decoration: none; text-align: center; display: block; vertical-align: baseline; font-size: 100%; font-style: normal; text-indent: 0px; line-height: 1; width: auto; margin: 0px auto; padding: 0px; border: 0px none; background: transparent none repeat scroll 0% 0%; position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px; clear: both; float: none; cursor: pointer;" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/a.png" alt="DigiCert Seal" tabindex="0"></div><span style="text-decoration: none; text-align: center; display: block; vertical-align: baseline; font-size: 100%; font-style: normal; text-indent: 0px; line-height: 1; width: auto; margin: 0px auto; padding: 0px; border: 0px none; background: transparent none repeat scroll 0% 0%; position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px; clear: both; float: none; cursor: default; color: black;">
+    	                                <a href="https://www.digicert.com/wildcard-ssl-certificates.htm" style="text-decoration: none; text-align: center; display: inline; vertical-align: baseline; font-style: normal; text-indent: 0px; line-height: 1; width: auto; margin: 0px auto; padding: 0px; border: 0px none; background: transparent none repeat scroll 0% 0%; position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px; clear: both; float: none; cursor: pointer; color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 9px;"></a>
+                                    </span></div>
+                                    <script async="" type="text/javascript">
+    	                                var __dcid = __dcid || 
+[];__dcid.push(["DigiCertClickID_a_TLVZTY", "3", "m", "black", 
+"a_TLVZTY"]);
+    	                                (function(){var 
+cid=document.createElement("script");
+    	                                cid.async=true;
+    	                                
+cid.src="//seal.digicert.com/seals/cascade/seal.min.js";
+    	                                var s = 
+document.getElementsByTagName("script");
+    	                                var ls = s[(s.length - 
+1)];ls.parentNode.insertBefore(cid, ls.nextSibling);
+                                     }());
+                                    </script><script async="" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/seal.js"></script>
+                                <!-- End DigiCert site seal HTML and JavaScript -->
+
+                
+                                        </td>
+                                      <td>
+
+                                             <a id="seloEbit" href="http://www.ebit.com.br/1825/selo" target="_blank" data-noop="redir(this.href);" style="display: block; overflow: hidden; position: relative;" title="Avaliado pelos consumidores" oncontextmenu='alert("Cópia proibida ! A certificação e-bit é de uso exclusivo de lojas conveniadas à e-bit.");return false;' value="1"><img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/img_1825.png" style="border: 0px none;"></a> 
+
+                                              <script async="" type="text/javascript" id="getSelo" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/getSelo.js"> </script> 
+                                
+
+                                      </td>
+                                      <td>
+                                        <script src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/platform.js" async="" defer="defer" gapi_processed="true"></script>
+
+                                            <script>
+                                                window.renderBadge = 
+function () {
+                                                    var 
+ratingBadgeContainer = document.createElement("div");
+                                                    
+document.body.appendChild(ratingBadgeContainer);
+                                                    
+window.gapi.load('ratingbadge', function () {
+                                                        
+window.gapi.ratingbadge.render(ratingBadgeContainer, { "merchant_id": 
+5581397 });
+                                                    });
+                                                }
+                                            </script>
+                                      </td>
+                                    </tr></tbody></table>
+                                </td>
+                                <td align="center" width="26%">                                 
+            
+                                  <table><tbody><tr><td rowspan="2"></td><td style="text-align:center;font-family: Verdana;font-size: 10px;color: #000000;font-weight: normal;text-decoration: none;line-height: 14px;">FORMAS DE PAGAMENTOS</td></tr>
+                                    <tr><td><img alt="" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/cartoes3.gif" border="0"></td></tr></tbody></table>
+                                </td>
+                                <td width="28%">
+                                  <table style="padding-left:30px;"><tbody><tr><td style="text-align:center;color:white;">TRAVESSA</td></tr><tr>
+                                    <td style="text-align:center;">
+                                      <a href="https://www.facebook.com/LivrariaDaTravessaOficial/?ref=ts" title="Curta a Travessa no Facebook" target="_blank">
+                                                    <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/facebook2016.gif" alt="Curta a Travessa no Facebook" border="0"></a>
+                                      <a href="http://instagram.com/livrariadatravessa" title="Siga a Travessa no Instagram" target="_blank">
+                                                    <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/instagram2016.gif" alt="Siga a Travessa no Instagram" border="0"></a>
+                                       <a href="http://twitter.com/livtravessa" title="Siga a Travessa no Twitter" target="_blank">
+                                                    <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/twitter2016.gif" alt="Siga a Travessa no Twitter" border="0"></a>
+                                       <a href="https://www.youtube.com/c/livrariadatravessa" title="Siga a Travessa no Youtube" target="_blank">
+                                                    <img src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/youtube2016.gif" alt="Siga a Travessa no Youtube" border="0"></a>
+                                       
+            
+                                   </td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            </tbody></table> 
+                 </td>
+                </tr>
+            </tbody></table>
+        </td>
+	</tr>
+</tbody></table>
+
+    </div>
+
+
+
+
+
+<p style="font-family:Verdana; font-size: 9px;font-weight: normal;text-decoration: none;vertical-align: text-bottom;text-align:center;">Livraria da Travessa ® - Todos os direitos reservados  </p>
+
+
+
+
+  
+
+
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+ 
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("rfvCep"), 
+document.getElementById("rfvRating"), 
+document.getElementById("rfvTituloAvaliacao"), 
+document.getElementById("revTituloAvaliacao"), 
+document.getElementById("rfvAvaliacao"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var rfvCep = document.all ? document.all["rfvCep"] : document.getElementById("rfvCep");
+rfvCep.controltovalidate = "txtCepDestino";
+rfvCep.focusOnError = "t";
+rfvCep.display = "Dynamic";
+rfvCep.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+rfvCep.validationexpression = "\\d{5}\\d{3}|\\d{5}-\\d{3}";
+var rfvRating = document.all ? document.all["rfvRating"] : document.getElementById("rfvRating");
+rfvRating.controltovalidate = "txtTituloCometarioLeitor";
+rfvRating.errormessage = "* Obrigatório!";
+rfvRating.enabled = "False";
+rfvRating.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvRating.initialvalue = "";
+var rfvTituloAvaliacao = document.all ? document.all["rfvTituloAvaliacao"] : document.getElementById("rfvTituloAvaliacao");
+rfvTituloAvaliacao.controltovalidate = "txtTituloCometarioLeitor";
+rfvTituloAvaliacao.errormessage = "* Obrigatório!";
+rfvTituloAvaliacao.display = "Dynamic";
+rfvTituloAvaliacao.enabled = "False";
+rfvTituloAvaliacao.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvTituloAvaliacao.initialvalue = "";
+var revTituloAvaliacao = document.all ? document.all["revTituloAvaliacao"] : document.getElementById("revTituloAvaliacao");
+revTituloAvaliacao.controltovalidate = "txtTituloCometarioLeitor";
+revTituloAvaliacao.errormessage = "* Minimo de 2 e Máximo 50 characters.";
+revTituloAvaliacao.display = "Dynamic";
+revTituloAvaliacao.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+revTituloAvaliacao.validationexpression = "^[\\s\\S]{2,50}$";
+var rfvAvaliacao = document.all ? document.all["rfvAvaliacao"] : document.getElementById("rfvAvaliacao");
+rfvAvaliacao.controltovalidate = "txtCometarioLeitor";
+rfvAvaliacao.errormessage = "* Obrigatório!";
+rfvAvaliacao.display = "Dynamic";
+rfvAvaliacao.enabled = "False";
+rfvAvaliacao.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvAvaliacao.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+fbq('track', 'ViewContent', {
+ content_name : 'A PACIENTE SILENCIOSA',
+ content_category: 'Livro > Livro de Literatura e Ficção > Livro de Literatura Estrangeira',
+ content_ids: ['9788598750224'],
+ content_type: 'product', 
+ value:39.90,
+  currency: 'BRL' 
+});$('#lnkComprar').click(function() {
+fbq('track', 'AddToCart', {
+ content_name : 'A PACIENTE SILENCIOSA',
+ content_category: 'Livro > Livro de Literatura e Ficção > Livro de Literatura Estrangeira',
+ content_ids: ['9788598750224'],
+ content_type: 'product', 
+ value:39.90,
+  currency: 'BRL' 
+});
+});$('#lnkObjDesejo').click(function() {
+fbq('track', 'AddToWishlist', {
+ content_name : 'A PACIENTE SILENCIOSA',
+ content_category: 'Livro > Livro de Literatura e Ficção > Livro de Literatura Estrangeira',
+ content_ids: ['9788598750224'],
+ content_type: 'product', 
+ value:39.90,
+  currency: 'BRL' 
+});
+});//]]>
+</script>
+<script type="text/javascript" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/jsDetectMobile.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var 
+callBackFrameUrl='/WebResource.axd?d=vN4LD5NLEZytNIbcYilQpVhVCtyCumkH4dlmKLzUJW5XT0lZxMNTu9BxhG9lut1wF4sKqYHMIovWerYXJwktAmy0l081&t=636476047203255666';
+WebForm_InitCallback();Sys.Extended.UI.Localization.SetLocale("pt");
+var
+ Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.RatingBehavior, 
+{"AutoPostBack":false,"CallbackID":"RatingMedia","ClientStateFieldID":"RatingMedia_RatingExtender_ClientState","EmptyStarCssClass":"Star","FilledStarCssClass":"FilledStar","ReadOnly":true,"StarCssClass":"Star","WaitingStarCssClass":"WaitingStar","_isServerControl":true,"id":"RatingBehavior1"},
+ null, null, $get("RatingMedia"));
+});
+
+document.getElementById('rfvCep').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('rfvCep'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.RatingBehavior, 
+{"AutoPostBack":true,"CallbackID":"Rating1","ClientStateFieldID":"Rating1_RatingExtender_ClientState","EmptyStarCssClass":"Star","FilledStarCssClass":"FilledStar","StarCssClass":"Star","WaitingStarCssClass":"WaitingStar","_isServerControl":true,"id":"RatingBehavior2"},
+ null, null, $get("Rating1"));
+});
+
+document.getElementById('rfvRating').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('rfvRating'));
+}
+
+document.getElementById('rfvTituloAvaliacao').dispose = function() {
+    Array.remove(Page_Validators, 
+document.getElementById('rfvTituloAvaliacao'));
+}
+
+document.getElementById('revTituloAvaliacao').dispose = function() {
+    Array.remove(Page_Validators, 
+document.getElementById('revTituloAvaliacao'));
+}
+
+document.getElementById('rfvAvaliacao').dispose = function() {
+    Array.remove(Page_Validators, 
+document.getElementById('rfvAvaliacao'));
+}
+//]]>
+</script>
+</form><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.8360225979545235"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.3374236832347368" alt="" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/0.txt" width="0" height="0"></div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1054115639;
+var google_tag_params = {
+ecomm_prodid: '9788598750224',
+ecomm_pagetype: 'product',
+ecomm_totalvalue:  39.90 
+ };
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/conversion.js"></script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt=" 
+src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1054115639/?guid=ON&amp;script=0"/>
+</div>
+</noscript><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTH32SQ" 
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+  <script type="text/javascript">
+      function disablekeypress(e) {
+          alert('entrei');
+          var key;
+          if (window.event)
+              key = window.event.keyCode; //IE
+          else
+              key = e.which; //firefox      
+
+          return (key != 13);
+      }
+
+  </script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var txt = document.getElementById('txtMsg').value;
+        var txtTit = document.getElementById('txtTitMsg').value;
+        //QTip Object
+        $('#lnkSaibaMais').qtip({ 
+            
+            content: {
+                title: txtTit,
+                text: txt
+            },
+            style: {
+                classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+            }
+
+        });
+        $('#imgDesconto20').qtip({
+
+          content: {
+            title: '<b class="txtDescricao txtBold">regras para a 
+primeira compra</b>',
+            text: '<span class="txtConteudoDisponibilidade">Na sua 
+primeira compra, você terá garantido pelo menos 20% de desconto sobre o 
+valor de cada produto, exceto para livros didáticos e e-books. Caso um 
+produto esteja com valor de desconto superior a 20%, o desconto 
+concedido será o oferecido no produto. Este desconto <b>não</b> é 
+cumulativo com outros descontos do site.</span>'
+          },
+          style: {
+            classes: 'qtip-default  qtip qtip-bootstrap qtip-shadow'
+         } ,
+          position: {
+            my: 'top right', // Position my top left...
+            at: 'bottom center' // at the bottom right of...
+           
+          }
+          
+        });
+    });
+</script>
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div id="___ratingbadge_0" style="border: 1px none rgb(245, 245, 245); z-index: 2147483647; position: fixed; right: 0px; bottom: 0px; box-shadow: rgb(162, 162, 162) -1px 1px 3px; text-indent: 0px; margin: 0px; padding: 0px; background: transparent none repeat scroll 0% 0%; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 165px; height: 54px;"><iframe ng-non-bindable="" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 165px; margin: 0px; border-style: none; display: block; left: 0px; visibility: visible; height: 54px;" tabindex="0" vspace="0" id="I0_1569702661807" name="I0_1569702661807" src="A%20PACIENTE%20SILENCIOSA%20-%20Alex%20Michaelides%20-%20Livro_arquivos/badge.html" data-gapiattached="true" width="100%" frameborder="0"></iframe></div></body></html>
