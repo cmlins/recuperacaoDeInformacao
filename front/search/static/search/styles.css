@@ -1,0 +1,15 @@
+.box-search p {
+    font-weight: 600;
+}
+.box-search div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin: 3px;
+}
+
+.box-search button {
+    margin-top: 20px;
+    cursor: pointer;
+}
