@@ -13,3 +13,8 @@
     margin-top: 20px;
     cursor: pointer;
 }
+
+.box-search input {
+    width: 200px;
+    height: 35px;
+}

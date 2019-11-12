@@ -1,5 +1,6 @@
 from django.db import models
-from django.db.models import CharField, Model, IntegerField
+from django.db.models import CharField, Model, IntegerField, PositiveIntegerField
+from django.core.validators import MinValueValidator
 from jsonfield import JSONField
 
 # Create your models here.
@@ -10,7 +11,7 @@ class Query(Model):
     title = CharField(max_length=200)
     isbn = CharField(max_length=13)
     author = CharField(max_length=100)
-    pages = IntegerField()
+    pages = PositiveIntegerField(default=1, validators=[MinValueValidator(1)])
     publisher = CharField(max_length=100)
     language = CharField(max_length=50)
     coverType = CharField(max_length=50)

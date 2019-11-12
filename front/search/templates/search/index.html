@@ -1,41 +1,44 @@
 <html>
     <head>
-        <title>LivRI</title>
+        <title>LivRI - Busca</title>
         {% load staticfiles %}
         <link rel="stylesheet" type="text/css" href="{% static "search/styles.css" %}" />
     </head>
     <body>
-        <div class="box-search">
-            <p>Busque um livro (preencha ao menos um campo)</p>
-            <div>
-                <label>Titulo</label>
-                <input name="title">
+        <form action="/search/getQueryForm/" method="post">
+            {% csrf_token %}
+            <div class="box-search">
+                <p>Busque livros (preencha ao menos um campo)</p>
+                <div>
+                    <label>Titulo</label>
+                    <input name="title" type="text">
+                </div>
+                <div>
+                    <label>Autor</label>
+                    <input name="author" type="text">
+                </div>
+                <div>
+                    <label>ISBN</label>
+                    <input name="isbn" type="text">
+                </div>
+                <div>
+                    <label>Numero de paginas</label>
+                    <input name="pages" type="number">
+                </div>
+                <div>
+                    <label>Editora</label>
+                    <input name="publisher" type="text">
+                </div>
+                <div>
+                    <label>Idioma</label>
+                    <input name="language" type="text">
+                </div>
+                <div>
+                    <label>Acabamento</label>
+                    <input name="coverType" type="text">
+                </div>
+                <button>Buscar</button>
             </div>
-            <div>
-                <label>Autor</label>
-                <input name="author">
-            </div>
-            <div>
-                <label>ISBN</label>
-                <input name="isbn">
-            </div>
-            <div>
-                <label>Numero de paginas</label>
-                <input name="pages">
-            </div>
-            <div>
-                <label>Editora</label>
-                <input name="publisher">
-            </div>
-            <div>
-                <label>Idioma</label>
-                <input name="language">
-            </div>
-            <div>
-                <label>Acabamento</label>
-                <input name="coverType">
-            </div>
-            <button>Pesquisar</button>
-        </div>
+        </form>
     </body>
 </html>
