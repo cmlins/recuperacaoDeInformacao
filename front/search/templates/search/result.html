@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>LivRI - Resultado da busca</title>
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static "search/styles.css" %}" />
+    </head>
+    <body>
+        <div class="box-results">
+            
+            <p class="result-header">Resultado da busca<img src="{% static "logo.png" %}" alt="LivRI"></p>
+            <div class="results">
+                {% for result in context.bookRank %}
+                    <div class="result">
+                        <a class="title" href="{{result.url}}" target="_blank">{{result.title}}</a>
+                        <span class="author">por {{result.author}}</span>
+                        <a class="url" href="{{result.url}}" target="_blank">{{result.url}}</a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>

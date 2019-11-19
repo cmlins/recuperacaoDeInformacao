@@ -14,17 +14,46 @@ def index(request):
 def result(request, query_id):
     q = Query.objects.get(pk=query_id)
     msg = "Book #" + str(query_id) + " is: " + str(q)
-    return HttpResponse(msg)
+
+    bookRank = [
+        {
+            "title": "Oi",
+            "author": "Ana",
+            "url": "http://www.cin.ufpe.br"
+        },
+        {
+            "title": "Tchau",
+            "author": "Ana",
+            "url": "http://www.ufpe.br"
+        },
+        {
+            "title": "Nossa",
+            "author": "Biu",
+            "url": "http://www.siga.ufpe.br"
+        },
+        {
+            "title": "OK",
+            "author": "Biu",
+            "url": "http://www.biblioteca.ufpe.br"
+        },
+    ]
+
+    context = {
+        "msg": msg,
+        "bookRank": bookRank
+    }
+
+    #return HttpResponse(msg)
+    return render(request, 'search/result.html', {"context": context})
 
 def invalid(request):
     return render(request, 'search/invalid.html')
 
 def allFieldsEmpty(queryData):
-    str = ''
     for value in queryData.values():
-        print(str, value)
-        str = str or value
-    return str == ''
+        if(value != '' and value != None):
+            return False
+    return True
 
 def getQueryForm(request):
     if request.method == 'POST':
@@ -33,14 +62,14 @@ def getQueryForm(request):
         
         if(isValid):
             cleanedData = queryForm.cleaned_data
+            ##print(cleanedData)
             empty = allFieldsEmpty(cleanedData)
             if(not empty):
-                q = Query(title='Oi', isbn='3423434', author='Joao da Silva', 
-                        pages=123, publisher='DaMae', language='PTBR', 
-                        coverType='capa dura')
+                q = Query(cleanedData)
                 ## make query model and get from database
                 ## show result
-                ## do tutorial:
+                ## 
+                ## tutorial:
                 #     process the data in form.cleaned_data as required
                 #     ...
                 #     redirect to a new URL:

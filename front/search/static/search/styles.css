@@ -1,20 +1,145 @@
-.box-search p {
-    font-weight: 600;
+body {
+    background-color: #ccccff
 }
-.box-search div {
+
+.header-text label,
+.box-results > label {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box-search > div:not(.result):not(.header) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 350px;
+    width: 378px;
     margin: 3px;
 }
 
 .box-search button {
-    margin-top: 20px;
+    margin: 20px 10px 0px;
     cursor: pointer;
 }
 
 .box-search input {
     width: 200px;
     height: 35px;
+}
+
+.box-results .result {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid teal;
+    padding-left: 10px;
+    margin: 6px 2px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.box-results .result a {
+    text-decoration: none;
+}
+
+.box-results .result .title {
+    font-size: 15px;
+    color: #0066cc;
+    font-weight: 600;
+}
+
+.box-results .result a:hover {
+    text-decoration: underline;
+    color: #000066;
+}
+
+.box-results .result .url {
+    font-size: 13px;
+    color: #333333;
+}
+
+.box-results .result .author {
+    font-size: 11px;
+}
+
+.header,
+label {
+    display: flex;
+    flex-direction: row;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    justify-content: space-between;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px 10px;
+    align-items: center;
+}
+
+.header-text label {
+    color: #330033;
+    text-align: center;
+}
+
+.header-text span {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    flex-direction: column;
+}
+
+.btn-primary {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background-color: #669999;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.btn-general {
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-size: 13px;
+    padding: 5px 14px;
+    text-decoration: none;
+}
+
+label:not(.search-type) {
+    padding-left: 42px;
+    font-family: 'Merriweather', serif;
+}
+
+.box-results {
+    min-width: 150px;
+    max-width: 400px;
+}
+
+.result-header {
+    font-weight: 600;
+    font-size: 20px;
+    color: #003300;
+    display: flex;
+    align-items: center;
+}
+
+p img {
+    width: 50px;
+    margin-left: 10px;
 }
