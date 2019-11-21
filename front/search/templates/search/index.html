@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>LivRI - Busca</title>
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static "search/styles.css" %}" />
+        <link rel="shortcut icon" href="{% static "favicon.ico" %}"/>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="box-search">
+                <div class="header">
+                    <img src="{% static "logo.png" %}" alt="LivRI">
+                    <div class="header-text">
+                        <label class="search-type">Busca por características</label>
+                        <span>Preencha ao menos um dos campos</span>                        
+                    </div>
+                </div>
+                <form action="/search/getBookForm/" method="post">
+                    {% csrf_token %}
+                    <div>
+                        <label>Titulo:</label>
+                        <input name="title" type="text">
+                    </div>
+                    <div>
+                        <label>Autor:</label>
+                        <input name="author" type="text">
+                    </div>
+                    <div>
+                        <label>ISBN:</label>
+                        <input name="isbn" type="text">
+                    </div>
+                    <div>
+                        <label>Editora:</label>
+                        <input name="publisher" type="text">
+                    </div>
+                    <div>
+                        <label>Idioma:</label>
+                        <input name="language" type="text">
+                    </div>
+                    <div class="buttons">
+                        <button class="btn-primary" name="submitForm">Buscar</button>
+                    </div>
+                </form>
+            </div>
+            <button class="btn-general" name="changeSearch" onclick="location.href='{% url 'simple' %}'">
+                Ir para busca simples
+            </button>
+        </div>
+    </body>
+</html>

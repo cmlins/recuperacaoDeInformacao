@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>LivRI - Resultado da busca</title>
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static "search/styles.css" %}" />
+        <link rel="shortcut icon" href="{% static "/favicon.ico" %}"/>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="box-results">
+            <p class="result-header">Resultado da busca<img src="{% static "logo.png" %}" alt="LivRI"></p>
+            <div class="results">
+                {% for result in context.bookRank %}
+                    <div class="result">
+                        <a class="title" href="{{result.url}}" target="_blank">{{result.title}}</a>
+                        <span class="author">por {{result.author}}</span>
+                        <a class="url" href="{{result.url}}" target="_blank">{{result.url}}</a>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="buttons">
+                <button class="btn-general" name="changeSearchA" onclick="location.href='{% url 'index' %}'">
+                        Ir para busca por atributos
+                </button>
+                <button class="btn-general" name="changeSearchS" onclick="location.href='{% url 'simple' %}'">
+                    Ir para busca simples
+                </button>
+            </div>
+        </div>
+        <div class="box-recomendations">
+            <!--{{context.alsoSee}}-->
+        </div>
+    </body>
+</html>
