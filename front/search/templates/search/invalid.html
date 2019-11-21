@@ -3,10 +3,23 @@
         <title>LivRI - Pesquisa invalida</title>
         {% load staticfiles %}
         <link rel="stylesheet" type="text/css" href="{% static "search/styles.css" %}" />
+        <link rel="shortcut icon" href="{% static "favicon.ico" %}"/>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <div class="box-search">
-            <p>Pesquisa invalida. Volte e tente novamente.</p>
+        <div class="box-results invalid">
+            <p class="result-header">
+                <img src="{% static "logo.png" %}" alt="LivRI">
+                Pesquisa inválida! Tente novamente.
+            </p>
+            <div class="buttons">
+                <button class="btn-general" name="changeSearchA" onclick="location.href='{% url 'index' %}'">
+                        Ir para busca por atributos
+                </button>
+                <button class="btn-general" name="changeSearchS" onclick="location.href='{% url 'simple' %}'">
+                    Ir para busca simples
+                </button>
+            </div>
         </div>
     </body>
 </html>
