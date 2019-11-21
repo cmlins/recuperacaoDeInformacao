@@ -26,3 +26,10 @@ class Result(Model):
 
     """def __str__(self):
         return self.result_text"""
+        
+class FieldTexts(Model):
+    word = CharField(max_length=50)
+    field_text = CharField(max_length=50)
+    freq = CharField(max_length=50)
+    posting = CharField(max_length=2000)
+    c_posting = CharField(max_length=2000)

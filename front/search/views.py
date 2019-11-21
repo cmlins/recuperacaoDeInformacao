@@ -10,9 +10,17 @@ import random
 import pandas as pd
 import numpy as np
 import math
+import json
 
 from bs4 import BeautifulSoup as bs
 from bs4 import UnicodeDammit
+
+df_campos = pd.read_csv('search/csv/field_texts.csv')
+df_indice = pd.read_csv('search/csv/indice_inv.csv')
+df_arquivos = pd.read_csv('search/csv/urls_df.csv')
+df_ed = pd.read_csv('search/csv/dfs_tot.csv')
+
+
 
 # Create your views here.
 
@@ -24,42 +32,16 @@ def result(request, data):
     ranking = None
     
     query = json.loads(data)
-    if isinstance(query, dict):
-        ranking = processQueryDict(query)
-    else:
+    if 'anything' in query:
         ranking = processQueryString(query)
+    else:
+        ranking = processQueryDict(query)
 
-    """q = BookQuery.objects.get(pk=query_id)
-    msg = "Book #" + str(query_id) + " is: " + str(q)"""
-
-    """bookRank = [
-        {
-            "title": "Oi",
-            "author": "Ana",
-            "url": "http://www.cin.ufpe.br"
-        },
-        {
-            "title": "Tchau",
-            "author": "Ana",
-            "url": "http://www.ufpe.br"
-        },
-        {
-            "title": "Nossa",
-            "author": "Biu",
-            "url": "http://www.siga.ufpe.br"
-        },
-        {
-            "title": "OK",
-            "author": "Biu",
-            "url": "http://www.biblioteca.ufpe.br"
-        },
-    ]"""
-
-    alsoSee = makeRecomendations()
+    ##alsoSee = makeRecomendations()
+    alsoSee = []
 
     context = {
-        "msg": msg,
-        "bookRank": bookRank,
+        "bookRank": ranking,
         "alsoSee": alsoSee
     }
     
@@ -83,23 +65,25 @@ def getBookQueryString(request):
     if request.method == 'POST':
         bookForm = BookForm(request.POST)
         isValid = bookForm.is_valid()
-        queryStr = ''
 
         if(isValid):
-            cleanedData = bookForm.cleaned_data
-            queryStr = cleanedData['anything']
-            if queryStr != '':
-                result = processQueryString(queryStr)
-                ## aaaaa
-                return HttpResponseRedirect('/search/result/1')
+            queryStr = bookForm.cleaned_data
+            queryStr.pop('author')
+            queryStr.pop('title')
+            queryStr.pop('isbn')
+            queryStr.pop('language')
+            queryStr.pop('publisher')
+            
+            if queryStr['anything']:
+                query_json = json.dumps(queryStr, ensure_ascii=False).encode('utf8').decode()
+                return HttpResponseRedirect('/search/result/' + query_json)
         
         return HttpResponseRedirect('/search/result/invalid')
                 
 def makeRecomendations():
 
-    df = pd.read_csv('search/csvs/table.csv')
-    randomIndices = random.sample(range(len(df.index)), 10)
-    randomDocs = df.iloc[randomIndices]
+    randomIndices = random.sample(range(len(df_ed.index)), 10)
+    randomDocs = df_ed.iloc[randomIndices]
     
     return randomDocs.to_json(force_ascii=False)
 
@@ -109,20 +93,21 @@ def getBookForm(request):
         isValid = bookForm.is_valid()
         
         if(isValid):
-            cleanedData = bookForm.cleaned_data
-            empty = allFieldsEmpty(cleanedData)
+            queryDict = bookForm.cleaned_data
+            print('query:' + str(queryDict))
+            empty = allFieldsEmpty(queryDict)
             if(not empty):
-                queryDict = dict(cleanedData)
-                if not q.author:
+                if not queryDict['author']:
                     queryDict.pop('author')
-                if not q.title:
+                if not queryDict['title']:
                     queryDict.pop('title')
-                if not q.isbn:
+                if not queryDict['isbn']:
                     queryDict.pop('isbn')
-                if not q.language:
+                if not queryDict['language']:
                     queryDict.pop('language')
-                if not q.publisher:
+                if not queryDict['publisher']:
                     queryDict.pop('publisher')
+                queryDict.pop('anything')
                 
                 query_json = json.dumps(queryDict, ensure_ascii=False).encode('utf8').decode()
                 
@@ -132,7 +117,10 @@ def getBookForm(request):
         
         return HttpResponseRedirect('/search/invalid/')
 
-def processQueryString(queryStr):
+def processQueryString(query):
+    
+    fq = query['anything']
+    
     df_fs = free_search(fq, df_indice) 
     dl_fs = docs_list_OR(df_fs)
     
@@ -144,12 +132,13 @@ def processQueryString(queryStr):
     return rd_tfidf_fs
     
 def processQueryDict(queryDict):
+    
     df_ss = structured_search(queryDict, df_campos)
     dl_ss = docs_list_OR(df_ss)
 
-    df_tfidf_ss = calc_freq(dl_ss, df_ss, 'estruturada', sq)
+    df_tfidf_ss = calc_freq(dl_ss, df_ss, 'estruturada', queryDict)
     df_tfidf_ss = calc_tfidf(df_tfidf_ss)
-    r_tfidf_ss = calc_rank(df_tfidf_ss, getValues(sq), 'estruturada')
+    r_tfidf_ss = calc_rank(df_tfidf_ss, getValues(queryDict), 'estruturada')
     rd_tfidf_ss = ranking_dictionary(r_tfidf_ss)
     
     return rd_tfidf_ss
@@ -164,7 +153,7 @@ def processQueryDict(queryDict):
                         )_)                         
 """
 
-df_ed = pd.read_csv('search/csvs/dfs_tot.csv')
+##df_ed = pd.read_csv('search/csvs/dfs_tot.csv')
 
 symbolsToReplace = [
     '(', ')', '!', '?', ':', ';', '*', '.', ',', '★', '|', '+', '[', ']', '{', '}', '/', 'ª', 'º', '°', '-',
@@ -242,6 +231,7 @@ def free_search(q, indice):
 
 
 def structured_search(sq, indice):
+    
     df_search = pd.DataFrame()
     for i in sq:
         values_sq = sq[i].split(' ')
@@ -383,7 +373,14 @@ def ranking_dictionary(r):
     rd_list = list()
     for i in r:
         path = df_arquivos.at[int(i), '0']
+        print('AQUI CARAI')
+        aaaa = df_ed.index[df_ed['Documento'] == path]
+        print(aaaa)
+        ##print(path)
+        ##print(df_ed['Documento'])
+        ##print(df_ed[df_ed['Documento'] == path].index)
         row, = df_ed[df_ed['Documento'] == path].index
+        ## df.index[df['BoolCol'] == True]
         titulo = df_ed.at[row, 'Título']
         autor = df_ed.at[row, 'Autor']
         rd = {
